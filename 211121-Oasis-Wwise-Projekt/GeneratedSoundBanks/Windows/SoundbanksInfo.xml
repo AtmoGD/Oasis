@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>X:\Studium\21-22 WS\Furtwangen Koop\WwiseProjekt\211121-Oasis-Wwise-Projekt\</ProjectRoot>
+		<SourceFilesRoot>X:\Studium\21-22 WS\Furtwangen Koop\WwiseProjekt\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>X:\Studium\21-22 WS\Furtwangen Koop\WwiseProjekt\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>X:\Studium\21-22 WS\Furtwangen Koop\WwiseProjekt\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="690783697" Language="SFX" Hash="2675908902">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Test</ObjectPath>
+			<ShortName>SB_Test</ShortName>
+			<Path>SB_Test.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2422007016" Name="CH_Footsteps_Grass_Slow_Start" ObjectPath="\Events\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Start">
+					<IncludedMemoryFiles>
+						<File Id="289174355" Language="SFX">
+							<ShortName>Footsteps, Human, Grass, Sneaker, Scuff SND1042 1.wav</ShortName>
+							<Path>SFX\Footsteps, Human, Grass, Sneaker, Scuff SND1042 1_10C4C929.wem</Path>
+						</File>
+						<File Id="363181919" Language="SFX">
+							<ShortName>Footsteps, Human, Grass, Sneaker, Scuff SND1042.wav</ShortName>
+							<Path>SFX\Footsteps, Human, Grass, Sneaker, Scuff SND1042_10C4C929.wem</Path>
+						</File>
+						<File Id="686319331" Language="SFX">
+							<ShortName>Footsteps, Human, Grass, Sneaker, Scuff SND1042 4.wav</ShortName>
+							<Path>SFX\Footsteps, Human, Grass, Sneaker, Scuff SND1042 4_10C4C929.wem</Path>
+						</File>
+						<File Id="900718476" Language="SFX">
+							<ShortName>Footsteps, Human, Grass, Sneaker, Scuff SND1042 2.wav</ShortName>
+							<Path>SFX\Footsteps, Human, Grass, Sneaker, Scuff SND1042 2_10C4C929.wem</Path>
+						</File>
+						<File Id="1016796950" Language="SFX">
+							<ShortName>Footsteps, Human, Grass, Sneaker, Scuff SND1042 3.wav</ShortName>
+							<Path>SFX\Footsteps, Human, Grass, Sneaker, Scuff SND1042 3_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3121080756" Name="CH_Footsteps_Grass_Slow_Stop" ObjectPath="\Events\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Stop"/>
+				<Event Id="1720561534" Name="CH_SoSchwert_Pickup" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_Pickup">
+					<IncludedMemoryFiles>
+						<File Id="143473817" Language="SFX">
+							<ShortName>CH_Pickup.wav</ShortName>
+							<Path>SFX\CH_Pickup_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2862968157" Name="CH_SoSchwert_Putdown" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_Putdown"/>
+				<Event Id="1353907018" Name="Music_StartDemo" ObjectPath="\Events\Default Work Unit\Music\Music_StartDemo">
+					<IncludedMemoryFiles>
+						<File Id="396600973" Language="SFX">
+							<ShortName>Oasis_Music_Demo.wav</ShortName>
+							<Path>SFX\Oasis_Music_Demo_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1895539805" Name="SFX_ENV_Ghosts_Mumble_Random_Start" ObjectPath="\Events\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Start">
+					<IncludedMemoryFiles>
+						<File Id="227561129" Language="SFX">
+							<ShortName>ENV_Ghosts-Voice-002.wav</ShortName>
+							<Path>SFX\ENV_Ghosts-Voice-002_10C4C929.wem</Path>
+						</File>
+						<File Id="668691538" Language="SFX">
+							<ShortName>ENV_Ghosts-Voice-003.wav</ShortName>
+							<Path>SFX\ENV_Ghosts-Voice-003_10C4C929.wem</Path>
+						</File>
+						<File Id="900039528" Language="SFX">
+							<ShortName>ENV_Ghosts-Voice-004.wav</ShortName>
+							<Path>SFX\ENV_Ghosts-Voice-004_10C4C929.wem</Path>
+						</File>
+						<File Id="914979617" Language="SFX">
+							<ShortName>ENV_Ghosts-Voice-001.wav</ShortName>
+							<Path>SFX\ENV_Ghosts-Voice-001_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3220389727" Name="SFX_ENV_Ghosts_Mumble_Random_Stop" ObjectPath="\Events\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Stop"/>
+				<Event Id="2126331685" Name="SFX_ENV_Wind_Loop_Start" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Start">
+					<IncludedMemoryFiles>
+						<File Id="228670125" Language="SFX">
+							<ShortName>Wind, Gust, Cold, Light Birds SND50599.wav</ShortName>
+							<Path>SFX\Wind, Gust, Cold, Light Birds SND50599_10C4C929.wem</Path>
+						</File>
+						<File Id="384792950" Language="SFX">
+							<ShortName>Wind, General, Desert, Swells With Bumps SND1469.wav</ShortName>
+							<Path>SFX\Wind, General, Desert, Swells With Bumps SND1469_10C4C929.wem</Path>
+						</File>
+						<File Id="988265582" Language="SFX">
+							<ShortName>Wind, Gust, Designed, Polar, Snow Storm, Long 01 SND54159.wav</ShortName>
+							<Path>SFX\Wind, Gust, Designed, Polar, Snow Storm, Long 01 SND54159_10C4C929.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1707272775" Name="SFX_ENV_Wind_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Stop"/>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1088472257">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
