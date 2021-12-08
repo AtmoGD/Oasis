@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{A1795412-20E8-48EE-84C7-D5723E96F27D}" SchemaVersion="103" RootDocumentID="{3866230E-3FD0-443C-90F1-52683FBB3F94}" ParentDocumentID="{3866230E-3FD0-443C-90F1-52683FBB3F94}">
+	<AudioObjects>
+		<WorkUnit Name="Music" ID="{A1795412-20E8-48EE-84C7-D5723E96F27D}" OwnerID="{3866230E-3FD0-443C-90F1-52683FBB3F94}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Test" ID="{E0FFFDE6-9D38-449E-AE19-44ADE97499CF}" ShortID="62717710">
+					<ChildrenList>
+						<Sound Name="Oasis_Music_Demo" ID="{746723AD-F611-4B96-BAE4-32F2372BE5F4}" ShortID="678572025">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Music" ID="{73F7DE88-161A-4112-A29F-B5D29F4338C1}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Oasis_Music_Demo" ID="{66C56B85-F51A-4776-874F-D959E586CDC1}">
+									<Language>SFX</Language>
+									<AudioFile>Oasis_Music_Demo.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="396600973"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="Oasis_Music_Demo" ID="{66C56B85-F51A-4776-874F-D959E586CDC1}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
