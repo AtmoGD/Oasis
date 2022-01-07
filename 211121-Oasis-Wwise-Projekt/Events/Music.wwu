@@ -3,7 +3,7 @@
 	<Events>
 		<WorkUnit Name="Music" ID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" OwnerID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" PersistMode="Nested">
 			<PropertyList>
-				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
 			<ChildrenList>

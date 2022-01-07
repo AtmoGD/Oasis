@@ -19,6 +19,13 @@
 									</PropertyList>
 									<ObjectLists/>
 								</Bus>
+								<Bus Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="10"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+									<ObjectLists/>
+								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
 						</Bus>

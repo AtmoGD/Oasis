@@ -1,0 +1,840 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CD739A9F-049C-4504-9F96-1BD491372FD6}" SchemaVersion="103" RootDocumentID="{3866230E-3FD0-443C-90F1-52683FBB3F94}" ParentDocumentID="{3866230E-3FD0-443C-90F1-52683FBB3F94}">
+	<AudioObjects>
+		<WorkUnit Name="Items" ID="{CD739A9F-049C-4504-9F96-1BD491372FD6}" OwnerID="{3866230E-3FD0-443C-90F1-52683FBB3F94}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="IT_SoSchwert_Base" ID="{CF52350D-FC2D-4AF6-B638-48E1E80C5ADF}" ShortID="944004862">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="IT_SoSchwert_BaseSizzle" ID="{F014967C-A3E3-47BA-9921-349F08898261}" ShortID="733986676">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="0.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{913503D1-C076-4D75-BBE8-A183A446EF0F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-0.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="FireSizzle-001" ID="{6B7C7CE1-3AA0-4A85-ACB2-31F65B04BFE8}" ShortID="846114589">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireSizzle-001" ID="{852BAC83-509F-49F7-A09E-0CB327A6ADD1}">
+											<Language>SFX</Language>
+											<AudioFile>FireSizzle-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="921961296"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FireSizzle-001" ID="{852BAC83-509F-49F7-A09E-0CB327A6ADD1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireSizzle-002" ID="{8294BD2A-4AC1-41AD-8EA5-256C045C0A2B}" ShortID="281220822">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireSizzle-002" ID="{2C832D88-4E74-476A-BE9F-0BDFD10AAD10}">
+											<Language>SFX</Language>
+											<AudioFile>FireSizzle-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="977867164"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FireSizzle-002" ID="{2C832D88-4E74-476A-BE9F-0BDFD10AAD10}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireSizzle-003" ID="{10709DB9-8DF1-4D03-98DB-5275129004D7}" ShortID="85431799">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireSizzle-003" ID="{B8E55D17-87A1-4053-92D2-72EF574D02C7}">
+											<Language>SFX</Language>
+											<AudioFile>FireSizzle-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="984159048"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FireSizzle-003" ID="{B8E55D17-87A1-4053-92D2-72EF574D02C7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireSizzle-004" ID="{05659E83-23AA-4B1E-82AB-A7FC786A44BA}" ShortID="67371796">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireSizzle-004" ID="{F3A1EB70-05C1-43C0-B532-F08A5D141682}">
+											<Language>SFX</Language>
+											<AudioFile>FireSizzle-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="710800201"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FireSizzle-004" ID="{F3A1EB70-05C1-43C0-B532-F08A5D141682}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireSizzle-005" ID="{9B668814-3D0E-460C-B10E-2E958894E257}" ShortID="839890828">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireSizzle-005" ID="{F0EAB258-B468-4E96-A9C1-8FAFE6B5603A}">
+											<Language>SFX</Language>
+											<AudioFile>FireSizzle-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="937032387"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FireSizzle-005" ID="{F0EAB258-B468-4E96-A9C1-8FAFE6B5603A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireSizzle-006" ID="{0DBC6FA0-26A8-4C84-B4F2-2B288D1CC956}" ShortID="923817448">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireSizzle-006" ID="{A40764B9-FF5C-4645-89BE-205ABFE8E874}">
+											<Language>SFX</Language>
+											<AudioFile>FireSizzle-006.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="397272270"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FireSizzle-006" ID="{A40764B9-FF5C-4645-89BE-205ABFE8E874}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="FireSizzle-007" ID="{47781A60-9D93-443F-8A8F-F1E8D0F545D6}" ShortID="93157179">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="FireSizzle-007" ID="{D33AEAD4-0573-4F35-B726-D1AB6BFF89F6}">
+											<Language>SFX</Language>
+											<AudioFile>FireSizzle-007.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1059385629"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="FireSizzle-007" ID="{D33AEAD4-0573-4F35-B726-D1AB6BFF89F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="IT_SoSchwert_BaseRotate" ID="{1727E7C0-FFBF-4F1D-909E-8DC3765DE368}" ShortID="281835744">
+							<PropertyList>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{8F933AC1-8541-4A26-B836-F42EFCC482FC}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.5"/>
+													<Property Name="Min" Type="Real64" Value="-0.5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="RotatingDrone-001" ID="{32591375-E1E7-415E-B1F4-2C697BFC431A}" ShortID="234889418">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{5B428C21-EEC1-475E-AF7C-3C4B4D4C9806}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="12"/>
+															<Property Name="Min" Type="Real64" Value="-12"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RotatingDrone-001" ID="{0D4A298F-5467-474F-92D3-15B041A1AAFE}">
+											<Language>SFX</Language>
+											<AudioFile>RotatingDrone-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="129994101"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="RotatingDrone-001" ID="{0D4A298F-5467-474F-92D3-15B041A1AAFE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RotatingDrone-002" ID="{66A6B30E-DEF8-4427-8C35-3E88447AAFA5}" ShortID="236137727">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E537F25D-E54F-4ED9-83B0-D58943DE7DE0}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="51"/>
+															<Property Name="Min" Type="Real64" Value="-51"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RotatingDrone-002" ID="{01B29A88-69B2-43BE-A33B-5B659D8962C1}">
+											<Language>SFX</Language>
+											<AudioFile>RotatingDrone-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="118115622"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="RotatingDrone-002" ID="{01B29A88-69B2-43BE-A33B-5B659D8962C1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RotatingDrone-003" ID="{CA3C1376-0C05-4AF9-BD02-3D61BB601387}" ShortID="1048734548">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{77F93E35-463C-44F4-9FC1-99E8DD60B7A4}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="50"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RotatingDrone-003" ID="{CF0383E7-922C-4FDD-83C7-FA6A5E6C25F2}">
+											<Language>SFX</Language>
+											<AudioFile>RotatingDrone-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="857821544"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="RotatingDrone-003" ID="{CF0383E7-922C-4FDD-83C7-FA6A5E6C25F2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RotatingDrone-004" ID="{AD36CDA5-45BB-4C51-9FEF-989B50916FFE}" ShortID="1056050203">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9F12165E-E331-4E60-A454-FAC79BAE2C8C}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="51"/>
+															<Property Name="Min" Type="Real64" Value="-76"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RotatingDrone-004" ID="{96142E46-A1CA-4FA0-BB71-965ECCE2A304}">
+											<Language>SFX</Language>
+											<AudioFile>RotatingDrone-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="379302333"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="RotatingDrone-004" ID="{96142E46-A1CA-4FA0-BB71-965ECCE2A304}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="RotatingDrone-005" ID="{3E190641-0B7C-429D-A7F8-D1DE160B2DA0}" ShortID="933796024">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{8D946C2B-DEDE-4BC7-ACC8-EBB6D8ED4F6D}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Min" Type="Real64" Value="-25"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="RotatingDrone-005" ID="{51CE7A80-FC74-4501-BCEF-C4C18C5699EF}">
+											<Language>SFX</Language>
+											<AudioFile>RotatingDrone-005.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="381448561"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="RotatingDrone-005" ID="{51CE7A80-FC74-4501-BCEF-C4C18C5699EF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+								<CustomState Name="" ID="{0B6D5080-8040-4568-AE88-230F62885356}" ShortID="34599222">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-15"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+								<CustomState Name="" ID="{06A390D1-602E-4CF5-8F97-1D95FE86500A}" ShortID="569251725"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+				</ActorMixer>
+				<RandomSequenceContainer Name="IT_BaseShimmer" ID="{BEAD1CAE-ECED-489C-A803-7BF26B541071}" ShortID="96039855">
+					<PropertyList>
+						<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+						<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+						<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{616CC416-CCDF-42FB-A1D0-BD6DF7912AAF}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="2"/>
+											<Property Name="Min" Type="Real64" Value="-1"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="BaseShimmer-001" ID="{4C538F27-6BE6-4471-B5AD-24CFB7EC4937}" ShortID="164079813">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{164E2D62-98BB-4553-ABE7-1AEE99AB3C6F}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.25"/>
+													<Property Name="Min" Type="Real64" Value="-0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BaseShimmer" ID="{6E179F8F-5FAF-4890-A98E-F6624E4FAF20}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.378182360885389"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.819395115251677"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="6.98064998836118"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.8347587433708"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BaseShimmer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="929947365"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BaseShimmer" ID="{6E179F8F-5FAF-4890-A98E-F6624E4FAF20}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BaseShimmer-002" ID="{7117E1A2-43AA-47F1-9BF7-679828B9474F}" ShortID="481360210">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{697BB19E-CFC6-4566-9E18-3499B79726B0}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.25"/>
+													<Property Name="Min" Type="Real64" Value="-0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BaseShimmer" ID="{C900D304-8D40-4668-BE9F-B539C2C6C7C3}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.378182360885389"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.819395115251677"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="16.3091482235341"/>
+										<Property Name="TrimEnd" Type="Real64" Value="18.9026491089257"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BaseShimmer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1031654895"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BaseShimmer" ID="{C900D304-8D40-4668-BE9F-B539C2C6C7C3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BaseShimmer-003" ID="{F29B13E2-15A8-438D-8899-278EC667D09F}" ShortID="391108174">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{9B280453-8B25-4FEA-9353-B33613B435CE}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.25"/>
+													<Property Name="Min" Type="Real64" Value="-0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BaseShimmer" ID="{D388D985-40C1-40DD-A961-1915EAB04E61}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.378182360885389"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.819395115251677"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="29.4247495563493"/>
+										<Property Name="TrimEnd" Type="Real64" Value="32.3855608161156"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BaseShimmer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="889285383"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BaseShimmer" ID="{D388D985-40C1-40DD-A961-1915EAB04E61}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BaseShimmer-004" ID="{DF6C60CB-F5F0-419F-9D1E-4D3B23964382}" ShortID="188144888">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{74CDAF09-0C59-4B3A-9725-D04A631703E5}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.25"/>
+													<Property Name="Min" Type="Real64" Value="-0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BaseShimmer" ID="{BA903CCE-D1A6-4D2A-85C8-29D03AECFA5B}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.378182360885389"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.819395115251677"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="33.667912658755"/>
+										<Property Name="TrimEnd" Type="Real64" Value="37.63368360067"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BaseShimmer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="67055864"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BaseShimmer" ID="{BA903CCE-D1A6-4D2A-85C8-29D03AECFA5B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BaseShimmer-005" ID="{2DAD6114-6DF9-45B1-A296-E79370582985}" ShortID="863354291">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B8D4E0B9-69C4-4363-BA7B-B33F39469D91}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.25"/>
+													<Property Name="Min" Type="Real64" Value="-0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BaseShimmer" ID="{7EF6B543-8BDD-4991-970D-69027C613A59}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.378182360885389"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.819395115251677"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="61.8067837589192"/>
+										<Property Name="TrimEnd" Type="Real64" Value="64.3209462710639"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BaseShimmer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="413204120"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BaseShimmer" ID="{7EF6B543-8BDD-4991-970D-69027C613A59}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BaseShimmer-006" ID="{1E7A58FE-99DE-4855-95A8-D7C0CD774B47}" ShortID="240311607">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{CF7391CF-3C73-48C7-8F4C-0EC40B99FA2C}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.25"/>
+													<Property Name="Min" Type="Real64" Value="-0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BaseShimmer" ID="{82649C30-283F-41BF-9C85-7524D8BEFA66}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.378182360885389"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.819395115251677"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="103.121792913922"/>
+										<Property Name="TrimEnd" Type="Real64" Value="106.52925292131"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BaseShimmer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="278227356"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BaseShimmer" ID="{82649C30-283F-41BF-9C85-7524D8BEFA66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="BaseShimmer-007" ID="{01D06A6D-7AC3-4174-97E6-7B42684CF136}" ShortID="138141469">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{63F1ED8B-8F7D-42E0-A1A2-DDAE7BC17862}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="0.25"/>
+													<Property Name="Min" Type="Real64" Value="-0.25"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="BaseShimmer" ID="{23C37A18-7CEC-4ADC-BCD4-980DBAE62415}">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.378182360885389"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="0.819395115251677"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="129.697393397411"/>
+										<Property Name="TrimEnd" Type="Real64" Value="132.881529030988"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>BaseShimmer.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="911928889"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ObjectLists/>
+							<ActiveSourceList>
+								<ActiveSource Name="BaseShimmer" ID="{23C37A18-7CEC-4ADC-BCD4-980DBAE62415}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+								<CustomState Name="" ID="{42B0F961-9BC9-4253-8B61-0AF96B1B0D3E}" ShortID="300346365">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-12"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+								<CustomState Name="" ID="{BB205DA2-DEF3-4553-AEF8-BF1B47771350}" ShortID="43596268"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
+					<ObjectLists/>
+				</RandomSequenceContainer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
