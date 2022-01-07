@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
+   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "1113898651",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

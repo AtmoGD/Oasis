@@ -6,19 +6,6 @@
 				<Property Name="Color" Type="int16" Value="19"/>
 				<Property Name="OverrideColor" Type="bool" Value="True"/>
 			</PropertyList>
-			<ChildrenList>
-				<Event Name="Music_StartDemo" ID="{B8C5E53A-D6AD-48CA-A81C-CC1ECDC5AB69}">
-					<ChildrenList>
-						<Action Name="" ID="{F3849DD1-30AD-48ED-9853-41120A874AAC}" ShortID="724323063">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Oasis_Music_Demo" ID="{746723AD-F611-4B96-BAE4-32F2372BE5F4}" WorkUnitID="{A1795412-20E8-48EE-84C7-D5723E96F27D}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-			</ChildrenList>
 		</WorkUnit>
 	</Events>
 </WwiseDocument>

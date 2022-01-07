@@ -1,0 +1,26 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Android",
+  "BasePlatform": "Android",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Android\\",
+   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android"
+  },
+  "SoundBanks": [
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "1799771602",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

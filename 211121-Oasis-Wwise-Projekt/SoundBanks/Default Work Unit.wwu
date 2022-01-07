@@ -3,15 +3,25 @@
 	<SoundBanks>
 		<WorkUnit Name="Default Work Unit" ID="{3288DBD3-B7BE-4F2B-8CF2-619537B9AD8A}" PersistMode="Standalone">
 			<ChildrenList>
-				<SoundBank Name="SB_Test" ID="{3C02E456-0003-4871-8C37-1F94357F8F7F}">
+				<SoundBank Name="SB_Default" ID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}">
 					<ObjectInclusionList>
+						<ObjectRef Name="ENV_Inseln_Reposition_Start" ID="{28BDAB00-9447-4032-9085-5079ACC7081D}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CH_Footsteps_Grass_Slow_Start" ID="{A80DA01F-78EE-40B9-B4DE-BB67E95359F8}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENV_Inseln_Connect" ID="{B90F04C4-DD19-40FD-A55F-B57BD72DCA95}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CH_Footsteps_Grass_Slow_Stop" ID="{992ADFB0-229A-4135-AAC2-07D28066013E}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RTSL_Sun_BeamReflectStart" ID="{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="IT_SoSchwert_BaseLoop_Lying" ID="{4B864B12-1E6C-430A-9637-4C02E2FE950B}" WorkUnitID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="IT_SoSchwert_BaseLoop_Stop" ID="{F6B1B398-E033-4312-ACC5-A09F616A9984}" WorkUnitID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RTSL_Sun_BeamStart" ID="{07C2C607-C1AF-434E-8A23-892D4840E1EB}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_ENV_Wind_Loop_Start" ID="{77E3C06C-86D8-440A-88B3-02EAE646B37F}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CH_SoSchwert_Putdown" ID="{1A50DD07-EEB3-44B2-89BE-1D46DDC45D32}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RTSL_Sun_BeamUnreflect" ID="{9FC0877A-73D2-45C6-8E6A-22FF06815967}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="IT_SoSchwert_BaseLoop_InHand" ID="{27E3943A-94B1-4797-8F15-FD9A17982A1A}" WorkUnitID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_ENV_Ghosts_Mumble_Random_Stop" ID="{7C884D5A-3B98-481B-92AA-D419DF14940D}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="Music_StartDemo" ID="{B8C5E53A-D6AD-48CA-A81C-CC1ECDC5AB69}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="CH_SoSchwert_MoveFast" ID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CH_SoSchwert_Pickup" ID="{570FF76A-123C-48E9-9622-096E8DA07AEE}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="ENV_Inseln_Reposition_Stop" ID="{C9F94D7D-F313-493F-A570-21B52624CD7B}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="RTSL_Sun_BeamStop" ID="{763A4E2B-7791-49B0-8D7E-801B5D82F28C}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_ENV_Wind_Loop_Stop" ID="{61BE3BB7-3DE6-4A07-8D82-921AF4145864}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="SFX_ENV_Ghosts_Mumble_Random_Start" ID="{8C35C0DF-6DA0-4BA7-B004-1CBE5C97A398}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
