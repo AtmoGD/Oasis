@@ -40,10 +40,24 @@
 					<ChildrenList>
 						<Event Name="SFX_ENV_Wind_Loop_Start" ID="{77E3C06C-86D8-440A-88B3-02EAE646B37F}">
 							<ChildrenList>
-								<Action Name="" ID="{560A1B09-D4E6-404F-A93B-F53014F56CA2}" ShortID="975702053">
+								<Action Name="" ID="{B86087E1-BBA3-43D0-9BF8-06CFE4542913}" ShortID="83664535">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ENV_Wind_Mild_RR" ID="{6D1E138D-94CF-493C-9A87-3870FA350BA5}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+											<ObjectRef Name="ENV_Wind_Base" ID="{159C0843-3B6B-4E27-9248-0FD153B46CCE}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B9C8D81A-022E-4143-B824-5ABFE57B96E9}" ShortID="682173038">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ENV_Wind_Howls" ID="{3ECA65A7-99AD-497F-9D81-AA3AAFF712CA}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{EDDDE8AB-8333-4EFB-999F-4F624C0CCD75}" ShortID="900598640">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ENV_Wind_Trees" ID="{9A765244-7D28-4F70-B2A3-3BA92CD2883F}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -54,10 +68,75 @@
 								<Action Name="" ID="{6EE6F68D-4086-4986-BA11-524DB736EF2C}" ShortID="606232851">
 									<PropertyList>
 										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="3"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="ENV_Wind_Mild_RR" ID="{6D1E138D-94CF-493C-9A87-3870FA350BA5}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+											<ObjectRef Name="ENV_Wind_Trees" ID="{9A765244-7D28-4F70-B2A3-3BA92CD2883F}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{075F60E7-6287-4149-9000-87F22A0FDFBE}" ShortID="352669733">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ENV_Wind_Base" ID="{159C0843-3B6B-4E27-9248-0FD153B46CCE}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{41715DA6-099E-4907-8164-17544B874505}" ShortID="645818889">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ENV_Wind_Howls" ID="{3ECA65A7-99AD-497F-9D81-AA3AAFF712CA}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Inseln" ID="{763D9344-C310-4D01-8FD0-35311D3B71C9}" ShortID="611920081">
+					<ChildrenList>
+						<Event Name="ENV_Inseln_Reposition_Start" ID="{28BDAB00-9447-4032-9085-5079ACC7081D}">
+							<ChildrenList>
+								<Action Name="" ID="{C8253A79-FD58-4756-B31D-24DA368D189B}" ShortID="956785457">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ENV_Inseln_Reposition" ID="{3A6D8A42-C03C-49F9-AB86-BF8565CC22B1}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ENV_Inseln_Reposition_Stop" ID="{C9F94D7D-F313-493F-A570-21B52624CD7B}">
+							<ChildrenList>
+								<Action Name="" ID="{E5183BAB-2789-4803-8258-1BE97FCCEA0B}" ShortID="165548960">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ENV_Inseln_Reposition" ID="{3A6D8A42-C03C-49F9-AB86-BF8565CC22B1}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ENV_Inseln_Connect" ID="{B90F04C4-DD19-40FD-A55F-B57BD72DCA95}">
+							<ChildrenList>
+								<Action Name="" ID="{C069AEC7-055C-496A-A571-BDCB8C881FBF}" ShortID="729455509">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ENV_Inseln_Connect" ID="{0261151C-AE4E-437F-93AB-EC262876D8B0}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

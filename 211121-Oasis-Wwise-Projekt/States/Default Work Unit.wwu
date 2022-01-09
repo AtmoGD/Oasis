@@ -1,6 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{C0CFBB08-2625-4E7C-97CB-9BF81C99F344}" SchemaVersion="103">
 	<States>
-		<WorkUnit Name="Default Work Unit" ID="{C0CFBB08-2625-4E7C-97CB-9BF81C99F344}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{C0CFBB08-2625-4E7C-97CB-9BF81C99F344}" PersistMode="Standalone">
+			<ChildrenList>
+				<StateGroup Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}">
+					<ChildrenList>
+						<State Name="None" ID="{C09E3642-7320-46BF-BD4F-540820684A14}"/>
+						<State Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}">
+							<Comment>Player not moving at all/ just looking around; no interactions</Comment>
+						</State>
+						<State Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}">
+							<Comment>Player doing something</Comment>
+						</State>
+					</ChildrenList>
+					<TransitionList>
+						<Transition>
+							<StartState Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+							<EndState Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+							<Time>10</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+						<Transition>
+							<StartState Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+							<EndState Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+							<Time>1</Time>
+							<IsShared>false</IsShared>
+						</Transition>
+					</TransitionList>
+				</StateGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</States>
 </WwiseDocument>

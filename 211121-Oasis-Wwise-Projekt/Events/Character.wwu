@@ -46,13 +46,44 @@
 								<Action Name="" ID="{94B64628-E660-462D-90C2-F70873DABA54}" ShortID="560142331">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="CH_Sonnenschwert_Pickup" ID="{A332F7F7-95FF-4F9B-911E-064414677815}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+											<ObjectRef Name="CH_SoSchwert_Pickup" ID="{6E8DC123-8D67-4574-B39D-E7B507DB5C12}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C8B46C5D-A2AA-4F2A-8D4D-5CDE9C14FA27}" ShortID="614273510">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IT_SoSchwert_BaseLoop_InHand" ID="{27E3943A-94B1-4797-8F15-FD9A17982A1A}" WorkUnitID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
-						<Event Name="CH_SoSchwert_Putdown" ID="{1A50DD07-EEB3-44B2-89BE-1D46DDC45D32}"/>
+						<Event Name="CH_SoSchwert_Putdown" ID="{1A50DD07-EEB3-44B2-89BE-1D46DDC45D32}">
+							<ChildrenList>
+								<Action Name="" ID="{32578CD3-8579-4C3E-9B3E-2E87DF1D56D2}" ShortID="521601794">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CH_SoSchwert_Putdown" ID="{C8793716-6D4A-42BA-B2AE-55EF9A182F8C}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CH_SoSchwert_MoveFast" ID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}">
+							<ChildrenList>
+								<Action Name="" ID="{DF962EE9-3735-4A41-96A4-EC56C02DFBFD}" ShortID="290762863">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CH_SoSchwert_MoveFast" ID="{B1A4C9A4-64E1-4288-841D-191838919229}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
