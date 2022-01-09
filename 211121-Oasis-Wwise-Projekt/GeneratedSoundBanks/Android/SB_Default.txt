@@ -15,7 +15,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	3121080756	CH_Footsteps_Grass_Slow_Stop			\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Stop	
 	3131767078	IT_SoSchwert_BaseLoop_InHand			\Default Work Unit\Items\IT_SoSchwert_BaseLoop_InHand	
 	3220389727	SFX_ENV_Ghosts_Mumble_Random_Stop			\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Stop	
-	4007046789	ENV_Inseln_Connect			\Default Work Unit\Environment\Inseln\ENV_Inseln_Connect	
 	4151696586	ENV_Inseln_Reposition_Start			\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Start	
 	4207352866	ENV_Inseln_Reposition_Stop			\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop	
 

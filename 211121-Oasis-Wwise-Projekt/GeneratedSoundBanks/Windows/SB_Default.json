@@ -16,7 +16,7 @@
     "Id": "822237696",
     "GUID": "{3842C804-D806-4940-B6C4-AB4F99E37EDB}",
     "Language": "SFX",
-    "Hash": "3659320825",
+    "Hash": "3463355485",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Default",
     "ShortName": "SB_Default",
     "Path": "SB_Default.bnk",
@@ -178,35 +178,6 @@
       ]
      },
      {
-      "Id": "4007046789",
-      "Name": "ENV_Inseln_Connect",
-      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Inseln\\ENV_Inseln_Connect",
-      "GUID": "{B90F04C4-DD19-40FD-A55F-B57BD72DCA95}",
-      "DurationType": "OneShot",
-      "DurationMin": "4.788798",
-      "DurationMax": "5.800000",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "72994115",
-        "Language": "SFX",
-        "ShortName": "Inseln_Connect-003.wav",
-        "Path": "SFX\\Inseln_Connect-003_755F56E2.wem"
-       },
-       {
-        "Id": "467451762",
-        "Language": "SFX",
-        "ShortName": "Inseln_Connect-002.wav",
-        "Path": "SFX\\Inseln_Connect-002_755F56E2.wem"
-       },
-       {
-        "Id": "557462147",
-        "Language": "SFX",
-        "ShortName": "Inseln_Connect-001.wav",
-        "Path": "SFX\\Inseln_Connect-001_755F56E2.wem"
-       }
-      ]
-     },
-     {
       "Id": "4151696586",
       "Name": "ENV_Inseln_Reposition_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Inseln\\ENV_Inseln_Reposition_Start",
@@ -240,10 +211,29 @@
       "Name": "ENV_Inseln_Reposition_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Inseln\\ENV_Inseln_Reposition_Stop",
       "GUID": "{C9F94D7D-F313-493F-A570-21B52624CD7B}",
-      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "4.788798",
+      "DurationMax": "5.800000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "72994115",
+        "Language": "SFX",
+        "ShortName": "Inseln_Connect-003.wav",
+        "Path": "SFX\\Inseln_Connect-003_755F56E2.wem"
+       },
+       {
+        "Id": "467451762",
+        "Language": "SFX",
+        "ShortName": "Inseln_Connect-002.wav",
+        "Path": "SFX\\Inseln_Connect-002_755F56E2.wem"
+       },
+       {
+        "Id": "557462147",
+        "Language": "SFX",
+        "ShortName": "Inseln_Connect-001.wav",
+        "Path": "SFX\\Inseln_Connect-001_755F56E2.wem"
+       }
+      ]
      },
      {
       "Id": "3131767078",

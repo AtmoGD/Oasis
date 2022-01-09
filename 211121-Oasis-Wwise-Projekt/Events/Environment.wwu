@@ -129,10 +129,6 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-							</ChildrenList>
-						</Event>
-						<Event Name="ENV_Inseln_Connect" ID="{B90F04C4-DD19-40FD-A55F-B57BD72DCA95}">
-							<ChildrenList>
 								<Action Name="" ID="{C069AEC7-055C-496A-A571-BDCB8C881FBF}" ShortID="729455509">
 									<ReferenceList>
 										<Reference Name="Target">
