@@ -7,7 +7,6 @@
 					<ObjectInclusionList>
 						<ObjectRef Name="ENV_Inseln_Reposition_Start" ID="{28BDAB00-9447-4032-9085-5079ACC7081D}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CH_Footsteps_Grass_Slow_Start" ID="{A80DA01F-78EE-40B9-B4DE-BB67E95359F8}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="ENV_Inseln_Connect" ID="{B90F04C4-DD19-40FD-A55F-B57BD72DCA95}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="CH_Footsteps_Grass_Slow_Stop" ID="{992ADFB0-229A-4135-AAC2-07D28066013E}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="RTSL_Sun_BeamReflectStart" ID="{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="IT_SoSchwert_BaseLoop_Lying" ID="{4B864B12-1E6C-430A-9637-4C02E2FE950B}" WorkUnitID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}" Origin="Manual" Filter="7"/>
