@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
+		<SourceFilesRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<SoundBanks>
+		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="1545716216">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
+			<ShortName>SB_Music</ShortName>
+			<Path>SB_Music.bnk</Path>
+			<IncludedEvents>
+				<Event Id="218200519" Name="DemoMusicStart" ObjectPath="\Events\Default Work Unit\Music\DemoMusicStart" GUID="{31FBF4C0-6E34-4BE4-B7CD-DD5DEE4CBB9F}" DurationType="OneShot" DurationMin="53.583332" DurationMax="53.583332">
+					<IncludedMemoryFiles>
+						<File Id="207525003" Language="SFX">
+							<ShortName>Oasis_Music_Demo.wav</ShortName>
+							<Path>SFX\Oasis_Music_Demo_755F56E2.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

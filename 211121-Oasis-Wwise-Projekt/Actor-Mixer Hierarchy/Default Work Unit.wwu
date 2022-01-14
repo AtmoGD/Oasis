@@ -7,6 +7,7 @@
 				<WorkUnit Name="Character" ID="{F8332F86-F51C-4B59-981A-A94BBAB23233}" PersistMode="Reference"/>
 				<WorkUnit Name="Items" ID="{CD739A9F-049C-4504-9F96-1BD491372FD6}" PersistMode="Reference"/>
 				<WorkUnit Name="Raetsel" ID="{61563481-4669-490E-ADA7-91BE126D126E}" PersistMode="Reference"/>
+				<WorkUnit Name="Music" ID="{F0E27C77-62A3-4D7F-9E6A-477B2751ED21}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

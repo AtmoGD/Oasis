@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	218200519	DemoMusicStart			\Default Work Unit\Music\DemoMusicStart	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	207525003	Oasis_Music_Demo	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\Oasis_Music_Demo_315E21E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Oasis_Music_Demo		325230
+
