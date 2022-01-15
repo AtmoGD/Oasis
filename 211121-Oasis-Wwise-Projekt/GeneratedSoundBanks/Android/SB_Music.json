@@ -1,0 +1,45 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Android",
+  "BasePlatform": "Android",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Android\\",
+   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android"
+  },
+  "SoundBanks": [
+   {
+    "Id": "779753582",
+    "GUID": "{15DA4724-68AB-47F0-AD1A-0DB8061AD290}",
+    "Language": "SFX",
+    "Hash": "3433369552",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Music",
+    "ShortName": "SB_Music",
+    "Path": "SB_Music.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "218200519",
+      "Name": "DemoMusicStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\DemoMusicStart",
+      "GUID": "{31FBF4C0-6E34-4BE4-B7CD-DD5DEE4CBB9F}",
+      "DurationType": "OneShot",
+      "DurationMin": "53.583332",
+      "DurationMax": "53.583332",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "207525003",
+        "Language": "SFX",
+        "ShortName": "Oasis_Music_Demo.wav",
+        "Path": "SFX\\Oasis_Music_Demo_315E21E5.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
