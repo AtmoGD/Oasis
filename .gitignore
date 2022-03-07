@@ -1,7 +1,8 @@
-Binaries
-DerivedDataCache
-Intermediate
-Saved
+/OasisUEProject/Binaries
+/OasisUEProject/DerivedDataCache
+/OasisUEProject/Intermediate
+/OasisUEProject/Saved
+/OasisUEProject/Plugins/Wwise
 .vscode
 .vs
 *.VC.db
