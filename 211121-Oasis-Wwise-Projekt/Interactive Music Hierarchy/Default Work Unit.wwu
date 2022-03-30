@@ -1,6 +1,3328 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}" SchemaVersion="103">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Demo" ID="{5921E82E-7CDF-4A38-9DB2-234C7590DA16}" ShortID="762642903">
+					<ChildrenList>
+						<MusicPlaylistContainer Name="Main" ID="{5233EE9D-FDE0-46DF-AC2E-BD2804906876}" ShortID="4840311">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Main A'" ID="{377690DF-B3DF-4A86-926B-305F5C10CE1C}" ShortID="385624020">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="12412.1315192744"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Main A'" ID="{7B2E7A71-58B0-4E8E-B59F-D76A6EE107B6}" ShortID="5817298">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Main A'" ID="{B47C8721-2319-4DC1-A43D-5566D9F1AE1F}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Main A'.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="118988887"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{6BB55F4F-DB68-41FE-94FC-9B15227FD985}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{4561CB51-E77B-49A5-A4C2-AA114E2DB8D8}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Main A'" ID="{EF7EF0A0-A6FB-4CC8-A8BF-3946BF692E0A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="12322.3743698582"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Main A'" ID="{B47C8721-2319-4DC1-A43D-5566D9F1AE1F}"/>
+																					<PropertyCurveList>
+																						<PropertyCurve PropertyName="Highpass">
+																							<Curve Name="" ID="{CEC7CBAB-0926-4F08-94E1-1025087252D2}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>12.32237</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Lowpass">
+																							<Curve Name="" ID="{ED1601E9-3E54-4D81-9CFC-4DD76024F0AF}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="1"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>12.32237</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																						<PropertyCurve PropertyName="Volume">
+																							<Curve Name="" ID="{C3A88752-A133-4343-8FC4-51E12F818417}">
+																								<PropertyList>
+																									<Property Name="Flags" Type="int32" Value="3"/>
+																								</PropertyList>
+																								<PointList>
+																									<Point>
+																										<XPos>0</XPos>
+																										<YPos>0</YPos>
+																										<Flags>5</Flags>
+																									</Point>
+																									<Point>
+																										<XPos>12.32237</XPos>
+																										<YPos>0</YPos>
+																										<Flags>37</Flags>
+																									</Point>
+																								</PointList>
+																							</Curve>
+																						</PropertyCurve>
+																					</PropertyCurveList>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{2B558EBE-F4D0-4AF5-B63F-3BC40D58A264}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{80F9285B-822A-47EE-B895-D4E46DBA1696}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12155.6825209423"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Main A" ID="{2B4DAC00-DCEA-4625-827F-92D1281A2772}" ShortID="338320836">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="12316.5079365079"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Main A" ID="{6AA72C9E-A497-4664-9E8B-3D6501941929}" ShortID="509946386">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Main A" ID="{026ECF58-0919-4347-A2CB-F89C03E77398}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Main A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="120160121"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{ED3723B1-98EA-4EB9-94D2-00CDD9FAA9B6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9E73E9E2-260A-4640-8E13-556FC02DEEA3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Main A" ID="{28576544-0C41-4AFD-9534-FB547EF4554D}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="12316.5079365079"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Main A" ID="{026ECF58-0919-4347-A2CB-F89C03E77398}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{DB332FB2-3F2C-4CB9-B26B-C7D72B5FD078}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FE40AD64-D78E-4827-AAFC-0F0DE0C99F11}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="12316.5079365079"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Main B'" ID="{605CA28A-FB6B-4B4B-9E40-28DF874C3E5D}" ShortID="938283189">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="37682.7437641723"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Main B'" ID="{99C8857D-22DC-4696-8ED2-00DD2324F68E}" ShortID="69435590">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Main B'" ID="{114B34E6-6AE7-4395-BB92-2F4D3214BE33}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Main B'.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="802951768"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4C45E597-BB7D-48BC-8A3B-080D03935833}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{FC4C5E21-8918-4B0A-AE08-69363A835FE6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Main B'" ID="{75893505-880E-435C-BDCA-2062129E0E19}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="37682.7437641723"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Main B'" ID="{114B34E6-6AE7-4395-BB92-2F4D3214BE33}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{C647ACE0-2756-4142-BC8B-C9613584C2F4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{FE11C463-542A-4099-A2BA-9ECDB86ED2C1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="37682.7437641723"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Main B" ID="{8FCDE5B5-D764-450D-BAF5-CAEA22A0F11C}" ShortID="115654380">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="32603.6054421769"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Main B" ID="{6C90AAB6-4F2A-4360-9189-047E05C82924}" ShortID="624619336">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Main B" ID="{E8DFB204-7B7C-4E48-9C8D-4DB56C3C3F2C}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Main B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="884504287"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{D7F9B206-D4F1-4FDD-8CEE-CFF6EF3536C0}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{040E8986-1F63-48F7-933A-AAEEE957E28C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Main B" ID="{4D2506F5-E0A9-4B0A-8CCF-DF836B940EE1}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="32603.6054421769"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Main B" ID="{E8DFB204-7B7C-4E48-9C8D-4DB56C3C3F2C}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{376CD64B-2073-42A1-9178-3D77FC9E138A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{3CCEF721-C2AE-4B70-85B1-C9C76AE15A3F}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="32603.6054421769"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Main C" ID="{674411D1-3950-422D-89A3-CCA0CC0F1CA3}" ShortID="636896627">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="36443.0158730159"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Main C" ID="{98526871-C93D-4440-B6AE-01EEACD4A392}" ShortID="720951542">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Main C" ID="{1A10D70E-CAE1-4353-9F9C-4AA0A434F13D}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Main C.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="435405122"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{30A4DAC0-1976-4131-8F1D-0A032C29FBE6}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{40B195A1-F11D-407C-BEB2-43241C98B0B0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Main C" ID="{50142A7F-283E-4F99-97B7-FE8C5FA8898A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="36443.0158730159"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Main C" ID="{1A10D70E-CAE1-4353-9F9C-4AA0A434F13D}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A9D8550F-6D71-43C0-9C2A-A717A9D0CF4A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D4524993-F00D-468B-8338-594404D01C7D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="36443.0158730159"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Main D" ID="{71C544B1-AE03-4C83-8DE6-6EBBE7925E97}" ShortID="340360416">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="20659.7278911565"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Main D" ID="{29B713CF-5FEC-4DD0-B55F-82CB31E873F7}" ShortID="187464161">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Main D" ID="{51DF429C-FBAE-4A02-AF00-CB554F6FE412}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Main D.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="374674203"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{51F9A9A4-7037-41FA-8598-C8D41355C5D4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{8803FA6D-64D6-4384-AAE8-46280F6814C0}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Main D" ID="{4A05458E-A995-460E-84F9-D363132B154A}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="20659.7278911565"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Main D" ID="{51DF429C-FBAE-4A02-AF00-CB554F6FE412}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3587EAB5-B388-4406-BF1D-CD5DC7C16BF6}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{4F90AD51-4F40-4539-9719-3847A19AB41A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="20659.7278911565"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence10" ID="{AB216D06-F6DF-433B-9072-B6A095499D09}" ShortID="772994342">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11616.419643467"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{F5D9A2FA-8EBC-4D39-AE54-CA0C032FAA9E}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{26ED483F-0408-40C5-8794-2FBC9129090B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10012.0210368144"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence5" ID="{13DB4068-0C2D-4A73-A210-883496C400E2}" ShortID="262003066">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5950.4132231405"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{9F3A2BB3-5A74-4F6F-84BB-15B0FE02C8C2}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{1660FFA1-96F5-4B3A-AC95-08ED1A3E8AD4}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5008.26446280992"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{175E69C1-52AB-47EC-8B16-3550E9C87D4A}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{B4DE7B6F-BBCC-4072-84AE-F8628E2EF68A}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{7F19D4AE-3BFD-47B5-A1FC-C936C35B5977}" ShortID="666298715">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{E79EF3A6-1B8E-4F24-80A6-4AADF8FC7CCB}" ShortID="590073043">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Main A" ID="{2B4DAC00-DCEA-4625-827F-92D1281A2772}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{EB45AA9F-9A69-4339-BA85-853B71E35764}" ShortID="646458982">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Main A'" ID="{377690DF-B3DF-4A86-926B-305F5C10CE1C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{4D3D5368-5D89-44A1-86F2-79306FA5AF95}" ShortID="612593685">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>70</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Main B" ID="{8FCDE5B5-D764-450D-BAF5-CAEA22A0F11C}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{26C88E5F-D3CE-46F3-8D50-5A6802DF9881}" ShortID="346544723">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>40</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Main B'" ID="{605CA28A-FB6B-4B4B-9E40-28DF874C3E5D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{E13C7670-6970-4355-96E8-B79A26FA69B4}" ShortID="784710696">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Main C" ID="{674411D1-3950-422D-89A3-CCA0CC0F1CA3}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{8C9CEC7D-AB68-42DA-A5A0-B6D2510F9AC4}" ShortID="821948762">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Main D" ID="{71C544B1-AE03-4C83-8DE6-6EBBE7925E97}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{97B78465-E4D1-4273-B75D-9363941850BB}" ShortID="329137634">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Silence5" ID="{13DB4068-0C2D-4A73-A210-883496C400E2}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{A394105E-8A62-4491-BE42-DA802DE3B5FB}" ShortID="932428123">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Silence10" ID="{AB216D06-F6DF-433B-9072-B6A095499D09}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" ShortID="505816413">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Schwert A'" ID="{6BD4BA20-226C-4D29-8997-A3C58C916C0A}" ShortID="1031092261">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="24791.9047619048"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Schwert A'" ID="{13529166-BF19-456E-9624-38834E75C498}" ShortID="944255210">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Schwert A'" ID="{202B59F9-315E-4805-AE86-A2478AC1E591}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Schwert A'.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="173700116"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{16B3B839-12DD-4DBB-BD0E-E017FD0720F4}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{73847583-65C3-452D-8458-1D107FBD53C6}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Schwert A'" ID="{6C0237F8-BD2C-4F37-BEF8-5D88F69F22F5}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="24791.9047619048"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Schwert A'" ID="{202B59F9-315E-4805-AE86-A2478AC1E591}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FE74C752-EE84-4026-93F7-051FA19371E6}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{0A8CCE1E-028E-436E-A625-E46DCF78D610}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="24791.9047619048"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Schwert A" ID="{426D084D-FDC9-450F-8DB2-A2D1AB70BEA5}" ShortID="92313668">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="24892.1768707483"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Schwert A" ID="{690D7CE3-5C5E-49FF-88B9-7660471A5885}" ShortID="1017858046">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Schwert A" ID="{300E8BEA-6AA7-49AE-934F-F70663090C13}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Schwert A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="204338130"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{BF77CA8D-AF2E-45E1-B852-741713319ACD}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{359CF41E-6EE7-46C5-B510-83F7044DFD17}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Schwert A" ID="{BD65C7CF-1D12-41DE-9F07-68FC881958D1}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="24892.1768707483"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Schwert A" ID="{300E8BEA-6AA7-49AE-934F-F70663090C13}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{A6E0CD6B-425D-439F-A4D1-8D97342D8EC9}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B7B7A1C4-DA4A-4A41-93B5-C9911B3CAAF0}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="24892.1768707483"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Schwert B" ID="{90CC6F8F-D966-4F90-96E3-612CB253D668}" ShortID="3980773">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="30542.2902494331"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Schwert B" ID="{2557C5FF-845F-4174-B174-BFD9AB114597}" ShortID="1019225379">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Schwert B" ID="{04DD86B2-DDD5-4152-8B82-F6B3E962E1B3}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Schwert B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="698765316"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{DA8CB20B-FDED-42C1-B5B9-C39A48DF4BB7}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E5286A1F-5969-4E92-AA0B-A930C7131007}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Schwert B" ID="{42016A67-DB3B-4C6C-B8A0-62134A1F3AFC}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="30542.2902494331"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Schwert B" ID="{04DD86B2-DDD5-4152-8B82-F6B3E962E1B3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{7F2017B6-ED14-46B9-9A9A-616C9D3E8216}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{DA182C71-65F1-4682-B79C-E86ECDE6C6FC}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="30542.2902494331"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Schwert Bridge zu A" ID="{8E05123B-5E87-4566-B56B-E951E7D24DAD}" ShortID="89277559">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="9425.0566893424"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Schwert Bridge zu A" ID="{F671194F-FF7E-428E-A8A7-987778F0398E}" ShortID="60043872">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Schwert Bridge zu A" ID="{188F75FD-C7DA-4C29-BC2B-DC940CA6AE28}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Schwert Bridge zu A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="239420838"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{2C6E5FAD-B2C0-4102-BE56-D6445253D69B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{5E6E2F44-0017-4D58-9B59-C72E7B8934CB}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Schwert Bridge zu A" ID="{0769CE12-DE68-4218-AD8B-E5ADBBF667ED}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="9425.0566893424"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Schwert Bridge zu A" ID="{188F75FD-C7DA-4C29-BC2B-DC940CA6AE28}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FF10DC6B-6115-44A7-A0BC-F185F6B8AB7A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6917CF37-A3E3-4A2E-B8C5-8FAB78CACCEB}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="9425.0566893424"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence5" ID="{F364A854-021E-48A1-B215-771385903E91}" ShortID="1054176796">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5950.4132231405"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{CC2905EC-AABA-44E6-9C0C-AF482BBD005A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F92D4B98-3E2F-404E-B647-558137A646A3}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5008.26446280992"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence10" ID="{3C51A266-7D3C-4309-A580-037A8000A132}" ShortID="832509252">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11616.419643467"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{6C7898C1-3606-4FF6-9DD4-F258AB209D94}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{DFAE2A15-8A76-4500-AE40-B52484786A8B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10012.0210368144"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{82AA5378-DF0B-42FE-B958-0B3BCD4DE53E}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{78A248B5-36C3-4ED0-8E03-C02ADB51DFA1}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{849B7E2F-148E-4113-854F-E32AFA9D16FB}" ShortID="739163589">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{FDED97DB-5370-4FB3-BF68-7B68CBA603A1}" ShortID="393726092">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Silence5" ID="{F364A854-021E-48A1-B215-771385903E91}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{62C72B43-2A67-4FCB-9E4A-1878D87C1C84}" ShortID="593834043">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Silence10" ID="{3C51A266-7D3C-4309-A580-037A8000A132}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3491DDE5-E693-4195-BCB6-DBC832AB2688}" ShortID="968636664">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Schwert B" ID="{90CC6F8F-D966-4F90-96E3-612CB253D668}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{94D75D6A-7176-475B-9D34-BEF541E3DD8D}" ShortID="736607347">
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{CE72F34C-581D-466F-A0BF-040665C98596}" ShortID="947482070">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="OasisMusic-DoricoAudio-Schwert Bridge zu A" ID="{8E05123B-5E87-4566-B56B-E951E7D24DAD}"/>
+												</MusicPlaylistItem>
+												<MusicPlaylistItem Name="" ID="{E3F9BAC4-047E-4B3E-BBBD-494B7AFA5020}" ShortID="1003289343">
+													<PropertyList>
+														<Property Name="PlayMode" Type="int16" Value="3"/>
+													</PropertyList>
+													<ChildrenList>
+														<MusicPlaylistItem Name="" ID="{4B4E652A-12D1-4425-ACEF-62793CB35F4A}" ShortID="770915444">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<SegmentRef Name="OasisMusic-DoricoAudio-Schwert A" ID="{426D084D-FDC9-450F-8DB2-A2D1AB70BEA5}"/>
+														</MusicPlaylistItem>
+														<MusicPlaylistItem Name="" ID="{3B216EFA-92CD-4DEB-BAB0-03567E8E2522}" ShortID="519093821">
+															<PropertyList>
+																<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+															</PropertyList>
+															<SegmentRef Name="OasisMusic-DoricoAudio-Schwert A'" ID="{6BD4BA20-226C-4D29-8997-A3C58C916C0A}"/>
+														</MusicPlaylistItem>
+													</ChildrenList>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" ShortID="13650190">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Stab A'" ID="{E0D26974-878E-413A-A92D-BE295681C3B6}" ShortID="474259977">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11662.4489795918"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Stab A'" ID="{FCDF9F32-0112-49A6-9FFB-192FCBC987E4}" ShortID="627580811">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Stab A'" ID="{3555694A-2987-4780-825A-95F056493FB3}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Stab A'.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="113069037"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3E39AA23-0F3F-487B-A694-4A827A1AB03B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{7D006BE8-53B4-40F4-B924-A72163D980D3}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Stab A'" ID="{651DB111-0F02-44B5-B6FF-907ECBE2C847}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="11662.4489795918"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Stab A'" ID="{3555694A-2987-4780-825A-95F056493FB3}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{92385811-0217-4B28-9102-417DB101C48C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{22C70BCB-15AF-4EBE-A2C4-36F9580C73B2}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="11662.4489795918"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Stab A" ID="{FBC807E6-9F4C-4FDC-A9ED-D5A32AD3273B}" ShortID="761516062">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="34333.4240362812"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Stab A" ID="{295C4F60-EB63-4494-BE9B-37A303005236}" ShortID="286283993">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Stab A" ID="{DF4A0FD3-DB89-4B10-9A87-E979843BDE2E}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Stab A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="782262275"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{5B8D393F-AF87-4601-A51B-FC8A944F568B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B06B529E-6975-4F85-A713-7B0738B5770C}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Stab A" ID="{9C131283-8A2D-4A2D-A42E-A70D5AEBCB91}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="34333.4240362812"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Stab A" ID="{DF4A0FD3-DB89-4B10-9A87-E979843BDE2E}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{089A8115-349C-4AB3-A6F0-EFFD4644AA9A}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{F1100687-469C-4FED-8E45-92A8F290B9BA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="34333.4240362812"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Stab B" ID="{0AE7CBB7-5B45-4A4C-8838-6B127F04237E}" ShortID="979400554">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="23428.9115646259"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Stab B" ID="{88CD660E-A3C0-4BE4-9DEF-0725F0ACD064}" ShortID="854435387">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Stab B" ID="{6D4170D2-9F57-4872-848B-169A71912319}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Stab B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="312291867"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{3B38033E-99C2-4484-8057-9F8088735978}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{17869478-5716-4D99-8EB3-CFF3AA331352}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Stab B" ID="{985F94AE-5963-4178-B4DA-7BD05CA4A19B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="23428.9115646259"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Stab B" ID="{6D4170D2-9F57-4872-848B-169A71912319}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{AE81060A-A2E2-4E22-90F9-3707574DC486}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{85922637-6083-4F8B-9A91-E55518B27BF4}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="23428.9115646259"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Stab C" ID="{D4D5ACBC-F31F-462E-8992-0212F54C3FE6}" ShortID="479565839">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="24046.0317460317"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Stab C" ID="{9245D66B-B68F-4B12-839D-4DF13292E899}" ShortID="870754263">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Stab C" ID="{72EDE227-51D4-4ADD-BEC2-5E7F9469E2FB}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Stab C.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1004695191"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{25AB661C-1079-456A-AF6B-F78BEAEF6566}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CF63EFCE-8319-41E7-9559-8BB099C10338}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Stab C" ID="{6BA26380-A0F8-4FF9-9A83-4E5A3822093B}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="24046.0317460317"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Stab C" ID="{72EDE227-51D4-4ADD-BEC2-5E7F9469E2FB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{9260435D-A0FE-4435-A022-B4698F6F439D}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{B5DE8D46-B670-41A5-93B1-6CCFC9440E66}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="24046.0317460317"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Stab Intro" ID="{03BB95A4-473D-4FFA-A08A-8EC4E2B034F7}" ShortID="831096128">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11664.8752834467"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Stab Intro" ID="{496B9292-8E48-49B2-94F3-07441D2D4AEC}" ShortID="472341182">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Stab Intro" ID="{B94EEDB8-DC61-4FE1-8F0E-2F4CEC4FA9B8}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Stab Intro.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1045427137"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{57735954-1528-4C5C-93A6-87031D0C404E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{C8859D87-0E08-49B8-A63D-206CFA5F944F}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Stab Intro" ID="{CC217BE7-81EC-49CF-8D75-89BBF6DCE6B7}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="11664.8752834467"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Stab Intro" ID="{B94EEDB8-DC61-4FE1-8F0E-2F4CEC4FA9B8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{0FF970C4-C1A0-4B89-9062-850853EBFEEB}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{847D8462-F978-4ACD-86BB-72801DA629DE}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="11664.8752834467"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence10" ID="{AAF0E88E-F9BA-4DF1-8CF8-F5DC0E3359B7}" ShortID="442798771">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11616.419643467"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FD53B74C-D6C7-4A9F-85B0-2FF6003DA9D0}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{085820BE-1000-479A-8EC0-68755FFB488D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10012.0210368144"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence5" ID="{DF2BCB5A-E50B-4E2D-A017-91F6DF1E331E}" ShortID="298751581">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5950.4132231405"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{39E3C584-4056-4422-B648-4686146E615C}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{9D2CE609-7179-49B9-974D-1DA8D0029F4B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5008.26446280992"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{DA70FE2E-8242-481F-B638-81F8F5C24018}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{7A7D7B0B-D620-4885-9A74-B278784E9711}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{9AFA5588-A212-4D41-8C40-DAB5651CD0C4}" ShortID="607269699">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{0FCF84F2-4028-4AE7-A5B5-D9AAA8889C97}" ShortID="756607463">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Stab Intro" ID="{03BB95A4-473D-4FFA-A08A-8EC4E2B034F7}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{37E26CE8-A9C7-44F8-84FB-D09FB3E87840}" ShortID="624772494">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Stab A" ID="{FBC807E6-9F4C-4FDC-A9ED-D5A32AD3273B}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5ED01CF8-8CD4-4D2C-B7AE-F6B7A5EA3286}" ShortID="473630986">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Stab A'" ID="{E0D26974-878E-413A-A92D-BE295681C3B6}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{60DBC12C-A2B7-4C98-9092-238FFE23BE83}" ShortID="95341233">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Stab B" ID="{0AE7CBB7-5B45-4A4C-8838-6B127F04237E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{5217A394-DAFE-44C0-AC52-25A221D36D9F}" ShortID="565203627">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Stab C" ID="{D4D5ACBC-F31F-462E-8992-0212F54C3FE6}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{C9A8519B-B01E-4497-BAEE-3A50E1A330E3}" ShortID="700133617">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Silence5" ID="{DF2BCB5A-E50B-4E2D-A017-91F6DF1E331E}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{2A4CFC79-F8A4-4FEC-86BF-3C727B75F37A}" ShortID="85116796">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Silence10" ID="{AAF0E88E-F9BA-4DF1-8CF8-F5DC0E3359B7}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" ShortID="729761543">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-7</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Dolch A'" ID="{5DC805E3-5CC6-41CA-99A2-1E6ACABF6446}" ShortID="739402664">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="19287.1655328798"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Dolch A'" ID="{E93DC99E-EB78-4E3D-A7FA-987B7CC50C1D}" ShortID="53608424">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Dolch A'" ID="{AE649BA1-1902-40EB-AB33-0295ADFAEAB8}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Dolch A'.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="231353024"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{AFD1139B-811F-42B7-AEE5-A65F7839742B}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9E8221C3-1BD7-412B-AF52-3F1967204742}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Dolch A'" ID="{F5813F51-A47C-43E0-A03A-CEC84FB115C5}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="19287.1655328798"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Dolch A'" ID="{AE649BA1-1902-40EB-AB33-0295ADFAEAB8}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{FB55D668-A8F4-4F8F-9BCD-0654F112CB00}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{01F4467F-EAB3-470E-87E3-FAA414E0E3D1}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="19287.1655328798"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Dolch A" ID="{58FE25F5-6A87-486A-9A48-08F1B187913D}" ShortID="259600723">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="34291.5192743764"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Dolch A" ID="{773F1FB9-57D5-4C50-8F55-4A10E24FC7F4}" ShortID="23809579">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Dolch A" ID="{0CB2C02A-D898-48B6-A5A9-CC131146D752}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Dolch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="846401668"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{67EE2A0D-84D7-488E-95AE-AD31AB96C6C2}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{B1812AE4-95FD-4497-9279-B4ABB4C69F4E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Dolch A" ID="{E26D506B-B7D8-47F3-B416-3D37C1C6F923}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="34291.5192743764"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Dolch A" ID="{0CB2C02A-D898-48B6-A5A9-CC131146D752}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{39BFD08A-E7FB-4CAD-9605-BE0CE28DEC7B}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6C73F7CB-A341-4605-9FFC-C591E0F95244}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="34291.5192743764"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Dolch B" ID="{0AEC70D0-5B81-4F35-9ADA-22CDC2B4CA60}" ShortID="495139914">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="14457.074829932"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Dolch B" ID="{7CC878AB-5FA2-4035-A5ED-3A2C1C848000}" ShortID="139684957">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Dolch B" ID="{DE200AF0-97BF-4962-BC5B-1C6AB040D1D6}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Dolch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="931862698"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F698EAB2-3761-4425-840C-93268B35CC7D}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{CB32ABEC-4941-40A7-9673-4D0C6B9634C4}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Dolch B" ID="{01A2E145-65E6-475E-B4E9-0554806062FD}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="14457.074829932"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Dolch B" ID="{DE200AF0-97BF-4962-BC5B-1C6AB040D1D6}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3E60E725-3F1C-412A-AB60-CA4072B59AB4}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{E738D02E-5BD0-464E-A4D7-CE71D556BC8D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="14457.074829932"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Dolch C" ID="{AD890407-A572-4B9D-B2F3-B6462044C6F5}" ShortID="1056593846">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="20159.7052154195"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Dolch C" ID="{DDB057A1-665E-444A-868B-EBB6D443886F}" ShortID="923709455">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Dolch C" ID="{C8E53A1B-A031-4650-9228-159E5BF32609}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Dolch C.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="506562318"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{4DC024DC-DA54-4951-8114-88D7367EF504}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{E0BD7051-5F33-426E-B25D-3CE11D1E730A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Dolch C" ID="{D83C6A64-4FDC-487C-8BED-CFF6CABB3154}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="20159.7052154195"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Dolch C" ID="{C8E53A1B-A031-4650-9228-159E5BF32609}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{259F4922-84BE-4273-AC3B-A82BBE38FFC6}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{7648E496-4722-430A-9F3D-F6F13AAF228A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="20159.7052154195"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence10" ID="{C9E7C9D7-7CD5-4749-8477-7597BC487C7C}" ShortID="230281305">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11616.419643467"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{BAC0F23E-E23B-4DEC-BC42-32D23B1D9318}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{30A2EF82-7703-4328-99E8-FBFE3C104CCA}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10012.0210368144"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence5" ID="{228BD004-DD7B-40D4-A352-7FE56E251671}" ShortID="486052499">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5950.4132231405"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{01E69EFF-1FAE-4A42-8186-05A35FA4F157}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{0A8C9E55-F2E7-4E43-9860-D034F8F1452B}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5008.26446280992"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{4D613B68-B6CE-4F21-B410-45630812C577}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{685AFC98-EC4C-4855-81A9-579C7B440303}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{80764E7D-461C-4847-8571-DB685B8157DD}" ShortID="209088944">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{98E0916F-1CD8-418C-B71C-4BE1DE6AE135}" ShortID="581933302">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>70</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Dolch A" ID="{58FE25F5-6A87-486A-9A48-08F1B187913D}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{3EE169DA-9047-4BBF-B3F4-E5CB14A00AB9}" ShortID="77021852">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Dolch A'" ID="{5DC805E3-5CC6-41CA-99A2-1E6ACABF6446}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{8EF42C8A-2FD5-4027-AA43-0406CC4B468F}" ShortID="894825740">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Dolch B" ID="{0AEC70D0-5B81-4F35-9ADA-22CDC2B4CA60}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{020449FE-D102-4F33-B112-8D6489D1F641}" ShortID="826799288">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Dolch C" ID="{AD890407-A572-4B9D-B2F3-B6462044C6F5}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{CDC1066E-80BC-4F19-AF61-4F221E860483}" ShortID="677073358">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>30</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Silence5" ID="{228BD004-DD7B-40D4-A352-7FE56E251671}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{D28AF4E0-D418-491D-B36E-3BAB231EFB3B}" ShortID="336438502">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<SegmentRef Name="Silence10" ID="{C9E7C9D7-7CD5-4749-8477-7597BC487C7C}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicPlaylistContainer Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" ShortID="115062111">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Buch A'" ID="{5667119B-93F0-49CC-B337-9F96CD85B041}" ShortID="611721022">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="13444.3764172336"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Buch A'" ID="{9B8124FF-9EF1-449E-84B4-5C5074B95A30}" ShortID="58383940">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Buch A'" ID="{7B497115-667E-43E0-BE02-A05E3D649C3B}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Buch A'.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="972568707"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{CF6A868B-9027-46F5-8F16-2F43CDF1EB62}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{A036D805-4165-4E18-9D17-CB75FDB7DD64}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Buch A'" ID="{D37ECC79-82D7-4AE7-992A-CB25BEA1405E}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="13444.3764172336"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Buch A'" ID="{7B497115-667E-43E0-BE02-A05E3D649C3B}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{33609014-432E-4805-95E8-873654BD09CE}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{6F3B0369-13ED-4689-8524-BBE823397690}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="13444.3764172336"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Buch A" ID="{E6D33D2E-A8A4-4F1E-9F2E-60AFFACD0950}" ShortID="847399444">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="52650.8843537415"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Buch A" ID="{3E39CB1D-F58D-4C6B-B57C-58E4CB27AFC2}" ShortID="847554791">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Buch A" ID="{180E44CF-BCEB-4309-833D-0E9D3D77ED40}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Buch A.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="339417274"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{735CFF08-F262-42A1-9EEE-66649CB1354E}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{840147D0-017F-4064-99AD-701469A5FC34}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Buch A" ID="{BABA508D-0946-4306-953B-2648C01D9DA2}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="52650.8843537415"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Buch A" ID="{180E44CF-BCEB-4309-833D-0E9D3D77ED40}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{D1E7DC58-1EFA-4FEA-993F-6A72DB3DF15B}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{0E5B3B1A-4078-4A14-8618-F444F144F87D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="52650.8843537415"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Buch B" ID="{E364048B-50CF-4CFB-BBE9-59286692F252}" ShortID="483546277">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="26513.2653061224"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Buch B" ID="{AC0229E1-4C08-49FE-81E7-852193B1375D}" ShortID="936860421">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Buch B" ID="{20344C1F-F7DA-45D5-88DA-D86E4FF1D94A}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Buch B.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="80991123"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{18652ADD-C106-4ACF-9B01-83A47045DA33}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{87C611E7-DF51-4E7F-A813-88871428CB9A}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Buch B" ID="{3AAEB548-3A94-4C0B-8891-B977F4015695}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="26513.2653061224"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Buch B" ID="{20344C1F-F7DA-45D5-88DA-D86E4FF1D94A}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{9C3A3384-0C5F-4FD8-A355-169FF09AAA25}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{68982FB9-82F1-4BFF-B63C-97C43D71911A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="26047.6397790521"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Buch C" ID="{1FAE473F-9246-43DA-A05A-A67115D81051}" ShortID="849275446">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="22961.2471655329"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Buch C" ID="{213656E3-B8F5-4A90-9B3F-6166FEE735BB}" ShortID="559542254">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Buch C" ID="{8F8D8B47-115A-48C8-92E7-BAF1182540FA}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Buch C.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1064474414"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{8E363F50-4ED6-4747-A110-17AC7F5A9600}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{9CC686BE-31DC-4132-B591-E1B6B198CE3E}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Buch C" ID="{FB22D24A-ACF3-465B-A307-66B606B84D18}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="22961.2471655329"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Buch C" ID="{8F8D8B47-115A-48C8-92E7-BAF1182540FA}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{23400924-2B96-43A7-8476-C4F4E630FF9D}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{D2191061-68AC-4C0B-BD53-88BE9E1CB573}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="22961.2471655329"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence5" ID="{63600372-1C63-4AE0-B8AD-B60A2B6842BA}" ShortID="383794595">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="5950.4132231405"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{8214B8F3-4156-4547-A3DD-23AE95295314}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{DCDE122D-363B-4236-A954-7D690BB0CE44}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="5008.26446280992"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="Silence10" ID="{DEFB45DA-8D0B-4661-B096-3C91C4A504D9}" ShortID="54467641">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="11616.419643467"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{AC301991-3E0E-476F-8058-C28A66AFD0E8}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{3031F8FA-4997-4B60-BA50-308327D5E10A}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="10012.0210368144"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{060CA879-6E49-4F98-BA92-DE83A1A7E210}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{93FEC8F0-C8D8-4413-A185-F6E1C2073E94}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists/>
+							<Playlist>
+								<MusicPlaylistItem Name="" ID="{D16FB9FC-FAF4-4C99-ABEA-5B20F02981C3}" ShortID="763168560">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+										<Property Name="PlayMode" Type="int16" Value="2"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{5D6EC052-C235-461E-876A-DE23020C7428}" ShortID="801008117">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Buch A" ID="{E6D33D2E-A8A4-4F1E-9F2E-60AFFACD0950}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{F2EECDF6-C53C-46A0-B576-0D60897E6B3B}" ShortID="996310298">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Buch A'" ID="{5667119B-93F0-49CC-B337-9F96CD85B041}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{43998613-BAAE-41AC-8BE4-800F8163FA14}" ShortID="158823412">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Buch B" ID="{E364048B-50CF-4CFB-BBE9-59286692F252}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{7FA05089-7027-40F1-8795-B7F8B0A55F40}" ShortID="120036419">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="OasisMusic-DoricoAudio-Buch C" ID="{1FAE473F-9246-43DA-A05A-A67115D81051}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{38D23E98-F535-4BE2-9146-145385C80294}" ShortID="869007011">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence5" ID="{63600372-1C63-4AE0-B8AD-B60A2B6842BA}"/>
+										</MusicPlaylistItem>
+										<MusicPlaylistItem Name="" ID="{2080759A-D443-4CFA-AC6C-0D7CA0F0DBE3}" ShortID="913160109">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<SegmentRef Name="Silence10" ID="{DEFB45DA-8D0B-4661-B096-3C91C4A504D9}"/>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Playlist>
+						</MusicPlaylistContainer>
+						<MusicSegment Name="OasisMusic-DoricoAudio-Main B-EndSzene" ID="{AB4CED88-F5C9-41E7-AEB1-3DAE7F72D564}" ShortID="98308196">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="42479.9092970522"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="OasisMusic-DoricoAudio-Main B-EndSzene" ID="{1B182083-7D97-4FC1-8763-189A22B19F28}" ShortID="955183986">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OasisMusic-DoricoAudio-Main B-EndSzene" ID="{97637A3D-B513-40EF-BD71-A3D8C3949E58}">
+											<Language>SFX</Language>
+											<AudioFile>OasisMusic-DoricoAudio-Main B-EndSzene.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="104279542"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{C058A20F-A9DA-4217-A2EE-BCEDA181F890}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{69DA00E9-FCB0-4F6C-A068-53CBAC788FF3}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="OasisMusic-DoricoAudio-Main B-EndSzene" ID="{9A849B90-8D3F-439D-95CB-E7BB0767197D}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="42479.9092970522"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="OasisMusic-DoricoAudio-Main B-EndSzene" ID="{97637A3D-B513-40EF-BD71-A3D8C3949E58}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{22FE3556-FC43-4931-8F22-819E295B1668}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{4B3209B7-BDFC-4870-A7B2-28DE60F6F72E}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="42479.9092970522"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<MusicSegment Name="OasisMusic-DoricoAudio-Main B-Outro" ID="{30CF7D1F-30C0-44D7-AC7D-3C3FB3385962}" ShortID="366606675">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="34996.5079365079"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="OasisMusic-DoricoAudio-Main B-Outro" ID="{D0A90272-F81B-4F33-8321-E7BB1A1671E6}" ShortID="819952179">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="OasisMusic-DoricoAudio-Main B-Outro" ID="{742CB200-7B2A-4AA6-BEFA-2B933E34266E}">
+											<Language>SFX</Language>
+											<AudioFile>OasisMusic-DoricoAudio-Main B-Outro.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="622111499"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{8CFDE143-CC33-46E8-B11C-EC42651762DA}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{13C0750C-734A-47BE-98F5-4CD2C2D720D0}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="OasisMusic-DoricoAudio-Main B-Outro" ID="{D6671924-4217-4023-882E-67D42F888162}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="34996.5079365079"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="OasisMusic-DoricoAudio-Main B-Outro" ID="{742CB200-7B2A-4AA6-BEFA-2B933E34266E}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{1E55AB35-3281-4F65-BA1A-5F017287DF31}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{049046CA-D74F-4C2A-91AD-5A33D729E7D3}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="34996.5079365079"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+						<Folder Name="Item" ID="{35D7810D-69CA-4DE0-9668-E19529326FCF}" ShortID="24209986">
+							<ChildrenList>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Item Take" ID="{BCEFC450-322C-46C5-A2C3-26E04787165B}" ShortID="679563531">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="4914.73922902494"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Item Take" ID="{57683147-4D9C-46FA-995D-14D620D821F4}" ShortID="826003280">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Item Take" ID="{DC0C6990-2759-43AC-8FC6-479DC289E3FB}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Item Take.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="958511008"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F6DE2226-AC11-4661-AA09-3F001C19ABFE}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{59EF1BB4-CCBB-47F9-9288-2F04253FD373}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Item Take" ID="{6E3CDE3E-0EFC-4E5A-90C1-38F281115286}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="4914.73922902494"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Item Take" ID="{DC0C6990-2759-43AC-8FC6-479DC289E3FB}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{88C3BDCB-1E99-4D90-B271-9DB78E5C1842}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{88009EF6-18F0-4673-9AAD-7D3D0B4BE83D}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="4914.73922902494"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicSegment Name="OasisMusic-DoricoAudio-Item Give" ID="{81DB7FE2-AFF8-4C50-B5F6-C1ADA040E26B}" ShortID="286835087">
+									<PropertyList>
+										<Property Name="EndPosition" Type="Real64" Value="9853.24263038549"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicTrack Name="OasisMusic-DoricoAudio-Item Give" ID="{1BE5B158-C73F-4DDE-BD4B-6FA4AB222CD6}" ShortID="86469533">
+											<ReferenceList>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="OasisMusic-DoricoAudio-Item Give" ID="{84256EEE-0DDB-4A01-A078-ADD3205328E9}">
+													<Language>SFX</Language>
+													<AudioFile>OasisMusic-DoricoAudio-Item Give.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="249177938"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<TransitionList>
+												<MusicTransition Name="Root" ID="{F8998F13-CD25-4ABA-BE8D-57CE4FC85B31}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</TransitionList>
+											<ObjectLists>
+												<ObjectList Name="Sequences">
+													<Reference>
+														<Local>
+															<MusicTrackSequence Name="" ID="{3F89662D-87A4-46B6-B9D6-A12BCBB9C9EF}">
+																<ObjectLists>
+																	<ObjectList Name="Clips">
+																		<Reference>
+																			<Local>
+																				<MusicClip Name="OasisMusic-DoricoAudio-Item Give" ID="{0CACA5B1-F9C3-47DF-AA44-31B543C1ECC8}">
+																					<PropertyList>
+																						<Property Name="EndTrimOffset" Type="Real64" Value="9853.24263038549"/>
+																						<Property Name="FadeInMode" Type="int16" Value="0"/>
+																						<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																					</PropertyList>
+																					<AudioSourceRef Name="OasisMusic-DoricoAudio-Item Give" ID="{84256EEE-0DDB-4A01-A078-ADD3205328E9}"/>
+																				</MusicClip>
+																			</Local>
+																		</Reference>
+																	</ObjectList>
+																</ObjectLists>
+															</MusicTrackSequence>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicTrack>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Cues">
+											<Reference>
+												<Local>
+													<MusicCue Name="Entry Cue" ID="{3529BA2E-2D1B-44D5-A95A-C4033AEB54AF}"/>
+												</Local>
+											</Reference>
+											<Reference>
+												<Local>
+													<MusicCue Name="Exit Cue" ID="{CF254AC4-AC83-460C-AB3B-DE4A5F567B5E}">
+														<PropertyList>
+															<Property Name="CueType" Type="int16" Value="1"/>
+															<Property Name="TimeMs" Type="Real64" Value="9853.24263038549"/>
+														</PropertyList>
+													</MusicCue>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicSegment>
+								<MusicPlaylistContainer Name="ItemWait" ID="{D6CBBDB5-6774-4FC2-95C7-9B87E6F9689C}" ShortID="173045559">
+									<PropertyList>
+										<Property Name="Tempo" Type="Real64" Value="60"/>
+										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<MusicSegment Name="OasisMusic-DoricoAudio-Waiting Item" ID="{CB8354AC-ADBC-4C26-BBDB-061DBCB7F873}" ShortID="51717125">
+											<PropertyList>
+												<Property Name="EndPosition" Type="Real64" Value="58583.6281179138"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<MusicTrack Name="OasisMusic-DoricoAudio-Waiting Item" ID="{2BEA6C90-0EC6-44CD-B18C-7B26354D005F}" ShortID="120125504">
+													<ReferenceList>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="OasisMusic-DoricoAudio-Waiting Item" ID="{FABD6A7E-7D2D-4569-84EB-3C25D1EDE657}">
+															<Language>SFX</Language>
+															<AudioFile>OasisMusic-DoricoAudio-Waiting Item.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="648485306"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<TransitionList>
+														<MusicTransition Name="Root" ID="{2FC65620-7400-4ADD-8B4B-3EC56CE25A47}">
+															<PropertyList>
+																<Property Name="IsFolder" Type="bool" Value="True"/>
+															</PropertyList>
+															<TransitionInfo/>
+														</MusicTransition>
+													</TransitionList>
+													<ObjectLists>
+														<ObjectList Name="Sequences">
+															<Reference>
+																<Local>
+																	<MusicTrackSequence Name="" ID="{103E9CF9-8024-4D45-9375-A52B4C0438ED}">
+																		<ObjectLists>
+																			<ObjectList Name="Clips">
+																				<Reference>
+																					<Local>
+																						<MusicClip Name="OasisMusic-DoricoAudio-Waiting Item" ID="{67F40DEF-7DBA-4AF2-A3A8-9E6A37CD99FF}">
+																							<PropertyList>
+																								<Property Name="BeginTrimOffset" Type="Real64" Value="559.99647994951"/>
+																								<Property Name="EndTrimOffset" Type="Real64" Value="48718.8229699588"/>
+																								<Property Name="FadeInMode" Type="int16" Value="0"/>
+																								<Property Name="PlayAt" Type="Real64" Value="-559.99647994951"/>
+																							</PropertyList>
+																							<AudioSourceRef Name="OasisMusic-DoricoAudio-Waiting Item" ID="{FABD6A7E-7D2D-4569-84EB-3C25D1EDE657}"/>
+																							<PropertyCurveList>
+																								<PropertyCurve PropertyName="Highpass">
+																									<Curve Name="" ID="{723BCDE6-51B8-4FE4-9D5D-F8B6299726A3}">
+																										<PropertyList>
+																											<Property Name="Flags" Type="int32" Value="1"/>
+																										</PropertyList>
+																										<PointList>
+																											<Point>
+																												<XPos>0.56</XPos>
+																												<YPos>0</YPos>
+																												<Flags>5</Flags>
+																											</Point>
+																											<Point>
+																												<XPos>48.71882</XPos>
+																												<YPos>0</YPos>
+																												<Flags>37</Flags>
+																											</Point>
+																										</PointList>
+																									</Curve>
+																								</PropertyCurve>
+																								<PropertyCurve PropertyName="Lowpass">
+																									<Curve Name="" ID="{F834BAAD-FDFC-4B75-B4CD-FB19558304A3}">
+																										<PropertyList>
+																											<Property Name="Flags" Type="int32" Value="1"/>
+																										</PropertyList>
+																										<PointList>
+																											<Point>
+																												<XPos>0.56</XPos>
+																												<YPos>0</YPos>
+																												<Flags>5</Flags>
+																											</Point>
+																											<Point>
+																												<XPos>48.71882</XPos>
+																												<YPos>0</YPos>
+																												<Flags>37</Flags>
+																											</Point>
+																										</PointList>
+																									</Curve>
+																								</PropertyCurve>
+																								<PropertyCurve PropertyName="Volume">
+																									<Curve Name="" ID="{59F7D9F4-8C59-4025-AE12-EB4F0CF60359}">
+																										<PropertyList>
+																											<Property Name="Flags" Type="int32" Value="3"/>
+																										</PropertyList>
+																										<PointList>
+																											<Point>
+																												<XPos>0.56</XPos>
+																												<YPos>0</YPos>
+																												<Flags>5</Flags>
+																											</Point>
+																											<Point>
+																												<XPos>48.71882</XPos>
+																												<YPos>0</YPos>
+																												<Flags>37</Flags>
+																											</Point>
+																										</PointList>
+																									</Curve>
+																								</PropertyCurve>
+																							</PropertyCurveList>
+																						</MusicClip>
+																					</Local>
+																				</Reference>
+																			</ObjectList>
+																		</ObjectLists>
+																	</MusicTrackSequence>
+																</Local>
+															</Reference>
+														</ObjectList>
+													</ObjectLists>
+												</MusicTrack>
+											</ChildrenList>
+											<ObjectLists>
+												<ObjectList Name="Cues">
+													<Reference>
+														<Local>
+															<MusicCue Name="Entry Cue" ID="{8E3F33AB-831D-45D8-A952-496264458A02}"/>
+														</Local>
+													</Reference>
+													<Reference>
+														<Local>
+															<MusicCue Name="Exit Cue" ID="{5362F41E-399B-4120-83E1-FDD446E32181}">
+																<PropertyList>
+																	<Property Name="CueType" Type="int16" Value="1"/>
+																	<Property Name="TimeMs" Type="Real64" Value="48018.8273700224"/>
+																</PropertyList>
+															</MusicCue>
+														</Local>
+													</Reference>
+												</ObjectList>
+											</ObjectLists>
+										</MusicSegment>
+									</ChildrenList>
+									<TransitionList>
+										<MusicTransition Name="Root" ID="{2687CB50-3B4B-49EE-8591-756AF2C86D9B}">
+											<PropertyList>
+												<Property Name="IsFolder" Type="bool" Value="True"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicTransition Name="Transition" ID="{15BA837E-55DC-446C-883E-EAAD4005353B}">
+													<TransitionInfo/>
+												</MusicTransition>
+											</ChildrenList>
+											<TransitionInfo/>
+										</MusicTransition>
+									</TransitionList>
+									<ObjectLists/>
+									<Playlist>
+										<MusicPlaylistItem Name="" ID="{E8E8DDF8-F143-4252-9198-1FAF774017C1}" ShortID="118315778">
+											<PropertyList>
+												<Property Name="LoopCount" Type="int16" Value="0"/>
+												<Property Name="PlayMode" Type="int16" Value="2"/>
+											</PropertyList>
+											<ChildrenList>
+												<MusicPlaylistItem Name="" ID="{6A1BAF57-6EFE-466E-BBD4-795F2BFAE172}" ShortID="46452835">
+													<PropertyList>
+														<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+													</PropertyList>
+													<SegmentRef Name="OasisMusic-DoricoAudio-Waiting Item" ID="{CB8354AC-ADBC-4C26-BBDB-061DBCB7F873}"/>
+												</MusicPlaylistItem>
+											</ChildrenList>
+										</MusicPlaylistItem>
+									</Playlist>
+								</MusicPlaylistContainer>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
