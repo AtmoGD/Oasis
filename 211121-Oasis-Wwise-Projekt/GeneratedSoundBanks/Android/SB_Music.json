@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
-   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Android\\",
-   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android\\",
+   "ProjectRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Android\\",
+   "SoundBanksRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android"
+   "ExternalSourcesOutputRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android"
   },
   "SoundBanks": [
    {
     "Id": "779753582",
     "GUID": "{15DA4724-68AB-47F0-AD1A-0DB8061AD290}",
     "Language": "SFX",
-    "Hash": "1606483267",
+    "Hash": "1188435508",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Music",
     "ShortName": "SB_Music",
     "Path": "SB_Music.bnk",
@@ -127,8 +127,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\EndMusicAlt_Start",
       "GUID": "{10EA67D6-4416-4F37-BA33-1D22BE467D6C}",
       "DurationType": "OneShot",
-      "DurationMin": "34.996510",
-      "DurationMax": "34.996510",
+      "DurationMin": "34.99651",
+      "DurationMax": "34.99651",
       "IncludedMemoryFiles": [
        {
         "Id": "622111499",
@@ -292,10 +292,10 @@
       "Name": "StopAll_Music",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\StopAll_Music",
       "GUID": "{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3311114165",

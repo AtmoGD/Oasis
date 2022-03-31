@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Android" BasePlatform="Android" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
-		<SourceFilesRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\</SourceFilesRoot>
-		<SoundBanksRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Android\</SoundBanksRoot>
+		<ProjectRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
+		<SourceFilesRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Android\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="1606483267">
+		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="1188435508">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
 			<ShortName>SB_Music</ShortName>
 			<Path>SB_Music.bnk</Path>
@@ -69,7 +69,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3722692183" Name="EndMusicAlt_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusicAlt_Start" GUID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}" DurationType="OneShot" DurationMin="34.996510" DurationMax="34.996510">
+				<Event Id="3722692183" Name="EndMusicAlt_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusicAlt_Start" GUID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}" DurationType="OneShot" DurationMin="34.99651" DurationMax="34.99651">
 					<IncludedMemoryFiles>
 						<File Id="622111499" Language="SFX">
 							<ShortName>OasisMusic-DoricoAudio-Main B-Outro.wav</ShortName>
@@ -165,7 +165,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2822115966" Name="StopAll_Music" ObjectPath="\Events\Default Work Unit\Music\StopAll_Music" GUID="{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2822115966" Name="StopAll_Music" ObjectPath="\Events\Default Work Unit\Music\StopAll_Music" GUID="{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3311114165" Name="TakeItem_Music" ObjectPath="\Events\Default Work Unit\Music\TakeItem_Music" GUID="{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}" DurationType="OneShot" DurationMin="4.914739" DurationMax="4.914739">
 					<IncludedMemoryFiles>
 						<File Id="958511008" Language="SFX">

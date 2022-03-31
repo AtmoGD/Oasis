@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
-		<SourceFilesRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
+		<SourceFilesRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="2266146285">
+		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="4256382536">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
 			<ShortName>SB_Music</ShortName>
 			<Path>SB_Music.bnk</Path>
@@ -72,7 +72,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3722692183" Name="EndMusicAlt_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusicAlt_Start" GUID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}" DurationType="OneShot" DurationMin="34.996510" DurationMax="34.996510">
+				<Event Id="3722692183" Name="EndMusicAlt_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusicAlt_Start" GUID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}" DurationType="OneShot" DurationMin="34.99651" DurationMax="34.99651">
 					<IncludedMemoryFiles>
 						<File Id="622111499" Language="SFX">
 							<ShortName>OasisMusic-DoricoAudio-Main B-Outro.wav</ShortName>
@@ -168,7 +168,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2822115966" Name="StopAll_Music" ObjectPath="\Events\Default Work Unit\Music\StopAll_Music" GUID="{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="2822115966" Name="StopAll_Music" ObjectPath="\Events\Default Work Unit\Music\StopAll_Music" GUID="{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="3311114165" Name="TakeItem_Music" ObjectPath="\Events\Default Work Unit\Music\TakeItem_Music" GUID="{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}" DurationType="OneShot" DurationMin="4.914739" DurationMax="4.914739">
 					<IncludedMemoryFiles>
 						<File Id="958511008" Language="SFX">
@@ -179,7 +179,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="3415118166">
+		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="1068501343">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Default</ObjectPath>
 			<ShortName>SB_Default</ShortName>
 			<Path>SB_Default.bnk</Path>
@@ -224,8 +224,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3121080756" Name="CH_Footsteps_Grass_Slow_Stop" ObjectPath="\Events\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Stop" GUID="{992ADFB0-229A-4135-AAC2-07D28066013E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1928584519" Name="CH_SoSchwert_MoveFast" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_MoveFast" GUID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}" DurationType="OneShot" DurationMin="2.351270" DurationMax="2.351270">
+				<Event Id="3121080756" Name="CH_Footsteps_Grass_Slow_Stop" ObjectPath="\Events\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Stop" GUID="{992ADFB0-229A-4135-AAC2-07D28066013E}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1928584519" Name="CH_SoSchwert_MoveFast" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_MoveFast" GUID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}" DurationType="OneShot" DurationMin="2.35127" DurationMax="2.35127">
 					<IncludedMemoryFiles>
 						<File Id="605231197" Language="SFX">
 							<ShortName>MoveFast-002.wav</ShortName>
@@ -284,7 +284,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4207352866" Name="ENV_Inseln_Reposition_Stop" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop" GUID="{C9F94D7D-F313-493F-A570-21B52624CD7B}" DurationType="OneShot" DurationMin="4.788798" DurationMax="5.800000">
+				<Event Id="4207352866" Name="ENV_Inseln_Reposition_Stop" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop" GUID="{C9F94D7D-F313-493F-A570-21B52624CD7B}" DurationType="OneShot" DurationMin="4.788798" DurationMax="5.8">
 					<IncludedMemoryFiles>
 						<File Id="72994115" Language="SFX">
 							<ShortName>Inseln_Connect-003.wav</ShortName>
@@ -435,7 +435,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3043697892" Name="IT_SoSchwert_BaseLoop_Stop" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Stop" GUID="{F6B1B398-E033-4312-ACC5-A09F616A9984}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3043697892" Name="IT_SoSchwert_BaseLoop_Stop" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Stop" GUID="{F6B1B398-E033-4312-ACC5-A09F616A9984}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2237714540" Name="RTSL_Sun_BeamReflectStart" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_BeamReflectStart" GUID="{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="128674909" Language="SFX">
@@ -544,7 +544,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3220389727" Name="SFX_ENV_Ghosts_Mumble_Random_Stop" ObjectPath="\Events\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Stop" GUID="{7C884D5A-3B98-481B-92AA-D419DF14940D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3220389727" Name="SFX_ENV_Ghosts_Mumble_Random_Stop" ObjectPath="\Events\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Stop" GUID="{7C884D5A-3B98-481B-92AA-D419DF14940D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2126331685" Name="SFX_ENV_Wind_Loop_Start" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Start" GUID="{77E3C06C-86D8-440A-88B3-02EAE646B37F}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="5372116" Language="SFX">
@@ -597,7 +597,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1707272775" Name="SFX_ENV_Wind_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Stop" GUID="{61BE3BB7-3DE6-4A07-8D82-921AF4145864}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1707272775" Name="SFX_ENV_Wind_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Stop" GUID="{61BE3BB7-3DE6-4A07-8D82-921AF4145864}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 		</SoundBank>
 		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1113898651">
