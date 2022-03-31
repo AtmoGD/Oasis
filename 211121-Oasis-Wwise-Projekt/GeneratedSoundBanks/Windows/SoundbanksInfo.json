@@ -1,0 +1,1062 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
+  },
+  "DialogueEvents": [],
+  "StreamedFiles": [],
+  "MediaFilesNotInAnyBank": [],
+  "SoundBanks": [
+   {
+    "Id": "779753582",
+    "GUID": "{15DA4724-68AB-47F0-AD1A-0DB8061AD290}",
+    "Language": "SFX",
+    "Hash": "4256382536",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Music",
+    "ShortName": "SB_Music",
+    "Path": "SB_Music.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "983609297",
+      "Name": "BuchMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\BuchMusic_Start",
+      "GUID": "{0176C552-F9A9-48E6-A071-434EE516288A}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "80991123",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Buch B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Buch B_073B4D0C.wem"
+       },
+       {
+        "Id": "339417274",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Buch A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Buch A_073B4D0C.wem"
+       },
+       {
+        "Id": "972568707",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Buch A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Buch A'_073B4D0C.wem"
+       },
+       {
+        "Id": "1064474414",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Buch C.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Buch C_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "218200519",
+      "Name": "DemoMusicStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\DemoMusicStart",
+      "GUID": "{31FBF4C0-6E34-4BE4-B7CD-DD5DEE4CBB9F}",
+      "DurationType": "OneShot",
+      "DurationMin": "53.583332",
+      "DurationMax": "53.583332",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "207525003",
+        "Language": "SFX",
+        "ShortName": "Oasis_Music_Demo.wav",
+        "Path": "SFX\\Oasis_Music_Demo_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3494551877",
+      "Name": "DolchMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\DolchMusic_Start",
+      "GUID": "{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "231353024",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Dolch A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch A'_073B4D0C.wem"
+       },
+       {
+        "Id": "506562318",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Dolch C.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch C_073B4D0C.wem"
+       },
+       {
+        "Id": "846401668",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Dolch A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch A_073B4D0C.wem"
+       },
+       {
+        "Id": "931862698",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Dolch B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch B_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3208707916",
+      "Name": "EndMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\EndMusic_Start",
+      "GUID": "{53A34E9F-071A-42BC-B291-E4068B9DCDB6}",
+      "DurationType": "OneShot",
+      "DurationMin": "42.479912",
+      "DurationMax": "42.479912",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "104279542",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main B-EndSzene.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main B-EndSzene_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3722692183",
+      "Name": "EndMusicAlt_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\EndMusicAlt_Start",
+      "GUID": "{10EA67D6-4416-4F37-BA33-1D22BE467D6C}",
+      "DurationType": "OneShot",
+      "DurationMin": "34.99651",
+      "DurationMax": "34.99651",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "622111499",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main B-Outro.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main B-Outro_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3796113407",
+      "Name": "GiveItem_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\GiveItem_Music",
+      "GUID": "{F31D47C6-067D-4D75-9118-0DE09181073D}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.853242",
+      "DurationMax": "9.853242",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "249177938",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Item Give.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Item Give_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3781525195",
+      "Name": "ItemWait_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\ItemWait_Music",
+      "GUID": "{6CBCB54A-F5BC-4F79-AA31-6892BFE3118B}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "648485306",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Waiting Item.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Waiting Item_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2072348442",
+      "Name": "Main_MusicStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Main_MusicStart",
+      "GUID": "{39726541-E6A0-4508-96FC-79CE74FF9494}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118988887",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main A'_073B4D0C.wem"
+       },
+       {
+        "Id": "120160121",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main A_073B4D0C.wem"
+       },
+       {
+        "Id": "374674203",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main D.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main D_073B4D0C.wem"
+       },
+       {
+        "Id": "435405122",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main C.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main C_073B4D0C.wem"
+       },
+       {
+        "Id": "802951768",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main B'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main B'_073B4D0C.wem"
+       },
+       {
+        "Id": "884504287",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main B_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2062928797",
+      "Name": "SchwertMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\SchwertMusic_Start",
+      "GUID": "{75DFDF64-2F9C-4797-B590-12E11B1C311E}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "173700116",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Schwert A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert A'_073B4D0C.wem"
+       },
+       {
+        "Id": "204338130",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Schwert A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert A_073B4D0C.wem"
+       },
+       {
+        "Id": "239420838",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Schwert Bridge zu A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert Bridge zu A_073B4D0C.wem"
+       },
+       {
+        "Id": "698765316",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Schwert B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert B_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "768346475",
+      "Name": "StabMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\StabMusic_Start",
+      "GUID": "{12FC3D4F-2573-473A-B29F-030F773E3190}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "113069037",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab A'_073B4D0C.wem"
+       },
+       {
+        "Id": "312291867",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab B_073B4D0C.wem"
+       },
+       {
+        "Id": "782262275",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab A_073B4D0C.wem"
+       },
+       {
+        "Id": "1004695191",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab C.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab C_073B4D0C.wem"
+       },
+       {
+        "Id": "1045427137",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab Intro.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab Intro_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2822115966",
+      "Name": "StopAll_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\StopAll_Music",
+      "GUID": "{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "3311114165",
+      "Name": "TakeItem_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\TakeItem_Music",
+      "GUID": "{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.914739",
+      "DurationMax": "4.914739",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "958511008",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Item Take.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Item Take_073B4D0C.wem"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "Id": "822237696",
+    "GUID": "{3842C804-D806-4940-B6C4-AB4F99E37EDB}",
+    "Language": "SFX",
+    "Hash": "1068501343",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Default",
+    "ShortName": "SB_Default",
+    "Path": "SB_Default.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2422007016",
+      "Name": "CH_Footsteps_Grass_Slow_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_Walking\\CH_Footsteps_Grass_Slow_Start",
+      "GUID": "{A80DA01F-78EE-40B9-B4DE-BB67E95359F8}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "62615609",
+        "Language": "SFX",
+        "ShortName": "Grass-002.wav",
+        "Path": "SFX\\Grass-002_755F56E2.wem"
+       },
+       {
+        "Id": "194876377",
+        "Language": "SFX",
+        "ShortName": "Grass-006.wav",
+        "Path": "SFX\\Grass-006_755F56E2.wem"
+       },
+       {
+        "Id": "210910562",
+        "Language": "SFX",
+        "ShortName": "Grass-005.wav",
+        "Path": "SFX\\Grass-005_755F56E2.wem"
+       },
+       {
+        "Id": "412827180",
+        "Language": "SFX",
+        "ShortName": "Grass-009.wav",
+        "Path": "SFX\\Grass-009_755F56E2.wem"
+       },
+       {
+        "Id": "518297966",
+        "Language": "SFX",
+        "ShortName": "Grass-003.wav",
+        "Path": "SFX\\Grass-003_755F56E2.wem"
+       },
+       {
+        "Id": "524583771",
+        "Language": "SFX",
+        "ShortName": "Grass-004.wav",
+        "Path": "SFX\\Grass-004_755F56E2.wem"
+       },
+       {
+        "Id": "675910323",
+        "Language": "SFX",
+        "ShortName": "Grass-008.wav",
+        "Path": "SFX\\Grass-008_755F56E2.wem"
+       },
+       {
+        "Id": "718241462",
+        "Language": "SFX",
+        "ShortName": "Grass-007.wav",
+        "Path": "SFX\\Grass-007_755F56E2.wem"
+       },
+       {
+        "Id": "1025670664",
+        "Language": "SFX",
+        "ShortName": "Grass-001.wav",
+        "Path": "SFX\\Grass-001_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3121080756",
+      "Name": "CH_Footsteps_Grass_Slow_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_Walking\\CH_Footsteps_Grass_Slow_Stop",
+      "GUID": "{992ADFB0-229A-4135-AAC2-07D28066013E}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "1928584519",
+      "Name": "CH_SoSchwert_MoveFast",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_SoSchwert\\CH_SoSchwert_MoveFast",
+      "GUID": "{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.35127",
+      "DurationMax": "2.35127",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "605231197",
+        "Language": "SFX",
+        "ShortName": "MoveFast-002.wav",
+        "Path": "SFX\\MoveFast-002_755F56E2.wem"
+       },
+       {
+        "Id": "857768039",
+        "Language": "SFX",
+        "ShortName": "MoveFast-003.wav",
+        "Path": "SFX\\MoveFast-003_755F56E2.wem"
+       },
+       {
+        "Id": "961411102",
+        "Language": "SFX",
+        "ShortName": "MoveFast-001.wav",
+        "Path": "SFX\\MoveFast-001_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1720561534",
+      "Name": "CH_SoSchwert_Pickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_SoSchwert\\CH_SoSchwert_Pickup",
+      "GUID": "{570FF76A-123C-48E9-9622-096E8DA07AEE}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.297687",
+      "DurationMax": "3.297687",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "240668027",
+        "Language": "SFX",
+        "ShortName": "Pickup-001.wav",
+        "Path": "SFX\\Pickup-001_755F56E2.wem"
+       },
+       {
+        "Id": "421485979",
+        "Language": "SFX",
+        "ShortName": "Pickup-002.wav",
+        "Path": "SFX\\Pickup-002_755F56E2.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3131767078",
+        "Name": "IT_SoSchwert_BaseLoop_InHand",
+        "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_SoSchwert_BaseLoop_InHand",
+        "GUID": "{27E3943A-94B1-4797-8F15-FD9A17982A1A}"
+       }
+      ]
+     },
+     {
+      "Id": "2862968157",
+      "Name": "CH_SoSchwert_Putdown",
+      "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_SoSchwert\\CH_SoSchwert_Putdown",
+      "GUID": "{1A50DD07-EEB3-44B2-89BE-1D46DDC45D32}",
+      "DurationType": "OneShot",
+      "DurationMin": "3.521837",
+      "DurationMax": "3.613129",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "416527613",
+        "Language": "SFX",
+        "ShortName": "Putdown-001.wav",
+        "Path": "SFX\\Putdown-001_755F56E2.wem"
+       },
+       {
+        "Id": "880712132",
+        "Language": "SFX",
+        "ShortName": "Putdown-002.wav",
+        "Path": "SFX\\Putdown-002_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4151696586",
+      "Name": "ENV_Inseln_Reposition_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Inseln\\ENV_Inseln_Reposition_Start",
+      "GUID": "{28BDAB00-9447-4032-9085-5079ACC7081D}",
+      "DurationType": "OneShot",
+      "DurationMin": "20.067574",
+      "DurationMax": "20.067574",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "225378519",
+        "Language": "SFX",
+        "ShortName": "Inseln_Reposition-001.wav",
+        "Path": "SFX\\Inseln_Reposition-001_755F56E2.wem"
+       },
+       {
+        "Id": "473931375",
+        "Language": "SFX",
+        "ShortName": "Inseln_Reposition-003.wav",
+        "Path": "SFX\\Inseln_Reposition-003_755F56E2.wem"
+       },
+       {
+        "Id": "753404509",
+        "Language": "SFX",
+        "ShortName": "Inseln_Reposition-002.wav",
+        "Path": "SFX\\Inseln_Reposition-002_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4207352866",
+      "Name": "ENV_Inseln_Reposition_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Inseln\\ENV_Inseln_Reposition_Stop",
+      "GUID": "{C9F94D7D-F313-493F-A570-21B52624CD7B}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.788798",
+      "DurationMax": "5.8",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "72994115",
+        "Language": "SFX",
+        "ShortName": "Inseln_Connect-003.wav",
+        "Path": "SFX\\Inseln_Connect-003_755F56E2.wem"
+       },
+       {
+        "Id": "467451762",
+        "Language": "SFX",
+        "ShortName": "Inseln_Connect-002.wav",
+        "Path": "SFX\\Inseln_Connect-002_755F56E2.wem"
+       },
+       {
+        "Id": "557462147",
+        "Language": "SFX",
+        "ShortName": "Inseln_Connect-001.wav",
+        "Path": "SFX\\Inseln_Connect-001_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3131767078",
+      "Name": "IT_SoSchwert_BaseLoop_InHand",
+      "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_SoSchwert_BaseLoop_InHand",
+      "GUID": "{27E3943A-94B1-4797-8F15-FD9A17982A1A}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118115622",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-002.wav",
+        "Path": "SFX\\RotatingDrone-002_755F56E2.wem"
+       },
+       {
+        "Id": "129994101",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-001.wav",
+        "Path": "SFX\\RotatingDrone-001_755F56E2.wem"
+       },
+       {
+        "Id": "379302333",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-004.wav",
+        "Path": "SFX\\RotatingDrone-004_755F56E2.wem"
+       },
+       {
+        "Id": "381448561",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-005.wav",
+        "Path": "SFX\\RotatingDrone-005_755F56E2.wem"
+       },
+       {
+        "Id": "397272270",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-006.wav",
+        "Path": "SFX\\FireSizzle-006_755F56E2.wem"
+       },
+       {
+        "Id": "710800201",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-004.wav",
+        "Path": "SFX\\FireSizzle-004_755F56E2.wem"
+       },
+       {
+        "Id": "857821544",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-003.wav",
+        "Path": "SFX\\RotatingDrone-003_755F56E2.wem"
+       },
+       {
+        "Id": "921961296",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-001.wav",
+        "Path": "SFX\\FireSizzle-001_755F56E2.wem"
+       },
+       {
+        "Id": "937032387",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-005.wav",
+        "Path": "SFX\\FireSizzle-005_755F56E2.wem"
+       },
+       {
+        "Id": "977867164",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-002.wav",
+        "Path": "SFX\\FireSizzle-002_755F56E2.wem"
+       },
+       {
+        "Id": "984159048",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-003.wav",
+        "Path": "SFX\\FireSizzle-003_755F56E2.wem"
+       },
+       {
+        "Id": "1059385629",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-007.wav",
+        "Path": "SFX\\FireSizzle-007_755F56E2.wem"
+       }
+      ],
+      "ActionPostEvent": [
+       {
+        "Id": "3043697892",
+        "Name": "IT_SoSchwert_BaseLoop_Stop",
+        "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_SoSchwert_BaseLoop_Stop",
+        "GUID": "{F6B1B398-E033-4312-ACC5-A09F616A9984}"
+       }
+      ]
+     },
+     {
+      "Id": "2091186311",
+      "Name": "IT_SoSchwert_BaseLoop_Lying",
+      "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_SoSchwert_BaseLoop_Lying",
+      "GUID": "{4B864B12-1E6C-430A-9637-4C02E2FE950B}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "67055864",
+        "Language": "SFX",
+        "ShortName": "BaseShimmer.wav",
+        "Path": "SFX\\BaseShimmer_FDC947C2.wem"
+       },
+       {
+        "Id": "118115622",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-002.wav",
+        "Path": "SFX\\RotatingDrone-002_755F56E2.wem"
+       },
+       {
+        "Id": "129994101",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-001.wav",
+        "Path": "SFX\\RotatingDrone-001_755F56E2.wem"
+       },
+       {
+        "Id": "278227356",
+        "Language": "SFX",
+        "ShortName": "BaseShimmer.wav",
+        "Path": "SFX\\BaseShimmer_BCD812EE.wem"
+       },
+       {
+        "Id": "379302333",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-004.wav",
+        "Path": "SFX\\RotatingDrone-004_755F56E2.wem"
+       },
+       {
+        "Id": "381448561",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-005.wav",
+        "Path": "SFX\\RotatingDrone-005_755F56E2.wem"
+       },
+       {
+        "Id": "397272270",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-006.wav",
+        "Path": "SFX\\FireSizzle-006_755F56E2.wem"
+       },
+       {
+        "Id": "413204120",
+        "Language": "SFX",
+        "ShortName": "BaseShimmer.wav",
+        "Path": "SFX\\BaseShimmer_68D08D7F.wem"
+       },
+       {
+        "Id": "710800201",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-004.wav",
+        "Path": "SFX\\FireSizzle-004_755F56E2.wem"
+       },
+       {
+        "Id": "857821544",
+        "Language": "SFX",
+        "ShortName": "RotatingDrone-003.wav",
+        "Path": "SFX\\RotatingDrone-003_755F56E2.wem"
+       },
+       {
+        "Id": "889285383",
+        "Language": "SFX",
+        "ShortName": "BaseShimmer.wav",
+        "Path": "SFX\\BaseShimmer_4B913580.wem"
+       },
+       {
+        "Id": "911928889",
+        "Language": "SFX",
+        "ShortName": "BaseShimmer.wav",
+        "Path": "SFX\\BaseShimmer_E669FA2E.wem"
+       },
+       {
+        "Id": "921961296",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-001.wav",
+        "Path": "SFX\\FireSizzle-001_755F56E2.wem"
+       },
+       {
+        "Id": "929947365",
+        "Language": "SFX",
+        "ShortName": "BaseShimmer.wav",
+        "Path": "SFX\\BaseShimmer_5E8B5201.wem"
+       },
+       {
+        "Id": "937032387",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-005.wav",
+        "Path": "SFX\\FireSizzle-005_755F56E2.wem"
+       },
+       {
+        "Id": "977867164",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-002.wav",
+        "Path": "SFX\\FireSizzle-002_755F56E2.wem"
+       },
+       {
+        "Id": "984159048",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-003.wav",
+        "Path": "SFX\\FireSizzle-003_755F56E2.wem"
+       },
+       {
+        "Id": "1031654895",
+        "Language": "SFX",
+        "ShortName": "BaseShimmer.wav",
+        "Path": "SFX\\BaseShimmer_A4B77992.wem"
+       },
+       {
+        "Id": "1059385629",
+        "Language": "SFX",
+        "ShortName": "FireSizzle-007.wav",
+        "Path": "SFX\\FireSizzle-007_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3043697892",
+      "Name": "IT_SoSchwert_BaseLoop_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_SoSchwert_BaseLoop_Stop",
+      "GUID": "{F6B1B398-E033-4312-ACC5-A09F616A9984}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2237714540",
+      "Name": "RTSL_Sun_BeamReflectStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_BeamReflectStart",
+      "GUID": "{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "128674909",
+        "Language": "SFX",
+        "ShortName": "Beam_Running_Reflected-001.wav",
+        "Path": "SFX\\Beam_Running_Reflected-001_755F56E2.wem"
+       },
+       {
+        "Id": "207456654",
+        "Language": "SFX",
+        "ShortName": "Beam_Running_Reflected-003.wav",
+        "Path": "SFX\\Beam_Running_Reflected-003_755F56E2.wem"
+       },
+       {
+        "Id": "281225704",
+        "Language": "SFX",
+        "ShortName": "Beam_Reflect_OS-003.wav",
+        "Path": "SFX\\Beam_Reflect_OS-003_755F56E2.wem"
+       },
+       {
+        "Id": "372425914",
+        "Language": "SFX",
+        "ShortName": "Beam_Reflect_OS-002.wav",
+        "Path": "SFX\\Beam_Reflect_OS-002_755F56E2.wem"
+       },
+       {
+        "Id": "832781379",
+        "Language": "SFX",
+        "ShortName": "Beam_Reflect_OS-001.wav",
+        "Path": "SFX\\Beam_Reflect_OS-001_755F56E2.wem"
+       },
+       {
+        "Id": "916804220",
+        "Language": "SFX",
+        "ShortName": "Beam_Running_Reflected-002.wav",
+        "Path": "SFX\\Beam_Running_Reflected-002_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "344617331",
+      "Name": "RTSL_Sun_BeamStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_BeamStart",
+      "GUID": "{07C2C607-C1AF-434E-8A23-892D4840E1EB}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "401483933",
+        "Language": "SFX",
+        "ShortName": "Beam_Running-001.wav",
+        "Path": "SFX\\Beam_Running-001_755F56E2.wem"
+       },
+       {
+        "Id": "789496047",
+        "Language": "SFX",
+        "ShortName": "Beam_Start-003.wav",
+        "Path": "SFX\\Beam_Start-003_755F56E2.wem"
+       },
+       {
+        "Id": "834870781",
+        "Language": "SFX",
+        "ShortName": "Beam_Running-002.wav",
+        "Path": "SFX\\Beam_Running-002_755F56E2.wem"
+       },
+       {
+        "Id": "848570140",
+        "Language": "SFX",
+        "ShortName": "Beam_Start-001.wav",
+        "Path": "SFX\\Beam_Start-001_755F56E2.wem"
+       },
+       {
+        "Id": "934026136",
+        "Language": "SFX",
+        "ShortName": "Beam_Running-003.wav",
+        "Path": "SFX\\Beam_Running-003_755F56E2.wem"
+       },
+       {
+        "Id": "1024022785",
+        "Language": "SFX",
+        "ShortName": "Beam_Start-002.wav",
+        "Path": "SFX\\Beam_Start-002_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2400998577",
+      "Name": "RTSL_Sun_BeamStop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_BeamStop",
+      "GUID": "{763A4E2B-7791-49B0-8D7E-801B5D82F28C}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.308322",
+      "DurationMax": "5.308322",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "133555340",
+        "Language": "SFX",
+        "ShortName": "Beam_Stop-001.wav",
+        "Path": "SFX\\Beam_Stop-001_755F56E2.wem"
+       },
+       {
+        "Id": "569770197",
+        "Language": "SFX",
+        "ShortName": "Beam_Stop-003.wav",
+        "Path": "SFX\\Beam_Stop-003_755F56E2.wem"
+       },
+       {
+        "Id": "784477728",
+        "Language": "SFX",
+        "ShortName": "Beam_Stop-002.wav",
+        "Path": "SFX\\Beam_Stop-002_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2874671291",
+      "Name": "RTSL_Sun_BeamUnreflect",
+      "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_BeamUnreflect",
+      "GUID": "{9FC0877A-73D2-45C6-8E6A-22FF06815967}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "401483933",
+        "Language": "SFX",
+        "ShortName": "Beam_Running-001.wav",
+        "Path": "SFX\\Beam_Running-001_755F56E2.wem"
+       },
+       {
+        "Id": "834870781",
+        "Language": "SFX",
+        "ShortName": "Beam_Running-002.wav",
+        "Path": "SFX\\Beam_Running-002_755F56E2.wem"
+       },
+       {
+        "Id": "934026136",
+        "Language": "SFX",
+        "ShortName": "Beam_Running-003.wav",
+        "Path": "SFX\\Beam_Running-003_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1895539805",
+      "Name": "SFX_ENV_Ghosts_Mumble_Random_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Ghosts\\SFX_ENV_Ghosts_Mumble_Random_Start",
+      "GUID": "{8C35C0DF-6DA0-4BA7-B004-1CBE5C97A398}",
+      "DurationType": "OneShot",
+      "DurationMin": "61.157619",
+      "DurationMax": "91.157623",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "227561129",
+        "Language": "SFX",
+        "ShortName": "ENV_Ghosts-Voice-002.wav",
+        "Path": "SFX\\ENV_Ghosts-Voice-002_755F56E2.wem"
+       },
+       {
+        "Id": "668691538",
+        "Language": "SFX",
+        "ShortName": "ENV_Ghosts-Voice-003.wav",
+        "Path": "SFX\\ENV_Ghosts-Voice-003_755F56E2.wem"
+       },
+       {
+        "Id": "900039528",
+        "Language": "SFX",
+        "ShortName": "ENV_Ghosts-Voice-004.wav",
+        "Path": "SFX\\ENV_Ghosts-Voice-004_755F56E2.wem"
+       },
+       {
+        "Id": "914979617",
+        "Language": "SFX",
+        "ShortName": "ENV_Ghosts-Voice-001.wav",
+        "Path": "SFX\\ENV_Ghosts-Voice-001_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3220389727",
+      "Name": "SFX_ENV_Ghosts_Mumble_Random_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Ghosts\\SFX_ENV_Ghosts_Mumble_Random_Stop",
+      "GUID": "{7C884D5A-3B98-481B-92AA-D419DF14940D}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "2126331685",
+      "Name": "SFX_ENV_Wind_Loop_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Wind\\SFX_ENV_Wind_Loop_Start",
+      "GUID": "{77E3C06C-86D8-440A-88B3-02EAE646B37F}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "5372116",
+        "Language": "SFX",
+        "ShortName": "Wind_SingleHowls.wav",
+        "Path": "SFX\\Wind_SingleHowls_74AF2C12.wem"
+       },
+       {
+        "Id": "27664711",
+        "Language": "SFX",
+        "ShortName": "Wind_Trees-002.wav",
+        "Path": "SFX\\Wind_Trees-002_755F56E2.wem"
+       },
+       {
+        "Id": "60251323",
+        "Language": "SFX",
+        "ShortName": "Wind_Actions-002.wav",
+        "Path": "SFX\\Wind_Actions-002_755F56E2.wem"
+       },
+       {
+        "Id": "227710377",
+        "Language": "SFX",
+        "ShortName": "Wind_Actions-004.wav",
+        "Path": "SFX\\Wind_Actions-004_755F56E2.wem"
+       },
+       {
+        "Id": "304731853",
+        "Language": "SFX",
+        "ShortName": "Wind_SingleHowls.wav",
+        "Path": "SFX\\Wind_SingleHowls_1EE963F3.wem"
+       },
+       {
+        "Id": "403733456",
+        "Language": "SFX",
+        "ShortName": "Wind_Actions-001.wav",
+        "Path": "SFX\\Wind_Actions-001_755F56E2.wem"
+       },
+       {
+        "Id": "659750395",
+        "Language": "SFX",
+        "ShortName": "Wind_Trees-003.wav",
+        "Path": "SFX\\Wind_Trees-003_755F56E2.wem"
+       },
+       {
+        "Id": "771374981",
+        "Language": "SFX",
+        "ShortName": "Wind_SingleHowls.wav",
+        "Path": "SFX\\Wind_SingleHowls_C5F7BA84.wem"
+       },
+       {
+        "Id": "873952444",
+        "Language": "SFX",
+        "ShortName": "Wind_Trees-001.wav",
+        "Path": "SFX\\Wind_Trees-001_755F56E2.wem"
+       },
+       {
+        "Id": "923692346",
+        "Language": "SFX",
+        "ShortName": "Wind_SingleHowls.wav",
+        "Path": "SFX\\Wind_SingleHowls_37BBE712.wem"
+       },
+       {
+        "Id": "1003295280",
+        "Language": "SFX",
+        "ShortName": "Wind_SingleHowls.wav",
+        "Path": "SFX\\Wind_SingleHowls_75AC5457.wem"
+       },
+       {
+        "Id": "1017046142",
+        "Language": "SFX",
+        "ShortName": "Wind_Actions-003.wav",
+        "Path": "SFX\\Wind_Actions-003_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "1707272775",
+      "Name": "SFX_ENV_Wind_Loop_Stop",
+      "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Wind\\SFX_ENV_Wind_Loop_Stop",
+      "GUID": "{61BE3BB7-3DE6-4A07-8D82-921AF4145864}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     }
+    ]
+   },
+   {
+    "Id": "1355168291",
+    "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
+    "Language": "SFX",
+    "Hash": "1113898651",
+    "ObjectPath": "Init",
+    "ShortName": "Init",
+    "Path": "Init.bnk"
+   }
+  ]
+ }
+}

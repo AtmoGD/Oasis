@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F0E27C77-62A3-4D7F-9E6A-477B2751ED21}" SchemaVersion="103" RootDocumentID="{3866230E-3FD0-443C-90F1-52683FBB3F94}" ParentDocumentID="{3866230E-3FD0-443C-90F1-52683FBB3F94}">
+	<AudioObjects>
+		<WorkUnit Name="Music" ID="{F0E27C77-62A3-4D7F-9E6A-477B2751ED21}" OwnerID="{3866230E-3FD0-443C-90F1-52683FBB3F94}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Sound Name="Oasis_Music_Demo" ID="{272219D4-56BE-46CC-869B-D7EBB5179EB4}" ShortID="722299018">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Oasis_Music_Demo" ID="{6E43D67A-918F-40C0-93C3-FBBE466DC37F}">
+							<Language>SFX</Language>
+							<AudioFile>Oasis_Music_Demo.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="207525003"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Oasis_Music_Demo" ID="{6E43D67A-918F-40C0-93C3-FBBE466DC37F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

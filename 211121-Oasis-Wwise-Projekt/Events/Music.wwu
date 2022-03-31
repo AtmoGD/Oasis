@@ -1,0 +1,610 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" SchemaVersion="103" RootDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" ParentDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}">
+	<Events>
+		<WorkUnit Name="Music" ID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" OwnerID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="19"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="DemoMusicStart" ID="{31FBF4C0-6E34-4BE4-B7CD-DD5DEE4CBB9F}">
+					<ChildrenList>
+						<Action Name="" ID="{F85B5A49-93C1-4361-AD88-629EC5F8F732}" ShortID="931233351">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Oasis_Music_Demo" ID="{272219D4-56BE-46CC-869B-D7EBB5179EB4}" WorkUnitID="{F0E27C77-62A3-4D7F-9E6A-477B2751ED21}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Main_MusicStart" ID="{39726541-E6A0-4508-96FC-79CE74FF9494}">
+					<ChildrenList>
+						<Action Name="" ID="{0838856A-6C69-4151-804F-881B06E2297B}" ShortID="206672142">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{5233EE9D-FDE0-46DF-AC2E-BD2804906876}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D4346362-81A8-44F6-A224-0A92F4FB34C5}" ShortID="873428156">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{74E73460-F1F2-4CEB-BDC0-235573F24DCD}" ShortID="985923558">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{16708C32-D0ED-434E-A6BD-18DB0EB74FD0}" ShortID="416337172">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{05AD74C6-D72B-41DE-B8C6-B5727589513E}" ShortID="916790711">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StopAll_Music" ID="{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}">
+					<ChildrenList>
+						<Action Name="" ID="{5D040544-A77A-4E80-84F1-6F93A66A382B}" ShortID="951658047">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6C0FE76F-FBC8-4F28-93A4-0AEDFD085EAE}" ShortID="265046541">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6CC0C262-E456-4A0B-B3CF-9D87312C059E}" ShortID="128965329">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F55BCF08-4A7E-42E2-9AB0-28FE0C42BCCF}" ShortID="766891656">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{5233EE9D-FDE0-46DF-AC2E-BD2804906876}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2CFBF6DB-77D0-4399-995A-0A671B9C0664}" ShortID="946352542">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{50823B75-FEE7-4A95-B534-C98F08BB3FDD}" ShortID="8365528">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ItemWait" ID="{D6CBBDB5-6774-4FC2-95C7-9B87E6F9689C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3E14478B-F125-409B-9F90-451FDCE1AD6A}" ShortID="1064782969">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OasisMusic-DoricoAudio-Main B-EndSzene" ID="{AB4CED88-F5C9-41E7-AEB1-3DAE7F72D564}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3DC19216-EAB6-495F-B00E-323CC140C89D}" ShortID="535334656">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OasisMusic-DoricoAudio-Main B-Outro" ID="{30CF7D1F-30C0-44D7-AC7D-3C3FB3385962}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BuchMusic_Start" ID="{0176C552-F9A9-48E6-A071-434EE516288A}">
+					<ChildrenList>
+						<Action Name="" ID="{E6436727-B936-411A-BA6C-DBCFA19ABFBD}" ShortID="706376172">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4523431E-FFDF-4CC1-8ECB-B3C225B5ADF7}" ShortID="631450356">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A32352A6-C0C9-43E4-B34B-A14F010D2074}" ShortID="365131286">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{5233EE9D-FDE0-46DF-AC2E-BD2804906876}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{21B10829-C32B-40B2-AC60-47EF328D4E8A}" ShortID="367168627">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D0C742C3-8577-412B-9118-286B96332291}" ShortID="133080734">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="StabMusic_Start" ID="{12FC3D4F-2573-473A-B29F-030F773E3190}">
+					<ChildrenList>
+						<Action Name="" ID="{6F6DA568-D9F5-4A7F-ADF9-60DB38D3B7DC}" ShortID="706849401">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F9B3C6D9-E7B9-4AEC-B372-96EAD15456BC}" ShortID="1023563258">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{08AD594D-BE5B-45E7-812F-1D8E189B1163}" ShortID="710579323">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2D2A99EA-7CEC-4424-895B-DA5B976249B7}" ShortID="44054905">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{5233EE9D-FDE0-46DF-AC2E-BD2804906876}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B329F1A2-1343-4D8A-86B1-BC523DD329F0}" ShortID="114980866">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="SchwertMusic_Start" ID="{75DFDF64-2F9C-4797-B590-12E11B1C311E}">
+					<ChildrenList>
+						<Action Name="" ID="{B8B53760-6353-41E0-BD6D-89082884B816}" ShortID="876068924">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{9F66227E-306D-472F-A604-9D7C02E5ED85}" ShortID="1069315465">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{28080F06-9795-420C-8C44-A0E4FA88BF1C}" ShortID="924542115">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7F09ACFE-B67D-492C-A43E-964283171673}" ShortID="749337457">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{5233EE9D-FDE0-46DF-AC2E-BD2804906876}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{696D240F-70D4-4CC9-B674-9F38BF608C4D}" ShortID="229528412">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="DolchMusic_Start" ID="{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}">
+					<ChildrenList>
+						<Action Name="" ID="{4E62D9D6-B67F-4B17-890A-FD1E25144069}" ShortID="659471638">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EB931F8E-2ED7-4F7B-ADBD-02667AB989BC}" ShortID="690927146">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A0B1B917-CED0-4515-91AD-5859E9289EE7}" ShortID="512188171">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{5233EE9D-FDE0-46DF-AC2E-BD2804906876}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{44D13591-2E56-4DFB-A40D-BBF53D15847A}" ShortID="672391300">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{75B2978C-53B7-403C-9444-80E87CE1AD2C}" ShortID="139825135">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="TakeItem_Music" ID="{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}">
+					<ChildrenList>
+						<Action Name="" ID="{508ECE0C-9511-4960-9703-B65871F5B16E}" ShortID="793667508">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OasisMusic-DoricoAudio-Item Take" ID="{BCEFC450-322C-46C5-A2C3-26E04787165B}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{A09F7FF6-4489-4078-90F2-2EEB1E41E219}" ShortID="253964561">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FE404B9D-FD96-4C5D-834D-72C54A46A6D9}" ShortID="306674790">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FFBF14A4-ACE1-4E5F-BBD6-F34AF3A116D3}" ShortID="100594201">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{EF848D2D-9B42-422F-881D-4DB4AFA45FAE}" ShortID="33452951">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="GiveItem_Music" ID="{F31D47C6-067D-4D75-9118-0DE09181073D}">
+					<ChildrenList>
+						<Action Name="" ID="{0429342C-4F7D-4AAF-817B-733708177919}" ShortID="149338503">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ItemWait" ID="{D6CBBDB5-6774-4FC2-95C7-9B87E6F9689C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D2D37606-7EFC-4FCF-A5C0-ED82E046A885}" ShortID="595448358">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OasisMusic-DoricoAudio-Item Give" ID="{81DB7FE2-AFF8-4C50-B5F6-C1ADA040E26B}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ItemWait_Music" ID="{6CBCB54A-F5BC-4F79-AA31-6892BFE3118B}">
+					<ChildrenList>
+						<Action Name="" ID="{B56A383C-AC8C-4891-9448-4BE00E8A8664}" ShortID="326495752">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ItemWait" ID="{D6CBBDB5-6774-4FC2-95C7-9B87E6F9689C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{13A38080-D869-49C1-B028-31D37476964A}" ShortID="614595538">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{E1867E38-DB3E-4907-B8E9-FC4BFF92EE47}" ShortID="329602128">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4ABD531D-6BF8-4666-9707-EA8FA924636C}" ShortID="967232425">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{1ABC03A3-9BFB-4CA0-8281-97F785EC2F9A}" ShortID="44450356">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EndMusic_Start" ID="{53A34E9F-071A-42BC-B291-E4068B9DCDB6}">
+					<ChildrenList>
+						<Action Name="" ID="{4745B222-338C-4BA1-AEFC-69A5615FE0E6}" ShortID="803901524">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OasisMusic-DoricoAudio-Main B-EndSzene" ID="{AB4CED88-F5C9-41E7-AEB1-3DAE7F72D564}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{4D2520CC-6CCC-4A54-B97C-9BE97A563620}" ShortID="586893156">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3A7D364E-E085-4513-A963-AE47797B96FF}" ShortID="1035437723">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{5233EE9D-FDE0-46DF-AC2E-BD2804906876}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{52656A4B-ADC4-4F1C-9AE6-FD5790BA96A7}" ShortID="302837541">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{F1F81F0F-396A-47B6-86AD-F8529020CA84}" ShortID="194819561">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{56986449-BDFF-4577-AD3D-CE65F060C2D2}" ShortID="184380375">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="EndMusicAlt_Start" ID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}">
+					<ChildrenList>
+						<Action Name="" ID="{A4030408-1203-4985-8C8E-8C34E5DD43E2}" ShortID="340500800">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="OasisMusic-DoricoAudio-Main B-Outro" ID="{30CF7D1F-30C0-44D7-AC7D-3C3FB3385962}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{566FE5A5-7422-457B-A6F9-1A3D65E1A1F1}" ShortID="939684945">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Stab" ID="{6645FAFE-7C55-4D66-8A8D-EBF4C9419B04}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{54AF3EED-7FCF-4425-A830-A127932A61E8}" ShortID="147076646">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Schwert" ID="{6BE4C2A0-C004-41DA-A5E6-78DAB9EFDC97}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6111D9F5-822A-4652-9E50-E3A485B90BCC}" ShortID="512463105">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Buch" ID="{C35EABD7-06ED-4199-8B53-8E0A25BB89DE}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{0D87490C-8B82-4766-812C-1BD143701B91}" ShortID="859862468">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Main" ID="{5233EE9D-FDE0-46DF-AC2E-BD2804906876}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{608CEC8F-BD6A-49B1-8DC4-A1C51258D3A1}" ShortID="540786166">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" WorkUnitID="{6CB8DF3D-DF25-41A7-97EF-F72A9792BDF2}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

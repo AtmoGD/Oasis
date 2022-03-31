@@ -1,0 +1,45 @@
+Event	ID	Name			Wwise Object Path	Notes
+	218200519	DemoMusicStart			\Default Work Unit\Music\DemoMusicStart	
+	768346475	StabMusic_Start			\Default Work Unit\Music\StabMusic_Start	
+	983609297	BuchMusic_Start			\Default Work Unit\Music\BuchMusic_Start	
+	2062928797	SchwertMusic_Start			\Default Work Unit\Music\SchwertMusic_Start	
+	2072348442	Main_MusicStart			\Default Work Unit\Music\Main_MusicStart	
+	2822115966	StopAll_Music			\Default Work Unit\Music\StopAll_Music	
+	3208707916	EndMusic_Start			\Default Work Unit\Music\EndMusic_Start	
+	3311114165	TakeItem_Music			\Default Work Unit\Music\TakeItem_Music	
+	3494551877	DolchMusic_Start			\Default Work Unit\Music\DolchMusic_Start	
+	3722692183	EndMusicAlt_Start			\Default Work Unit\Music\EndMusicAlt_Start	
+	3781525195	ItemWait_Music			\Default Work Unit\Music\ItemWait_Music	
+	3796113407	GiveItem_Music			\Default Work Unit\Music\GiveItem_Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	80991123	OasisMusic-DoricoAudio-Buch B	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Buch B_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Buch\OasisMusic-DoricoAudio-Buch B\OasisMusic-DoricoAudio-Buch B		153656
+	104279542	OasisMusic-DoricoAudio-Main B-EndSzene	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Main B-EndSzene_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\OasisMusic-DoricoAudio-Main B-EndSzene\OasisMusic-DoricoAudio-Main B-EndSzene		249628
+	113069037	OasisMusic-DoricoAudio-Stab A'	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Stab A'_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Stab\OasisMusic-DoricoAudio-Stab A'\OasisMusic-DoricoAudio-Stab A'		66100
+	118988887	OasisMusic-DoricoAudio-Main A'	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Main A'_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Main\OasisMusic-DoricoAudio-Main A'\OasisMusic-DoricoAudio-Main A'		71631
+	120160121	OasisMusic-DoricoAudio-Main A	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Main A_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Main\OasisMusic-DoricoAudio-Main A\OasisMusic-DoricoAudio-Main A		68052
+	173700116	OasisMusic-DoricoAudio-Schwert A'	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Schwert A'_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Schwert\OasisMusic-DoricoAudio-Schwert A'\OasisMusic-DoricoAudio-Schwert A'		141271
+	204338130	OasisMusic-DoricoAudio-Schwert A	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Schwert A_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Schwert\OasisMusic-DoricoAudio-Schwert A\OasisMusic-DoricoAudio-Schwert A		149676
+	207525003	Oasis_Music_Demo	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\Oasis_Music_Demo_315E21E5.wem		\Actor-Mixer Hierarchy\Default Work Unit\Music\Oasis_Music_Demo		325230
+	231353024	OasisMusic-DoricoAudio-Dolch A'	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Dolch A'_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Dolch\OasisMusic-DoricoAudio-Dolch A'\OasisMusic-DoricoAudio-Dolch A'		117528
+	239420838	OasisMusic-DoricoAudio-Schwert Bridge zu A	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Schwert Bridge zu A_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Schwert\OasisMusic-DoricoAudio-Schwert Bridge zu A\OasisMusic-DoricoAudio-Schwert Bridge zu A		59820
+	249177938	OasisMusic-DoricoAudio-Item Give	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Item Give_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Item\OasisMusic-DoricoAudio-Item Give\OasisMusic-DoricoAudio-Item Give		37713
+	312291867	OasisMusic-DoricoAudio-Stab B	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Stab B_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Stab\OasisMusic-DoricoAudio-Stab B\OasisMusic-DoricoAudio-Stab B		131671
+	339417274	OasisMusic-DoricoAudio-Buch A	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Buch A_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Buch\OasisMusic-DoricoAudio-Buch A\OasisMusic-DoricoAudio-Buch A		324950
+	374674203	OasisMusic-DoricoAudio-Main D	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Main D_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Main\OasisMusic-DoricoAudio-Main D\OasisMusic-DoricoAudio-Main D		122366
+	435405122	OasisMusic-DoricoAudio-Main C	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Main C_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Main\OasisMusic-DoricoAudio-Main C\OasisMusic-DoricoAudio-Main C		219983
+	506562318	OasisMusic-DoricoAudio-Dolch C	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Dolch C_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Dolch\OasisMusic-DoricoAudio-Dolch C\OasisMusic-DoricoAudio-Dolch C		113796
+	622111499	OasisMusic-DoricoAudio-Main B-Outro	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Main B-Outro_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\OasisMusic-DoricoAudio-Main B-Outro\OasisMusic-DoricoAudio-Main B-Outro		208994
+	648485306	OasisMusic-DoricoAudio-Waiting Item	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Waiting Item_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\OasisMusic-DoricoAudio-Waiting Item		278911
+	698765316	OasisMusic-DoricoAudio-Schwert B	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Schwert B_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Schwert\OasisMusic-DoricoAudio-Schwert B\OasisMusic-DoricoAudio-Schwert B		186113
+	782262275	OasisMusic-DoricoAudio-Stab A	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Stab A_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Stab\OasisMusic-DoricoAudio-Stab A\OasisMusic-DoricoAudio-Stab A		198654
+	802951768	OasisMusic-DoricoAudio-Main B'	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Main B'_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Main\OasisMusic-DoricoAudio-Main B'\OasisMusic-DoricoAudio-Main B'		219496
+	846401668	OasisMusic-DoricoAudio-Dolch A	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Dolch A_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Dolch\OasisMusic-DoricoAudio-Dolch A\OasisMusic-DoricoAudio-Dolch A		207430
+	884504287	OasisMusic-DoricoAudio-Main B	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Main B_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Main\OasisMusic-DoricoAudio-Main B\OasisMusic-DoricoAudio-Main B		195279
+	931862698	OasisMusic-DoricoAudio-Dolch B	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Dolch B_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Dolch\OasisMusic-DoricoAudio-Dolch B\OasisMusic-DoricoAudio-Dolch B		84239
+	958511008	OasisMusic-DoricoAudio-Item Take	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Item Take_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Item\OasisMusic-DoricoAudio-Item Take\OasisMusic-DoricoAudio-Item Take		24721
+	972568707	OasisMusic-DoricoAudio-Buch A'	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Buch A'_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Buch\OasisMusic-DoricoAudio-Buch A'\OasisMusic-DoricoAudio-Buch A'		80009
+	1004695191	OasisMusic-DoricoAudio-Stab C	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Stab C_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Stab\OasisMusic-DoricoAudio-Stab C\OasisMusic-DoricoAudio-Stab C		132294
+	1045427137	OasisMusic-DoricoAudio-Stab Intro	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Stab Intro_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Stab\OasisMusic-DoricoAudio-Stab Intro\OasisMusic-DoricoAudio-Stab Intro		54381
+	1064474414	OasisMusic-DoricoAudio-Buch C	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Android\SFX\OasisMusic-DoricoAudio-Buch C_D67AFBC3.wem		\Interactive Music Hierarchy\Default Work Unit\Demo\Buch\OasisMusic-DoricoAudio-Buch C\OasisMusic-DoricoAudio-Buch C		136102
+

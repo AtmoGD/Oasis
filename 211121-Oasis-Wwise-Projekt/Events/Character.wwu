@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}" SchemaVersion="103" RootDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" ParentDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}">
+	<Events>
+		<WorkUnit Name="Character" ID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}" OwnerID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="CH_Walking" ID="{5810DCC0-B343-4EC3-976A-98CF82AE414F}" ShortID="585254692">
+					<ChildrenList>
+						<Event Name="CH_Footsteps_Grass_Slow_Start" ID="{A80DA01F-78EE-40B9-B4DE-BB67E95359F8}">
+							<ChildrenList>
+								<Action Name="" ID="{A28DA748-9392-4439-ACBB-D0C867191511}" ShortID="831745237">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CH_Footsteps_Grass_Slow" ID="{9C6AE908-30F8-4143-9DA9-68B49C1E3278}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CH_Footsteps_Grass_Slow_Stop" ID="{992ADFB0-229A-4135-AAC2-07D28066013E}">
+							<ChildrenList>
+								<Action Name="" ID="{CFBAA7E8-62C9-47A8-A48A-3B869E050694}" ShortID="194828238">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CH_Footsteps_Grass_Slow" ID="{9C6AE908-30F8-4143-9DA9-68B49C1E3278}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="CH_SoSchwert" ID="{D2FD1BE1-B06F-462E-9432-CD4B24BD235C}" ShortID="997270487">
+					<ChildrenList>
+						<Event Name="CH_SoSchwert_Pickup" ID="{570FF76A-123C-48E9-9622-096E8DA07AEE}">
+							<ChildrenList>
+								<Action Name="" ID="{94B64628-E660-462D-90C2-F70873DABA54}" ShortID="560142331">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CH_SoSchwert_Pickup" ID="{6E8DC123-8D67-4574-B39D-E7B507DB5C12}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C8B46C5D-A2AA-4F2A-8D4D-5CDE9C14FA27}" ShortID="614273510">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="41"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="IT_SoSchwert_BaseLoop_InHand" ID="{27E3943A-94B1-4797-8F15-FD9A17982A1A}" WorkUnitID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CH_SoSchwert_Putdown" ID="{1A50DD07-EEB3-44B2-89BE-1D46DDC45D32}">
+							<ChildrenList>
+								<Action Name="" ID="{32578CD3-8579-4C3E-9B3E-2E87DF1D56D2}" ShortID="521601794">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CH_SoSchwert_Putdown" ID="{C8793716-6D4A-42BA-B2AE-55EF9A182F8C}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="CH_SoSchwert_MoveFast" ID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}">
+							<ChildrenList>
+								<Action Name="" ID="{DF962EE9-3735-4A41-96A4-EC56C02DFBFD}" ShortID="290762863">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CH_SoSchwert_MoveFast" ID="{B1A4C9A4-64E1-4288-841D-191838919229}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

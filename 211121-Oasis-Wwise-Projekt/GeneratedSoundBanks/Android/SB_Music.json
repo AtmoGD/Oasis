@@ -1,0 +1,321 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Android",
+  "BasePlatform": "Android",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Android\\",
+   "SoundBanksRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Android"
+  },
+  "SoundBanks": [
+   {
+    "Id": "779753582",
+    "GUID": "{15DA4724-68AB-47F0-AD1A-0DB8061AD290}",
+    "Language": "SFX",
+    "Hash": "1188435508",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Music",
+    "ShortName": "SB_Music",
+    "Path": "SB_Music.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "983609297",
+      "Name": "BuchMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\BuchMusic_Start",
+      "GUID": "{0176C552-F9A9-48E6-A071-434EE516288A}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "80991123",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Buch B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Buch B_D67AFBC3.wem"
+       },
+       {
+        "Id": "339417274",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Buch A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Buch A_D67AFBC3.wem"
+       },
+       {
+        "Id": "972568707",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Buch A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Buch A'_D67AFBC3.wem"
+       },
+       {
+        "Id": "1064474414",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Buch C.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Buch C_D67AFBC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "218200519",
+      "Name": "DemoMusicStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\DemoMusicStart",
+      "GUID": "{31FBF4C0-6E34-4BE4-B7CD-DD5DEE4CBB9F}",
+      "DurationType": "OneShot",
+      "DurationMin": "53.583332",
+      "DurationMax": "53.583332",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "207525003",
+        "Language": "SFX",
+        "ShortName": "Oasis_Music_Demo.wav",
+        "Path": "SFX\\Oasis_Music_Demo_315E21E5.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3494551877",
+      "Name": "DolchMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\DolchMusic_Start",
+      "GUID": "{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "231353024",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Dolch A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch A'_D67AFBC3.wem"
+       },
+       {
+        "Id": "506562318",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Dolch C.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch C_D67AFBC3.wem"
+       },
+       {
+        "Id": "846401668",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Dolch A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch A_D67AFBC3.wem"
+       },
+       {
+        "Id": "931862698",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Dolch B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch B_D67AFBC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3208707916",
+      "Name": "EndMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\EndMusic_Start",
+      "GUID": "{53A34E9F-071A-42BC-B291-E4068B9DCDB6}",
+      "DurationType": "OneShot",
+      "DurationMin": "42.479912",
+      "DurationMax": "42.479912",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "104279542",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main B-EndSzene.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main B-EndSzene_D67AFBC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3722692183",
+      "Name": "EndMusicAlt_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\EndMusicAlt_Start",
+      "GUID": "{10EA67D6-4416-4F37-BA33-1D22BE467D6C}",
+      "DurationType": "OneShot",
+      "DurationMin": "34.99651",
+      "DurationMax": "34.99651",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "622111499",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main B-Outro.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main B-Outro_D67AFBC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3796113407",
+      "Name": "GiveItem_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\GiveItem_Music",
+      "GUID": "{F31D47C6-067D-4D75-9118-0DE09181073D}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.853242",
+      "DurationMax": "9.853242",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "249177938",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Item Give.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Item Give_D67AFBC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3781525195",
+      "Name": "ItemWait_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\ItemWait_Music",
+      "GUID": "{6CBCB54A-F5BC-4F79-AA31-6892BFE3118B}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "648485306",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Waiting Item.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Waiting Item_D67AFBC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2072348442",
+      "Name": "Main_MusicStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\Main_MusicStart",
+      "GUID": "{39726541-E6A0-4508-96FC-79CE74FF9494}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "118988887",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main A'_D67AFBC3.wem"
+       },
+       {
+        "Id": "120160121",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main A_D67AFBC3.wem"
+       },
+       {
+        "Id": "374674203",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main D.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main D_D67AFBC3.wem"
+       },
+       {
+        "Id": "435405122",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main C.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main C_D67AFBC3.wem"
+       },
+       {
+        "Id": "802951768",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main B'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main B'_D67AFBC3.wem"
+       },
+       {
+        "Id": "884504287",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Main B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Main B_D67AFBC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2062928797",
+      "Name": "SchwertMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\SchwertMusic_Start",
+      "GUID": "{75DFDF64-2F9C-4797-B590-12E11B1C311E}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "173700116",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Schwert A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert A'_D67AFBC3.wem"
+       },
+       {
+        "Id": "204338130",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Schwert A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert A_D67AFBC3.wem"
+       },
+       {
+        "Id": "239420838",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Schwert Bridge zu A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert Bridge zu A_D67AFBC3.wem"
+       },
+       {
+        "Id": "698765316",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Schwert B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert B_D67AFBC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "768346475",
+      "Name": "StabMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\StabMusic_Start",
+      "GUID": "{12FC3D4F-2573-473A-B29F-030F773E3190}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "113069037",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab A'.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab A'_D67AFBC3.wem"
+       },
+       {
+        "Id": "312291867",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab B.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab B_D67AFBC3.wem"
+       },
+       {
+        "Id": "782262275",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab A.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab A_D67AFBC3.wem"
+       },
+       {
+        "Id": "1004695191",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab C.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab C_D67AFBC3.wem"
+       },
+       {
+        "Id": "1045427137",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Stab Intro.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Stab Intro_D67AFBC3.wem"
+       }
+      ]
+     },
+     {
+      "Id": "2822115966",
+      "Name": "StopAll_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\StopAll_Music",
+      "GUID": "{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}",
+      "MaxAttenuation": "0.",
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
+     },
+     {
+      "Id": "3311114165",
+      "Name": "TakeItem_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\TakeItem_Music",
+      "GUID": "{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.914739",
+      "DurationMax": "4.914739",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "958511008",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-DoricoAudio-Item Take.wav",
+        "Path": "SFX\\OasisMusic-DoricoAudio-Item Take_D67AFBC3.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

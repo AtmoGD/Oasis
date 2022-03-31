@@ -1,0 +1,1055 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}" SchemaVersion="103" RootDocumentID="{3866230E-3FD0-443C-90F1-52683FBB3F94}" ParentDocumentID="{3866230E-3FD0-443C-90F1-52683FBB3F94}">
+	<AudioObjects>
+		<WorkUnit Name="Environment" ID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}" OwnerID="{3866230E-3FD0-443C-90F1-52683FBB3F94}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="ENV_Wind" ID="{2C1EBC8D-8313-40BB-AA6D-C3E5470B065C}" ShortID="239889354">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Environment" ID="{C6DE359B-E18F-4BB8-ACED-3BEBE85C7E04}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="ENV_Wind_Trees" ID="{9A765244-7D28-4F70-B2A3-3BA92CD2883F}" ShortID="933582637">
+							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{B11743CC-72C4-4D32-9474-C123C03B6435}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="4"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="MakeUpGain" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{950411AC-0FE0-4831-8280-21ECA0292CF7}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="1"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{A2FB1338-5BF3-421D-9675-CB9E36B1BA40}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="278"/>
+													<Property Name="Min" Type="Real64" Value="-278"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="3.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{D6A13681-93BC-4433-8F3C-EF5424F8611E}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+													<Property Name="Min" Type="Real64" Value="-2"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wind_Trees-001" ID="{C365C3A7-3272-4CE2-A5A1-7139D904469B}" ShortID="117406160">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{1575C798-DAB0-4CB7-BEDB-30F11D0AADC0}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="4"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BE470D4F-76D4-4C98-983A-E7334FB76E40}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="227"/>
+															<Property Name="Min" Type="Real64" Value="-177"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_Trees-001" ID="{9056A634-FCC0-4089-9132-FA8408511A7E}">
+											<Language>SFX</Language>
+											<AudioFile>Wind_Trees-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="873952444"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_Trees-001" ID="{9056A634-FCC0-4089-9132-FA8408511A7E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_Trees-002" ID="{8CE1DA38-3518-4816-B0BF-37B1D61200F1}" ShortID="1030808657">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{61EE70E7-9DD9-46E4-8D43-2DC6E7C9C684}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="5"/>
+															<Property Name="Min" Type="Real64" Value="-4"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{9EDBC0DD-D0E5-45A1-A5F7-91DD529EE6B8}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="152"/>
+															<Property Name="Min" Type="Real64" Value="-126"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_Trees-002" ID="{360C5F6F-40C4-4475-8D07-FFD7B41A8F44}">
+											<Language>SFX</Language>
+											<AudioFile>Wind_Trees-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="27664711"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_Trees-002" ID="{360C5F6F-40C4-4475-8D07-FFD7B41A8F44}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_Trees-003" ID="{30A94FD6-9CD1-465D-AAEF-C128AF8ADE8D}" ShortID="766860232">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{7EC4664F-05E5-4F99-B09F-444C39A43554}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="6"/>
+															<Property Name="Min" Type="Real64" Value="-7"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="MakeUpGain" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{A2583949-EA59-4F1F-B5C5-4221C1B492FB}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="1"/>
+															<Property Name="Min" Type="Real64" Value="-1"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{B18E5297-CC9D-4D60-8B64-DC43904A31BF}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="177"/>
+															<Property Name="Min" Type="Real64" Value="-177"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_Trees-003" ID="{D63A6212-298E-4686-82CE-A03FF2510D48}">
+											<Language>SFX</Language>
+											<AudioFile>Wind_Trees-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="659750395"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_Trees-003" ID="{D63A6212-298E-4686-82CE-A03FF2510D48}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+										<CustomState Name="" ID="{0A376687-CBB9-4AAD-BE8D-2FB1237ABAE8}" ShortID="723553287">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+										<CustomState Name="" ID="{15EBD657-B2CA-408F-A072-61EF72EDEE17}" ShortID="158517896"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ENV_Wind_Howls" ID="{3ECA65A7-99AD-497F-9D81-AA3AAFF712CA}" ShortID="567886727">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{861A9C99-A71F-4DD2-A48A-361BCE5BC51E}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{77F8E326-AC6B-47C2-A3E3-CE3F6B25EC07}">
+												<PropertyList>
+													<Property Name="Max" Type="Real64" Value="100"/>
+													<Property Name="Min" Type="Real64" Value="-100"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{E08D8DC3-8332-4FE7-98BD-1A24590EFA14}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="3"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wind_SingleHowls" ID="{DBD21275-BF20-4522-81A7-09CD5AFAB5BB}" ShortID="881800307">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{54F74815-8916-4D4C-9ACE-E8861B4A29C2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="100"/>
+															<Property Name="Min" Type="Real64" Value="-110"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{334E87B4-6FF2-4407-8B1A-E70257B962B0}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_SingleHowls" ID="{8FDD3C88-25EF-4555-9621-5703386FFEA5}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.538997950712852"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.12111573748273"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="3.40646704850522"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wind_SingleHowls.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="304731853"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_SingleHowls" ID="{8FDD3C88-25EF-4555-9621-5703386FFEA5}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_SingleHowls_01" ID="{552914C6-F4CA-41CD-BEB1-165A168FF73E}" ShortID="874158269">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{92CD4B80-F845-4358-AB93-7440CD82C9D2}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="10"/>
+															<Property Name="Min" Type="Real64" Value="-100"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{C6DE359B-E18F-4BB8-ACED-3BEBE85C7E04}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_SingleHowls" ID="{55268890-7FA4-4E03-B1B2-7C7C5292E3CD}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.20735540959679"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.94039262256627"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.16930795019157"/>
+												<Property Name="TrimEnd" Type="Real64" Value="9.33544450634659"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wind_SingleHowls.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="923692346"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{3EE9D05F-B8D5-44EF-B482-ECAE6ABA5EBE}"/>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_SingleHowls" ID="{55268890-7FA4-4E03-B1B2-7C7C5292E3CD}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_SingleHowls_02" ID="{987173E6-5B1A-4D2B-9D5D-13ED713D308E}" ShortID="1030283088">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{C6DE359B-E18F-4BB8-ACED-3BEBE85C7E04}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_SingleHowls" ID="{3067FE9B-9465-44ED-922B-F38C63710309}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.431198360570282"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.59543393411004"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="8.17120893280684"/>
+												<Property Name="TrimEnd" Type="Real64" Value="14.2942256529048"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wind_SingleHowls.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="5372116"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{DCBA5111-F478-4D00-8B65-75B96ADCA856}"/>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_SingleHowls" ID="{3067FE9B-9465-44ED-922B-F38C63710309}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_SingleHowls_03" ID="{66477DB3-A8A3-4E3F-9244-EDD3C5401361}" ShortID="33636810">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{C6DE359B-E18F-4BB8-ACED-3BEBE85C7E04}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_SingleHowls" ID="{CAB421E3-477A-49EF-900D-E96E1B34A585}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.0779959014257"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.61699385213856"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="13.6258681940209"/>
+												<Property Name="TrimEnd" Type="Real64" Value="21.0640399138583"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wind_SingleHowls.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="771374981"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{374777D1-CDC2-40A8-B10A-948F5C1695D7}"/>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_SingleHowls" ID="{CAB421E3-477A-49EF-900D-E96E1B34A585}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_SingleHowls_04" ID="{7F8B57AA-BB70-4BFC-859D-8EEBD4688B8A}" ShortID="259433625">
+									<PropertyList>
+										<Property Name="3DPosition" Type="int16" Value="2"/>
+										<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Environment" ID="{C6DE359B-E18F-4BB8-ACED-3BEBE85C7E04}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_SingleHowls" ID="{E331E3AF-6B54-408C-B1E9-A2B70363DC32}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="1.0779959014257"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="1.78947319636667"/>
+												<Property Name="FadeOutShape" Type="int16" Value="7"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="23.4571908150233"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Wind_SingleHowls.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1003295280"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{AFA906F6-7D86-4ECD-9346-C18FE3B7169D}"/>
+									</PositioningInfo>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_SingleHowls" ID="{E331E3AF-6B54-408C-B1E9-A2B70363DC32}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{C363A918-7C52-4296-B1D1-7EEE38A781EA}"/>
+							</PositioningInfo>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+										<CustomState Name="" ID="{91F2BADF-90C6-4961-9827-07E3038C7DF2}" ShortID="639112873">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+										<CustomState Name="" ID="{B6E42699-24C3-4D8D-936E-F21F733F028D}" ShortID="181057996"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ENV_Wind_Base" ID="{159C0843-3B6B-4E27-9248-0FD153B46CCE}" ShortID="414348702">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Wind_Actions-001" ID="{3D4D6941-37E8-4F4B-96F2-8884C6A0EB48}" ShortID="278281614">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_Actions-001" ID="{2D4C7DBE-8B46-42EC-9C72-14EA7C21DEED}">
+											<Language>SFX</Language>
+											<AudioFile>Wind_Actions-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="403733456"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_Actions-001" ID="{2D4C7DBE-8B46-42EC-9C72-14EA7C21DEED}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_Actions-002" ID="{DBC5BDAC-08A0-4EE8-AF93-51B842796EE5}" ShortID="33959561">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_Actions-002" ID="{C7829522-6FCD-4DF9-BEA0-871FC8A898D6}">
+											<Language>SFX</Language>
+											<AudioFile>Wind_Actions-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="60251323"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_Actions-002" ID="{C7829522-6FCD-4DF9-BEA0-871FC8A898D6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_Actions-003" ID="{FFB998F5-3A8E-4EBE-8CEC-7CAEDAC134F9}" ShortID="50173785">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_Actions-003" ID="{62393D37-6F71-457F-86BE-3E355253DF22}">
+											<Language>SFX</Language>
+											<AudioFile>Wind_Actions-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1017046142"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_Actions-003" ID="{62393D37-6F71-457F-86BE-3E355253DF22}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Wind_Actions-004" ID="{3E7D20B9-5065-4536-B82F-006E027415B9}" ShortID="744266906">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Wind_Actions-004" ID="{87BAB7E5-AC4C-49D5-955C-1501B78B459C}">
+											<Language>SFX</Language>
+											<AudioFile>Wind_Actions-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="227710377"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Wind_Actions-004" ID="{87BAB7E5-AC4C-49D5-955C-1501B78B459C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+										<CustomState Name="" ID="{A8E64048-729A-4ADE-BA7F-03493336F87A}" ShortID="718043373"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+										<CustomState Name="" ID="{CA03BC9E-90E2-4D99-87E8-EEE53DEF7FB1}" ShortID="456817151">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="3"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="ENV_Ghosts" ID="{09715F18-2B81-4AE2-8DD5-C6849EF7D459}" ShortID="1007194452">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Environment" ID="{C6DE359B-E18F-4BB8-ACED-3BEBE85C7E04}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="ENV_Ghosts_Voice_Mumble_RR" ID="{45098617-EFA5-4866-961B-FB8DD9956D2E}" ShortID="670991341">
+							<PropertyList>
+								<Property Name="3DPosition" Type="int16" Value="2"/>
+								<Property Name="HoldListenerOrientation" Type="bool" Value="True"/>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>13</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{31795402-3F60-4C53-A002-3B4517514164}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ENV_Ghosts-Voice-001" ID="{43CAE8ED-910F-4B4F-86D6-AADA4B4B079A}" ShortID="682059043">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENV_Ghosts-Voice-001" ID="{6FF4079B-92AA-42D9-8A9A-D33923C5D5BA}">
+											<Language>SFX</Language>
+											<AudioFile>ENV_Ghosts-Voice-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="914979617"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ENV_Ghosts-Voice-001" ID="{6FF4079B-92AA-42D9-8A9A-D33923C5D5BA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENV_Ghosts-Voice-002" ID="{3EE88555-035B-47D6-8284-6A68EA2D432D}" ShortID="282840845">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENV_Ghosts-Voice-002" ID="{5A454A3B-AC4E-46C8-9621-09A523FB7F73}">
+											<Language>SFX</Language>
+											<AudioFile>ENV_Ghosts-Voice-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="227561129"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ENV_Ghosts-Voice-002" ID="{5A454A3B-AC4E-46C8-9621-09A523FB7F73}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENV_Ghosts-Voice-003" ID="{DEB5FDA3-3D2F-4BBB-BD2B-F6D3D2049976}" ShortID="146983289">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENV_Ghosts-Voice-003" ID="{E9FBBE34-9FDF-487F-86BF-0E83E4AB5815}">
+											<Language>SFX</Language>
+											<AudioFile>ENV_Ghosts-Voice-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="668691538"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ENV_Ghosts-Voice-003" ID="{E9FBBE34-9FDF-487F-86BF-0E83E4AB5815}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ENV_Ghosts-Voice-004" ID="{80518812-F18B-43A2-93C2-A0CC0CCD3044}" ShortID="770106024">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ENV_Ghosts-Voice-004" ID="{EF2A55C3-B411-4696-A2BC-4519C78925B3}">
+											<Language>SFX</Language>
+											<AudioFile>ENV_Ghosts-Voice-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="900039528"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="ENV_Ghosts-Voice-004" ID="{EF2A55C3-B411-4696-A2BC-4519C78925B3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{641DAA1C-4B0D-4FE5-AA7E-C8A81B657225}"/>
+							</PositioningInfo>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+										<CustomState Name="" ID="{9657326B-5B97-4CBD-8FBB-FE826D686853}" ShortID="1051015665">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-108"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+										<CustomState Name="" ID="{4632E016-F363-4242-8CC2-93AC85323C75}" ShortID="38288150"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="ENV_Inseln" ID="{5BB3CBDA-0326-4466-BDB9-EF286BC1B269}" ShortID="811980950">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="ENV_Inseln_Reposition" ID="{3A6D8A42-C03C-49F9-AB86-BF8565CC22B1}" ShortID="74891275">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Inseln_Reposition-001" ID="{93C2F4A2-796C-4867-B14F-425D1C91A4E0}" ShortID="725540757">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inseln_Reposition-001" ID="{043F0A0B-4A4E-4453-857C-54BA0BCEC373}">
+											<Language>SFX</Language>
+											<AudioFile>Inseln_Reposition-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="225378519"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Inseln_Reposition-001" ID="{043F0A0B-4A4E-4453-857C-54BA0BCEC373}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Inseln_Reposition-002" ID="{99B78137-42A6-42C7-9DC5-9FDA238B8025}" ShortID="673933254">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inseln_Reposition-002" ID="{830FAD1E-5663-4195-9E05-60E8C49EA8F1}">
+											<Language>SFX</Language>
+											<AudioFile>Inseln_Reposition-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="753404509"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Inseln_Reposition-002" ID="{830FAD1E-5663-4195-9E05-60E8C49EA8F1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Inseln_Reposition-003" ID="{6419EB7E-5955-43C5-A91B-7E531763CF3B}" ShortID="642612343">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inseln_Reposition-003" ID="{2CC00EC7-131B-42FA-ABD7-897481EB5206}">
+											<Language>SFX</Language>
+											<AudioFile>Inseln_Reposition-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="473931375"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Inseln_Reposition-003" ID="{2CC00EC7-131B-42FA-ABD7-897481EB5206}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="ENV_Inseln_Connect" ID="{0261151C-AE4E-437F-93AB-EC262876D8B0}" ShortID="662503707">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Inseln_Connect-001" ID="{DE6EBADF-C70E-421E-97C5-D6A5CA01F980}" ShortID="204751597">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inseln_Connect-001" ID="{CFB5F358-D3B6-48DA-97A5-BC60AC74B04E}">
+											<Language>SFX</Language>
+											<AudioFile>Inseln_Connect-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="557462147"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Inseln_Connect-001" ID="{CFB5F358-D3B6-48DA-97A5-BC60AC74B04E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Inseln_Connect-002" ID="{574E9144-3FA4-4E01-82E4-9AF0D603090A}" ShortID="298975272">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inseln_Connect-002" ID="{28906E20-EC0C-4776-BE90-A961DA9B566B}">
+											<Language>SFX</Language>
+											<AudioFile>Inseln_Connect-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="467451762"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Inseln_Connect-002" ID="{28906E20-EC0C-4776-BE90-A961DA9B566B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Inseln_Connect-003" ID="{6A91D7F4-0651-4C00-9E6C-63A637AC15F5}" ShortID="400752491">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Inseln_Connect-003" ID="{6176FF39-9C0A-4543-9663-652963BAEB61}">
+											<Language>SFX</Language>
+											<AudioFile>Inseln_Connect-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="72994115"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Inseln_Connect-003" ID="{6176FF39-9C0A-4543-9663-652963BAEB61}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

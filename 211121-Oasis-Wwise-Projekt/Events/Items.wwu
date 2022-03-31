@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}" SchemaVersion="103" RootDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" ParentDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}">
+	<Events>
+		<WorkUnit Name="Items" ID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}" OwnerID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="13"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="IT_SoSchwert_BaseLoop_Lying" ID="{4B864B12-1E6C-430A-9637-4C02E2FE950B}">
+					<ChildrenList>
+						<Action Name="" ID="{F455FBD3-5DAE-4A78-BED3-011E236F381D}" ShortID="1043502336">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_SoSchwert_BaseRotate" ID="{1727E7C0-FFBF-4F1D-909E-8DC3765DE368}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6BDEA860-F1BF-492A-B67B-56CFB1DEB2A6}" ShortID="494295279">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_SoSchwert_BaseSizzle" ID="{F014967C-A3E3-47BA-9921-349F08898261}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{8971BCA9-B976-4162-B019-1F5FC6767E42}" ShortID="465737135">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_BaseShimmer" ID="{BEAD1CAE-ECED-489C-A803-7BF26B541071}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="IT_SoSchwert_BaseLoop_InHand" ID="{27E3943A-94B1-4797-8F15-FD9A17982A1A}">
+					<ChildrenList>
+						<Action Name="" ID="{2ABAF936-870E-4DC6-9470-90F2DA951E69}" ShortID="1008098722">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="41"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_SoSchwert_BaseLoop_Stop" ID="{F6B1B398-E033-4312-ACC5-A09F616A9984}" WorkUnitID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FB3DF952-FE27-4555-9746-71D3062E8B35}" ShortID="609242225">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{ED96C99C-0A44-4E26-A44A-8DF4495E3310}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_SoSchwert_BaseRotate" ID="{1727E7C0-FFBF-4F1D-909E-8DC3765DE368}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{D595A965-A9E8-4FD7-9D6C-290A362C8F11}" ShortID="529072377">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="2.5">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{11B33507-D6C7-4D7C-9C39-5477CC1A14B3}"/>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_SoSchwert_BaseSizzle" ID="{F014967C-A3E3-47BA-9921-349F08898261}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="IT_SoSchwert_BaseLoop_Stop" ID="{F6B1B398-E033-4312-ACC5-A09F616A9984}">
+					<ChildrenList>
+						<Action Name="" ID="{BCA98D8A-477A-446E-AD20-539EC91048C0}" ShortID="126632370">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_SoSchwert_BaseRotate" ID="{1727E7C0-FFBF-4F1D-909E-8DC3765DE368}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{C1703846-7D27-4B6F-BE82-331D5CABA63A}" ShortID="413259970">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_SoSchwert_BaseSizzle" ID="{F014967C-A3E3-47BA-9921-349F08898261}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{75211D59-A7BE-486B-B0EA-1D09DFEFA337}" ShortID="68352149">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_BaseShimmer" ID="{BEAD1CAE-ECED-489C-A803-7BF26B541071}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

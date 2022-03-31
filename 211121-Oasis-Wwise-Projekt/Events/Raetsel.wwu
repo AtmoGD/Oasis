@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{842926DF-1CB9-43FC-B05B-58E384E53C76}" SchemaVersion="103" RootDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" ParentDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}">
+	<Events>
+		<WorkUnit Name="Raetsel" ID="{842926DF-1CB9-43FC-B05B-58E384E53C76}" OwnerID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="15"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Sun" ID="{900C5ABE-9B6E-466B-9CCC-C1622AD269D7}" ShortID="9347632">
+					<ChildrenList>
+						<Event Name="RTSL_Sun_BeamStart" ID="{07C2C607-C1AF-434E-8A23-892D4840E1EB}">
+							<ChildrenList>
+								<Action Name="" ID="{FEE481C7-D8AA-4389-A045-46D57EE8FBE3}" ShortID="230225874">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamStart" ID="{8AA0AAB5-133E-4CEF-A67C-21569AC70D7E}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DF166A94-4968-4337-9243-86713C5CC571}" ShortID="338565222">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="1"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="1.75"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamRunning" ID="{08BC61DB-FAA9-480C-A76E-5EAB3FE0061B}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RTSL_Sun_BeamStop" ID="{763A4E2B-7791-49B0-8D7E-801B5D82F28C}">
+							<ChildrenList>
+								<Action Name="" ID="{FF2200EA-F977-4BF0-9AC7-BF54108241D0}" ShortID="331894855">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamRunning" ID="{08BC61DB-FAA9-480C-A76E-5EAB3FE0061B}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8741A1BF-2DD6-4456-82D4-304A835C5802}" ShortID="177295792">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamRunningReflected" ID="{1B986CB4-B92E-4107-B2F8-1FD1DC298DCF}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{47E8BBD1-7101-44F5-9EF5-1789A0B78DFC}" ShortID="669864426">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.5"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.5"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamStop" ID="{7333E660-3943-406F-A60C-BD857584F92A}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RTSL_Sun_BeamReflectStart" ID="{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}">
+							<ChildrenList>
+								<Action Name="" ID="{9D30213C-2E12-4CA9-9B2F-17F8117B79BE}" ShortID="148507768">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamRunning" ID="{08BC61DB-FAA9-480C-A76E-5EAB3FE0061B}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{7898A52C-0E4B-4D9B-9E25-70F43C8A2D3B}" ShortID="255707435">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamReflectOS" ID="{DF8BAFA8-A525-4183-9067-4C188629057E}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{9CD962E3-B306-4DFC-A2B0-E6A67AE7C0E7}" ShortID="43788089">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+										<Property Name="FadeInCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.4"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamRunningReflected" ID="{1B986CB4-B92E-4107-B2F8-1FD1DC298DCF}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="RTSL_Sun_BeamUnreflect" ID="{9FC0877A-73D2-45C6-8E6A-22FF06815967}">
+							<ChildrenList>
+								<Action Name="" ID="{A17269A1-CF1A-43AC-B8E3-F31EF74DE91F}" ShortID="772912158">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamRunningReflected" ID="{1B986CB4-B92E-4107-B2F8-1FD1DC298DCF}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5D5C3132-F8CA-4B06-BD05-7D3C9A1D478D}" ShortID="899818373">
+									<PropertyList>
+										<Property Name="FadeInCurve" Type="int16" Value="1"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="RTSL_Sun_BeamRunning" ID="{08BC61DB-FAA9-480C-A76E-5EAB3FE0061B}" WorkUnitID="{61563481-4669-490E-ADA7-91BE126D126E}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>
