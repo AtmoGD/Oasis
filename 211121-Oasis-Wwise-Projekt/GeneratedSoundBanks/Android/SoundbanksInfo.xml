@@ -11,11 +11,31 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="3433369552">
+		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="1606483267">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
 			<ShortName>SB_Music</ShortName>
 			<Path>SB_Music.bnk</Path>
 			<IncludedEvents>
+				<Event Id="983609297" Name="BuchMusic_Start" ObjectPath="\Events\Default Work Unit\Music\BuchMusic_Start" GUID="{0176C552-F9A9-48E6-A071-434EE516288A}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="80991123" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Buch B.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Buch B_D67AFBC3.wem</Path>
+						</File>
+						<File Id="339417274" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Buch A.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Buch A_D67AFBC3.wem</Path>
+						</File>
+						<File Id="972568707" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Buch A'.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Buch A'_D67AFBC3.wem</Path>
+						</File>
+						<File Id="1064474414" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Buch C.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Buch C_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="218200519" Name="DemoMusicStart" ObjectPath="\Events\Default Work Unit\Music\DemoMusicStart" GUID="{31FBF4C0-6E34-4BE4-B7CD-DD5DEE4CBB9F}" DurationType="OneShot" DurationMin="53.583332" DurationMax="53.583332">
 					<IncludedMemoryFiles>
 						<File Id="207525003" Language="SFX">
@@ -24,9 +44,142 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
+				<Event Id="3494551877" Name="DolchMusic_Start" ObjectPath="\Events\Default Work Unit\Music\DolchMusic_Start" GUID="{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="231353024" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Dolch A'.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Dolch A'_D67AFBC3.wem</Path>
+						</File>
+						<File Id="506562318" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Dolch C.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Dolch C_D67AFBC3.wem</Path>
+						</File>
+						<File Id="846401668" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Dolch A.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Dolch A_D67AFBC3.wem</Path>
+						</File>
+						<File Id="931862698" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Dolch B.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Dolch B_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3208707916" Name="EndMusic_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusic_Start" GUID="{53A34E9F-071A-42BC-B291-E4068B9DCDB6}" DurationType="OneShot" DurationMin="42.479912" DurationMax="42.479912">
+					<IncludedMemoryFiles>
+						<File Id="104279542" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Main B-EndSzene.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Main B-EndSzene_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3722692183" Name="EndMusicAlt_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusicAlt_Start" GUID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}" DurationType="OneShot" DurationMin="34.996510" DurationMax="34.996510">
+					<IncludedMemoryFiles>
+						<File Id="622111499" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Main B-Outro.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Main B-Outro_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3796113407" Name="GiveItem_Music" ObjectPath="\Events\Default Work Unit\Music\GiveItem_Music" GUID="{F31D47C6-067D-4D75-9118-0DE09181073D}" DurationType="OneShot" DurationMin="9.853242" DurationMax="9.853242">
+					<IncludedMemoryFiles>
+						<File Id="249177938" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Item Give.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Item Give_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3781525195" Name="ItemWait_Music" ObjectPath="\Events\Default Work Unit\Music\ItemWait_Music" GUID="{6CBCB54A-F5BC-4F79-AA31-6892BFE3118B}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="648485306" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Waiting Item.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Waiting Item_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2072348442" Name="Main_MusicStart" ObjectPath="\Events\Default Work Unit\Music\Main_MusicStart" GUID="{39726541-E6A0-4508-96FC-79CE74FF9494}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="118988887" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Main A'.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Main A'_D67AFBC3.wem</Path>
+						</File>
+						<File Id="120160121" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Main A.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Main A_D67AFBC3.wem</Path>
+						</File>
+						<File Id="374674203" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Main D.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Main D_D67AFBC3.wem</Path>
+						</File>
+						<File Id="435405122" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Main C.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Main C_D67AFBC3.wem</Path>
+						</File>
+						<File Id="802951768" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Main B'.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Main B'_D67AFBC3.wem</Path>
+						</File>
+						<File Id="884504287" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Main B.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Main B_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2062928797" Name="SchwertMusic_Start" ObjectPath="\Events\Default Work Unit\Music\SchwertMusic_Start" GUID="{75DFDF64-2F9C-4797-B590-12E11B1C311E}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="173700116" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Schwert A'.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Schwert A'_D67AFBC3.wem</Path>
+						</File>
+						<File Id="204338130" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Schwert A.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Schwert A_D67AFBC3.wem</Path>
+						</File>
+						<File Id="239420838" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Schwert Bridge zu A.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Schwert Bridge zu A_D67AFBC3.wem</Path>
+						</File>
+						<File Id="698765316" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Schwert B.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Schwert B_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="768346475" Name="StabMusic_Start" ObjectPath="\Events\Default Work Unit\Music\StabMusic_Start" GUID="{12FC3D4F-2573-473A-B29F-030F773E3190}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="113069037" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Stab A'.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Stab A'_D67AFBC3.wem</Path>
+						</File>
+						<File Id="312291867" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Stab B.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Stab B_D67AFBC3.wem</Path>
+						</File>
+						<File Id="782262275" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Stab A.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Stab A_D67AFBC3.wem</Path>
+						</File>
+						<File Id="1004695191" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Stab C.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Stab C_D67AFBC3.wem</Path>
+						</File>
+						<File Id="1045427137" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Stab Intro.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Stab Intro_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2822115966" Name="StopAll_Music" ObjectPath="\Events\Default Work Unit\Music\StopAll_Music" GUID="{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3311114165" Name="TakeItem_Music" ObjectPath="\Events\Default Work Unit\Music\TakeItem_Music" GUID="{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}" DurationType="OneShot" DurationMin="4.914739" DurationMax="4.914739">
+					<IncludedMemoryFiles>
+						<File Id="958511008" Language="SFX">
+							<ShortName>OasisMusic-DoricoAudio-Item Take.wav</ShortName>
+							<Path>SFX\OasisMusic-DoricoAudio-Item Take_D67AFBC3.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="1204519147">
+		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="1343227019">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Default</ObjectPath>
 			<ShortName>SB_Default</ShortName>
 			<Path>SB_Default.bnk</Path>

@@ -27,10 +27,11 @@ State	ID	Name	State Group			Notes
 	2649703675	Moving	PlayerMovement			Player doing something
 
 Custom State	ID	Name	State Group	Owner		Notes
+	25735155	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle		Player doing something
 	26333223	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamStop		Player doing something
-	34599222	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base		Player doing something
 	300346365	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer		Player doing something
 	378165065	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamRunning		Player doing something
+	422185289	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate		Player doing something
 	456817151	Thinking	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base		Player not moving at all/ just looking around; no interactions
 	639112873	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls		Player doing something
 	723553287	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Trees		Player doing something

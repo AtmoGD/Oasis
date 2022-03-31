@@ -213,6 +213,27 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+										<CustomState Name="" ID="{E4D49555-A4BD-4583-8E78-E26CA3642175}" ShortID="25735155">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+										<CustomState Name="" ID="{F5527DA0-39C7-4C36-AC0A-C01CE3E98509}" ShortID="525260552"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
 						<RandomSequenceContainer Name="IT_SoSchwert_BaseRotate" ID="{1727E7C0-FFBF-4F1D-909E-8DC3765DE368}" ShortID="281835744">
@@ -440,30 +461,30 @@
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+										<CustomState Name="" ID="{A5668D31-322F-48E3-8A66-B24633805FC2}" ShortID="422185289">
+											<PropertyList>
+												<Property Name="Volume" Type="Real64" Value="-10"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+										<CustomState Name="" ID="{1299140A-064F-420D-86D2-012C11EF0037}" ShortID="788871689"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>
-					<StateInfo>
-						<StateGroupList>
-							<StateGroupInfo>
-								<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
-							</StateGroupInfo>
-						</StateGroupList>
-						<CustomStateList>
-							<CustomState>
-								<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
-								<CustomState Name="" ID="{0B6D5080-8040-4568-AE88-230F62885356}" ShortID="34599222">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64" Value="-15"/>
-									</PropertyList>
-								</CustomState>
-							</CustomState>
-							<CustomState>
-								<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
-								<CustomState Name="" ID="{06A390D1-602E-4CF5-8F97-1D95FE86500A}" ShortID="569251725"/>
-							</CustomState>
-						</CustomStateList>
-					</StateInfo>
 					<ObjectLists/>
 				</ActorMixer>
 				<RandomSequenceContainer Name="IT_BaseShimmer" ID="{BEAD1CAE-ECED-489C-A803-7BF26B541071}" ShortID="96039855">
