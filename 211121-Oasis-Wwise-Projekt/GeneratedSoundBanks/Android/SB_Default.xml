@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Android</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="3016998150">
+		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="4001001324">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Default</ObjectPath>
 			<ShortName>SB_Default</ShortName>
 			<Path>SB_Default.bnk</Path>
@@ -97,7 +97,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4151696586" Name="ENV_Inseln_Reposition_Start" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Start" GUID="{28BDAB00-9447-4032-9085-5079ACC7081D}" DurationType="OneShot" DurationMin="20.067574" DurationMax="20.067574">
+				<Event Id="4151696586" Name="ENV_Inseln_Reposition_Start" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Start" GUID="{28BDAB00-9447-4032-9085-5079ACC7081D}" MaxAttenuation="3000." DurationType="OneShot" DurationMin="20.067574" DurationMax="20.067574">
 					<IncludedMemoryFiles>
 						<File Id="225378519" Language="SFX">
 							<ShortName>Inseln_Reposition-001.wav</ShortName>
