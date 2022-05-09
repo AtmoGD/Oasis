@@ -22,6 +22,10 @@
 			"Name": "DTHttpRequest",
 			"Enabled": true,
 			"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/product/3aa1c454308746df9036022bf3f04edb"
+		},
+		{
+			"Name": "LiveLinkXR",
+			"Enabled": true
 		}
 	]
 }
