@@ -1,0 +1,88 @@
+Event	ID	Name			Wwise Object Path	Notes
+	3208707916	EndMusic_Start			\Default Work Unit\Music\EndMusic_Start	
+	3311114165	TakeItem_Music			\Default Work Unit\Music\TakeItem_Music	
+	3722692183	EndMusicAlt_Start			\Default Work Unit\Music\EndMusicAlt_Start	
+	3781525195	ItemWait_Music			\Default Work Unit\Music\ItemWait_Music	
+	3796113407	GiveItem_Music			\Default Work Unit\Music\GiveItem_Music	
+
+State Group	ID	Name			Wwise Object Path	Notes
+	3067361994	Current_Item			\Default Work Unit\Current_Item	
+
+State	ID	Name	State Group			Notes
+	553997889	Stab	Current_Item			
+	748895195	None	Current_Item			
+	1199187907	Schwert	Current_Item			
+	1696067751	Buch	Current_Item			
+	1999344587	Dolch	Current_Item			
+
+Custom State	ID	Name	State Group	Owner		Notes
+	14395913	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert2		
+	14398152	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch4		
+	15237663	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Buch1		
+	22548296	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch4		
+	33142974	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Buch2		
+	98669989	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert1		
+	100426357	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab4		
+	176602277	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Buch2		
+	203267319	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert4		
+	242116386	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch3		
+	286067650	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab2		
+	299412968	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch3		
+	341300230	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Buch2		
+	471385171	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert3		
+	474617623	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert4		
+	498381788	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab3		
+	522232756	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert3		
+	529211826	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Buch1		
+	544956155	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert1		
+	583677873	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab4		
+	585042341	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch1		
+	634491852	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch2		
+	637316031	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab1		
+	640360156	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab4		
+	647990998	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab1		
+	654855796	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert2		
+	656991856	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab2		
+	728429415	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Buch1		
+	730323540	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch4		
+	761549473	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch1		
+	776317281	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch2		
+	801919712	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert2		
+	826109940	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab3		
+	827444209	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch1		
+	838791268	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab3		
+	846720548	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert3		
+	849193497	Dolch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert4		
+	858351054	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch2		
+	970072489	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab2		
+	1027800142	Stab	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert1		
+	1042326075	Schwert	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab1		
+	1051424417	Buch	Current_Item	\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch3		
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21963438	Piano_Main1	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano 7-002_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Main1		311874
+	106516390	Piano_Dolch1	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano5-004_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch1		341262
+	119911431	Piano_Stab2	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano4-003_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab2		265727
+	198733310	Piano_Main2	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano6-001_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Main2		222266
+	215322020	Piano_Main2	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano-001_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Main2		319363
+	217754420	Piano_Schwert2	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano2-003_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert2		370250
+	335564317	Piano_Buch2	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano2-001_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Buch2		244269
+	343932145	Piano_Dolch4	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano5-001_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch4		275530
+	370728640	Piano_Buch1	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano2-002_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Buch1		195742
+	453988457	Piano_Stab1	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano3-003_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab1		279444
+	573330930	Piano_Main1	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano6-002_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Main1		341664
+	609097057	Piano_Main2	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano 7-001_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Main2		263440
+	615439678	Piano_Dolch3	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano5-002_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch3		390660
+	652978938	Piano_Dolch2	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano5-003_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Dolch2		195446
+	693885549	Piano_Schwert4	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano3-004_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert4		342356
+	713489302	Piano_Schwert3	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano3-002_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert3		341756
+	774825828	OasisMusic-Final-MainEndSzene-Everything_ohnePiano	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-MainEndSzene-Everything_ohnePiano_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\OasisMusic-DoricoAudio-Main B-EndSzene\OasisMusic-Final-MainEndSzene-Everything_ohnePiano		2364672
+	807546870	OasisMusic-Final-TakeItem-Everything_ohnePiano	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-TakeItem-Everything_ohnePiano_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\OasisMusic-DoricoAudio-Item Take\OasisMusic-Final-TakeItem-Everything_ohnePiano		284379
+	842780475	Piano_Main1	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano-002_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Main1		343432
+	921583912	Piano_Stab4	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano4-002_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab4		255597
+	937977786	Piano_Schwert1	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano3-001_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Schwert1		341221
+	998480044	Piano_Stab3	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Piano4-001_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\Piano_Stab3		341624
+	1018183291	OasisMusic-Final-Waiting-Everything_ohnePiano	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-Waiting-Everything_ohnePiano_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\ItemWait\OasisMusic-DoricoAudio-Waiting Item\OasisMusic-Final-Waiting-Everything_ohnePiano		1556091
+	1043334511	OasisMusic-Final-GiveItem-Everything_ohnePiano	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-GiveItem-Everything_ohnePiano_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\Item\OasisMusic-DoricoAudio-Item Give\OasisMusic-Final-GiveItem-Everything_ohnePiano		445185
+	1060232689	OasisMusic-Final-MainBOutro-Everything_ohnePiano	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\OasisMusic-Final-MainBOutro-Everything_ohnePiano_073B4D0C.wem		\Interactive Music Hierarchy\Default Work Unit\Final\OasisMusic-DoricoAudio-Main B-Outro\OasisMusic-Final-MainBOutro-Everything_ohnePiano		2077052
+

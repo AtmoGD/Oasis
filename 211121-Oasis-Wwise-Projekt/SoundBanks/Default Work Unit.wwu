@@ -32,15 +32,26 @@
 						<ObjectRef Name="TakeItem_Music" ID="{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EndMusic_Start" ID="{53A34E9F-071A-42BC-B291-E4068B9DCDB6}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Main_MusicStart" ID="{39726541-E6A0-4508-96FC-79CE74FF9494}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="StabMusic_Start" ID="{12FC3D4F-2573-473A-B29F-030F773E3190}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="SchwertMusic_Start" ID="{75DFDF64-2F9C-4797-B590-12E11B1C311E}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="StopAll_Music" ID="{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="BuchMusic_Start" ID="{0176C552-F9A9-48E6-A071-434EE516288A}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="DemoMusicStart" ID="{31FBF4C0-6E34-4BE4-B7CD-DD5DEE4CBB9F}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="GiveItem_Music" ID="{F31D47C6-067D-4D75-9118-0DE09181073D}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
-						<ObjectRef Name="DolchMusic_Start" ID="{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="EndMusicAlt_Start" ID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="ItemWait_Music" ID="{6CBCB54A-F5BC-4F79-AA31-6892BFE3118B}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_BuchDolch" ID="{B06DD317-17BC-4A28-95C6-228991FDFDE1}">
+					<ObjectInclusionList>
+						<ObjectRef Name="BuchMusic_Start" ID="{0176C552-F9A9-48E6-A071-434EE516288A}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="DolchMusic_Start" ID="{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_StabSchwert" ID="{EB01F9C8-10D0-4922-B5B3-B2B210BBBCF3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="StabMusic_Start" ID="{12FC3D4F-2573-473A-B29F-030F773E3190}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="SchwertMusic_Start" ID="{75DFDF64-2F9C-4797-B590-12E11B1C311E}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

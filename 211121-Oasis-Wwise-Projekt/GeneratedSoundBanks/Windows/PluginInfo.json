@@ -5,6 +5,12 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Meter",
+    "ID": "8454147",
+    "DLL": "AkSoundEngineDLL",
+    "StaticLib": "AkMeterFX"
+   },
+   {
     "Name": "System",
     "ID": "11403271"
    },

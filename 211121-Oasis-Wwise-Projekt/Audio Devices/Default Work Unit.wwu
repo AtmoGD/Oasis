@@ -5,7 +5,15 @@
 			<ChildrenList>
 				<AudioDevice Name="System" ID="{CFFAB83A-6141-4249-AEBF-DC92D8CCB069}" PluginName="System" CompanyID="0" PluginID="174" PluginType="7"/>
 				<AudioDevice Name="No_Output" ID="{F69A126D-9320-45D5-B3ED-121BAC70E332}" PluginName="No Output" CompanyID="0" PluginID="181" PluginType="7"/>
-				<AudioDevice Name="Default_Motion_Device" ID="{E0350EBD-0310-48FA-B7CD-3B09B4EF64D7}" PluginName="Wwise Motion" CompanyID="0" PluginID="507" PluginType="7"/>
+				<AudioDevice Name="Default_Motion_Device" ID="{E0350EBD-0310-48FA-B7CD-3B09B4EF64D7}" PluginName="Wwise Motion" CompanyID="0" PluginID="507" PluginType="7">
+					<PropertyList>
+						<Property Name="Inclusion" Type="bool">
+							<ValueList>
+								<Value>False</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+				</AudioDevice>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioDevices>

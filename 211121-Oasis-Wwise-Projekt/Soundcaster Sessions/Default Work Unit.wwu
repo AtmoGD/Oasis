@@ -1,6 +1,128 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{E63F450B-6F99-478A-8329-F9AD01E4EDAB}" SchemaVersion="103">
 	<SoundcasterSessions>
-		<WorkUnit Name="Default Work Unit" ID="{E63F450B-6F99-478A-8329-F9AD01E4EDAB}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{E63F450B-6F99-478A-8329-F9AD01E4EDAB}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="Music_Test" ID="{3ED6BBF7-EC90-4076-8628-52BE7A85C9C9}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="BuchMusic_Start" ID="{0176C552-F9A9-48E6-A071-434EE516288A}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="DolchMusic_Start" ID="{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="SchwertMusic_Start" ID="{75DFDF64-2F9C-4797-B590-12E11B1C311E}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="StabMusic_Start" ID="{12FC3D4F-2573-473A-B29F-030F773E3190}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Main_MusicStart" ID="{39726541-E6A0-4508-96FC-79CE74FF9494}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EndMusic_Start" ID="{53A34E9F-071A-42BC-B291-E4068B9DCDB6}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="EndMusicAlt_Start" ID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="CH_SoSchwert_MoveFast" ID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ItemWait_Music" ID="{6CBCB54A-F5BC-4F79-AA31-6892BFE3118B}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="GiveItem_Music" ID="{F31D47C6-067D-4D75-9118-0DE09181073D}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="TakeItem_Music" ID="{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Dialogue" ID="{1003363F-9E15-4010-B1F9-4524E95F912F}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Master" ID="{12B5D60B-F809-4A7F-B0D2-EA7528BD5F2E}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Effects" ID="{8B4B5FA2-EFCC-4E9A-ACD9-F64E24972DC9}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Music" ID="{2B3353B2-176E-4ECF-A140-A219549D7676}"/>
+							<Value>10</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="Stab" ID="{05F51642-7530-4F63-B800-30583B24DAEE}"/>
+						<CurrentStateRef Name="None" ID="{C09E3642-7320-46BF-BD4F-540820684A14}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
 	</SoundcasterSessions>
 </WwiseDocument>
