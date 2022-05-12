@@ -28,6 +28,19 @@
 						</Transition>
 					</TransitionList>
 				</StateGroup>
+				<StateGroup Name="Current_Item" ID="{0FE0555C-89FD-4934-9480-4B92CA94A106}">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="6"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<State Name="None" ID="{DDF6AA84-24C8-4C9D-BA0F-2CE9BB99FF72}"/>
+						<State Name="Buch" ID="{05D564CB-A349-4EF7-B68D-F94020B3A55F}"/>
+						<State Name="Dolch" ID="{EC10AAC1-9DF8-4F03-B7C8-1DD0541C2106}"/>
+						<State Name="Stab" ID="{05F51642-7530-4F63-B800-30583B24DAEE}"/>
+						<State Name="Schwert" ID="{AA22CC23-AE31-459A-8C0C-70C8DEB87E15}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

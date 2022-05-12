@@ -25,6 +25,7 @@
 						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
 					</ValueList>
 				</Property>
+				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEyMzQ3IiBtYXNrPSJMR0FENDM5NSIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjItMTItMDEiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjItMTItMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwIiBleHBpcmVzPSIyMDIyLTEyLTAxIiAgLz48L3Byb2plY3Q+|SwpNhdUDimhZ7bUDsCG6qzdYUAFofMgULE7X304+SynH2yMqQeiBP7RoJieSJUk6OvUQDUIO34MuT68Adve9GM7MHidEUKLd2aQXA4zakzBWVUULWIrUGUKZtNaK6riqlbE8yE/O2bDrhppV6kZc2bSX60pKWb4f8b3/6sp6LPENh0OanJAn5X9fw60EwMJeexvPHD9RoDONSojktADXXOub4axNG/205mP57AxnEE1c3A7YLR0xAp6BtPMpf9j5tR2RqPZkUjFU5SQRU/JH5KeGoU49DOIxe/+KvpeNINQJUGvTtyyiHYqtc5J/fd1MTv2Zn0vnp+PDE/QCiQQmvQ=="/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks\"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>

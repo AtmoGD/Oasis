@@ -1,41 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
-		<SourceFilesRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
+		<SourceFilesRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="3941398242">
+		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="117396146">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
 			<ShortName>SB_Music</ShortName>
 			<Path>SB_Music.bnk</Path>
 			<IncludedEvents>
-				<Event Id="983609297" Name="BuchMusic_Start" ObjectPath="\Events\Default Work Unit\Music\BuchMusic_Start" GUID="{0176C552-F9A9-48E6-A071-434EE516288A}" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="80991123" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Buch B.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Buch B_073B4D0C.wem</Path>
-						</File>
-						<File Id="339417274" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Buch A.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Buch A_073B4D0C.wem</Path>
-						</File>
-						<File Id="972568707" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Buch A'.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Buch A'_073B4D0C.wem</Path>
-						</File>
-						<File Id="1064474414" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Buch C.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Buch C_073B4D0C.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
 				<Event Id="218200519" Name="DemoMusicStart" ObjectPath="\Events\Default Work Unit\Music\DemoMusicStart" GUID="{31FBF4C0-6E34-4BE4-B7CD-DD5DEE4CBB9F}" DurationType="OneShot" DurationMin="53.583332" DurationMax="53.583332">
 					<IncludedMemoryFiles>
 						<File Id="207525003" Language="SFX">
@@ -44,142 +24,372 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3494551877" Name="DolchMusic_Start" ObjectPath="\Events\Default Work Unit\Music\DolchMusic_Start" GUID="{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}" DurationType="Infinite">
+				<Event Id="3208707916" Name="EndMusic_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusic_Start" GUID="{53A34E9F-071A-42BC-B291-E4068B9DCDB6}" DurationType="OneShot" DurationMin="43.944187" DurationMax="43.944187">
 					<IncludedMemoryFiles>
-						<File Id="231353024" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Dolch A'.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Dolch A'_073B4D0C.wem</Path>
-						</File>
-						<File Id="506562318" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Dolch C.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Dolch C_073B4D0C.wem</Path>
-						</File>
-						<File Id="846401668" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Dolch A.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Dolch A_073B4D0C.wem</Path>
-						</File>
-						<File Id="931862698" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Dolch B.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Dolch B_073B4D0C.wem</Path>
+						<File Id="774825828" Language="SFX">
+							<ShortName>OasisMusic-Final-MainEndSzene-Everything_ohnePiano.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainEndSzene-Everything_ohnePiano_073B4D0C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3208707916" Name="EndMusic_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusic_Start" GUID="{53A34E9F-071A-42BC-B291-E4068B9DCDB6}" DurationType="OneShot" DurationMin="42.479912" DurationMax="42.479912">
+				<Event Id="3722692183" Name="EndMusicAlt_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusicAlt_Start" GUID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}" DurationType="OneShot" DurationMin="38.098564" DurationMax="38.098564">
 					<IncludedMemoryFiles>
-						<File Id="104279542" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Main B-EndSzene.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Main B-EndSzene_073B4D0C.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3722692183" Name="EndMusicAlt_Start" ObjectPath="\Events\Default Work Unit\Music\EndMusicAlt_Start" GUID="{10EA67D6-4416-4F37-BA33-1D22BE467D6C}" DurationType="OneShot" DurationMin="34.99651" DurationMax="34.99651">
-					<IncludedMemoryFiles>
-						<File Id="622111499" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Main B-Outro.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Main B-Outro_073B4D0C.wem</Path>
+						<File Id="1060232689" Language="SFX">
+							<ShortName>OasisMusic-Final-MainBOutro-Everything_ohnePiano.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainBOutro-Everything_ohnePiano_073B4D0C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3796113407" Name="GiveItem_Music" ObjectPath="\Events\Default Work Unit\Music\GiveItem_Music" GUID="{F31D47C6-067D-4D75-9118-0DE09181073D}" DurationType="OneShot" DurationMin="9.853242" DurationMax="9.853242">
 					<IncludedMemoryFiles>
-						<File Id="249177938" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Item Give.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Item Give_073B4D0C.wem</Path>
+						<File Id="1043334511" Language="SFX">
+							<ShortName>OasisMusic-Final-GiveItem-Everything_ohnePiano.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-GiveItem-Everything_ohnePiano_073B4D0C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="3781525195" Name="ItemWait_Music" ObjectPath="\Events\Default Work Unit\Music\ItemWait_Music" GUID="{6CBCB54A-F5BC-4F79-AA31-6892BFE3118B}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="648485306" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Waiting Item.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Waiting Item_073B4D0C.wem</Path>
+						<File Id="21963438" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano 7-002.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano 7-002_073B4D0C.wem</Path>
+						</File>
+						<File Id="106516390" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano5-004.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano5-004_073B4D0C.wem</Path>
+						</File>
+						<File Id="119911431" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano4-003.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano4-003_073B4D0C.wem</Path>
+						</File>
+						<File Id="198733310" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano6-001.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano6-001_073B4D0C.wem</Path>
+						</File>
+						<File Id="215322020" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano-001.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano-001_073B4D0C.wem</Path>
+						</File>
+						<File Id="217754420" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano2-003.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano2-003_073B4D0C.wem</Path>
+						</File>
+						<File Id="335564317" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano2-001.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano2-001_073B4D0C.wem</Path>
+						</File>
+						<File Id="343932145" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano5-001.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano5-001_073B4D0C.wem</Path>
+						</File>
+						<File Id="370728640" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano2-002.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano2-002_073B4D0C.wem</Path>
+						</File>
+						<File Id="453988457" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano3-003.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano3-003_073B4D0C.wem</Path>
+						</File>
+						<File Id="573330930" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano6-002.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano6-002_073B4D0C.wem</Path>
+						</File>
+						<File Id="609097057" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano 7-001.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano 7-001_073B4D0C.wem</Path>
+						</File>
+						<File Id="615439678" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano5-002.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano5-002_073B4D0C.wem</Path>
+						</File>
+						<File Id="652978938" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano5-003.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano5-003_073B4D0C.wem</Path>
+						</File>
+						<File Id="693885549" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano3-004.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano3-004_073B4D0C.wem</Path>
+						</File>
+						<File Id="713489302" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano3-002.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano3-002_073B4D0C.wem</Path>
+						</File>
+						<File Id="842780475" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano-002.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano-002_073B4D0C.wem</Path>
+						</File>
+						<File Id="921583912" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano4-002.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano4-002_073B4D0C.wem</Path>
+						</File>
+						<File Id="937977786" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano3-001.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano3-001_073B4D0C.wem</Path>
+						</File>
+						<File Id="998480044" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Piano4-001.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Piano4-001_073B4D0C.wem</Path>
+						</File>
+						<File Id="1018183291" Language="SFX">
+							<ShortName>OasisMusic-Final-Waiting-Everything_ohnePiano.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-Waiting-Everything_ohnePiano_073B4D0C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2072348442" Name="Main_MusicStart" ObjectPath="\Events\Default Work Unit\Music\Main_MusicStart" GUID="{39726541-E6A0-4508-96FC-79CE74FF9494}" DurationType="Infinite">
 					<IncludedMemoryFiles>
-						<File Id="118988887" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Main A'.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Main A'_073B4D0C.wem</Path>
+						<File Id="4856784" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Violin _073B4D0C.wem</Path>
 						</File>
-						<File Id="120160121" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Main A.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Main A_073B4D0C.wem</Path>
+						<File Id="61801767" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Contrabass _073B4D0C.wem</Path>
 						</File>
-						<File Id="374674203" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Main D.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Main D_073B4D0C.wem</Path>
+						<File Id="62374191" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB'-Strummed.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB'-Strummed_073B4D0C.wem</Path>
 						</File>
-						<File Id="435405122" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Main C.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Main C_073B4D0C.wem</Path>
+						<File Id="72939439" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Picked_Main_073B4D0C.wem</Path>
 						</File>
-						<File Id="802951768" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Main B'.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Main B'_073B4D0C.wem</Path>
+						<File Id="98398577" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Picked_Main_073B4D0C.wem</Path>
 						</File>
-						<File Id="884504287" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Main B.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Main B_073B4D0C.wem</Path>
+						<File Id="107176381" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="136621651" Language="SFX">
+							<ShortName>OasisMusic-Final-MainD-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainD-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="145262176" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB'-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB'-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="174836975" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="201651924" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="228894124" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Strummed.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Strummed_073B4D0C.wem</Path>
+						</File>
+						<File Id="230949217" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB'-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB'-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="238834722" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="303156994" Language="SFX">
+							<ShortName>OasisMusic-Final-MainD-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainD-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="310952282" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB'-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB'-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="338920780" Language="SFX">
+							<ShortName>OasisMusic-Final-MainD-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainD-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="350394847" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB'-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB'-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="392760978" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="444810992" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="446615623" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="452073299" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="454356019" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="467206765" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="471920870" Language="SFX">
+							<ShortName>OasisMusic-Final-MainD-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainD-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="491584292" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="511755180" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB'-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB'-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="539271501" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="552964582" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="554453899" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="556641494" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Violin alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Violin alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="558103792" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Picked_Alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Picked_Alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="560999940" Language="SFX">
+							<ShortName>OasisMusic-Final-MainD-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainD-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="566983462" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="649198047" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="653173035" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB'-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB'-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="690525071" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="725471203" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="744260240" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="753620189" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="758904838" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="774171404" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="791315594" Language="SFX">
+							<ShortName>OasisMusic-Final-MainD-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainD-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="795494921" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="822373443" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="836003249" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="839698104" Language="SFX">
+							<ShortName>OasisMusic-Final-MainC-Strummed.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainC-Strummed_073B4D0C.wem</Path>
+						</File>
+						<File Id="848783731" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA-Violin alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA-Violin alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="886083029" Language="SFX">
+							<ShortName>OasisMusic-Final-MainD-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainD-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="889214790" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="892740173" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="948543538" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="1013733373" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="1036713197" Language="SFX">
+							<ShortName>OasisMusic-Final-MainB'-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainB'-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="1058533807" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="1065501344" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Violin alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Violin alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="1071543987" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="1073607643" Language="SFX">
+							<ShortName>OasisMusic-Final-MainA'-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-MainA'-Pad_Mitte1_073B4D0C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2062928797" Name="SchwertMusic_Start" ObjectPath="\Events\Default Work Unit\Music\SchwertMusic_Start" GUID="{75DFDF64-2F9C-4797-B590-12E11B1C311E}" DurationType="Infinite">
+				<Event Id="3311114165" Name="TakeItem_Music" ObjectPath="\Events\Default Work Unit\Music\TakeItem_Music" GUID="{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}" DurationType="OneShot" DurationMin="7.308375" DurationMax="7.308375">
 					<IncludedMemoryFiles>
-						<File Id="173700116" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Schwert A'.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Schwert A'_073B4D0C.wem</Path>
-						</File>
-						<File Id="204338130" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Schwert A.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Schwert A_073B4D0C.wem</Path>
-						</File>
-						<File Id="239420838" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Schwert Bridge zu A.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Schwert Bridge zu A_073B4D0C.wem</Path>
-						</File>
-						<File Id="698765316" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Schwert B.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Schwert B_073B4D0C.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="768346475" Name="StabMusic_Start" ObjectPath="\Events\Default Work Unit\Music\StabMusic_Start" GUID="{12FC3D4F-2573-473A-B29F-030F773E3190}" DurationType="Infinite">
-					<IncludedMemoryFiles>
-						<File Id="113069037" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Stab A'.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Stab A'_073B4D0C.wem</Path>
-						</File>
-						<File Id="312291867" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Stab B.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Stab B_073B4D0C.wem</Path>
-						</File>
-						<File Id="782262275" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Stab A.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Stab A_073B4D0C.wem</Path>
-						</File>
-						<File Id="1004695191" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Stab C.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Stab C_073B4D0C.wem</Path>
-						</File>
-						<File Id="1045427137" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Stab Intro.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Stab Intro_073B4D0C.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2822115966" Name="StopAll_Music" ObjectPath="\Events\Default Work Unit\Music\StopAll_Music" GUID="{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="3311114165" Name="TakeItem_Music" ObjectPath="\Events\Default Work Unit\Music\TakeItem_Music" GUID="{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}" DurationType="OneShot" DurationMin="4.914739" DurationMax="4.914739">
-					<IncludedMemoryFiles>
-						<File Id="958511008" Language="SFX">
-							<ShortName>OasisMusic-DoricoAudio-Item Take.wav</ShortName>
-							<Path>SFX\OasisMusic-DoricoAudio-Item Take_073B4D0C.wem</Path>
+						<File Id="807546870" Language="SFX">
+							<ShortName>OasisMusic-Final-TakeItem-Everything_ohnePiano.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-TakeItem-Everything_ohnePiano_073B4D0C.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
 			</IncludedEvents>
+			<StateGroups>
+				<StateGroup Id="3067361994" Name="Current_Item" ObjectPath="\States\Default Work Unit\Current_Item" GUID="{0FE0555C-89FD-4934-9480-4B92CA94A106}">
+					<States>
+						<State Id="748895195" Name="None" ObjectPath="\States\Default Work Unit\Current_Item\None" GUID="{DDF6AA84-24C8-4C9D-BA0F-2CE9BB99FF72}"/>
+						<State Id="1696067751" Name="Buch" ObjectPath="\States\Default Work Unit\Current_Item\Buch" GUID="{05D564CB-A349-4EF7-B68D-F94020B3A55F}"/>
+						<State Id="1999344587" Name="Dolch" ObjectPath="\States\Default Work Unit\Current_Item\Dolch" GUID="{EC10AAC1-9DF8-4F03-B7C8-1DD0541C2106}"/>
+						<State Id="553997889" Name="Stab" ObjectPath="\States\Default Work Unit\Current_Item\Stab" GUID="{05F51642-7530-4F63-B800-30583B24DAEE}"/>
+						<State Id="1199187907" Name="Schwert" ObjectPath="\States\Default Work Unit\Current_Item\Schwert" GUID="{AA22CC23-AE31-459A-8C0C-70C8DEB87E15}"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="2678517538">
+		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="2866922525">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Default</ObjectPath>
 			<ShortName>SB_Default</ShortName>
 			<Path>SB_Default.bnk</Path>
@@ -224,8 +434,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3121080756" Name="CH_Footsteps_Grass_Slow_Stop" ObjectPath="\Events\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Stop" GUID="{992ADFB0-229A-4135-AAC2-07D28066013E}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
-				<Event Id="1928584519" Name="CH_SoSchwert_MoveFast" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_MoveFast" GUID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}" DurationType="OneShot" DurationMin="2.35127" DurationMax="2.35127">
+				<Event Id="3121080756" Name="CH_Footsteps_Grass_Slow_Stop" ObjectPath="\Events\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Stop" GUID="{992ADFB0-229A-4135-AAC2-07D28066013E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1928584519" Name="CH_SoSchwert_MoveFast" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_MoveFast" GUID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}" DurationType="OneShot" DurationMin="2.351270" DurationMax="2.351270">
 					<IncludedMemoryFiles>
 						<File Id="605231197" Language="SFX">
 							<ShortName>MoveFast-002.wav</ShortName>
@@ -268,7 +478,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4151696586" Name="ENV_Inseln_Reposition_Start" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Start" GUID="{28BDAB00-9447-4032-9085-5079ACC7081D}" MaxAttenuation="3000." DurationType="OneShot" DurationMin="20.067574" DurationMax="20.067574">
+				<Event Id="4151696586" Name="ENV_Inseln_Reposition_Start" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Start" GUID="{28BDAB00-9447-4032-9085-5079ACC7081D}" MaxAttenuation="3000.000000" DurationType="OneShot" DurationMin="20.067574" DurationMax="20.067574">
 					<IncludedMemoryFiles>
 						<File Id="225378519" Language="SFX">
 							<ShortName>Inseln_Reposition-001.wav</ShortName>
@@ -284,7 +494,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4207352866" Name="ENV_Inseln_Reposition_Stop" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop" GUID="{C9F94D7D-F313-493F-A570-21B52624CD7B}" DurationType="OneShot" DurationMin="4.788798" DurationMax="5.8">
+				<Event Id="4207352866" Name="ENV_Inseln_Reposition_Stop" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop" GUID="{C9F94D7D-F313-493F-A570-21B52624CD7B}" DurationType="OneShot" DurationMin="4.788798" DurationMax="5.800000">
 					<IncludedMemoryFiles>
 						<File Id="72994115" Language="SFX">
 							<ShortName>Inseln_Connect-003.wav</ShortName>
@@ -435,7 +645,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3043697892" Name="IT_SoSchwert_BaseLoop_Stop" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Stop" GUID="{F6B1B398-E033-4312-ACC5-A09F616A9984}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3043697892" Name="IT_SoSchwert_BaseLoop_Stop" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Stop" GUID="{F6B1B398-E033-4312-ACC5-A09F616A9984}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2237714540" Name="RTSL_Sun_BeamReflectStart" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_BeamReflectStart" GUID="{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="128674909" Language="SFX">
@@ -544,7 +754,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3220389727" Name="SFX_ENV_Ghosts_Mumble_Random_Stop" ObjectPath="\Events\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Stop" GUID="{7C884D5A-3B98-481B-92AA-D419DF14940D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3220389727" Name="SFX_ENV_Ghosts_Mumble_Random_Stop" ObjectPath="\Events\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Stop" GUID="{7C884D5A-3B98-481B-92AA-D419DF14940D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 				<Event Id="2126331685" Name="SFX_ENV_Wind_Loop_Start" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Start" GUID="{77E3C06C-86D8-440A-88B3-02EAE646B37F}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="5372116" Language="SFX">
@@ -597,13 +807,805 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1707272775" Name="SFX_ENV_Wind_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Stop" GUID="{61BE3BB7-3DE6-4A07-8D82-921AF4145864}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1707272775" Name="SFX_ENV_Wind_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Stop" GUID="{61BE3BB7-3DE6-4A07-8D82-921AF4145864}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1113898651">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1513037893">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1384285152" Name="Volume_Dialogue" ObjectPath="\Game Parameters\Default Work Unit\VolumeHandles\Volume_Dialogue" GUID="{1003363F-9E15-4010-B1F9-4524E95F912F}"/>
+				<GameParameter Id="3194824364" Name="Volume_Effects" ObjectPath="\Game Parameters\Default Work Unit\VolumeHandles\Volume_Effects" GUID="{8B4B5FA2-EFCC-4E9A-ACD9-F64E24972DC9}"/>
+				<GameParameter Id="3695994288" Name="Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\VolumeHandles\Volume_Master" GUID="{12B5D60B-F809-4A7F-B0D2-EA7528BD5F2E}"/>
+				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\VolumeHandles\Volume_Music" GUID="{2B3353B2-176E-4ECF-A140-A219549D7676}"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1801973543" GUID="{EB01F9C8-10D0-4922-B5B3-B2B210BBBCF3}" Language="SFX" Hash="470314976">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_StabSchwert</ObjectPath>
+			<ShortName>SB_StabSchwert</ShortName>
+			<Path>SB_StabSchwert.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2062928797" Name="SchwertMusic_Start" ObjectPath="\Events\Default Work Unit\Music\SchwertMusic_Start" GUID="{75DFDF64-2F9C-4797-B590-12E11B1C311E}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="10949169" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertB-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertB-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="15316349" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertB-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertB-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="26497383" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertB-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertB-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="66195859" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Strummed.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Strummed_073B4D0C.wem</Path>
+						</File>
+						<File Id="108978008" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertC-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertC-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="149262216" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="207825790" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertC-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertC-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="237802116" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Contrabass alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Contrabass alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="251194581" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertC-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertC-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="340522726" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="409640290" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertB-Contrabass alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertB-Contrabass alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="415538285" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertBridgetoA-C-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertBridgetoA-C-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="543080148" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertB-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertB-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="547386107" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertC-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertC-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="580155652" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertB-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertB-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="581324863" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertB-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertB-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="622171403" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="692983025" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertC-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertC-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="714381584" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="723457364" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertBridgetoA-C-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertBridgetoA-C-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="755195618" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="771271818" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertC-Piano.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertC-Piano_073B4D0C.wem</Path>
+						</File>
+						<File Id="776712028" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertC-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertC-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="854433469" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertC-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertC-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="872591145" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="881926931" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertBridgetoA-C-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertBridgetoA-C-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="891705441" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertB-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertB-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="920974166" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertB-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertB-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="974649950" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertC-Contrabass alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertC-Contrabass alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="988881250" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertBridgetoA-C-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertBridgetoA-C-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="996498010" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertBridgetoA-C-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertBridgetoA-C-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="1009307019" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="1053658868" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertBridgetoA-C-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertBridgetoA-C-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="1060042815" Language="SFX">
+							<ShortName>OasisMusic-Final-SchwertA-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-SchwertA-Pad_tief_073B4D0C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="768346475" Name="StabMusic_Start" ObjectPath="\Events\Default Work Unit\Music\StabMusic_Start" GUID="{12FC3D4F-2573-473A-B29F-030F773E3190}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="438594" Language="SFX">
+							<ShortName>OasisMusic-Final-StabIntro-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabIntro-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="5750159" Language="SFX">
+							<ShortName>OasisMusic-Final-StabB-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabB-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="46210503" Language="SFX">
+							<ShortName>OasisMusic-Final-StabB-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabB-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="60478479" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="103153603" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="132854424" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Viola alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Viola alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="178006555" Language="SFX">
+							<ShortName>OasisMusic-Final-StabIntro-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabIntro-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="178179283" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Violoncello alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Violoncello alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="178414569" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="196106997" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="205453816" Language="SFX">
+							<ShortName>OasisMusic-Final-StabB-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabB-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="217224128" Language="SFX">
+							<ShortName>OasisMusic-Final-StabB-Violoncello alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabB-Violoncello alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="231559297" Language="SFX">
+							<ShortName>OasisMusic-Final-StabB-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabB-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="231616628" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Picked_Alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Picked_Alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="233953959" Language="SFX">
+							<ShortName>OasisMusic-Final-StabB-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabB-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="248661794" Language="SFX">
+							<ShortName>OasisMusic-Final-StabIntro-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabIntro-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="253615003" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Violoncello alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Violoncello alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="256504128" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="268766511" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="277508381" Language="SFX">
+							<ShortName>OasisMusic-Final-StabIntro-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabIntro-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="296248420" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Viola alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Viola alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="313553194" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="350020051" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="381609184" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="394940009" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="395908149" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="396691549" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="415752740" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="482000495" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="550224487" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Viola alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Viola alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="610873692" Language="SFX">
+							<ShortName>OasisMusic-Final-StabB-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabB-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="640813432" Language="SFX">
+							<ShortName>OasisMusic-Final-StabIntro-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabIntro-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="700109408" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Strummed.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Strummed_073B4D0C.wem</Path>
+						</File>
+						<File Id="735365979" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="752448762" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="826545410" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="845820046" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Strummed.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Strummed_073B4D0C.wem</Path>
+						</File>
+						<File Id="894381953" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="897738382" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="926278644" Language="SFX">
+							<ShortName>OasisMusic-Final-StabC-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabC-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="1020237476" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA-Violoncello alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA-Violoncello alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="1029149825" Language="SFX">
+							<ShortName>OasisMusic-Final-StabB-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabB-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="1032310688" Language="SFX">
+							<ShortName>OasisMusic-Final-StabB-Viola alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabB-Viola alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="1046141830" Language="SFX">
+							<ShortName>OasisMusic-Final-StabA'-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-StabA'-Viola_073B4D0C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+		</SoundBank>
+		<SoundBank Id="3849090513" GUID="{B06DD317-17BC-4A28-95C6-228991FDFDE1}" Language="SFX" Hash="1475885169">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_BuchDolch</ObjectPath>
+			<ShortName>SB_BuchDolch</ShortName>
+			<Path>SB_BuchDolch.bnk</Path>
+			<IncludedEvents>
+				<Event Id="983609297" Name="BuchMusic_Start" ObjectPath="\Events\Default Work Unit\Music\BuchMusic_Start" GUID="{0176C552-F9A9-48E6-A071-434EE516288A}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="7864386" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA'-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA'-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="20140247" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="26408146" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer2-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer2-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="49269870" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA'-Viola alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA'-Viola alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="95939910" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchB-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchB-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="120646216" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="150144029" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Picked_Alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Picked_Alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="153904879" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer1-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer1-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="209645476" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer1-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer1-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="218440823" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer1-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer1-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="227300280" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA'-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA'-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="229274053" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="237561685" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer1-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer1-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="293000912" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="314411919" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA'-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA'-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="377464106" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer2-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer2-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="399757935" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="425184050" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer1-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer1-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="427598505" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer1-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer1-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="431942243" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="456343443" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchB-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchB-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="494615345" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer2-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer2-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="496845790" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Viola alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Viola alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="507110255" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="524081916" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer2-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer2-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="528608321" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="594061638" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchB-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchB-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="613641911" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="625769123" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="635399018" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="655642717" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchB-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchB-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="658237277" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer2-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer2-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="660061602" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer2-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer2-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="676825665" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchB-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchB-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="685537597" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="713314386" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA'-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA'-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="714285825" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchB-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchB-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="727001454" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="727112052" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA'-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA'-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="773251828" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="782643429" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="794571387" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer1-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer1-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="824329814" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchC-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchC-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="851784720" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA'-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA'-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="856390236" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer2-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer2-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="905467979" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer2-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer2-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="920628343" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchB-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchB-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="975995886" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchBKlammer1-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchBKlammer1-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="1020790578" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="1040736320" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchB-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchB-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="1059604149" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="1067359486" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA'-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA'-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="1069890244" Language="SFX">
+							<ShortName>OasisMusic-Final-BuchA-Viola alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-BuchA-Viola alt_073B4D0C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3494551877" Name="DolchMusic_Start" ObjectPath="\Events\Default Work Unit\Music\DolchMusic_Start" GUID="{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="20086306" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="57558132" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="61154076" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="61733736" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="79057830" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="92180759" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchC-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchC-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="100443189" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchC-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchC-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="117885919" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="175008617" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Violin alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Violin alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="188117790" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="209260186" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="223164955" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Violin alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Violin alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="226188299" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="234371479" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="241293206" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Strummed.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Strummed_073B4D0C.wem</Path>
+						</File>
+						<File Id="251145124" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Violin alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Violin alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="270713509" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Picked_Alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Picked_Alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="293389674" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="306619610" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="327060719" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchC-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchC-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="333403159" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="343024713" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="392589778" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="472029244" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Contrabass .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Contrabass _073B4D0C.wem</Path>
+						</File>
+						<File Id="499894384" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchC-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchC-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="512366662" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Strummed.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Strummed_073B4D0C.wem</Path>
+						</File>
+						<File Id="545370615" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="549835817" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="555385453" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="565748103" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="568902790" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Violin alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Violin alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="592508171" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="626447685" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="658540003" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="659957084" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="663165507" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Strummed.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Strummed_073B4D0C.wem</Path>
+						</File>
+						<File Id="664711242" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="674785257" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Picked_Alt2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Picked_Alt2_073B4D0C.wem</Path>
+						</File>
+						<File Id="697781876" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchC-Violin .wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchC-Violin _073B4D0C.wem</Path>
+						</File>
+						<File Id="715666146" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchC-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchC-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="728487269" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="729072027" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchC-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchC-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="729977827" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="750276681" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Violin alt.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Violin alt_073B4D0C.wem</Path>
+						</File>
+						<File Id="781003016" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="843073996" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Pad_Hoch.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Pad_Hoch_073B4D0C.wem</Path>
+						</File>
+						<File Id="855776859" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="866219277" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchC-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchC-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="871852218" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="925873425" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA'-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA'-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="933163429" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="938908692" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchB-Violoncello.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchB-Violoncello_073B4D0C.wem</Path>
+						</File>
+						<File Id="950004834" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Pad_Mitte1.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Pad_Mitte1_073B4D0C.wem</Path>
+						</File>
+						<File Id="952172170" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Picked_Main_073B4D0C.wem</Path>
+						</File>
+						<File Id="971211265" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Pad_tief.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Pad_tief_073B4D0C.wem</Path>
+						</File>
+						<File Id="989778726" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchA-Viola.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchA-Viola_073B4D0C.wem</Path>
+						</File>
+						<File Id="1026978212" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer1-Pad_Mitte2.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer1-Pad_Mitte2_073B4D0C.wem</Path>
+						</File>
+						<File Id="1052803428" Language="SFX">
+							<ShortName>OasisMusic-Final-DolchAKlammer2-Picked_Main.wav</ShortName>
+							<Path>SFX\OasisMusic-Final-DolchAKlammer2-Picked_Main_073B4D0C.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

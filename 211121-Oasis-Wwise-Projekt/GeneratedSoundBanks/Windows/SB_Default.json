@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\",
-   "SourceFilesRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
+   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "822237696",
     "GUID": "{3842C804-D806-4940-B6C4-AB4F99E37EDB}",
     "Language": "SFX",
-    "Hash": "2678517538",
+    "Hash": "2866922525",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Default",
     "ShortName": "SB_Default",
     "Path": "SB_Default.bnk",
@@ -89,10 +89,10 @@
       "Name": "CH_Footsteps_Grass_Slow_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_Walking\\CH_Footsteps_Grass_Slow_Stop",
       "GUID": "{992ADFB0-229A-4135-AAC2-07D28066013E}",
-      "MaxAttenuation": "0.",
+      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "1928584519",
@@ -100,8 +100,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_SoSchwert\\CH_SoSchwert_MoveFast",
       "GUID": "{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}",
       "DurationType": "OneShot",
-      "DurationMin": "2.35127",
-      "DurationMax": "2.35127",
+      "DurationMin": "2.351270",
+      "DurationMax": "2.351270",
       "IncludedMemoryFiles": [
        {
         "Id": "605231197",
@@ -182,7 +182,7 @@
       "Name": "ENV_Inseln_Reposition_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Inseln\\ENV_Inseln_Reposition_Start",
       "GUID": "{28BDAB00-9447-4032-9085-5079ACC7081D}",
-      "MaxAttenuation": "3000.",
+      "MaxAttenuation": "3000.000000",
       "DurationType": "OneShot",
       "DurationMin": "20.067574",
       "DurationMax": "20.067574",
@@ -214,7 +214,7 @@
       "GUID": "{C9F94D7D-F313-493F-A570-21B52624CD7B}",
       "DurationType": "OneShot",
       "DurationMin": "4.788798",
-      "DurationMax": "5.8",
+      "DurationMax": "5.800000",
       "IncludedMemoryFiles": [
        {
         "Id": "72994115",
@@ -453,10 +453,10 @@
       "Name": "IT_SoSchwert_BaseLoop_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_SoSchwert_BaseLoop_Stop",
       "GUID": "{F6B1B398-E033-4312-ACC5-A09F616A9984}",
-      "MaxAttenuation": "0.",
+      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "2237714540",
@@ -644,10 +644,10 @@
       "Name": "SFX_ENV_Ghosts_Mumble_Random_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Ghosts\\SFX_ENV_Ghosts_Mumble_Random_Stop",
       "GUID": "{7C884D5A-3B98-481B-92AA-D419DF14940D}",
-      "MaxAttenuation": "0.",
+      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      },
      {
       "Id": "2126331685",
@@ -735,10 +735,10 @@
       "Name": "SFX_ENV_Wind_Loop_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Wind\\SFX_ENV_Wind_Loop_Stop",
       "GUID": "{61BE3BB7-3DE6-4A07-8D82-921AF4145864}",
-      "MaxAttenuation": "0.",
+      "MaxAttenuation": "0.000000",
       "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
      }
     ]
    }
