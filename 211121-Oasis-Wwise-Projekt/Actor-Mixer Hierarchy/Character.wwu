@@ -13,7 +13,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+							<ObjectRef Name="Environment" ID="{C6DE359B-E18F-4BB8-ACED-3BEBE85C7E04}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -261,12 +261,18 @@
 					<ObjectLists/>
 				</ActorMixer>
 				<ActorMixer Name="CH_SoSchwert-Interaction" ID="{FA0012BA-A09A-408A-8142-D953CD6DBC9F}" ShortID="597740534">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Item_UltraSmall" ID="{1F0F82CD-5350-490C-890C-60D588394559}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Environment" ID="{C6DE359B-E18F-4BB8-ACED-3BEBE85C7E04}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+							<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -487,6 +493,35 @@
 					</ChildrenList>
 					<ObjectLists/>
 				</ActorMixer>
+				<Sound Name="CH_Buch-Pickup" ID="{3E182C2F-8E67-428C-89BA-2F76DA40D48D}" ShortID="185583996">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Item_UltraSmall" ID="{1F0F82CD-5350-490C-890C-60D588394559}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Buch-Pickup" ID="{B4354B96-8B5E-455B-A839-B90BB1978480}">
+							<Language>SFX</Language>
+							<AudioFile>Buch-Pickup.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="277269532"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="Buch-Pickup" ID="{B4354B96-8B5E-455B-A839-B90BB1978480}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -34,10 +34,6 @@
 							<Position X="1" Y="2"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="CH_SoSchwert_MoveFast" ID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}"/>
-							<Position X="2" Y="4"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="ItemWait_Music" ID="{6CBCB54A-F5BC-4F79-AA31-6892BFE3118B}" WorkUnitID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}"/>
 							<Position X="3" Y="0"/>
 						</Module>
@@ -80,6 +76,10 @@
 							<Value>50</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="Gem1_Charge" ID="{51B9E7C2-70D1-4728-9BBD-5DC6D3EF30F1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
 							<Value>50</Value>
 						</RTPCValue>
@@ -88,12 +88,20 @@
 							<Value>75</Value>
 						</RTPCValue>
 						<RTPCValue>
+							<GameParameterRef Name="RunenStein_Charge" ID="{88E3D096-6DAD-48A8-A269-0092D95A8720}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
 							<Value>75</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="Volume_Master" ID="{12B5D60B-F809-4A7F-B0D2-EA7528BD5F2E}"/>
 							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem3_Charge" ID="{EE15EB78-C331-4A91-9168-FDAF4C737F06}"/>
+							<Value>100</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
@@ -115,12 +123,461 @@
 							<GameParameterRef Name="Volume_Music" ID="{2B3353B2-176E-4ECF-A140-A219549D7676}"/>
 							<Value>10</Value>
 						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem2_Charge" ID="{2E69923A-C1D7-4ECF-8774-36EADABB8063}"/>
+							<Value>100</Value>
+						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
 						<CurrentStateRef Name="Stab" ID="{05F51642-7530-4F63-B800-30583B24DAEE}"/>
 						<CurrentStateRef Name="None" ID="{C09E3642-7320-46BF-BD4F-540820684A14}"/>
 					</CurrentStateList>
-					<CurrentSwitchList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="FullCharged" ID="{BE8974EB-FA6D-49A3-9D1C-3BC6B124F383}"/>
+						<CurrentSwitchRef Name="FullCharged" ID="{4EC9FAD6-6D3C-47BE-8806-4216CA659183}"/>
+						<CurrentSwitchRef Name="FullCharged" ID="{B9D27289-495E-4B7D-8A2B-5416413A3721}"/>
+						<CurrentSwitchRef Name="RS_NotCharged" ID="{9B0898CC-D4DD-4013-B0D0-3479FFF61CF2}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SoundSchwertTest" ID="{7DE95D77-9FEC-41FE-9BA1-E30AD6E286F4}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="ENV_Inseln_Reposition_Start" ID="{28BDAB00-9447-4032-9085-5079ACC7081D}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="ENV_Inseln_Reposition_Stop" ID="{C9F94D7D-F313-493F-A570-21B52624CD7B}" WorkUnitID="{9E77BC27-AB12-44C4-8737-AC9C9D6D1357}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="CH_SoSchwert_Pickup" ID="{570FF76A-123C-48E9-9622-096E8DA07AEE}" WorkUnitID="{DFC28341-F7C1-4CAB-8441-1677F85B88AD}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="IT_SoSchwert_BaseLoop_InHand" ID="{27E3943A-94B1-4797-8F15-FD9A17982A1A}" WorkUnitID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_BeamStart" ID="{07C2C607-C1AF-434E-8A23-892D4840E1EB}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="2" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_BeamReflectStart" ID="{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="2" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_BeamUnreflect" ID="{9FC0877A-73D2-45C6-8E6A-22FF06815967}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="2" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_BeamStop" ID="{763A4E2B-7791-49B0-8D7E-801B5D82F28C}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_Gem1_Charge" ID="{1195A3CF-31B0-4301-945F-701CBD28F288}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_Gem2_Charge" ID="{B3B31207-FF16-47E3-B4D2-05C58B53D739}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_Gem3_Charge" ID="{F34CBB30-1A65-4E40-BC80-CB83D39E6871}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_Gem1_LoseCharge" ID="{F0DA8093-C5D8-493E-889E-443B273B4770}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_Gem2_LoseCharge" ID="{042F0559-78D6-4A23-93A3-FE2526335086}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_Gem3_LoseCharge" ID="{EEBFD61C-7D48-4805-B042-F0EC786DF982}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_Gem_StopAll" ID="{28F3B76E-445C-4C7A-ADEF-FFEDD337B692}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_RunenStein_Charge_Start" ID="{D6D28D33-1036-45A2-9D11-1C256E4C6C93}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="5" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_RunenStein_Charge_Stop" ID="{521FF87C-D7B1-4AA1-AA29-7DC5628BD96F}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="5" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Sun_InselnSmall_Reposition" ID="{92B91429-1512-49EC-9465-CB2B4BBEA430}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="5" Y="2"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Dialogue" ID="{1003363F-9E15-4010-B1F9-4524E95F912F}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem1_Charge" ID="{51B9E7C2-70D1-4728-9BBD-5DC6D3EF30F1}"/>
+							<Value>97</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RunenStein_Charge" ID="{88E3D096-6DAD-48A8-A269-0092D95A8720}"/>
+							<Value>56</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Master" ID="{12B5D60B-F809-4A7F-B0D2-EA7528BD5F2E}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem3_Charge" ID="{EE15EB78-C331-4A91-9168-FDAF4C737F06}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Effects" ID="{8B4B5FA2-EFCC-4E9A-ACD9-F64E24972DC9}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Music" ID="{2B3353B2-176E-4ECF-A140-A219549D7676}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem2_Charge" ID="{2E69923A-C1D7-4ECF-8774-36EADABB8063}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{DDF6AA84-24C8-4C9D-BA0F-2CE9BB99FF72}"/>
+						<CurrentStateRef Name="None" ID="{C09E3642-7320-46BF-BD4F-540820684A14}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="notCharged" ID="{6F9CC29D-6F6A-42A4-A8B8-673EBE59B358}"/>
+						<CurrentSwitchRef Name="FullCharged" ID="{4EC9FAD6-6D3C-47BE-8806-4216CA659183}"/>
+						<CurrentSwitchRef Name="FullCharged" ID="{B9D27289-495E-4B7D-8A2B-5416413A3721}"/>
+						<CurrentSwitchRef Name="RS_NotCharged" ID="{9B0898CC-D4DD-4013-B0D0-3479FFF61CF2}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="VoiceTest" ID="{92AC91ED-518C-4E20-BEAD-07982D84FA88}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Voice_Intro_1" ID="{B2CA049A-AD6A-4C6F-BD3C-53253190EBD8}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Intro_2" ID="{575CF2E3-7519-413A-B3B2-E06DCC7DD289}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Intro_3" ID="{50A0ABB8-17A4-4F43-91B0-70FEE6E91C59}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Intro_4" ID="{BCA809C3-C03F-4CAB-958F-FA562A703B9D}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Intro_4alt" ID="{A4A12AB1-692B-4717-A9A8-80BD19BD45E0}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Intro_5" ID="{1DAC3391-F613-4CE8-AC99-4B16C997757B}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Intro_6" ID="{EB155A1B-D71E-4DB7-B099-1E17BEC40F7C}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Intro_7" ID="{EB5608C8-86C4-4EBF-85FF-047093A510FE}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="1" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_StopIntro" ID="{FD52D6C8-841F-4955-8A79-3CE3ABD87E11}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_TippBuchA" ID="{95E549DC-4303-4845-B71E-E053FD9991F8}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="3" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_TippSchwertA" ID="{26687C51-1984-4980-921F-00BEDA48C3F3}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="3" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_TippDolch" ID="{665839A6-D0B6-4DA9-ADB9-8126EED62644}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="3" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_TippBuchB" ID="{52FB8024-3003-4648-8AB1-388464EF5F95}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="4" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_TippSchwertB" ID="{AD8A50B9-68F1-4072-8A18-8BDCB47245DD}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="4" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_StopTipps" ID="{14887E07-3E01-4F6A-8F64-6BF89B86415A}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="4" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Voice_Ending" ID="{E29647E2-9659-46F7-B807-47FDECA47098}" WorkUnitID="{19487779-189A-468C-86F5-AA290B8850E2}"/>
+							<Position X="4" Y="4"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Dialogue" ID="{1003363F-9E15-4010-B1F9-4524E95F912F}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem1_Charge" ID="{51B9E7C2-70D1-4728-9BBD-5DC6D3EF30F1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RunenStein_Charge" ID="{88E3D096-6DAD-48A8-A269-0092D95A8720}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Master" ID="{12B5D60B-F809-4A7F-B0D2-EA7528BD5F2E}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem3_Charge" ID="{EE15EB78-C331-4A91-9168-FDAF4C737F06}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Effects" ID="{8B4B5FA2-EFCC-4E9A-ACD9-F64E24972DC9}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Music" ID="{2B3353B2-176E-4ECF-A140-A219549D7676}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem2_Charge" ID="{2E69923A-C1D7-4ECF-8774-36EADABB8063}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{DDF6AA84-24C8-4C9D-BA0F-2CE9BB99FF72}"/>
+						<CurrentStateRef Name="None" ID="{C09E3642-7320-46BF-BD4F-540820684A14}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="FullCharged" ID="{BE8974EB-FA6D-49A3-9D1C-3BC6B124F383}"/>
+						<CurrentSwitchRef Name="FullCharged" ID="{4EC9FAD6-6D3C-47BE-8806-4216CA659183}"/>
+						<CurrentSwitchRef Name="FullCharged" ID="{B9D27289-495E-4B7D-8A2B-5416413A3721}"/>
+						<CurrentSwitchRef Name="RS_Charged" ID="{BD434E3C-40B1-4FF2-AD49-44F711EB81C4}"/>
+					</CurrentSwitchList>
+				</SoundcasterSession>
+				<SoundcasterSession Name="SoundBuchTest" ID="{0B393C32-48B1-4F99-A07B-F628AB29E653}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="RTSL_Buch_SonneGrundsound" ID="{6C54AA9D-7FD1-49C0-9765-C373C974E126}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Buch_SonneAnfassen" ID="{03181382-690D-498E-ADE2-14D4783C2523}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="0" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Buch_SonneEinrasten" ID="{46A7D91B-C871-473B-B405-E4751DEA710B}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="RTSL_Buch_SonneSoundAus" ID="{A4807DC4-745A-4FF6-8E77-08B038B2EF98}" WorkUnitID="{842926DF-1CB9-43FC-B05B-58E384E53C76}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Dialogue" ID="{1003363F-9E15-4010-B1F9-4524E95F912F}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Playback_Rate" ID="{28387EE3-C13A-4316-B9C3-DB5C521624AF}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RPM" ID="{9112AA05-F577-44FD-9F4E-4424158129E6}"/>
+							<Value>0</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_RPM" ID="{A34890AB-B9D5-4526-A64D-5290C43EF2DC}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fury" ID="{A2AE79DC-CA3A-46BA-9652-9986C322A87B}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem1_Charge" ID="{51B9E7C2-70D1-4728-9BBD-5DC6D3EF30F1}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Size" ID="{1329EBEF-A193-472E-A38C-64668B494879}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Storm" ID="{E93F8CDB-06D1-4737-ACAF-7CD44BBED783}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RunenStein_Charge" ID="{88E3D096-6DAD-48A8-A269-0092D95A8720}"/>
+							<Value>56</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Presence" ID="{E3B7811A-7B2F-490F-B44F-5FE51B468041}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Master" ID="{12B5D60B-F809-4A7F-B0D2-EA7528BD5F2E}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem3_Charge" ID="{EE15EB78-C331-4A91-9168-FDAF4C737F06}"/>
+							<Value>100</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_TimeOfDay" ID="{536FA72C-8C7E-4C8B-AE03-EF34FDADC314}"/>
+							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Freefall" ID="{2F2DFE37-4F9E-4D94-83D8-53CCA39781AD}"/>
+							<Value>75</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="SS_Air_Fear" ID="{F72E0659-4346-4E1C-A1B1-DAB46A05101E}"/>
+							<Value>50</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Effects" ID="{8B4B5FA2-EFCC-4E9A-ACD9-F64E24972DC9}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Volume_Music" ID="{2B3353B2-176E-4ECF-A140-A219549D7676}"/>
+							<Value>10</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="Gem2_Charge" ID="{2E69923A-C1D7-4ECF-8774-36EADABB8063}"/>
+							<Value>100</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true">
+						<CurrentStateRef Name="None" ID="{DDF6AA84-24C8-4C9D-BA0F-2CE9BB99FF72}"/>
+						<CurrentStateRef Name="None" ID="{C09E3642-7320-46BF-BD4F-540820684A14}"/>
+					</CurrentStateList>
+					<CurrentSwitchList ShowAll="true">
+						<CurrentSwitchRef Name="notCharged" ID="{6F9CC29D-6F6A-42A4-A8B8-673EBE59B358}"/>
+						<CurrentSwitchRef Name="FullCharged" ID="{4EC9FAD6-6D3C-47BE-8806-4216CA659183}"/>
+						<CurrentSwitchRef Name="FullCharged" ID="{B9D27289-495E-4B7D-8A2B-5416413A3721}"/>
+						<CurrentSwitchRef Name="RS_NotCharged" ID="{9B0898CC-D4DD-4013-B0D0-3479FFF61CF2}"/>
+					</CurrentSwitchList>
 				</SoundcasterSession>
 			</ChildrenList>
 		</WorkUnit>

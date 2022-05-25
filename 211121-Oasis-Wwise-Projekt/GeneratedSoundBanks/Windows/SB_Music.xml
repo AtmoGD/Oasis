@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="117396146">
+		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="699478840">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
 			<ShortName>SB_Music</ShortName>
 			<Path>SB_Music.bnk</Path>

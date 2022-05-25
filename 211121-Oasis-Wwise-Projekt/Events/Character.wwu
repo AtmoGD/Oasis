@@ -86,6 +86,21 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="CH_Buch" ID="{99518AB8-E348-4453-93D8-D99EAA5C0325}" ShortID="821641762">
+					<ChildrenList>
+						<Event Name="CH_Buch_Pickup" ID="{C429E55F-8E91-4461-A75B-479FE1820FEB}">
+							<ChildrenList>
+								<Action Name="" ID="{9C87D102-4D74-495B-A1C0-579C3ACF0901}" ShortID="789027396">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="CH_Buch-Pickup" ID="{3E182C2F-8E67-428C-89BA-2F76DA40D48D}" WorkUnitID="{F8332F86-F51C-4B59-981A-A94BBAB23233}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

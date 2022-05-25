@@ -37,6 +37,34 @@
 						</GameParameter>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="SUN" ID="{1323B3AF-94A1-423D-A224-01ADAD20257D}" ShortID="772427198">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<GameParameter Name="Gem1_Charge" ID="{51B9E7C2-70D1-4728-9BBD-5DC6D3EF30F1}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Gem2_Charge" ID="{2E69923A-C1D7-4ECF-8774-36EADABB8063}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Gem3_Charge" ID="{EE15EB78-C331-4A91-9168-FDAF4C737F06}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="RunenStein_Charge" ID="{88E3D096-6DAD-48A8-A269-0092D95A8720}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="0"/>
+							</PropertyList>
+						</GameParameter>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</GameParameters>

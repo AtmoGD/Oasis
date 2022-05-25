@@ -1,0 +1,334 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
+   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "3895316329",
+    "GUID": "{5EAB3B37-A59C-4355-9D6C-C63BD3EB7A75}",
+    "Language": "SFX",
+    "Hash": "20705390",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Voice",
+    "ShortName": "SB_Voice",
+    "Path": "SB_Voice.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "2694145037",
+      "Name": "Voice_Ending",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Voice_Ending",
+      "GUID": "{E29647E2-9659-46F7-B807-47FDECA47098}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.961896",
+      "DurationMax": "11.961896",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "192238618",
+        "Language": "SFX",
+        "ShortName": "ThankEnding.wav",
+        "Path": "SFX\\ThankEnding_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3073797354",
+      "Name": "Voice_Intro_1",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_1",
+      "GUID": "{B2CA049A-AD6A-4C6F-BD3C-53253190EBD8}",
+      "DurationType": "OneShot",
+      "DurationMin": "4.510000",
+      "DurationMax": "4.510000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "59866567",
+        "Language": "SFX",
+        "ShortName": "1-Oh.wav",
+        "Path": "SFX\\1-Oh_755F56E2.wem"
+       },
+       {
+        "Id": "636115623",
+        "Language": "SFX",
+        "ShortName": "1-Oh-Reverb.wav",
+        "Path": "SFX\\1-Oh-Reverb_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3073797353",
+      "Name": "Voice_Intro_2",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_2",
+      "GUID": "{575CF2E3-7519-413A-B3B2-E06DCC7DD289}",
+      "DurationType": "OneShot",
+      "DurationMin": "6.223000",
+      "DurationMax": "6.223000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "148631481",
+        "Language": "SFX",
+        "ShortName": "2-HeyYouFinally-Reverb.wav",
+        "Path": "SFX\\2-HeyYouFinally-Reverb_755F56E2.wem"
+       },
+       {
+        "Id": "963257667",
+        "Language": "SFX",
+        "ShortName": "2-HeyYouFinally.wav",
+        "Path": "SFX\\2-HeyYouFinally_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3073797352",
+      "Name": "Voice_Intro_3",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_3",
+      "GUID": "{50A0ABB8-17A4-4F43-91B0-70FEE6E91C59}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.330000",
+      "DurationMax": "9.330000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "403911440",
+        "Language": "SFX",
+        "ShortName": "3-WeVeBeenStuck.wav",
+        "Path": "SFX\\3-WeVeBeenStuck_755F56E2.wem"
+       },
+       {
+        "Id": "834149820",
+        "Language": "SFX",
+        "ShortName": "3-WeVeBeenStuck-Reverb.wav",
+        "Path": "SFX\\3-WeVeBeenStuck-Reverb_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3073797359",
+      "Name": "Voice_Intro_4",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_4",
+      "GUID": "{BCA809C3-C03F-4CAB-958F-FA562A703B9D}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.400000",
+      "DurationMax": "10.400000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "625058283",
+        "Language": "SFX",
+        "ShortName": "4-YouSeeThisIs.wav",
+        "Path": "SFX\\4-YouSeeThisIs_755F56E2.wem"
+       },
+       {
+        "Id": "975534576",
+        "Language": "SFX",
+        "ShortName": "4-YouSeeThisIs-Reverb.wav",
+        "Path": "SFX\\4-YouSeeThisIs-Reverb_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "4196642268",
+      "Name": "Voice_Intro_4alt",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_4alt",
+      "GUID": "{A4A12AB1-692B-4717-A9A8-80BD19BD45E0}",
+      "DurationType": "OneShot",
+      "DurationMin": "11.400000",
+      "DurationMax": "11.400000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "18219368",
+        "Language": "SFX",
+        "ShortName": "4Alt-DoYouSee.wav",
+        "Path": "SFX\\4Alt-DoYouSee_755F56E2.wem"
+       },
+       {
+        "Id": "753802773",
+        "Language": "SFX",
+        "ShortName": "4Alt-DoYouSee-Reverb.wav",
+        "Path": "SFX\\4Alt-DoYouSee-Reverb_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3073797358",
+      "Name": "Voice_Intro_5",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_5",
+      "GUID": "{1DAC3391-F613-4CE8-AC99-4B16C997757B}",
+      "DurationType": "OneShot",
+      "DurationMin": "10.660000",
+      "DurationMax": "10.660000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "95011797",
+        "Language": "SFX",
+        "ShortName": "5-WeDontKnow-Reverb.wav",
+        "Path": "SFX\\5-WeDontKnow-Reverb_755F56E2.wem"
+       },
+       {
+        "Id": "171681216",
+        "Language": "SFX",
+        "ShortName": "5-WeDontKnow.wav",
+        "Path": "SFX\\5-WeDontKnow_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3073797357",
+      "Name": "Voice_Intro_6",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_6",
+      "GUID": "{EB155A1B-D71E-4DB7-B099-1E17BEC40F7C}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.840000",
+      "DurationMax": "8.840000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "807537111",
+        "Language": "SFX",
+        "ShortName": "6-WithTheHelp-Reverb.wav",
+        "Path": "SFX\\6-WithTheHelp-Reverb_755F56E2.wem"
+       },
+       {
+        "Id": "941270752",
+        "Language": "SFX",
+        "ShortName": "6-WithTheHelp.wav",
+        "Path": "SFX\\6-WithTheHelp_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3073797356",
+      "Name": "Voice_Intro_7",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_7",
+      "GUID": "{EB5608C8-86C4-4EBF-85FF-047093A510FE}",
+      "DurationType": "OneShot",
+      "DurationMin": "8.920000",
+      "DurationMax": "8.920000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "31019985",
+        "Language": "SFX",
+        "ShortName": "7-CouldYouPlease.wav",
+        "Path": "SFX\\7-CouldYouPlease_755F56E2.wem"
+       },
+       {
+        "Id": "721642890",
+        "Language": "SFX",
+        "ShortName": "7-CouldYouPlease-Reverb.wav",
+        "Path": "SFX\\7-CouldYouPlease-Reverb_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "64420634",
+      "Name": "Voice_StopIntro",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_StopIntro",
+      "GUID": "{FD52D6C8-841F-4955-8A79-3CE3ABD87E11}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "2397992392",
+      "Name": "Voice_StopTipps",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_StopTipps",
+      "GUID": "{14887E07-3E01-4F6A-8F64-6BF89B86415A}",
+      "MaxAttenuation": "0.000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0.000000",
+      "DurationMax": "0.000000"
+     },
+     {
+      "Id": "6526192",
+      "Name": "Voice_TippBuchA",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippBuchA",
+      "GUID": "{95E549DC-4303-4845-B71E-E053FD9991F8}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.440000",
+      "DurationMax": "5.440000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "903071174",
+        "Language": "SFX",
+        "ShortName": "TippBuchA.wav",
+        "Path": "SFX\\TippBuchA_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "6526195",
+      "Name": "Voice_TippBuchB",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippBuchB",
+      "GUID": "{52FB8024-3003-4648-8AB1-388464EF5F95}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.390000",
+      "DurationMax": "5.390000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "357666192",
+        "Language": "SFX",
+        "ShortName": "TippBuchB.wav",
+        "Path": "SFX\\TippBuchB_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "600229095",
+      "Name": "Voice_TippDolch",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippDolch",
+      "GUID": "{665839A6-D0B6-4DA9-ADB9-8126EED62644}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.330000",
+      "DurationMax": "5.330000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "497338114",
+        "Language": "SFX",
+        "ShortName": "TippDolch.wav",
+        "Path": "SFX\\TippDolch_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "723664220",
+      "Name": "Voice_TippSchwertA",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippSchwertA",
+      "GUID": "{26687C51-1984-4980-921F-00BEDA48C3F3}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.900000",
+      "DurationMax": "5.900000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "578571193",
+        "Language": "SFX",
+        "ShortName": "TippSchwertA.wav",
+        "Path": "SFX\\TippSchwertA_755F56E2.wem"
+       }
+      ]
+     },
+     {
+      "Id": "723664223",
+      "Name": "Voice_TippSchwertB",
+      "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippSchwertB",
+      "GUID": "{AD8A50B9-68F1-4072-8A18-8BDCB47245DD}",
+      "DurationType": "OneShot",
+      "DurationMin": "5.570000",
+      "DurationMax": "5.570000",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "467558160",
+        "Language": "SFX",
+        "ShortName": "TippSchwertB.wav",
+        "Path": "SFX\\TippSchwertB_755F56E2.wem"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}
