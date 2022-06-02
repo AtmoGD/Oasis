@@ -53,10 +53,10 @@
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1652035492" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Virtual Acoustics\Default Work Unit.wwu" DateLow="1652035492" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Triggers\Default Work Unit.wwu" DateLow="1652035492" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Switches\Default Work Unit.wwu" DateLow="1652035492" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\States\Default Work Unit.wwu" DateLow="1652222225" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1652300696" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\SoundBanks\Default Work Unit.wwu" DateLow="1652302899" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Switches\Default Work Unit.wwu" DateLow="1653261176" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\States\Default Work Unit.wwu" DateLow="1653143522" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1653261176" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\SoundBanks\Default Work Unit.wwu" DateLow="1653143522" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Queries\Factory Queries.wwu" DateLow="1652035492" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Queries\Default Work Unit.wwu" DateLow="1652035492" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Presets\Factory Spatial Audio.wwu" DateLow="1652035492" DateHigh="0"/>
@@ -65,16 +65,16 @@
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Modulators\Default Work Unit.wwu" DateLow="1652035488" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Mixing Sessions\Default Work Unit.wwu" DateLow="1652035488" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Metadata\Default Work Unit.wwu" DateLow="1652035488" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1652300696" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1652301959" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1652883255" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1652883255" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1652035487" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Game Parameters\Factory Motion.wwu" DateLow="1652035487" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Game Parameters\Default Work Unit.wwu" DateLow="1652300696" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Raetsel.wwu" DateLow="1652035487" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Music.wwu" DateLow="1652300696" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Game Parameters\Default Work Unit.wwu" DateLow="1653261176" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Raetsel.wwu" DateLow="1653261176" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Music.wwu" DateLow="1652883244" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Items.wwu" DateLow="1652035487" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Environment.wwu" DateLow="1652035487" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Default Work Unit.wwu" DateLow="1652035487" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Environment.wwu" DateLow="1653176058" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Default Work Unit.wwu" DateLow="1653143522" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Events\Character.wwu" DateLow="1652035487" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Effects\Factory Reflect.wwu" DateLow="1652035487" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Effects\Factory McDSP Effects.wwu" DateLow="1652035487" DateHigh="0"/>
@@ -88,22 +88,22 @@
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Effects\Factory iZotope Box Modeler.wwu" DateLow="1652035774" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Effects\Factory Effects.wwu" DateLow="1652035487" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Effects\Factory Auro Headphone.wwu" DateLow="1652035487" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Effects\Default Work Unit.wwu" DateLow="1652300696" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Effects\Default Work Unit.wwu" DateLow="1652883244" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1652035487" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1652035487" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Conversion Settings\Default Work Unit.wwu" DateLow="1652035487" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Control Surface Sessions\Default Work Unit.wwu" DateLow="1652035487" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Audio Devices\Default Work Unit.wwu" DateLow="1652301959" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Audio Devices\Default Work Unit.wwu" DateLow="1652883244" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Attenuations\Default Work Unit.wwu" DateLow="1652035487" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Raetsel.wwu" DateLow="1652300696" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Music.wwu" DateLow="1652300696" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Items.wwu" DateLow="1652300696" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Raetsel.wwu" DateLow="1653261176" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Music.wwu" DateLow="1652883244" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Items.wwu" DateLow="1653055421" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1652301752" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1652035487" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1652301752" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Environment.wwu" DateLow="1652300696" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1652883244" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Environment.wwu" DateLow="1652883244" DateHigh="0"/>
 	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1652035487" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Character.wwu" DateLow="1652300696" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\211121-Oasis-Wwise-Projekt.wproj" DateLow="1652208169" DateHigh="0"/>
-	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\211121-Oasis-Wwise-Projekt.Joshi.wsettings" DateLow="1652302900" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\Actor-Mixer Hierarchy\Character.wwu" DateLow="1652883244" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\211121-Oasis-Wwise-Projekt.wproj" DateLow="1652883244" DateHigh="0"/>
+	<ValidationCacheItem File="X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\211121-Oasis-Wwise-Projekt.Joshi.wsettings" DateLow="1653261176" DateHigh="0"/>
 </ValidationCache>

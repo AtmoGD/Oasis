@@ -112,6 +112,61 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="IT_ItemPartikel" ID="{DF3D4AF8-DC29-4613-ADF3-620B9305059C}">
+					<ChildrenList>
+						<Action Name="" ID="{F412F0A4-EEBF-49C8-8239-EFDFED9164D8}" ShortID="85862629">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_ItemPartikel" ID="{0CA49874-CE19-4D3A-B5A6-1CA6D44DDD39}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{618183B9-F7CB-46AE-96AB-858500999DAD}" ShortID="440999355">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_BaseShimmer" ID="{BEAD1CAE-ECED-489C-A803-7BF26B541071}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="IT_ItemAufloesen" ID="{56DCF4ED-FF08-4B58-85D6-35BA52FA26E1}">
+					<ChildrenList>
+						<Action Name="" ID="{55673BDB-937B-42CC-9359-28BC5197C2B4}" ShortID="164910699">
+							<PropertyList>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_ItemAufloesen" ID="{55BC9850-A209-47CD-BC17-EC2B11E0318E}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{3EFEB580-7F2B-4846-B305-8C5577792BAC}" ShortID="869616535">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_ItemPartikel" ID="{0CA49874-CE19-4D3A-B5A6-1CA6D44DDD39}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2F8118C9-D19A-4156-B832-6D7F6B239887}" ShortID="77237606">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="IT_BaseShimmer" ID="{BEAD1CAE-ECED-489C-A803-7BF26B541071}" WorkUnitID="{CD739A9F-049C-4504-9F96-1BD491372FD6}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

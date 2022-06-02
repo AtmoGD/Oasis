@@ -1,6 +1,133 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}" SchemaVersion="103">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="SUN" ID="{20DB648A-4D85-49D0-AA73-770B98440085}" ShortID="340983815">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="7"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+					</PropertyList>
+					<ChildrenList>
+						<SwitchGroup Name="Gem1Charge" ID="{4362D89F-EF60-44E2-B1DE-EE1A86D05867}">
+							<PropertyList>
+								<Property Name="UseGameParameter" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Switch Name="notCharged" ID="{6F9CC29D-6F6A-42A4-A8B8-673EBE59B358}"/>
+								<Switch Name="FullCharged" ID="{BE8974EB-FA6D-49A3-9D1C-3BC6B124F383}"/>
+							</ChildrenList>
+							<SwitchOnRTPC>
+								<GameParameterRef Name="Gem1_Charge" ID="{51B9E7C2-70D1-4728-9BBD-5DC6D3EF30F1}"/>
+								<Curve Name="" ID="{78F01787-9A12-433F-B4D5-C13AB28FF411}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>1</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>2</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</SwitchOnRTPC>
+						</SwitchGroup>
+						<SwitchGroup Name="Gem2Charge" ID="{ED7F3116-813F-45F9-B234-CA68870E4E10}">
+							<PropertyList>
+								<Property Name="UseGameParameter" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Switch Name="notCharged" ID="{E39FD45F-6807-4008-81D3-F85521A136A0}"/>
+								<Switch Name="FullCharged" ID="{4EC9FAD6-6D3C-47BE-8806-4216CA659183}"/>
+							</ChildrenList>
+							<SwitchOnRTPC>
+								<GameParameterRef Name="Gem2_Charge" ID="{2E69923A-C1D7-4ECF-8774-36EADABB8063}"/>
+								<Curve Name="" ID="{8135A3C3-E393-4463-8AA8-AB78965ABFFD}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>1</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>2</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</SwitchOnRTPC>
+						</SwitchGroup>
+						<SwitchGroup Name="Gem3Charge" ID="{06229804-999E-47C6-8959-8B7B3923FC92}">
+							<PropertyList>
+								<Property Name="UseGameParameter" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Switch Name="notCharged" ID="{9E969465-2484-4FFD-A4EF-F20D9718E59C}"/>
+								<Switch Name="FullCharged" ID="{B9D27289-495E-4B7D-8A2B-5416413A3721}"/>
+							</ChildrenList>
+							<SwitchOnRTPC>
+								<GameParameterRef Name="Gem3_Charge" ID="{EE15EB78-C331-4A91-9168-FDAF4C737F06}"/>
+								<Curve Name="" ID="{21656EC3-7E58-4A2F-82B6-A132AAAF1D14}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>1</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>2</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</SwitchOnRTPC>
+						</SwitchGroup>
+						<SwitchGroup Name="RunenSteinCharge" ID="{097D4ADE-1EA6-48CA-930E-125D5FF4DCBF}">
+							<PropertyList>
+								<Property Name="UseGameParameter" Type="bool" Value="True"/>
+							</PropertyList>
+							<ChildrenList>
+								<Switch Name="RS_Charged" ID="{BD434E3C-40B1-4FF2-AD49-44F711EB81C4}"/>
+								<Switch Name="RS_NotCharged" ID="{9B0898CC-D4DD-4013-B0D0-3479FFF61CF2}"/>
+							</ChildrenList>
+							<SwitchOnRTPC>
+								<GameParameterRef Name="RunenStein_Charge" ID="{88E3D096-6DAD-48A8-A269-0092D95A8720}"/>
+								<Curve Name="" ID="{B304AE51-661D-4202-B84B-1E3DDACE29E9}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="65537"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>2</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>100</XPos>
+											<YPos>1</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</SwitchOnRTPC>
+						</SwitchGroup>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

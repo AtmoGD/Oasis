@@ -1,0 +1,683 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{19487779-189A-468C-86F5-AA290B8850E2}" SchemaVersion="103" RootDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" ParentDocumentID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}">
+	<Events>
+		<WorkUnit Name="Voice" ID="{19487779-189A-468C-86F5-AA290B8850E2}" OwnerID="{E10A6BFC-883D-47DB-A1A8-818F92D07B07}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="23"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Folder Name="Intro" ID="{03FB3893-253A-485F-B62F-80A666C038AC}" ShortID="303912793">
+					<ChildrenList>
+						<Event Name="Voice_Intro_1" ID="{B2CA049A-AD6A-4C6F-BD3C-53253190EBD8}">
+							<ChildrenList>
+								<Action Name="" ID="{1DBB0419-D4A8-4D5D-8F14-2E1865237AFF}" ShortID="664176163">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="1-Oh-Reverb" ID="{EB3E2F51-5681-47AE-8D58-18E593E649E9}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A24EA3E7-4862-4D92-9ED2-3FAA1B880C05}" ShortID="549542048">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="1-Oh" ID="{63C0975C-E20D-44CF-83E4-87BFA2E02245}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Intro_2" ID="{575CF2E3-7519-413A-B3B2-E06DCC7DD289}">
+							<ChildrenList>
+								<Action Name="" ID="{F197C3D5-FAAC-426C-BF4A-AB3311376C02}" ShortID="384947560">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2-HeyYouFinally-Reverb" ID="{728F7882-9E16-49B7-9E94-C4ABB3A692A9}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{521F7392-BD31-4B7B-92A7-C9467ABAA8BA}" ShortID="134391001">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2-HeyYouFinally" ID="{5CFDE533-09C1-4A98-9122-269671B8C34D}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B9CE7E37-976F-4E81-B26A-342E3D8C040F}" ShortID="850334244">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="1-Oh-Reverb" ID="{EB3E2F51-5681-47AE-8D58-18E593E649E9}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{2EF5C9E7-408A-4497-8D15-5080A7931CA4}" ShortID="478188984">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="1-Oh" ID="{63C0975C-E20D-44CF-83E4-87BFA2E02245}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Intro_3" ID="{50A0ABB8-17A4-4F43-91B0-70FEE6E91C59}">
+							<ChildrenList>
+								<Action Name="" ID="{188E3D61-94DB-4A86-B5E1-99A930E58B40}" ShortID="21251889">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3-WeVeBeenStuck-Reverb" ID="{03B09BA6-69F9-495E-9CD8-9187C4FEB61B}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B0768434-0335-4210-BA11-95299A5CA354}" ShortID="257470877">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3-WeVeBeenStuck" ID="{3D7486FA-6F86-4B6D-A96C-8EF76FF516AB}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6D8A0D01-E17A-4F17-B8E5-91AD810EBB86}" ShortID="918586466">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2-HeyYouFinally-Reverb" ID="{728F7882-9E16-49B7-9E94-C4ABB3A692A9}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{DD545DA7-C4BB-445D-815B-88D80311BDD5}" ShortID="555212753">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2-HeyYouFinally" ID="{5CFDE533-09C1-4A98-9122-269671B8C34D}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Intro_4" ID="{BCA809C3-C03F-4CAB-958F-FA562A703B9D}">
+							<ChildrenList>
+								<Action Name="" ID="{29516C82-C0F8-45FD-8BA7-312384112FB7}" ShortID="237608158">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4-YouSeeThisIs-Reverb" ID="{AA2DB5A5-EC52-4E3A-A1E3-6434B2653076}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{64C2DC0D-5447-4A55-BD09-3A62B6EBC554}" ShortID="273656291">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4-YouSeeThisIs" ID="{84F5B1BA-C7C3-4A40-A01A-0C42BEB5A39B}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{602D2782-F3B4-4540-9F2D-FE442A463D1E}" ShortID="178230371">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3-WeVeBeenStuck-Reverb" ID="{03B09BA6-69F9-495E-9CD8-9187C4FEB61B}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E135A8CA-94A4-40ED-AFC3-F5F9C251239A}" ShortID="851521881">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3-WeVeBeenStuck" ID="{3D7486FA-6F86-4B6D-A96C-8EF76FF516AB}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Intro_4alt" ID="{A4A12AB1-692B-4717-A9A8-80BD19BD45E0}">
+							<ChildrenList>
+								<Action Name="" ID="{B7A49FA9-A842-4C53-8A29-B995C22B6EAF}" ShortID="453078041">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4Alt-DoYouSee-Reverb" ID="{5052E909-1E9A-4D44-AEEF-AAF74462E5B4}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{87ED4889-7927-4B00-B6A6-9CDC03ED7C70}" ShortID="470674735">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4Alt-DoYouSee" ID="{0347C58B-2868-4A8D-95EF-C69709D43F97}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AC14D406-74B2-409E-802A-AE30E1E01A1B}" ShortID="202260335">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3-WeVeBeenStuck-Reverb" ID="{03B09BA6-69F9-495E-9CD8-9187C4FEB61B}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{F9F26123-C209-45E1-9E9B-CFD2DD672FBA}" ShortID="376306204">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3-WeVeBeenStuck" ID="{3D7486FA-6F86-4B6D-A96C-8EF76FF516AB}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Intro_5" ID="{1DAC3391-F613-4CE8-AC99-4B16C997757B}">
+							<ChildrenList>
+								<Action Name="" ID="{402A69D2-4FFE-4144-9319-BE572FD69132}" ShortID="1071378225">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="5-WeDontKnow-Reverb" ID="{C1C25B9C-3EA0-42A6-A978-35BF5126EE33}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D4034557-42F6-4DD5-8625-7F90B8BBEA38}" ShortID="406676043">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="5-WeDontKnow" ID="{7452386B-79B8-49A2-A5CC-3E2D109856E8}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{867EA425-1405-4AE4-8EF5-3F332632869C}" ShortID="438118494">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4-YouSeeThisIs-Reverb" ID="{AA2DB5A5-EC52-4E3A-A1E3-6434B2653076}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{99AC57FE-F458-4C4E-B69C-18EF898462D1}" ShortID="318325697">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4Alt-DoYouSee-Reverb" ID="{5052E909-1E9A-4D44-AEEF-AAF74462E5B4}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8360D84D-19A1-4679-B61B-2EE3E49E0064}" ShortID="502417670">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4-YouSeeThisIs" ID="{84F5B1BA-C7C3-4A40-A01A-0C42BEB5A39B}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{6AB4E667-24F5-4F0E-BD55-45F0AC0C270A}" ShortID="600290171">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4Alt-DoYouSee" ID="{0347C58B-2868-4A8D-95EF-C69709D43F97}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Intro_6" ID="{EB155A1B-D71E-4DB7-B099-1E17BEC40F7C}">
+							<ChildrenList>
+								<Action Name="" ID="{9805CEAB-D0EC-49A7-89AB-6DF669F4827A}" ShortID="346953837">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="6-WithTheHelp-Reverb" ID="{E18A7FDF-F0D3-4E65-A173-FC0347F84612}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C6749A11-F0F2-4C92-A568-154F112069D1}" ShortID="890563835">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="6-WithTheHelp" ID="{2847F37C-D8D1-49E8-8153-632F3980DEBE}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5BA33AA3-8D07-4DBF-B44A-C5ABE8EA17A5}" ShortID="104696453">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="5-WeDontKnow-Reverb" ID="{C1C25B9C-3EA0-42A6-A978-35BF5126EE33}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8609B2D8-71D4-4A4E-A20A-BF7162F96D09}" ShortID="550379383">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="5-WeDontKnow" ID="{7452386B-79B8-49A2-A5CC-3E2D109856E8}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_Intro_7" ID="{EB5608C8-86C4-4EBF-85FF-047093A510FE}">
+							<ChildrenList>
+								<Action Name="" ID="{48E81F0E-2538-43C7-AC62-58A17CC5CBC9}" ShortID="9935537">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="7-CouldYouPlease-Reverb" ID="{B7B0B69F-E93E-4B16-8552-2566C5902FEF}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{ACF0C31B-94CB-4A97-9D34-DDEE5CEA047A}" ShortID="698284608">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="7-CouldYouPlease" ID="{11F17CE8-99E1-420A-A06A-3983CFCA4D8E}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{AB43ED13-DEEF-4471-9C70-A55A373BBD52}" ShortID="678174773">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="6-WithTheHelp-Reverb" ID="{E18A7FDF-F0D3-4E65-A173-FC0347F84612}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{06A1C45C-5A86-474A-B0D1-FA16EC4C8BF7}" ShortID="931252320">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="6-WithTheHelp" ID="{2847F37C-D8D1-49E8-8153-632F3980DEBE}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_StopIntro" ID="{FD52D6C8-841F-4955-8A79-3CE3ABD87E11}">
+							<ChildrenList>
+								<Action Name="" ID="{E505FAA7-1128-4C88-BBD6-E453364591EE}" ShortID="14836112">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4-YouSeeThisIs-Reverb" ID="{AA2DB5A5-EC52-4E3A-A1E3-6434B2653076}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{96272C93-B7D8-4C82-9D8E-310D2F2C1C18}" ShortID="364167497">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="1-Oh-Reverb" ID="{EB3E2F51-5681-47AE-8D58-18E593E649E9}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5921296A-C529-4E69-9B7A-970A8E86C15E}" ShortID="781023544">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2-HeyYouFinally-Reverb" ID="{728F7882-9E16-49B7-9E94-C4ABB3A692A9}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{CB4FF093-43E9-4387-9261-76D053401226}" ShortID="382586364">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3-WeVeBeenStuck-Reverb" ID="{03B09BA6-69F9-495E-9CD8-9187C4FEB61B}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E1291CE4-A9F3-4DF3-BA42-5FBEEE205754}" ShortID="410429766">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4Alt-DoYouSee-Reverb" ID="{5052E909-1E9A-4D44-AEEF-AAF74462E5B4}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{5A5BC8AE-5CE6-4421-9DB8-42DA680C731B}" ShortID="582707831">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="5-WeDontKnow-Reverb" ID="{C1C25B9C-3EA0-42A6-A978-35BF5126EE33}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{BF98E15A-BDFB-429F-A987-2F8CD97346EA}" ShortID="485302689">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="6-WithTheHelp-Reverb" ID="{E18A7FDF-F0D3-4E65-A173-FC0347F84612}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FEB7D12E-9C33-4835-BB2D-DFCA669C3D9B}" ShortID="803287354">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="7-CouldYouPlease-Reverb" ID="{B7B0B69F-E93E-4B16-8552-2566C5902FEF}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{C06D1B0B-E3AC-455D-84E3-D57085C8A5B8}" ShortID="560982417">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="1-Oh" ID="{63C0975C-E20D-44CF-83E4-87BFA2E02245}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{65552882-84A0-4375-B0EF-3265A8C17209}" ShortID="899225315">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="2-HeyYouFinally" ID="{5CFDE533-09C1-4A98-9122-269671B8C34D}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{370F60E6-71AC-4880-B0DD-AD785884A05B}" ShortID="570980088">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="3-WeVeBeenStuck" ID="{3D7486FA-6F86-4B6D-A96C-8EF76FF516AB}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{FEA53B00-540B-48E7-BF02-FD46AE8DFAE5}" ShortID="29463594">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4-YouSeeThisIs" ID="{84F5B1BA-C7C3-4A40-A01A-0C42BEB5A39B}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{D40EA140-C296-42E9-B5B0-51E374BEA1F6}" ShortID="313243731">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="4Alt-DoYouSee" ID="{0347C58B-2868-4A8D-95EF-C69709D43F97}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{E94DF909-D52C-4E5E-8021-80C097AFDCDD}" ShortID="437458353">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="5-WeDontKnow" ID="{7452386B-79B8-49A2-A5CC-3E2D109856E8}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{738FF0CC-9EE2-4C59-8D16-B38321A485CF}" ShortID="147923459">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="6-WithTheHelp" ID="{2847F37C-D8D1-49E8-8153-632F3980DEBE}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{8D554F5D-ECDC-494E-8E5F-7751F865435F}" ShortID="960086563">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="7-CouldYouPlease" ID="{11F17CE8-99E1-420A-A06A-3983CFCA4D8E}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Tipps" ID="{78C855CE-0290-4F46-B884-1FEF1E628947}" ShortID="708922268">
+					<ChildrenList>
+						<Event Name="Voice_TippBuchA" ID="{95E549DC-4303-4845-B71E-E053FD9991F8}">
+							<ChildrenList>
+								<Action Name="" ID="{0F633EA0-AA8F-48E8-8895-AEB6B163294E}" ShortID="87427493">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippBuchA" ID="{791332BB-834A-4358-A2F2-71404B661835}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_TippBuchB" ID="{52FB8024-3003-4648-8AB1-388464EF5F95}">
+							<ChildrenList>
+								<Action Name="" ID="{731F86FA-0B9D-4E53-BA5C-67B11E5F866D}" ShortID="890830141">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippBuchB" ID="{285A6851-6AED-4AD3-95B2-822A06B617AF}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_TippDolch" ID="{665839A6-D0B6-4DA9-ADB9-8126EED62644}">
+							<ChildrenList>
+								<Action Name="" ID="{8377C8B9-EB1D-47A7-A1FA-861C2374DEDA}" ShortID="153549885">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippDolch" ID="{451AA771-7D05-4D88-BC61-22B6F5EBB32F}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_TippSchwertA" ID="{26687C51-1984-4980-921F-00BEDA48C3F3}">
+							<ChildrenList>
+								<Action Name="" ID="{913F4CC3-D6CA-4424-BC31-45AE72711974}" ShortID="386899726">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippSchwertA" ID="{79D64447-8E7E-4B61-821E-D99F151844EB}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_TippSchwertB" ID="{AD8A50B9-68F1-4072-8A18-8BDCB47245DD}">
+							<ChildrenList>
+								<Action Name="" ID="{000A230F-D7E1-40EC-9583-322A7584DF57}" ShortID="546326503">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippSchwertB" ID="{FAADF772-8FE6-4917-9CED-CD60B4D46306}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Voice_StopTipps" ID="{14887E07-3E01-4F6A-8F64-6BF89B86415A}">
+							<ChildrenList>
+								<Action Name="" ID="{955A619F-AC62-4F87-A4E9-3D3E04F83364}" ShortID="649877583">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippBuchA" ID="{791332BB-834A-4358-A2F2-71404B661835}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{A55A2749-9ECD-44E7-B31A-5B3A5639C6C7}" ShortID="220857037">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippBuchB" ID="{285A6851-6AED-4AD3-95B2-822A06B617AF}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{246D207B-CC20-426B-A794-7344CB9DF1D1}" ShortID="912570597">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippDolch" ID="{451AA771-7D05-4D88-BC61-22B6F5EBB32F}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{B1CAC4A2-1894-4AC4-813C-D5D9859101A2}" ShortID="240002451">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippSchwertA" ID="{79D64447-8E7E-4B61-821E-D99F151844EB}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{93E681F5-FCB8-4F00-8317-8493B288F61C}" ShortID="31577072">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+										<Property Name="FadeTime" Type="Real64" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TippSchwertB" ID="{FAADF772-8FE6-4917-9CED-CD60B4D46306}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Event Name="Voice_Ending" ID="{E29647E2-9659-46F7-B807-47FDECA47098}">
+					<ChildrenList>
+						<Action Name="" ID="{5EF5C147-0D00-4F83-9465-D3B4A2F14598}" ShortID="749513683">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ThankEnding" ID="{40E50DA7-0A80-4DA2-94DE-4027C3EEF582}" WorkUnitID="{7858AA49-6F1C-43FE-90C0-F2F8B02DB613}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

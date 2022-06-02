@@ -1,3 +1,19 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2340907149	Gem3Charge			\Default Work Unit\SUN\Gem3Charge	
+	2411241056	Gem2Charge			\Default Work Unit\SUN\Gem2Charge	
+	2431874771	Gem1Charge			\Default Work Unit\SUN\Gem1Charge	
+	3751591028	RunenSteinCharge			\Default Work Unit\SUN\RunenSteinCharge	
+
+Switch	ID	Name	Switch Group			Notes
+	3778426334	FullCharged	Gem3Charge			
+	4190356504	notCharged	Gem3Charge			
+	3778426334	FullCharged	Gem2Charge			
+	4190356504	notCharged	Gem2Charge			
+	3778426334	FullCharged	Gem1Charge			
+	4190356504	notCharged	Gem1Charge			
+	1869081914	RS_NotCharged	RunenSteinCharge			
+	2709421345	RS_Charged	RunenSteinCharge			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	1350496757	PlayerMovement			\Default Work Unit\PlayerMovement	
 	3067361994	Current_Item			\Default Work Unit\Current_Item	
@@ -45,6 +61,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 
 Effect plug-ins	ID	Name	Type				Notes
 	983907983	Meter_Instruments	Wwise Meter			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
 	2969259856	Meter_SFX	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes

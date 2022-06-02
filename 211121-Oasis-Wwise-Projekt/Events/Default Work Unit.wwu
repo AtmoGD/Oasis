@@ -8,6 +8,7 @@
 				<WorkUnit Name="Music" ID="{F3EA804B-CF0E-4DF8-A89D-B3E9AC300E81}" PersistMode="Reference"/>
 				<WorkUnit Name="Raetsel" ID="{842926DF-1CB9-43FC-B05B-58E384E53C76}" PersistMode="Reference"/>
 				<WorkUnit Name="Items" ID="{9BCA42F4-5D47-4281-A419-A0127867AA5B}" PersistMode="Reference"/>
+				<WorkUnit Name="Voice" ID="{19487779-189A-468C-86F5-AA290B8850E2}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

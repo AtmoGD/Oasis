@@ -25,6 +25,12 @@
 												<SegmentShape>Exp1</SegmentShape>
 											</Point>
 											<Point>
+												<XPos>1</XPos>
+												<YPos>-18</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
 												<XPos>10</XPos>
 												<YPos>0</YPos>
 												<Flags>37</Flags>
@@ -38,6 +44,9 @@
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{CFFAB83A-6141-4249-AEBF-DC92D8CCB069}" WorkUnitID="{45BC5D9E-469B-468A-A906-B1F071CFB975}"/>
+						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -63,8 +72,14 @@
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
+														<XPos>1</XPos>
+														<YPos>-18</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
 														<XPos>10</XPos>
-														<YPos>0</YPos>
+														<YPos>6</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -131,8 +146,14 @@
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
+														<XPos>1</XPos>
+														<YPos>-18</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
 														<XPos>10</XPos>
-														<YPos>0</YPos>
+														<YPos>6</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
@@ -182,8 +203,14 @@
 														<SegmentShape>Exp1</SegmentShape>
 													</Point>
 													<Point>
+														<XPos>1</XPos>
+														<YPos>-18</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
 														<XPos>10</XPos>
-														<YPos>0</YPos>
+														<YPos>6</YPos>
 														<Flags>37</Flags>
 													</Point>
 												</PointList>
