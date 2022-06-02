@@ -8,137 +8,550 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="RTSL_Sun" ID="{0B60D341-8634-4E9F-B029-1A2C4B3D2043}" ShortID="948928700">
-					<PropertyList>
-						<Property Name="Volume" Type="Real64">
-							<ValueList>
-								<Value>-8</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+							<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<RandomSequenceContainer Name="RTSL_Sun_BeamStart" ID="{8AA0AAB5-133E-4CEF-A67C-21569AC70D7E}" ShortID="592465413">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
-								</Reference>
-							</ReferenceList>
+						<Folder Name="Beam" ID="{E29883CA-7759-4D27-A861-2E983F4F7D3E}" ShortID="344675071">
 							<ChildrenList>
-								<Sound Name="Beam_Start-001" ID="{EF3018B6-D76B-4A1D-8280-AB97A15CFBCA}" ShortID="473481995">
+								<RandomSequenceContainer Name="RTSL_Sun_BeamReflectOS" ID="{DF8BAFA8-A525-4183-9067-4C188629057E}" ShortID="584060021">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Medium" ID="{ADF8DCCB-F3A8-438D-9BDC-087C02183EC4}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Start-001" ID="{9B1B681E-4B2E-4FBD-B64D-9CA21181026A}">
-											<Language>SFX</Language>
-											<AudioFile>Beam_Start-001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="848570140"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Beam_Reflect_OS-001" ID="{7F29E37D-D8DC-4AD8-8EF9-2059A935CCFB}" ShortID="1022575201">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Reflect_OS-001" ID="{BD6E3338-FA6C-466C-8E86-A30C78F7C411}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Reflect_OS-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="832781379"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Reflect_OS-001" ID="{BD6E3338-FA6C-466C-8E86-A30C78F7C411}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Beam_Reflect_OS-002" ID="{38582D34-3B55-4C6A-BA07-E5A1ECF157A6}" ShortID="454446211">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Reflect_OS-002" ID="{65406139-0A95-43B6-86C1-8DE216360F22}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Reflect_OS-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="372425914"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Reflect_OS-002" ID="{65406139-0A95-43B6-86C1-8DE216360F22}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Beam_Reflect_OS-003" ID="{854D8616-AAD5-4959-B421-26FF6BAEF3A0}" ShortID="602155412">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Reflect_OS-003" ID="{B0A62D1F-8EAA-49FA-9069-640AAE84550B}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Reflect_OS-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="281225704"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Reflect_OS-003" ID="{B0A62D1F-8EAA-49FA-9069-640AAE84550B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+												<CustomState Name="" ID="{4AAF9DEE-30D4-4E00-9BB6-EC4C9067091D}" ShortID="827304719">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+												<CustomState Name="" ID="{7B8BDEF8-B733-4B55-AC7D-C60B6BFC8DAC}" ShortID="1047383704"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Beam_Start-001" ID="{9B1B681E-4B2E-4FBD-B64D-9CA21181026A}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Beam_Start-002" ID="{6ABE0C05-39C3-442F-9474-1A45C13AC778}" ShortID="174806211">
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RTSL_Sun_BeamRunning" ID="{08BC61DB-FAA9-480C-A76E-5EAB3FE0061B}" ShortID="339441395">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Medium" ID="{ADF8DCCB-F3A8-438D-9BDC-087C02183EC4}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Start-002" ID="{FA8F8B64-8370-4453-9DF6-6188686883D7}">
-											<Language>SFX</Language>
-											<AudioFile>Beam_Start-002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="1024022785"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Beam_Running-001" ID="{42979C15-4B32-463B-8F82-E06CD69C0100}" ShortID="73921513">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Running-001" ID="{E2D139C3-748E-468B-919D-22DEE467D428}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Running-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="401483933"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Running-001" ID="{E2D139C3-748E-468B-919D-22DEE467D428}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Beam_Running-002" ID="{E7D8B6CF-A6E3-4CED-8BC5-50926D582EA4}" ShortID="595632070">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Running-002" ID="{5903C53D-4EA1-485D-B04D-7F5D03386390}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Running-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="834870781"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Running-002" ID="{5903C53D-4EA1-485D-B04D-7F5D03386390}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Beam_Running-003" ID="{73EE2B36-9D65-44EB-80A6-1DE94A7A33FE}" ShortID="194257121">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Running-003" ID="{2AFD49A9-73B6-4205-A5EF-07865167B2D0}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Running-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="934026136"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Running-003" ID="{2AFD49A9-73B6-4205-A5EF-07865167B2D0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+												<CustomState Name="" ID="{DBE07544-00B9-42AF-BF8D-351643DF4906}" ShortID="378165065">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-10"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+												<CustomState Name="" ID="{12E47ECA-C58D-4137-AA02-EE362F10F0C5}" ShortID="259868730"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Beam_Start-002" ID="{FA8F8B64-8370-4453-9DF6-6188686883D7}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Beam_Start-003" ID="{F81F9E38-B45D-4FE0-8E35-B7A71A7DAC83}" ShortID="502085414">
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RTSL_Sun_BeamRunningReflected" ID="{1B986CB4-B92E-4107-B2F8-1FD1DC298DCF}" ShortID="661721929">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+										<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Medium" ID="{ADF8DCCB-F3A8-438D-9BDC-087C02183EC4}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Start-003" ID="{03833B88-9777-4DDB-807A-269AD02F4A5B}">
-											<Language>SFX</Language>
-											<AudioFile>Beam_Start-003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="789496047"/>
-											</MediaIDList>
-										</AudioFileSource>
+										<Sound Name="Beam_Running_Reflected-001" ID="{F5F10181-A2FC-46C9-85F5-2AC9EBC7FC47}" ShortID="455443068">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Running_Reflected-001" ID="{E65964CB-EA4B-482F-AF5F-A5DFE0297029}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Running_Reflected-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="128674909"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Running_Reflected-001" ID="{E65964CB-EA4B-482F-AF5F-A5DFE0297029}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Beam_Running_Reflected-002" ID="{66494789-02DC-4E40-A847-55C7DCBCE82C}" ShortID="280954412">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Running_Reflected-002" ID="{B49B5CB6-1CAD-4799-B496-4FD69C6DC3A2}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Running_Reflected-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="916804220"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Running_Reflected-002" ID="{B49B5CB6-1CAD-4799-B496-4FD69C6DC3A2}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Beam_Running_Reflected-003" ID="{DFE9A3EA-45E0-4240-9EEA-8B4D355155EE}" ShortID="330539441">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Running_Reflected-003" ID="{0A897CBA-67B8-4979-95E1-B4A1ACDB734D}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Running_Reflected-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="207456654"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Running_Reflected-003" ID="{0A897CBA-67B8-4979-95E1-B4A1ACDB734D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+												<CustomState Name="" ID="{E8BFB7F3-0873-4F7B-ABBF-B4F561913252}" ShortID="993649571">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-10"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+												<CustomState Name="" ID="{CB80B645-2E61-48AB-8293-8442B12D9E80}" ShortID="992182320"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
 									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Beam_Start-003" ID="{03833B88-9777-4DDB-807A-269AD02F4A5B}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RTSL_Sun_BeamStart" ID="{8AA0AAB5-133E-4CEF-A67C-21569AC70D7E}" ShortID="592465413">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Medium" ID="{ADF8DCCB-F3A8-438D-9BDC-087C02183EC4}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Beam_Start-001" ID="{EF3018B6-D76B-4A1D-8280-AB97A15CFBCA}" ShortID="473481995">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Start-001" ID="{9B1B681E-4B2E-4FBD-B64D-9CA21181026A}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Start-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="848570140"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Start-001" ID="{9B1B681E-4B2E-4FBD-B64D-9CA21181026A}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Beam_Start-002" ID="{6ABE0C05-39C3-442F-9474-1A45C13AC778}" ShortID="174806211">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Start-002" ID="{FA8F8B64-8370-4453-9DF6-6188686883D7}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Start-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="1024022785"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Start-002" ID="{FA8F8B64-8370-4453-9DF6-6188686883D7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Beam_Start-003" ID="{F81F9E38-B45D-4FE0-8E35-B7A71A7DAC83}" ShortID="502085414">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Start-003" ID="{03833B88-9777-4DDB-807A-269AD02F4A5B}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Start-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="789496047"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Start-003" ID="{03833B88-9777-4DDB-807A-269AD02F4A5B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+												<CustomState Name="" ID="{4AB29C0C-22D5-4D6A-A915-45AC98792ECA}" ShortID="1066766091">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+												<CustomState Name="" ID="{4BFF83FA-6964-470B-AF6D-307F69C5C47D}" ShortID="988614571"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="RTSL_Sun_BeamStop" ID="{7333E660-3943-406F-A60C-BD857584F92A}" ShortID="1054749353">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Medium" ID="{ADF8DCCB-F3A8-438D-9BDC-087C02183EC4}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Beam_Stop" ID="{1C08B019-F737-4D1A-A535-B336BA9A9550}" ShortID="457855648">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Beam_Stop" ID="{ED708635-933E-45C3-9455-FBD25D0016B7}">
+													<Language>SFX</Language>
+													<AudioFile>Beam_Stop.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="20468238"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Beam_Stop" ID="{ED708635-933E-45C3-9455-FBD25D0016B7}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<StateInfo>
+										<StateGroupList>
+											<StateGroupInfo>
+												<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
+											</StateGroupInfo>
+										</StateGroupList>
+										<CustomStateList>
+											<CustomState>
+												<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
+												<CustomState Name="" ID="{B7BEB420-3FCF-4FBF-8626-E8ED84C60941}" ShortID="26333223">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64" Value="-5"/>
+													</PropertyList>
+												</CustomState>
+											</CustomState>
+											<CustomState>
+												<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
+												<CustomState Name="" ID="{99AC3CA5-72B5-4D07-AFCD-5F2F21EDA217}" ShortID="15215987"/>
+											</CustomState>
+										</CustomStateList>
+									</StateInfo>
+									<ObjectLists/>
+								</RandomSequenceContainer>
 							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
-										<CustomState Name="" ID="{4AB29C0C-22D5-4D6A-A915-45AC98792ECA}" ShortID="1066766091">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-5"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
-										<CustomState Name="" ID="{4BFF83FA-6964-470B-AF6D-307F69C5C47D}" ShortID="988614571"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="RTSL_Sun_BeamStop" ID="{7333E660-3943-406F-A60C-BD857584F92A}" ShortID="1054749353">
-							<ReferenceList>
-								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
-								</Reference>
-								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
-								</Reference>
-							</ReferenceList>
+						</Folder>
+						<Folder Name="Gem" ID="{4D8959F6-A04F-4758-B4F3-C1BCDCEC0B87}" ShortID="186690279">
 							<ChildrenList>
-								<Sound Name="Beam_Stop-001" ID="{4EC5596C-A7D8-46F9-96B7-1A9B8C5A2089}" ShortID="932473791">
+								<ActorMixer Name="RTSL_Sun_Gem1" ID="{7833E624-860B-4197-A3FA-CD29E59D2289}" ShortID="750971378">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Small" ID="{19EA104D-9044-410F-B49B-FEE1CCCBCD41}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
@@ -147,104 +560,1709 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Stop-001" ID="{D6676EE9-C347-4E7B-A381-30BC63FC2B23}">
-											<Language>SFX</Language>
-											<AudioFile>Beam_Stop-001.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="133555340"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Beam_Stop-001" ID="{D6676EE9-C347-4E7B-A381-30BC63FC2B23}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Beam_Stop-002" ID="{D297CE00-8267-4F7F-9EBE-04AD4C84AC0E}" ShortID="1058427666">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Beam_Stop-002" ID="{E2076F4B-41C3-43B4-9ED6-A2328FF51891}">
-											<Language>SFX</Language>
-											<AudioFile>Beam_Stop-002.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="784477728"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Beam_Stop-002" ID="{E2076F4B-41C3-43B4-9ED6-A2328FF51891}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Beam_Stop-003" ID="{0963A2F8-E89B-4DEA-830A-5C5A1D5F0D67}" ShortID="68309010">
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Beam_Stop-003" ID="{04F6A5AD-D99E-48D5-8126-45BABDA7AB40}">
-											<Language>SFX</Language>
-											<AudioFile>Beam_Stop-003.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="569770197"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ObjectLists/>
-									<ActiveSourceList>
-										<ActiveSource Name="Beam_Stop-003" ID="{04F6A5AD-D99E-48D5-8126-45BABDA7AB40}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
-										<CustomState Name="" ID="{B7BEB420-3FCF-4FBF-8626-E8ED84C60941}" ShortID="26333223">
+										<Sound Name="Crystal_LoseCharge-001" ID="{F350C1ED-9429-4442-9131-4A1FCDE0CACA}" ShortID="640276132">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crystal_LoseCharge-001" ID="{3C90FFD6-CE49-4DA3-80BB-4DE352FA9127}">
+													<Language>SFX</Language>
+													<AudioFile>Crystal_LoseCharge-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="615124701"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Crystal_LoseCharge-001" ID="{3C90FFD6-CE49-4DA3-80BB-4DE352FA9127}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<SwitchContainer Name="Gem1_ChargeIntensity" ID="{4146C1B5-2C91-481F-B9A3-356E8BFFA065}" ShortID="109298112">
 											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-5"/>
+												<Property Name="SwitchBehavior" Type="int16" Value="1"/>
 											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
-										<CustomState Name="" ID="{99AC3CA5-72B5-4D07-AFCD-5F2F21EDA217}" ShortID="15215987"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
-							<ObjectLists/>
-						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="RTSL_Sun_BeamRunning" ID="{08BC61DB-FAA9-480C-A76E-5EAB3FE0061B}" ShortID="339441395">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="notCharged" ID="{6F9CC29D-6F6A-42A4-A8B8-673EBE59B358}" WorkUnitID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Gem1Charge" ID="{4362D89F-EF60-44E2-B1DE-EE1A86D05867}" WorkUnitID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Gem1_Charged" ID="{D393AB44-4EA1-46DF-8F0F-50B1D6F4C3FF}" ShortID="317551278">
+													<PropertyList>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Crystal_Charged-001" ID="{FC54A8EB-D684-47AE-A27A-832D7B917422}" ShortID="1049553665">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Crystal_Charged-001" ID="{66E24A05-8403-4A51-B60D-AC401CCCAE71}">
+																	<Language>SFX</Language>
+																	<AudioFile>Crystal_Charged-001.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="295430371"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Crystal_Charged-001" ID="{66E24A05-8403-4A51-B60D-AC401CCCAE71}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+													<Playlist>
+														<ItemRef Name="Crystal_Charged-001" ID="{FC54A8EB-D684-47AE-A27A-832D7B917422}"/>
+													</Playlist>
+												</RandomSequenceContainer>
+												<BlendContainer Name="Gem1_Charging" ID="{84CC9556-EC40-4EF7-A4A7-EA9EC1708943}" ShortID="513359766">
+													<PropertyList>
+														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="Gem1Charging" ID="{62261196-49F4-491E-AB9D-70EAF0D78E4A}" ShortID="471424678">
+															<PropertyList>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-1</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Crystal_Charging-001" ID="{C163DE22-969E-4188-BFF4-4CBB1B7559F4}" ShortID="102555852">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Crystal_Charging-001" ID="{C1805E2F-8331-4A1A-AA54-BAB6452F6F74}">
+																			<Language>SFX</Language>
+																			<AudioFile>Crystal_Charging-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="809880738"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ObjectLists/>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Crystal_Charging-001" ID="{C1805E2F-8331-4A1A-AA54-BAB6452F6F74}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+															<ObjectLists/>
+															<Playlist>
+																<ItemRef Name="Crystal_Charging-001" ID="{C163DE22-969E-4188-BFF4-4CBB1B7559F4}"/>
+															</Playlist>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Gem1FullCharged" ID="{CD26DF96-F68D-4CBB-9698-9D4D7CE9DD88}" ShortID="483245790">
+															<PropertyList>
+																<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Crystal_Charging_FullCharged-001" ID="{168EBDD7-2BB3-40FC-842B-A1F1D722510F}" ShortID="550001414">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Crystal_Charging_FullCharged-001" ID="{C657AF0E-28E2-4C8F-89C9-1C9BF02E9F7D}">
+																			<Language>SFX</Language>
+																			<AudioFile>Crystal_Charging_FullCharged-001.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="833807784"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ObjectLists/>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Crystal_Charging_FullCharged-001" ID="{C657AF0E-28E2-4C8F-89C9-1C9BF02E9F7D}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+															<ObjectLists/>
+															<Playlist>
+																<ItemRef Name="Crystal_Charging_FullCharged-001" ID="{168EBDD7-2BB3-40FC-842B-A1F1D722510F}"/>
+															</Playlist>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<ObjectLists/>
+													<BlendTrackList>
+														<BlendTrack Name="Gem1_ChargeState" ID="{DA03ACB3-7BD1-43FC-92B5-A4FA8BCF43AD}" ShortID="1038653292">
+															<PropertyList>
+																<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+																<Property Name="Lowpass" Type="int16">
+																	<RTPCList>
+																		<RTPC Name="" ID="{FB65A9B3-E354-415D-BEE7-8A36ED55CC27}" ShortID="664473293">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Gem1_Charge" ID="{51B9E7C2-70D1-4728-9BBD-5DC6D3EF30F1}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{A2667EF2-85F4-431A-AE05-26BF5076396C}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>100</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Log2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>80</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Log2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>99.35711</XPos>
+																						<YPos>31</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Exp2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<RTPCList>
+																		<RTPC Name="" ID="{5CE94876-913C-4B23-A6E1-5790CDA44D00}" ShortID="729226382">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Gem1_Charge" ID="{51B9E7C2-70D1-4728-9BBD-5DC6D3EF30F1}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{AAA2A3A4-F557-400A-9221-E1606725F5EF}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-3</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="LayerCrossFadeControlInput">
+																	<ObjectRef Name="Gem1_Charge" ID="{51B9E7C2-70D1-4728-9BBD-5DC6D3EF30F1}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																</Reference>
+															</ReferenceList>
+															<BlendTrackAssocList>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Gem1Charging" ID="{62261196-49F4-491E-AB9D-70EAF0D78E4A}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>0</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>86.0310785163776</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Gem1FullCharged" ID="{CD26DF96-F68D-4CBB-9698-9D4D7CE9DD88}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>74.8750091522158</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>100</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+															</BlendTrackAssocList>
+														</BlendTrack>
+													</BlendTrackList>
+												</BlendContainer>
+											</ChildrenList>
+											<ObjectLists/>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gem1_Charged" ID="{D393AB44-4EA1-46DF-8F0F-50B1D6F4C3FF}"/>
+														<PropertyList>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>8</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Gem1_Charging" ID="{84CC9556-EC40-4EF7-A4A7-EA9EC1708943}"/>
+														<PropertyList>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>8</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="notCharged" ID="{6F9CC29D-6F6A-42A4-A8B8-673EBE59B358}"/>
+														<ItemList>
+															<ItemRef Name="Gem1_Charging" ID="{84CC9556-EC40-4EF7-A4A7-EA9EC1708943}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="FullCharged" ID="{BE8974EB-FA6D-49A3-9D1C-3BC6B124F383}"/>
+														<ItemList>
+															<ItemRef Name="Gem1_Charged" ID="{D393AB44-4EA1-46DF-8F0F-50B1D6F4C3FF}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="RTSL_Sun_Gem2" ID="{47D6A31C-D08A-494D-BBDE-FF8E71FBD982}" ShortID="239844141">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Small" ID="{19EA104D-9044-410F-B49B-FEE1CCCBCD41}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Crystal_LoseCharge-002" ID="{B589E840-9659-488A-AC0B-6FCA970CF929}" ShortID="251766724">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crystal_LoseCharge-002" ID="{62DF4858-25A0-49AE-88E4-4A033D118CE1}">
+													<Language>SFX</Language>
+													<AudioFile>Crystal_LoseCharge-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="35336237"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Crystal_LoseCharge-002" ID="{62DF4858-25A0-49AE-88E4-4A033D118CE1}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<SwitchContainer Name="Gem2_ChargeIntensity" ID="{557C9CBA-6112-4FE6-8ADA-7B5F289EAAE2}" ShortID="322876286">
+											<PropertyList>
+												<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="notCharged" ID="{E39FD45F-6807-4008-81D3-F85521A136A0}" WorkUnitID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Gem2Charge" ID="{ED7F3116-813F-45F9-B234-CA68870E4E10}" WorkUnitID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Gem2_Charged" ID="{B90C5F41-62AB-4F27-913B-9DD5673F4B79}" ShortID="877173810">
+													<PropertyList>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Crystal_Charged-002" ID="{9ABB1E09-1A9B-4014-A725-97F9C2B08722}" ShortID="373519695">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Crystal_Charged-002" ID="{6ED5592F-2F4D-4955-B57E-D6B29B3BE658}">
+																	<Language>SFX</Language>
+																	<AudioFile>Crystal_Charged-002.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="107996011"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Crystal_Charged-002" ID="{6ED5592F-2F4D-4955-B57E-D6B29B3BE658}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+													<Playlist>
+														<ItemRef Name="Crystal_Charged-002" ID="{9ABB1E09-1A9B-4014-A725-97F9C2B08722}"/>
+													</Playlist>
+												</RandomSequenceContainer>
+												<BlendContainer Name="Gem2_Charging" ID="{35659FA2-7FEB-4406-9421-ADFEA0C4DDC4}" ShortID="877224896">
+													<PropertyList>
+														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="Gem2Charging" ID="{CF4E0A09-9C1E-4DE7-9BE2-A7077DE5C0F2}" ShortID="263947760">
+															<PropertyList>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-1</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Crystal_Charging-002" ID="{65E2E6EA-AE4E-499C-B3F7-C844E995CC5B}" ShortID="388951342">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Crystal_Charging-002" ID="{495E7FD0-682F-4DB4-922D-072F53E499FB}">
+																			<Language>SFX</Language>
+																			<AudioFile>Crystal_Charging-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="702089141"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ObjectLists/>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Crystal_Charging-002" ID="{495E7FD0-682F-4DB4-922D-072F53E499FB}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+															<ObjectLists/>
+															<Playlist>
+																<ItemRef Name="Crystal_Charging-002" ID="{65E2E6EA-AE4E-499C-B3F7-C844E995CC5B}"/>
+															</Playlist>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Gem2FullCharged" ID="{01617F90-4EA4-4D3A-AC93-4ADF83423F17}" ShortID="314365894">
+															<PropertyList>
+																<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+																<Property Name="OverridePositioning" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Crystal_Charging_FullCharged-002" ID="{F7030F81-95B2-4FB2-8A86-A02CB493A5CD}" ShortID="960688319">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Crystal_Charging_FullCharged-002" ID="{17ACF61E-402A-43AB-9B7E-E1345C6005A9}">
+																			<Language>SFX</Language>
+																			<AudioFile>Crystal_Charging_FullCharged-002.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="99768781"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ObjectLists/>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Crystal_Charging_FullCharged-002" ID="{17ACF61E-402A-43AB-9B7E-E1345C6005A9}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+															<ObjectLists/>
+															<Playlist>
+																<ItemRef Name="Crystal_Charging_FullCharged-002" ID="{F7030F81-95B2-4FB2-8A86-A02CB493A5CD}"/>
+															</Playlist>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<ObjectLists/>
+													<BlendTrackList>
+														<BlendTrack Name="Gem1_ChargeState" ID="{7AB9B30F-518E-4D44-BE2C-55E4D5945FE0}" ShortID="145069246">
+															<PropertyList>
+																<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+																<Property Name="Lowpass" Type="int16">
+																	<RTPCList>
+																		<RTPC Name="" ID="{F3F07748-619C-4DFF-B23A-D3ACCB2F9192}" ShortID="212414051">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Gem2_Charge" ID="{2E69923A-C1D7-4ECF-8774-36EADABB8063}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{C7CC34C1-C1B6-43DB-BE36-44646685ECF7}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>100</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Log2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>80</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Log2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>99.35711</XPos>
+																						<YPos>31</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Exp2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<RTPCList>
+																		<RTPC Name="" ID="{9F195130-66DA-4312-AD8E-389AF3CE7DD0}" ShortID="239166721">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Gem2_Charge" ID="{2E69923A-C1D7-4ECF-8774-36EADABB8063}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{9EEC8D06-A0D0-4F27-82A4-E02FC31DA2BE}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-3</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="LayerCrossFadeControlInput">
+																	<ObjectRef Name="Gem2_Charge" ID="{2E69923A-C1D7-4ECF-8774-36EADABB8063}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																</Reference>
+															</ReferenceList>
+															<BlendTrackAssocList>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Gem2Charging" ID="{CF4E0A09-9C1E-4DE7-9BE2-A7077DE5C0F2}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>0</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>86.0310785163776</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Gem2FullCharged" ID="{01617F90-4EA4-4D3A-AC93-4ADF83423F17}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>74.8750091522158</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>100</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+															</BlendTrackAssocList>
+														</BlendTrack>
+													</BlendTrackList>
+												</BlendContainer>
+											</ChildrenList>
+											<ObjectLists/>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gem2_Charged" ID="{B90C5F41-62AB-4F27-913B-9DD5673F4B79}"/>
+														<PropertyList>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>8</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Gem2_Charging" ID="{35659FA2-7FEB-4406-9421-ADFEA0C4DDC4}"/>
+														<PropertyList>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>8</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="notCharged" ID="{E39FD45F-6807-4008-81D3-F85521A136A0}"/>
+														<ItemList>
+															<ItemRef Name="Gem2_Charging" ID="{35659FA2-7FEB-4406-9421-ADFEA0C4DDC4}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="FullCharged" ID="{4EC9FAD6-6D3C-47BE-8806-4216CA659183}"/>
+														<ItemList>
+															<ItemRef Name="Gem2_Charged" ID="{B90C5F41-62AB-4F27-913B-9DD5673F4B79}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<ActorMixer Name="RTSL_Sun_Gem3" ID="{BCE158C3-475A-4983-9212-1331E683D6B4}" ShortID="353380130">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Small" ID="{19EA104D-9044-410F-B49B-FEE1CCCBCD41}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Crystal_LoseCharge-003" ID="{83F45BF0-E3DD-4FC0-8527-8DCD739BD79D}" ShortID="467767939">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crystal_LoseCharge-003" ID="{728BB7D8-6E23-4298-92A2-C0635206F6BC}">
+													<Language>SFX</Language>
+													<AudioFile>Crystal_LoseCharge-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="448511987"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Crystal_LoseCharge-003" ID="{728BB7D8-6E23-4298-92A2-C0635206F6BC}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<SwitchContainer Name="Gem3_ChargeIntensity" ID="{5E473E91-5652-4398-97E0-8A416FB43C84}" ShortID="453843881">
+											<PropertyList>
+												<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="DefaultSwitchOrState">
+													<ObjectRef Name="notCharged" ID="{9E969465-2484-4FFD-A4EF-F20D9718E59C}" WorkUnitID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+												<Reference Name="SwitchGroupOrStateGroup">
+													<ObjectRef Name="Gem3Charge" ID="{06229804-999E-47C6-8959-8B7B3923FC92}" WorkUnitID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="Gem3_Charged" ID="{05411F5A-3031-40A2-9FE2-F035870837B6}" ShortID="60182090">
+													<PropertyList>
+														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>-4</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Crystal_Charged-003" ID="{128FDBE8-5C3B-4EE0-A1D5-EE6327847F0E}" ShortID="812290662">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Crystal_Charged-003" ID="{EFA58A2A-E492-4958-B92B-B3E2196C6F92}">
+																	<Language>SFX</Language>
+																	<AudioFile>Crystal_Charged-003.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="317468070"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ObjectLists/>
+															<ActiveSourceList>
+																<ActiveSource Name="Crystal_Charged-003" ID="{EFA58A2A-E492-4958-B92B-B3E2196C6F92}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<ObjectLists/>
+													<Playlist>
+														<ItemRef Name="Crystal_Charged-003" ID="{128FDBE8-5C3B-4EE0-A1D5-EE6327847F0E}"/>
+													</Playlist>
+												</RandomSequenceContainer>
+												<BlendContainer Name="Gem3_Charging" ID="{64725CD8-C9A2-4921-AC86-D20B20DD7732}" ShortID="609122770">
+													<PropertyList>
+														<Property Name="BlendBehavior" Type="int16" Value="1"/>
+														<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+														<Property Name="OverridePositioning" Type="bool" Value="True"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<RandomSequenceContainer Name="Gem3Charging" ID="{1C79EF94-FD97-4BD4-8111-B2040DC4FBA0}" ShortID="778683347">
+															<PropertyList>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+																<Property Name="Volume" Type="Real64">
+																	<ValueList>
+																		<Value>-1</Value>
+																	</ValueList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Crystal_Charging-003" ID="{4DCC7523-0D3D-4F54-A024-1A491F5C2CFB}" ShortID="165696006">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Crystal_Charging-003" ID="{A0735B77-1C47-4CEB-ADA7-6EE774E3C1DE}">
+																			<Language>SFX</Language>
+																			<AudioFile>Crystal_Charging-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="224619754"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ObjectLists/>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Crystal_Charging-003" ID="{A0735B77-1C47-4CEB-ADA7-6EE774E3C1DE}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+															<ObjectLists/>
+															<Playlist>
+																<ItemRef Name="Crystal_Charging-003" ID="{4DCC7523-0D3D-4F54-A024-1A491F5C2CFB}"/>
+															</Playlist>
+														</RandomSequenceContainer>
+														<RandomSequenceContainer Name="Gem3FullCharged" ID="{B04E83D1-9DE2-40AA-8424-077C5B71C4D9}" ShortID="501387106">
+															<PropertyList>
+																<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+																<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+																<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="4"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="RandomOrSequence" Type="int16" Value="0"/>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<Sound Name="Crystal_Charging_FullCharged-003" ID="{903CE6BA-0F3E-47C8-A451-A90B1A79AE60}" ShortID="836056515">
+																	<ReferenceList>
+																		<Reference Name="Conversion">
+																			<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+																		</Reference>
+																		<Reference Name="OutputBus">
+																			<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+																		</Reference>
+																	</ReferenceList>
+																	<ChildrenList>
+																		<AudioFileSource Name="Crystal_Charging_FullCharged-003" ID="{7E73314A-ECAA-41E6-B34F-EFCBC7F75C2C}">
+																			<Language>SFX</Language>
+																			<AudioFile>Crystal_Charging_FullCharged-003.wav</AudioFile>
+																			<MediaIDList>
+																				<MediaID ID="65391480"/>
+																			</MediaIDList>
+																		</AudioFileSource>
+																	</ChildrenList>
+																	<ObjectLists/>
+																	<ActiveSourceList>
+																		<ActiveSource Name="Crystal_Charging_FullCharged-003" ID="{7E73314A-ECAA-41E6-B34F-EFCBC7F75C2C}" Platform="Linked"/>
+																	</ActiveSourceList>
+																</Sound>
+															</ChildrenList>
+															<ObjectLists/>
+															<Playlist>
+																<ItemRef Name="Crystal_Charging_FullCharged-003" ID="{903CE6BA-0F3E-47C8-A451-A90B1A79AE60}"/>
+															</Playlist>
+														</RandomSequenceContainer>
+													</ChildrenList>
+													<ObjectLists/>
+													<BlendTrackList>
+														<BlendTrack Name="Gem1_ChargeState" ID="{7320E629-9A13-4D1A-A0E5-5A2A74894AC1}" ShortID="533182806">
+															<PropertyList>
+																<Property Name="EnableCrossFading" Type="bool" Value="True"/>
+																<Property Name="Lowpass" Type="int16">
+																	<RTPCList>
+																		<RTPC Name="" ID="{95F3280A-EBBD-4681-B72E-8E2E1E1B073D}" ShortID="668110151">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Gem3_Charge" ID="{EE15EB78-C331-4A91-9168-FDAF4C737F06}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{918A6295-006F-42A7-AB12-EF4377B3DCC8}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="65537"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>100</YPos>
+																						<Flags>5</Flags>
+																						<SegmentShape>Log2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>1</XPos>
+																						<YPos>80</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Log2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>99.35711</XPos>
+																						<YPos>31</YPos>
+																						<Flags>0</Flags>
+																						<SegmentShape>Exp2</SegmentShape>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+																<Property Name="Volume" Type="Real64">
+																	<RTPCList>
+																		<RTPC Name="" ID="{E734612F-4D66-4478-9BE9-34AF7FA6F97C}" ShortID="173894261">
+																			<ReferenceList>
+																				<Reference Name="ControlInput">
+																					<ObjectRef Name="Gem3_Charge" ID="{EE15EB78-C331-4A91-9168-FDAF4C737F06}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																				</Reference>
+																			</ReferenceList>
+																			<Curve Name="" ID="{80CA4661-D338-42E5-A0D7-DC0B932DF659}">
+																				<PropertyList>
+																					<Property Name="Flags" Type="int32" Value="3"/>
+																				</PropertyList>
+																				<PointList>
+																					<Point>
+																						<XPos>0</XPos>
+																						<YPos>-3</YPos>
+																						<Flags>5</Flags>
+																					</Point>
+																					<Point>
+																						<XPos>100</XPos>
+																						<YPos>0</YPos>
+																						<Flags>37</Flags>
+																					</Point>
+																				</PointList>
+																			</Curve>
+																		</RTPC>
+																	</RTPCList>
+																</Property>
+															</PropertyList>
+															<ReferenceList>
+																<Reference Name="LayerCrossFadeControlInput">
+																	<ObjectRef Name="Gem3_Charge" ID="{EE15EB78-C331-4A91-9168-FDAF4C737F06}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																</Reference>
+															</ReferenceList>
+															<BlendTrackAssocList>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Gem3Charging" ID="{1C79EF94-FD97-4BD4-8111-B2040DC4FBA0}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>0</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>86.0310785163776</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+																<BlendTrackAssoc>
+																	<ItemRef Name="Gem3FullCharged" ID="{B04E83D1-9DE2-40AA-8424-077C5B71C4D9}"/>
+																	<CrossfadingInfo>
+																		<LeftEdgePos>74.8750091522158</LeftEdgePos>
+																		<LeftFadingMode>Automatic</LeftFadingMode>
+																		<RightEdgePos>100</RightEdgePos>
+																		<RightFadingMode>Automatic</RightFadingMode>
+																	</CrossfadingInfo>
+																</BlendTrackAssoc>
+															</BlendTrackAssocList>
+														</BlendTrack>
+													</BlendTrackList>
+												</BlendContainer>
+											</ChildrenList>
+											<ObjectLists/>
+											<GroupingInfo>
+												<GroupingBehaviorList>
+													<GroupingBehavior>
+														<ItemRef Name="Gem3_Charged" ID="{05411F5A-3031-40A2-9FE2-F035870837B6}"/>
+														<PropertyList>
+															<Property Name="FadeInTime" Type="Real64">
+																<ValueList>
+																	<Value>8</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+													<GroupingBehavior>
+														<ItemRef Name="Gem3_Charging" ID="{64725CD8-C9A2-4921-AC86-D20B20DD7732}"/>
+														<PropertyList>
+															<Property Name="FadeOutTime" Type="Real64">
+																<ValueList>
+																	<Value>8</Value>
+																</ValueList>
+															</Property>
+														</PropertyList>
+													</GroupingBehavior>
+												</GroupingBehaviorList>
+												<GroupingList>
+													<Grouping>
+														<SwitchRef Name="notCharged" ID="{9E969465-2484-4FFD-A4EF-F20D9718E59C}"/>
+														<ItemList>
+															<ItemRef Name="Gem3_Charging" ID="{64725CD8-C9A2-4921-AC86-D20B20DD7732}"/>
+														</ItemList>
+													</Grouping>
+													<Grouping>
+														<SwitchRef Name="FullCharged" ID="{B9D27289-495E-4B7D-8A2B-5416413A3721}"/>
+														<ItemList>
+															<ItemRef Name="Gem3_Charged" ID="{05411F5A-3031-40A2-9FE2-F035870837B6}"/>
+														</ItemList>
+													</Grouping>
+												</GroupingList>
+											</GroupingInfo>
+										</SwitchContainer>
+									</ChildrenList>
+									<ObjectLists/>
+								</ActorMixer>
+								<RandomSequenceContainer Name="RTSL_Sun_GemMove" ID="{365F8DD8-A2A2-4582-AE0C-0AB55617A9E0}" ShortID="749197547">
+									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Small" ID="{19EA104D-9044-410F-B49B-FEE1CCCBCD41}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Crystal_Move-002" ID="{88736A14-866D-4A0A-8557-B563A612873C}" ShortID="916515180">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crystal_Move-002" ID="{3F90B16B-AD3E-49CB-AB69-681CA46FD9F6}">
+													<Language>SFX</Language>
+													<AudioFile>Crystal_Move-002.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="535201216"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Crystal_Move-002" ID="{3F90B16B-AD3E-49CB-AB69-681CA46FD9F6}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crystal_Move-003" ID="{71096C23-D557-4540-827D-CABE62F17D6E}" ShortID="426737498">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crystal_Move-003" ID="{EE444F7C-E613-4DF3-96B5-40483B6CCFA0}">
+													<Language>SFX</Language>
+													<AudioFile>Crystal_Move-003.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="169393304"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Crystal_Move-003" ID="{EE444F7C-E613-4DF3-96B5-40483B6CCFA0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Crystal_Move-001" ID="{3C29566F-D136-4523-8ABC-9D614D176DF1}" ShortID="373659531">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Crystal_Move-001" ID="{3C5A1D98-29BA-48F4-82E4-72D2A1DF13DD}">
+													<Language>SFX</Language>
+													<AudioFile>Crystal_Move-001.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="34302250"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ObjectLists/>
+											<ActiveSourceList>
+												<ActiveSource Name="Crystal_Move-001" ID="{3C5A1D98-29BA-48F4-82E4-72D2A1DF13DD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+									<ObjectLists/>
+								</RandomSequenceContainer>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="RunenStein" ID="{F28DF1D0-A0D7-4A52-80ED-680C54DAB7D3}" ShortID="641574125">
+							<ChildrenList>
+								<SwitchContainer Name="RTSL_Sun_RunenStein_Charge" ID="{3AC15247-1853-413F-9500-FAC486E9B699}" ShortID="1020327626">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="ENV_Medium" ID="{ADF8DCCB-F3A8-438D-9BDC-087C02183EC4}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="DefaultSwitchOrState">
+											<ObjectRef Name="RS_NotCharged" ID="{9B0898CC-D4DD-4013-B0D0-3479FFF61CF2}" WorkUnitID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+										<Reference Name="SwitchGroupOrStateGroup">
+											<ObjectRef Name="RunenSteinCharge" ID="{097D4ADE-1EA6-48CA-930E-125D5FF4DCBF}" WorkUnitID="{D99FDD83-4C2B-472F-A386-40F0B6DE094B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<RandomSequenceContainer Name="RTSL_Sun_RunenStein_Ausklang" ID="{98AEB887-4229-48F2-89BE-E7941AF9891B}" ShortID="82176147">
+											<PropertyList>
+												<Property Name="InitialDelay" Type="Real64">
+													<ValueList>
+														<Value>1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Stein_Ausklang-003" ID="{CCCCFFB2-9A94-4D8F-8C0C-142B1A0B3CA2}" ShortID="523474224">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stein_Ausklang-003" ID="{065AAF29-B016-403C-AD4A-D45B02D536CE}">
+															<Language>SFX</Language>
+															<AudioFile>Stein_Ausklang-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="555431290"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Stein_Ausklang-003" ID="{065AAF29-B016-403C-AD4A-D45B02D536CE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stein_Ausklang-001" ID="{150D97A3-844B-491F-9197-3AAAB8C5C987}" ShortID="956839252">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stein_Ausklang-001" ID="{F8A10133-FFD8-4AF0-986B-F3CB9B51EDC4}">
+															<Language>SFX</Language>
+															<AudioFile>Stein_Ausklang-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="799422213"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Stein_Ausklang-001" ID="{F8A10133-FFD8-4AF0-986B-F3CB9B51EDC4}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stein_Ausklang-002" ID="{1911605E-EB2F-4818-A82B-2408ECFDD2D3}" ShortID="850932033">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stein_Ausklang-002" ID="{DFB62216-7F5B-4E9E-8D93-C022967BA53C}">
+															<Language>SFX</Language>
+															<AudioFile>Stein_Ausklang-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="39923295"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Stein_Ausklang-002" ID="{DFB62216-7F5B-4E9E-8D93-C022967BA53C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="RTSL_Sun_RunenStein_Charge" ID="{36706B4C-AC70-48F9-8568-DD644FEAB83D}" ShortID="1005332880">
+											<PropertyList>
+												<Property Name="Lowpass" Type="int16">
+													<RTPCList>
+														<RTPC Name="" ID="{AC6CB958-40B9-4F58-9CC3-64042B89DEA0}" ShortID="772206773">
+															<ReferenceList>
+																<Reference Name="ControlInput">
+																	<ObjectRef Name="RunenStein_Charge" ID="{88E3D096-6DAD-48A8-A269-0092D95A8720}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+																</Reference>
+															</ReferenceList>
+															<Curve Name="" ID="{0ECECF05-77E3-4F9E-978C-DBE6F569F34A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>100</YPos>
+																		<Flags>5</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>80</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Log2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>99</XPos>
+																		<YPos>25</YPos>
+																		<Flags>0</Flags>
+																		<SegmentShape>Exp2</SegmentShape>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>0</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</RTPC>
+													</RTPCList>
+												</Property>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
+												<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Stein_Charge-001" ID="{C08A6355-B26A-4E05-8D75-62C6755C8462}" ShortID="897010510">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stein_Charge-001" ID="{FF0FB580-26EC-423A-9C08-AF20839FC870}">
+															<Language>SFX</Language>
+															<AudioFile>Stein_Charge-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1026157058"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Stein_Charge-001" ID="{FF0FB580-26EC-423A-9C08-AF20839FC870}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stein_Charge-003" ID="{8C0BCF0F-AC3C-41C2-9E64-8C59DE16BD94}" ShortID="319248413">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stein_Charge-003" ID="{2C0E7B48-4F35-4FE5-A70E-DC2927C31295}">
+															<Language>SFX</Language>
+															<AudioFile>Stein_Charge-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="727471806"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Stein_Charge-003" ID="{2C0E7B48-4F35-4FE5-A70E-DC2927C31295}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stein_Charge-002" ID="{D2DB7B6A-21B9-424E-ABC2-04EB97A5A967}" ShortID="470150893">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stein_Charge-002" ID="{7BD636FC-084A-49E4-9889-38936BD81DAE}">
+															<Language>SFX</Language>
+															<AudioFile>Stein_Charge-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="455344344"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Stein_Charge-002" ID="{7BD636FC-084A-49E4-9889-38936BD81DAE}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+										<RandomSequenceContainer Name="RTSL_Sun_RunenStein_Rotate" ID="{9B6FCBF1-07CC-4136-8F03-43396654BC8D}" ShortID="272676597">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="Stein_Rotate-001" ID="{D4E59FF7-314D-4284-BC2D-33202E316C4D}" ShortID="283892844">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stein_Rotate-001" ID="{D645BE5A-F114-490B-B380-BD9A3C882F3C}">
+															<Language>SFX</Language>
+															<AudioFile>Stein_Rotate-001.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="113195003"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Stein_Rotate-001" ID="{D645BE5A-F114-490B-B380-BD9A3C882F3C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stein_Rotate-003" ID="{40A8C003-2EEF-4A1E-B3DB-9F563A232FD1}" ShortID="1024791067">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stein_Rotate-003" ID="{19209110-9287-415F-BFE5-A6D2998EE243}">
+															<Language>SFX</Language>
+															<AudioFile>Stein_Rotate-003.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="1012441422"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Stein_Rotate-003" ID="{19209110-9287-415F-BFE5-A6D2998EE243}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="Stein_Rotate-002" ID="{0C543BBC-95B7-45E4-88A9-13CDE5640FD9}" ShortID="36935287">
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="Stein_Rotate-002" ID="{2B029986-8ABA-4E39-A34B-5EEB84537E68}">
+															<Language>SFX</Language>
+															<AudioFile>Stein_Rotate-002.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="752394560"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<ObjectLists/>
+													<ActiveSourceList>
+														<ActiveSource Name="Stein_Rotate-002" ID="{2B029986-8ABA-4E39-A34B-5EEB84537E68}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+											<ObjectLists/>
+										</RandomSequenceContainer>
+									</ChildrenList>
+									<ObjectLists/>
+									<GroupingInfo>
+										<GroupingBehaviorList>
+											<GroupingBehavior>
+												<ItemRef Name="RTSL_Sun_RunenStein_Charge" ID="{36706B4C-AC70-48F9-8568-DD644FEAB83D}"/>
+												<PropertyList>
+													<Property Name="FadeOutTime" Type="Real64">
+														<ValueList>
+															<Value>1.5</Value>
+														</ValueList>
+													</Property>
+												</PropertyList>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="RTSL_Sun_RunenStein_Ausklang" ID="{98AEB887-4229-48F2-89BE-E7941AF9891B}"/>
+											</GroupingBehavior>
+											<GroupingBehavior>
+												<ItemRef Name="RTSL_Sun_RunenStein_Rotate" ID="{9B6FCBF1-07CC-4136-8F03-43396654BC8D}"/>
+											</GroupingBehavior>
+										</GroupingBehaviorList>
+										<GroupingList>
+											<Grouping>
+												<SwitchRef Name="RS_Charged" ID="{BD434E3C-40B1-4FF2-AD49-44F711EB81C4}"/>
+												<ItemList>
+													<ItemRef Name="RTSL_Sun_RunenStein_Ausklang" ID="{98AEB887-4229-48F2-89BE-E7941AF9891B}"/>
+													<ItemRef Name="RTSL_Sun_RunenStein_Rotate" ID="{9B6FCBF1-07CC-4136-8F03-43396654BC8D}"/>
+												</ItemList>
+											</Grouping>
+											<Grouping>
+												<SwitchRef Name="RS_NotCharged" ID="{9B0898CC-D4DD-4013-B0D0-3479FFF61CF2}"/>
+												<ItemList>
+													<ItemRef Name="RTSL_Sun_RunenStein_Charge" ID="{36706B4C-AC70-48F9-8568-DD644FEAB83D}"/>
+												</ItemList>
+											</Grouping>
+										</GroupingList>
+									</GroupingInfo>
+								</SwitchContainer>
+							</ChildrenList>
+						</Folder>
+						<RandomSequenceContainer Name="RTSL_Sun_InselnSmall_Reposition" ID="{06E58227-7FB9-4862-A1B6-D36490DA7365}" ShortID="673108924">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="ENV_Large" ID="{F8CE1495-9CA1-43D9-8D99-D0A3CCD583AE}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="InselKlein_Reposition-001" ID="{22C14B87-7BB8-4752-9D19-7D9A3E3B3D10}" ShortID="721041709">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="InselKlein_Reposition-001" ID="{38934B73-C749-41F0-A9BC-C981F8FC1213}">
+											<Language>SFX</Language>
+											<AudioFile>InselKlein_Reposition-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="412475796"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="InselKlein_Reposition-001" ID="{38934B73-C749-41F0-A9BC-C981F8FC1213}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="InselKlein_Reposition-002" ID="{9C33076A-9157-4F79-8AD5-247F189D7420}" ShortID="544958311">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="InselKlein_Reposition-002" ID="{CE6F3C76-8972-439C-AFAA-79235B0D3E64}">
+											<Language>SFX</Language>
+											<AudioFile>InselKlein_Reposition-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1001338997"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="InselKlein_Reposition-002" ID="{CE6F3C76-8972-439C-AFAA-79235B0D3E64}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="InselKlein_Reposition-003" ID="{422AD571-7EAC-43BC-A1CB-D46164026F4F}" ShortID="525605196">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="InselKlein_Reposition-003" ID="{C8D70BBC-16F5-42C7-985A-7234505B2F10}">
+											<Language>SFX</Language>
+											<AudioFile>InselKlein_Reposition-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="56494741"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="InselKlein_Reposition-003" ID="{C8D70BBC-16F5-42C7-985A-7234505B2F10}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="InselKlein_Reposition-004" ID="{DCD6440D-195D-4096-A8C3-4FFBBCCA6F3A}" ShortID="454145893">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="InselKlein_Reposition-004" ID="{D32F72AD-0CC3-487D-9D24-283BFD37B7AA}">
+											<Language>SFX</Language>
+											<AudioFile>InselKlein_Reposition-004.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="409084473"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="InselKlein_Reposition-004" ID="{D32F72AD-0CC3-487D-9D24-283BFD37B7AA}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<ObjectLists/>
+						</RandomSequenceContainer>
+					</ChildrenList>
+					<ObjectLists/>
+				</ActorMixer>
+				<ActorMixer Name="RTSL_Buch" ID="{8C011B47-BF5F-40EF-8853-336477C54425}" ShortID="208144034">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="RTSL_Buch_SonneAnfassen" ID="{5AB1E59E-08E4-4BBF-8DA7-FDCE4D279AD5}" ShortID="424753436">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>3</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Item_UltraSmall" ID="{1F0F82CD-5350-490C-890C-60D588394559}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 								</Reference>
@@ -253,113 +2271,125 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Beam_Running-001" ID="{42979C15-4B32-463B-8F82-E06CD69C0100}" ShortID="73921513">
+								<Sound Name="Mini-Sonne_anfassen-004" ID="{04FA0E1D-0B1C-48C4-9A49-E9486A31A75B}" ShortID="976078454">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Running-001" ID="{E2D139C3-748E-468B-919D-22DEE467D428}">
+										<AudioFileSource Name="Mini-Sonne_anfassen-004" ID="{DD2029D4-E75D-488F-9238-73C336CDC0AC}">
 											<Language>SFX</Language>
-											<AudioFile>Beam_Running-001.wav</AudioFile>
+											<AudioFile>Mini-Sonne_anfassen-004.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="401483933"/>
+												<MediaID ID="210476261"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Beam_Running-001" ID="{E2D139C3-748E-468B-919D-22DEE467D428}" Platform="Linked"/>
+										<ActiveSource Name="Mini-Sonne_anfassen-004" ID="{DD2029D4-E75D-488F-9238-73C336CDC0AC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Beam_Running-002" ID="{E7D8B6CF-A6E3-4CED-8BC5-50926D582EA4}" ShortID="595632070">
+								<Sound Name="Mini-Sonne_anfassen-002" ID="{469CFB1C-8285-41EB-ADF7-EA227DFB2FDF}" ShortID="887373195">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Running-002" ID="{5903C53D-4EA1-485D-B04D-7F5D03386390}">
+										<AudioFileSource Name="Mini-Sonne_anfassen-002" ID="{88D4C5D8-EC7A-458F-9822-FC225570627B}">
 											<Language>SFX</Language>
-											<AudioFile>Beam_Running-002.wav</AudioFile>
+											<AudioFile>Mini-Sonne_anfassen-002.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="834870781"/>
+												<MediaID ID="349774540"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Beam_Running-002" ID="{5903C53D-4EA1-485D-B04D-7F5D03386390}" Platform="Linked"/>
+										<ActiveSource Name="Mini-Sonne_anfassen-002" ID="{88D4C5D8-EC7A-458F-9822-FC225570627B}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Beam_Running-003" ID="{73EE2B36-9D65-44EB-80A6-1DE94A7A33FE}" ShortID="194257121">
+								<Sound Name="Mini-Sonne_anfassen-003" ID="{226C2DFF-503C-4223-BCAE-93AFC967A8AB}" ShortID="849938623">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Running-003" ID="{2AFD49A9-73B6-4205-A5EF-07865167B2D0}">
+										<AudioFileSource Name="Mini-Sonne_anfassen-003" ID="{717BB99F-CBC9-4D90-8612-8BE3416DB131}">
 											<Language>SFX</Language>
-											<AudioFile>Beam_Running-003.wav</AudioFile>
+											<AudioFile>Mini-Sonne_anfassen-003.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="934026136"/>
+												<MediaID ID="139614538"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Beam_Running-003" ID="{2AFD49A9-73B6-4205-A5EF-07865167B2D0}" Platform="Linked"/>
+										<ActiveSource Name="Mini-Sonne_anfassen-003" ID="{717BB99F-CBC9-4D90-8612-8BE3416DB131}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mini-Sonne_anfassen-001" ID="{B730403B-0B0F-4599-8FF3-75F6149DBE6D}" ShortID="151962023">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mini-Sonne_anfassen-001" ID="{B20E0BD0-3075-4683-B5D9-B0028FCCC3EC}">
+											<Language>SFX</Language>
+											<AudioFile>Mini-Sonne_anfassen-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="41836428"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mini-Sonne_anfassen-001" ID="{B20E0BD0-3075-4683-B5D9-B0028FCCC3EC}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
-										<CustomState Name="" ID="{DBE07544-00B9-42AF-BF8D-351643DF4906}" ShortID="378165065">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-10"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
-										<CustomState Name="" ID="{12E47ECA-C58D-4137-AA02-EE362F10F0C5}" ShortID="259868730"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="RTSL_Sun_BeamRunningReflected" ID="{1B986CB4-B92E-4107-B2F8-1FD1DC298DCF}" ShortID="661721929">
+						<RandomSequenceContainer Name="RTSL_Buch_SonneGrundsound" ID="{71A77E82-DC12-4D65-92D4-BFE027667F6B}" ShortID="611013324">
 							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="Highpass" Type="int16">
+									<ValueList>
+										<Value>29</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>19</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="4"/>
-								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="2.5"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-								<Property Name="Volume" Type="Real64">
-									<ValueList>
-										<Value>2</Value>
-									</ValueList>
-								</Property>
 							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Item_UltraSmall" ID="{1F0F82CD-5350-490C-890C-60D588394559}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 								</Reference>
@@ -368,101 +2398,110 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Beam_Running_Reflected-001" ID="{F5F10181-A2FC-46C9-85F5-2AC9EBC7FC47}" ShortID="455443068">
+								<Sound Name="Mini-Sonne_Grundsound-001" ID="{C2DBDA24-57E0-489B-8B73-937FC3B58402}" ShortID="1046640410">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Running_Reflected-001" ID="{E65964CB-EA4B-482F-AF5F-A5DFE0297029}">
+										<AudioFileSource Name="Mini-Sonne_Grundsound-001" ID="{351B5653-CEB4-481B-B48A-185A5E99DEDD}">
 											<Language>SFX</Language>
-											<AudioFile>Beam_Running_Reflected-001.wav</AudioFile>
+											<AudioFile>Mini-Sonne_Grundsound-001.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="128674909"/>
+												<MediaID ID="14500894"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Beam_Running_Reflected-001" ID="{E65964CB-EA4B-482F-AF5F-A5DFE0297029}" Platform="Linked"/>
+										<ActiveSource Name="Mini-Sonne_Grundsound-001" ID="{351B5653-CEB4-481B-B48A-185A5E99DEDD}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Beam_Running_Reflected-002" ID="{66494789-02DC-4E40-A847-55C7DCBCE82C}" ShortID="280954412">
+								<Sound Name="Mini-Sonne_Grundsound-004" ID="{9C56F4BA-923C-4854-82AD-3CEFB4794AA3}" ShortID="647884277">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Running_Reflected-002" ID="{B49B5CB6-1CAD-4799-B496-4FD69C6DC3A2}">
+										<AudioFileSource Name="Mini-Sonne_Grundsound-004" ID="{54FD30DB-DD8B-4489-8BBB-068E7C5CED2A}">
 											<Language>SFX</Language>
-											<AudioFile>Beam_Running_Reflected-002.wav</AudioFile>
+											<AudioFile>Mini-Sonne_Grundsound-004.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="916804220"/>
+												<MediaID ID="281591837"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Beam_Running_Reflected-002" ID="{B49B5CB6-1CAD-4799-B496-4FD69C6DC3A2}" Platform="Linked"/>
+										<ActiveSource Name="Mini-Sonne_Grundsound-004" ID="{54FD30DB-DD8B-4489-8BBB-068E7C5CED2A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Beam_Running_Reflected-003" ID="{DFE9A3EA-45E0-4240-9EEA-8B4D355155EE}" ShortID="330539441">
+								<Sound Name="Mini-Sonne_Grundsound-003" ID="{1FCDF525-6590-4A5A-88A3-D4C6EC749140}" ShortID="1011322650">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Running_Reflected-003" ID="{0A897CBA-67B8-4979-95E1-B4A1ACDB734D}">
+										<AudioFileSource Name="Mini-Sonne_Grundsound-003" ID="{837DD97B-1FAB-4F34-868B-8476856B1EC6}">
 											<Language>SFX</Language>
-											<AudioFile>Beam_Running_Reflected-003.wav</AudioFile>
+											<AudioFile>Mini-Sonne_Grundsound-003.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="207456654"/>
+												<MediaID ID="358328862"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Beam_Running_Reflected-003" ID="{0A897CBA-67B8-4979-95E1-B4A1ACDB734D}" Platform="Linked"/>
+										<ActiveSource Name="Mini-Sonne_Grundsound-003" ID="{837DD97B-1FAB-4F34-868B-8476856B1EC6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mini-Sonne_Grundsound-002" ID="{EC3DF43E-6CBE-4BAC-BBBB-9E157D4EDCA5}" ShortID="901334815">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mini-Sonne_Grundsound-002" ID="{154A14BD-E09F-4848-AAD2-09772B89E37F}">
+											<Language>SFX</Language>
+											<AudioFile>Mini-Sonne_Grundsound-002.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="228657698"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mini-Sonne_Grundsound-002" ID="{154A14BD-E09F-4848-AAD2-09772B89E37F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
-										<CustomState Name="" ID="{E8BFB7F3-0873-4F7B-ABBF-B4F561913252}" ShortID="993649571">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-10"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
-										<CustomState Name="" ID="{CB80B645-2E61-48AB-8293-8442B12D9E80}" ShortID="992182320"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
-						<RandomSequenceContainer Name="RTSL_Sun_BeamReflectOS" ID="{DF8BAFA8-A525-4183-9067-4C188629057E}" ShortID="584060021">
+						<RandomSequenceContainer Name="RTSL_Buch_SonneEinrasten" ID="{83FBB731-42B0-4787-B1F4-EE60B8FF537B}" ShortID="142387325">
+							<PropertyList>
+								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Item_UltraSmall" ID="{1F0F82CD-5350-490C-890C-60D588394559}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
+								</Reference>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 								</Reference>
@@ -471,97 +2510,122 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<Sound Name="Beam_Reflect_OS-001" ID="{7F29E37D-D8DC-4AD8-8EF9-2059A935CCFB}" ShortID="1022575201">
+								<Sound Name="Mini-Sonne_einrasten-002" ID="{DC9D5715-C2AA-4F0E-9F82-0FB974403918}" ShortID="459783892">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Reflect_OS-001" ID="{BD6E3338-FA6C-466C-8E86-A30C78F7C411}">
+										<AudioFileSource Name="Mini-Sonne_einrasten-002" ID="{32E1826F-660D-4CF1-965E-87CAA670218C}">
 											<Language>SFX</Language>
-											<AudioFile>Beam_Reflect_OS-001.wav</AudioFile>
+											<AudioFile>Mini-Sonne_einrasten-002.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="832781379"/>
+												<MediaID ID="721095911"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Beam_Reflect_OS-001" ID="{BD6E3338-FA6C-466C-8E86-A30C78F7C411}" Platform="Linked"/>
+										<ActiveSource Name="Mini-Sonne_einrasten-002" ID="{32E1826F-660D-4CF1-965E-87CAA670218C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Beam_Reflect_OS-002" ID="{38582D34-3B55-4C6A-BA07-E5A1ECF157A6}" ShortID="454446211">
+								<Sound Name="Mini-Sonne_einrasten-004" ID="{A722D409-94C6-4AE3-BB26-2BB4321AE981}" ShortID="114435077">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Reflect_OS-002" ID="{65406139-0A95-43B6-86C1-8DE216360F22}">
+										<AudioFileSource Name="Mini-Sonne_einrasten-004" ID="{BA14619A-107E-461E-A6ED-75E26BA82A62}">
 											<Language>SFX</Language>
-											<AudioFile>Beam_Reflect_OS-002.wav</AudioFile>
+											<AudioFile>Mini-Sonne_einrasten-004.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="372425914"/>
+												<MediaID ID="949928690"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Beam_Reflect_OS-002" ID="{65406139-0A95-43B6-86C1-8DE216360F22}" Platform="Linked"/>
+										<ActiveSource Name="Mini-Sonne_einrasten-004" ID="{BA14619A-107E-461E-A6ED-75E26BA82A62}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Beam_Reflect_OS-003" ID="{854D8616-AAD5-4959-B421-26FF6BAEF3A0}" ShortID="602155412">
+								<Sound Name="Mini-Sonne_einrasten-005" ID="{512B5042-81CC-4116-9A14-0181C8C6C009}" ShortID="345695262">
 									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
 										</Reference>
 										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<AudioFileSource Name="Beam_Reflect_OS-003" ID="{B0A62D1F-8EAA-49FA-9069-640AAE84550B}">
+										<AudioFileSource Name="Mini-Sonne_einrasten-005" ID="{59917FFF-4F02-4854-B0E6-8CB124BA74C3}">
 											<Language>SFX</Language>
-											<AudioFile>Beam_Reflect_OS-003.wav</AudioFile>
+											<AudioFile>Mini-Sonne_einrasten-005.wav</AudioFile>
 											<MediaIDList>
-												<MediaID ID="281225704"/>
+												<MediaID ID="231365639"/>
 											</MediaIDList>
 										</AudioFileSource>
 									</ChildrenList>
 									<ObjectLists/>
 									<ActiveSourceList>
-										<ActiveSource Name="Beam_Reflect_OS-003" ID="{B0A62D1F-8EAA-49FA-9069-640AAE84550B}" Platform="Linked"/>
+										<ActiveSource Name="Mini-Sonne_einrasten-005" ID="{59917FFF-4F02-4854-B0E6-8CB124BA74C3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mini-Sonne_einrasten-001" ID="{E6BEC09C-E168-4C4F-8487-A8887E9CAEC9}" ShortID="397889220">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mini-Sonne_einrasten-001" ID="{C3734638-D8BE-4EB5-9DFF-3E4B6A54E8AB}">
+											<Language>SFX</Language>
+											<AudioFile>Mini-Sonne_einrasten-001.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="777776747"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mini-Sonne_einrasten-001" ID="{C3734638-D8BE-4EB5-9DFF-3E4B6A54E8AB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Mini-Sonne_einrasten-003" ID="{DFA03939-98BA-42D6-B44B-495C52D102E2}" ShortID="834594336">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SoundFX" ID="{6445D515-CD0E-48E3-9B82-AEB6E2E1937B}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Mini-Sonne_einrasten-003" ID="{49CCEAF8-7FE8-48DD-91AF-6F5A97732D31}">
+											<Language>SFX</Language>
+											<AudioFile>Mini-Sonne_einrasten-003.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="976977087"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists/>
+									<ActiveSourceList>
+										<ActiveSource Name="Mini-Sonne_einrasten-003" ID="{49CCEAF8-7FE8-48DD-91AF-6F5A97732D31}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
-							<StateInfo>
-								<StateGroupList>
-									<StateGroupInfo>
-										<StateGroupRef Name="PlayerMovement" ID="{60D1175A-FD08-496F-8EAD-7EB4CC9291EE}"/>
-									</StateGroupInfo>
-								</StateGroupList>
-								<CustomStateList>
-									<CustomState>
-										<StateRef Name="Moving" ID="{11EC7472-D709-44C6-B3C6-BCED72EEDF82}"/>
-										<CustomState Name="" ID="{4AAF9DEE-30D4-4E00-9BB6-EC4C9067091D}" ShortID="827304719">
-											<PropertyList>
-												<Property Name="Volume" Type="Real64" Value="-5"/>
-											</PropertyList>
-										</CustomState>
-									</CustomState>
-									<CustomState>
-										<StateRef Name="Thinking" ID="{E3FCB9AC-68D0-4D6E-97AB-C04EC7D8D8C6}"/>
-										<CustomState Name="" ID="{7B8BDEF8-B733-4B55-AC7D-C60B6BFC8DAC}" ShortID="1047383704"/>
-									</CustomState>
-								</CustomStateList>
-							</StateInfo>
 							<ObjectLists/>
 						</RandomSequenceContainer>
 					</ChildrenList>

@@ -1,17 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
-		<SourceFilesRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
+		<SourceFilesRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1113898651">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="1256215574">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
+			<GameParameters>
+				<GameParameter Id="1384285152" Name="Volume_Dialogue" ObjectPath="\Game Parameters\Default Work Unit\VolumeHandles\Volume_Dialogue" GUID="{1003363F-9E15-4010-B1F9-4524E95F912F}"/>
+				<GameParameter Id="3194824364" Name="Volume_Effects" ObjectPath="\Game Parameters\Default Work Unit\VolumeHandles\Volume_Effects" GUID="{8B4B5FA2-EFCC-4E9A-ACD9-F64E24972DC9}"/>
+				<GameParameter Id="3695994288" Name="Volume_Master" ObjectPath="\Game Parameters\Default Work Unit\VolumeHandles\Volume_Master" GUID="{12B5D60B-F809-4A7F-B0D2-EA7528BD5F2E}"/>
+				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\VolumeHandles\Volume_Music" GUID="{2B3353B2-176E-4ECF-A140-A219549D7676}"/>
+			</GameParameters>
 		</SoundBank>
 	</SoundBanks>
 </SoundBanksInfo>

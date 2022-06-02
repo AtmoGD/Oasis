@@ -5,55 +5,22 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\",
-   "SourceFilesRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
+   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\Projects\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "779753582",
     "GUID": "{15DA4724-68AB-47F0-AD1A-0DB8061AD290}",
     "Language": "SFX",
-    "Hash": "3941398242",
+    "Hash": "699478840",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Music",
     "ShortName": "SB_Music",
     "Path": "SB_Music.bnk",
     "IncludedEvents": [
-     {
-      "Id": "983609297",
-      "Name": "BuchMusic_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\BuchMusic_Start",
-      "GUID": "{0176C552-F9A9-48E6-A071-434EE516288A}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "80991123",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Buch B.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Buch B_073B4D0C.wem"
-       },
-       {
-        "Id": "339417274",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Buch A.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Buch A_073B4D0C.wem"
-       },
-       {
-        "Id": "972568707",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Buch A'.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Buch A'_073B4D0C.wem"
-       },
-       {
-        "Id": "1064474414",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Buch C.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Buch C_073B4D0C.wem"
-       }
-      ]
-     },
      {
       "Id": "218200519",
       "Name": "DemoMusicStart",
@@ -72,52 +39,19 @@
       ]
      },
      {
-      "Id": "3494551877",
-      "Name": "DolchMusic_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\DolchMusic_Start",
-      "GUID": "{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "231353024",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Dolch A'.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch A'_073B4D0C.wem"
-       },
-       {
-        "Id": "506562318",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Dolch C.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch C_073B4D0C.wem"
-       },
-       {
-        "Id": "846401668",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Dolch A.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch A_073B4D0C.wem"
-       },
-       {
-        "Id": "931862698",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Dolch B.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Dolch B_073B4D0C.wem"
-       }
-      ]
-     },
-     {
       "Id": "3208707916",
       "Name": "EndMusic_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\EndMusic_Start",
       "GUID": "{53A34E9F-071A-42BC-B291-E4068B9DCDB6}",
       "DurationType": "OneShot",
-      "DurationMin": "42.479912",
-      "DurationMax": "42.479912",
+      "DurationMin": "43.944187",
+      "DurationMax": "43.944187",
       "IncludedMemoryFiles": [
        {
-        "Id": "104279542",
+        "Id": "774825828",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Main B-EndSzene.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Main B-EndSzene_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-MainEndSzene-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-MainEndSzene-Everything_ohnePiano_073B4D0C.wem"
        }
       ]
      },
@@ -127,14 +61,14 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\EndMusicAlt_Start",
       "GUID": "{10EA67D6-4416-4F37-BA33-1D22BE467D6C}",
       "DurationType": "OneShot",
-      "DurationMin": "34.99651",
-      "DurationMax": "34.99651",
+      "DurationMin": "38.098564",
+      "DurationMax": "38.098564",
       "IncludedMemoryFiles": [
        {
-        "Id": "622111499",
+        "Id": "1060232689",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Main B-Outro.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Main B-Outro_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-MainBOutro-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-MainBOutro-Everything_ohnePiano_073B4D0C.wem"
        }
       ]
      },
@@ -148,10 +82,10 @@
       "DurationMax": "9.853242",
       "IncludedMemoryFiles": [
        {
-        "Id": "249177938",
+        "Id": "1043334511",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Item Give.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Item Give_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-GiveItem-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-GiveItem-Everything_ohnePiano_073B4D0C.wem"
        }
       ]
      },
@@ -163,10 +97,130 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "648485306",
+        "Id": "21963438",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Waiting Item.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Waiting Item_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-Waiting-Piano 7-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano 7-002_073B4D0C.wem"
+       },
+       {
+        "Id": "106516390",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano5-004.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano5-004_073B4D0C.wem"
+       },
+       {
+        "Id": "119911431",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano4-003.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano4-003_073B4D0C.wem"
+       },
+       {
+        "Id": "198733310",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano6-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano6-001_073B4D0C.wem"
+       },
+       {
+        "Id": "215322020",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano-001_073B4D0C.wem"
+       },
+       {
+        "Id": "217754420",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano2-003.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano2-003_073B4D0C.wem"
+       },
+       {
+        "Id": "335564317",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano2-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano2-001_073B4D0C.wem"
+       },
+       {
+        "Id": "343932145",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano5-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano5-001_073B4D0C.wem"
+       },
+       {
+        "Id": "370728640",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano2-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano2-002_073B4D0C.wem"
+       },
+       {
+        "Id": "453988457",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano3-003.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano3-003_073B4D0C.wem"
+       },
+       {
+        "Id": "573330930",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano6-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano6-002_073B4D0C.wem"
+       },
+       {
+        "Id": "609097057",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano 7-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano 7-001_073B4D0C.wem"
+       },
+       {
+        "Id": "615439678",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano5-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano5-002_073B4D0C.wem"
+       },
+       {
+        "Id": "652978938",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano5-003.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano5-003_073B4D0C.wem"
+       },
+       {
+        "Id": "693885549",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano3-004.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano3-004_073B4D0C.wem"
+       },
+       {
+        "Id": "713489302",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano3-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano3-002_073B4D0C.wem"
+       },
+       {
+        "Id": "842780475",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano-002_073B4D0C.wem"
+       },
+       {
+        "Id": "921583912",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano4-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano4-002_073B4D0C.wem"
+       },
+       {
+        "Id": "937977786",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano3-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano3-001_073B4D0C.wem"
+       },
+       {
+        "Id": "998480044",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano4-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano4-001_073B4D0C.wem"
+       },
+       {
+        "Id": "1018183291",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Everything_ohnePiano_073B4D0C.wem"
        }
       ]
      },
@@ -178,124 +232,348 @@
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
-        "Id": "118988887",
+        "Id": "4856784",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Main A'.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Main A'_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-MainA'-Violin .wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Violin _073B4D0C.wem"
        },
        {
-        "Id": "120160121",
+        "Id": "61801767",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Main A.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Main A_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-MainA-Contrabass .wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Contrabass _073B4D0C.wem"
        },
        {
-        "Id": "374674203",
+        "Id": "62374191",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Main D.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Main D_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-MainB'-Strummed.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB'-Strummed_073B4D0C.wem"
        },
        {
-        "Id": "435405122",
+        "Id": "72939439",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Main C.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Main C_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-MainA-Picked_Main.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Picked_Main_073B4D0C.wem"
        },
        {
-        "Id": "802951768",
+        "Id": "98398577",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Main B'.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Main B'_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-MainB-Picked_Main.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Picked_Main_073B4D0C.wem"
        },
        {
-        "Id": "884504287",
+        "Id": "107176381",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Main B.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Main B_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-MainC-Pad_Mitte2.wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Pad_Mitte2_073B4D0C.wem"
+       },
+       {
+        "Id": "136621651",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainD-Viola.wav",
+        "Path": "SFX\\OasisMusic-Final-MainD-Viola_073B4D0C.wem"
+       },
+       {
+        "Id": "145262176",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB'-Viola.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB'-Viola_073B4D0C.wem"
+       },
+       {
+        "Id": "174836975",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Pad_Hoch.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Pad_Hoch_073B4D0C.wem"
+       },
+       {
+        "Id": "201651924",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA-Pad_Mitte1.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Pad_Mitte1_073B4D0C.wem"
+       },
+       {
+        "Id": "228894124",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Strummed.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Strummed_073B4D0C.wem"
+       },
+       {
+        "Id": "230949217",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB'-Picked_Main.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB'-Picked_Main_073B4D0C.wem"
+       },
+       {
+        "Id": "238834722",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainC-Pad_Mitte1.wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Pad_Mitte1_073B4D0C.wem"
+       },
+       {
+        "Id": "303156994",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainD-Pad_tief.wav",
+        "Path": "SFX\\OasisMusic-Final-MainD-Pad_tief_073B4D0C.wem"
+       },
+       {
+        "Id": "310952282",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB'-Pad_Mitte1.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB'-Pad_Mitte1_073B4D0C.wem"
+       },
+       {
+        "Id": "338920780",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainD-Pad_Mitte2.wav",
+        "Path": "SFX\\OasisMusic-Final-MainD-Pad_Mitte2_073B4D0C.wem"
+       },
+       {
+        "Id": "350394847",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB'-Pad_Hoch.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB'-Pad_Hoch_073B4D0C.wem"
+       },
+       {
+        "Id": "392760978",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA-Violin .wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Violin _073B4D0C.wem"
+       },
+       {
+        "Id": "444810992",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA-Pad_tief.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Pad_tief_073B4D0C.wem"
+       },
+       {
+        "Id": "446615623",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA'-Picked_Main.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Picked_Main_073B4D0C.wem"
+       },
+       {
+        "Id": "452073299",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Pad_tief.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Pad_tief_073B4D0C.wem"
+       },
+       {
+        "Id": "454356019",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA-Violoncello.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Violoncello_073B4D0C.wem"
+       },
+       {
+        "Id": "467206765",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainC-Pad_Hoch.wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Pad_Hoch_073B4D0C.wem"
+       },
+       {
+        "Id": "471920870",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainD-Pad_Hoch.wav",
+        "Path": "SFX\\OasisMusic-Final-MainD-Pad_Hoch_073B4D0C.wem"
+       },
+       {
+        "Id": "491584292",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainC-Picked_Main.wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Picked_Main_073B4D0C.wem"
+       },
+       {
+        "Id": "511755180",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB'-Pad_tief.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB'-Pad_tief_073B4D0C.wem"
+       },
+       {
+        "Id": "539271501",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA-Pad_Mitte2.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Pad_Mitte2_073B4D0C.wem"
+       },
+       {
+        "Id": "552964582",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainC-Violoncello.wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Violoncello_073B4D0C.wem"
+       },
+       {
+        "Id": "554453899",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Pad_Mitte1.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Pad_Mitte1_073B4D0C.wem"
+       },
+       {
+        "Id": "556641494",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Violin alt.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Violin alt_073B4D0C.wem"
+       },
+       {
+        "Id": "558103792",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA-Picked_Alt.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Picked_Alt_073B4D0C.wem"
+       },
+       {
+        "Id": "560999940",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainD-Pad_Mitte1.wav",
+        "Path": "SFX\\OasisMusic-Final-MainD-Pad_Mitte1_073B4D0C.wem"
+       },
+       {
+        "Id": "566983462",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA-Viola.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Viola_073B4D0C.wem"
+       },
+       {
+        "Id": "649198047",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA-Pad_Hoch.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Pad_Hoch_073B4D0C.wem"
+       },
+       {
+        "Id": "653173035",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB'-Pad_Mitte2.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB'-Pad_Mitte2_073B4D0C.wem"
+       },
+       {
+        "Id": "690525071",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Violin .wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Violin _073B4D0C.wem"
+       },
+       {
+        "Id": "725471203",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainC-Violin .wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Violin _073B4D0C.wem"
+       },
+       {
+        "Id": "744260240",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA'-Violoncello.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Violoncello_073B4D0C.wem"
+       },
+       {
+        "Id": "753620189",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Contrabass .wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Contrabass _073B4D0C.wem"
+       },
+       {
+        "Id": "758904838",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainC-Viola.wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Viola_073B4D0C.wem"
+       },
+       {
+        "Id": "774171404",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA'-Pad_Hoch.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Pad_Hoch_073B4D0C.wem"
+       },
+       {
+        "Id": "791315594",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainD-Picked_Main.wav",
+        "Path": "SFX\\OasisMusic-Final-MainD-Picked_Main_073B4D0C.wem"
+       },
+       {
+        "Id": "795494921",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainC-Pad_tief.wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Pad_tief_073B4D0C.wem"
+       },
+       {
+        "Id": "822373443",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA'-Viola.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Viola_073B4D0C.wem"
+       },
+       {
+        "Id": "836003249",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainC-Contrabass .wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Contrabass _073B4D0C.wem"
+       },
+       {
+        "Id": "839698104",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainC-Strummed.wav",
+        "Path": "SFX\\OasisMusic-Final-MainC-Strummed_073B4D0C.wem"
+       },
+       {
+        "Id": "848783731",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA-Violin alt.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA-Violin alt_073B4D0C.wem"
+       },
+       {
+        "Id": "886083029",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainD-Violin .wav",
+        "Path": "SFX\\OasisMusic-Final-MainD-Violin _073B4D0C.wem"
+       },
+       {
+        "Id": "889214790",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Viola.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Viola_073B4D0C.wem"
+       },
+       {
+        "Id": "892740173",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Violoncello.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Violoncello_073B4D0C.wem"
+       },
+       {
+        "Id": "948543538",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB-Pad_Mitte2.wav",
+        "Path": "SFX\\OasisMusic-Final-MainB-Pad_Mitte2_073B4D0C.wem"
+       },
+       {
+        "Id": "1013733373",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA'-Pad_tief.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Pad_tief_073B4D0C.wem"
+       },
+       {
+        "Id": "1036713197",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainB'-Violin .wav",
+        "Path": "SFX\\OasisMusic-Final-MainB'-Violin _073B4D0C.wem"
+       },
+       {
+        "Id": "1058533807",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA'-Contrabass .wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Contrabass _073B4D0C.wem"
+       },
+       {
+        "Id": "1065501344",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA'-Violin alt.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Violin alt_073B4D0C.wem"
+       },
+       {
+        "Id": "1071543987",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA'-Pad_Mitte2.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Pad_Mitte2_073B4D0C.wem"
+       },
+       {
+        "Id": "1073607643",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainA'-Pad_Mitte1.wav",
+        "Path": "SFX\\OasisMusic-Final-MainA'-Pad_Mitte1_073B4D0C.wem"
        }
       ]
-     },
-     {
-      "Id": "2062928797",
-      "Name": "SchwertMusic_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\SchwertMusic_Start",
-      "GUID": "{75DFDF64-2F9C-4797-B590-12E11B1C311E}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "173700116",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Schwert A'.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert A'_073B4D0C.wem"
-       },
-       {
-        "Id": "204338130",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Schwert A.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert A_073B4D0C.wem"
-       },
-       {
-        "Id": "239420838",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Schwert Bridge zu A.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert Bridge zu A_073B4D0C.wem"
-       },
-       {
-        "Id": "698765316",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Schwert B.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Schwert B_073B4D0C.wem"
-       }
-      ]
-     },
-     {
-      "Id": "768346475",
-      "Name": "StabMusic_Start",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\StabMusic_Start",
-      "GUID": "{12FC3D4F-2573-473A-B29F-030F773E3190}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "113069037",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Stab A'.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Stab A'_073B4D0C.wem"
-       },
-       {
-        "Id": "312291867",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Stab B.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Stab B_073B4D0C.wem"
-       },
-       {
-        "Id": "782262275",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Stab A.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Stab A_073B4D0C.wem"
-       },
-       {
-        "Id": "1004695191",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Stab C.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Stab C_073B4D0C.wem"
-       },
-       {
-        "Id": "1045427137",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Stab Intro.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Stab Intro_073B4D0C.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2822115966",
-      "Name": "StopAll_Music",
-      "ObjectPath": "\\Events\\Default Work Unit\\Music\\StopAll_Music",
-      "GUID": "{FF67F99E-D8D5-47C4-8C3E-0ED8D1F332B5}",
-      "MaxAttenuation": "0.",
-      "DurationType": "OneShot",
-      "DurationMin": "0.",
-      "DurationMax": "0."
      },
      {
       "Id": "3311114165",
@@ -303,14 +581,54 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\TakeItem_Music",
       "GUID": "{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}",
       "DurationType": "OneShot",
-      "DurationMin": "4.914739",
-      "DurationMax": "4.914739",
+      "DurationMin": "7.308375",
+      "DurationMax": "7.308375",
       "IncludedMemoryFiles": [
        {
-        "Id": "958511008",
+        "Id": "807546870",
         "Language": "SFX",
-        "ShortName": "OasisMusic-DoricoAudio-Item Take.wav",
-        "Path": "SFX\\OasisMusic-DoricoAudio-Item Take_073B4D0C.wem"
+        "ShortName": "OasisMusic-Final-TakeItem-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-TakeItem-Everything_ohnePiano_073B4D0C.wem"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3067361994",
+      "Name": "Current_Item",
+      "ObjectPath": "\\States\\Default Work Unit\\Current_Item",
+      "GUID": "{0FE0555C-89FD-4934-9480-4B92CA94A106}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\None",
+        "GUID": "{DDF6AA84-24C8-4C9D-BA0F-2CE9BB99FF72}"
+       },
+       {
+        "Id": "1696067751",
+        "Name": "Buch",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\Buch",
+        "GUID": "{05D564CB-A349-4EF7-B68D-F94020B3A55F}"
+       },
+       {
+        "Id": "1999344587",
+        "Name": "Dolch",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\Dolch",
+        "GUID": "{EC10AAC1-9DF8-4F03-B7C8-1DD0541C2106}"
+       },
+       {
+        "Id": "553997889",
+        "Name": "Stab",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\Stab",
+        "GUID": "{05F51642-7530-4F63-B800-30583B24DAEE}"
+       },
+       {
+        "Id": "1199187907",
+        "Name": "Schwert",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\Schwert",
+        "GUID": "{AA22CC23-AE31-459A-8C0C-70C8DEB87E15}"
        }
       ]
      }

@@ -1,0 +1,271 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "12",
+  "SoundbankVersion": "140",
+  "RootPaths": {
+   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
+   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
+  },
+  "SoundBanks": [
+   {
+    "Id": "694051927",
+    "GUID": "{0517C5CC-332D-4C9A-824E-12184FEA2A67}",
+    "Language": "SFX",
+    "Hash": "4258550689",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_ItemAndEndMusic",
+    "ShortName": "SB_ItemAndEndMusic",
+    "Path": "SB_ItemAndEndMusic.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3208707916",
+      "Name": "EndMusic_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\EndMusic_Start",
+      "GUID": "{53A34E9F-071A-42BC-B291-E4068B9DCDB6}",
+      "DurationType": "OneShot",
+      "DurationMin": "43.944187",
+      "DurationMax": "43.944187",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "774825828",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainEndSzene-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-MainEndSzene-Everything_ohnePiano_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3722692183",
+      "Name": "EndMusicAlt_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\EndMusicAlt_Start",
+      "GUID": "{10EA67D6-4416-4F37-BA33-1D22BE467D6C}",
+      "DurationType": "OneShot",
+      "DurationMin": "38.098564",
+      "DurationMax": "38.098564",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1060232689",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-MainBOutro-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-MainBOutro-Everything_ohnePiano_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3796113407",
+      "Name": "GiveItem_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\GiveItem_Music",
+      "GUID": "{F31D47C6-067D-4D75-9118-0DE09181073D}",
+      "DurationType": "OneShot",
+      "DurationMin": "9.853242",
+      "DurationMax": "9.853242",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1043334511",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-GiveItem-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-GiveItem-Everything_ohnePiano_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3781525195",
+      "Name": "ItemWait_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\ItemWait_Music",
+      "GUID": "{6CBCB54A-F5BC-4F79-AA31-6892BFE3118B}",
+      "DurationType": "Infinite",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "21963438",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano 7-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano 7-002_073B4D0C.wem"
+       },
+       {
+        "Id": "106516390",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano5-004.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano5-004_073B4D0C.wem"
+       },
+       {
+        "Id": "119911431",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano4-003.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano4-003_073B4D0C.wem"
+       },
+       {
+        "Id": "198733310",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano6-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano6-001_073B4D0C.wem"
+       },
+       {
+        "Id": "215322020",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano-001_073B4D0C.wem"
+       },
+       {
+        "Id": "217754420",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano2-003.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano2-003_073B4D0C.wem"
+       },
+       {
+        "Id": "335564317",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano2-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano2-001_073B4D0C.wem"
+       },
+       {
+        "Id": "343932145",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano5-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano5-001_073B4D0C.wem"
+       },
+       {
+        "Id": "370728640",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano2-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano2-002_073B4D0C.wem"
+       },
+       {
+        "Id": "453988457",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano3-003.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano3-003_073B4D0C.wem"
+       },
+       {
+        "Id": "573330930",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano6-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano6-002_073B4D0C.wem"
+       },
+       {
+        "Id": "609097057",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano 7-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano 7-001_073B4D0C.wem"
+       },
+       {
+        "Id": "615439678",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano5-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano5-002_073B4D0C.wem"
+       },
+       {
+        "Id": "652978938",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano5-003.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano5-003_073B4D0C.wem"
+       },
+       {
+        "Id": "693885549",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano3-004.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano3-004_073B4D0C.wem"
+       },
+       {
+        "Id": "713489302",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano3-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano3-002_073B4D0C.wem"
+       },
+       {
+        "Id": "842780475",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano-002_073B4D0C.wem"
+       },
+       {
+        "Id": "921583912",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano4-002.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano4-002_073B4D0C.wem"
+       },
+       {
+        "Id": "937977786",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano3-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano3-001_073B4D0C.wem"
+       },
+       {
+        "Id": "998480044",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Piano4-001.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Piano4-001_073B4D0C.wem"
+       },
+       {
+        "Id": "1018183291",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-Waiting-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-Waiting-Everything_ohnePiano_073B4D0C.wem"
+       }
+      ]
+     },
+     {
+      "Id": "3311114165",
+      "Name": "TakeItem_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Music\\TakeItem_Music",
+      "GUID": "{7DC2C308-1C36-4275-ABD1-0E4A2949BCB3}",
+      "DurationType": "OneShot",
+      "DurationMin": "7.308375",
+      "DurationMax": "7.308375",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "807546870",
+        "Language": "SFX",
+        "ShortName": "OasisMusic-Final-TakeItem-Everything_ohnePiano.wav",
+        "Path": "SFX\\OasisMusic-Final-TakeItem-Everything_ohnePiano_073B4D0C.wem"
+       }
+      ]
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "3067361994",
+      "Name": "Current_Item",
+      "ObjectPath": "\\States\\Default Work Unit\\Current_Item",
+      "GUID": "{0FE0555C-89FD-4934-9480-4B92CA94A106}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\None",
+        "GUID": "{DDF6AA84-24C8-4C9D-BA0F-2CE9BB99FF72}"
+       },
+       {
+        "Id": "1696067751",
+        "Name": "Buch",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\Buch",
+        "GUID": "{05D564CB-A349-4EF7-B68D-F94020B3A55F}"
+       },
+       {
+        "Id": "1999344587",
+        "Name": "Dolch",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\Dolch",
+        "GUID": "{EC10AAC1-9DF8-4F03-B7C8-1DD0541C2106}"
+       },
+       {
+        "Id": "553997889",
+        "Name": "Stab",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\Stab",
+        "GUID": "{05F51642-7530-4F63-B800-30583B24DAEE}"
+       },
+       {
+        "Id": "1199187907",
+        "Name": "Schwert",
+        "ObjectPath": "\\States\\Default Work Unit\\Current_Item\\Schwert",
+        "GUID": "{AA22CC23-AE31-459A-8C0C-70C8DEB87E15}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ }
+}

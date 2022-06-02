@@ -1,15 +1,38 @@
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2340907149	Gem3Charge			\Default Work Unit\SUN\Gem3Charge	
+	2411241056	Gem2Charge			\Default Work Unit\SUN\Gem2Charge	
+	2431874771	Gem1Charge			\Default Work Unit\SUN\Gem1Charge	
+	3751591028	RunenSteinCharge			\Default Work Unit\SUN\RunenSteinCharge	
+
+Switch	ID	Name	Switch Group			Notes
+	3778426334	FullCharged	Gem3Charge			
+	4190356504	notCharged	Gem3Charge			
+	3778426334	FullCharged	Gem2Charge			
+	4190356504	notCharged	Gem2Charge			
+	3778426334	FullCharged	Gem1Charge			
+	4190356504	notCharged	Gem1Charge			
+	1869081914	RS_NotCharged	RunenSteinCharge			
+	2709421345	RS_Charged	RunenSteinCharge			
+
 State Group	ID	Name			Wwise Object Path	Notes
 	1350496757	PlayerMovement			\Default Work Unit\PlayerMovement	
+	3067361994	Current_Item			\Default Work Unit\Current_Item	
 
 State	ID	Name	State Group			Notes
 	748895195	None	PlayerMovement			
 	1885240893	Thinking	PlayerMovement			Player not moving at all/ just looking around; no interactions
 	2649703675	Moving	PlayerMovement			Player doing something
+	553997889	Stab	Current_Item			
+	748895195	None	Current_Item			
+	1199187907	Schwert	Current_Item			
+	1696067751	Buch	Current_Item			
+	1999344587	Dolch	Current_Item			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
 	513139656	Mountain			\Factory Acoustic Textures\Textures\Mountain	
 	841620460	Concrete			\Factory Acoustic Textures\Textures\Concrete	
+	1384285152	Volume_Dialogue			\Default Work Unit\VolumeHandles\Volume_Dialogue	
 	1755085759	Wood_Deep			\Factory Acoustic Textures\Textures\Wood_Deep	
 	1873957695	Anechoic			\Factory Acoustic Textures\Textures\Anechoic	
 	1970351858	Fabric			\Factory Acoustic Textures\Textures\Fabric	
@@ -17,22 +40,31 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	2412606308	Carpet			\Factory Acoustic Textures\Textures\Carpet	
 	2637588553	Tile			\Factory Acoustic Textures\Textures\Tile	
 	2928161104	Curtains			\Factory Acoustic Textures\Textures\Curtains	
+	3194824364	Volume_Effects			\Default Work Unit\VolumeHandles\Volume_Effects	
 	3195498748	Cork_Tiles			\Factory Acoustic Textures\Textures\Cork_Tiles	
 	3670307564	Drywall			\Factory Acoustic Textures\Textures\Drywall	
+	3695994288	Volume_Master			\Default Work Unit\VolumeHandles\Volume_Master	
+	3891337659	Volume_Music			\Default Work Unit\VolumeHandles\Volume_Music	
 	4168643977	Acoustic_Banner			\Factory Acoustic Textures\Textures\Acoustic_Banner	
 	4262522749	Wood_Bright			\Factory Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	559901361	Instruments			\Default Work Unit\Master Audio Bus\Music\Instruments	
 	985987111	Motion Factory Bus			\Default Work Unit\Motion Factory Bus	
 	1229948536	Environment			\Default Work Unit\Master Audio Bus\SFX\Environment	
+	1249339696	Pad			\Default Work Unit\Master Audio Bus\Music\Pad	
 	2810670744	SoundFX			\Default Work Unit\Master Audio Bus\SFX\SoundFX	
-	3157003241	Test			\Default Work Unit\Master Audio Bus\Music\Test	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3930136735	Dialogue			\Default Work Unit\Master Audio Bus\Dialogue	
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	983907983	Meter_Instruments	Wwise Meter			
+	1459522457	Brick_Wall_Minus_1dB_Peak_Fast_Release	Wwise Peak Limiter			
+	2969259856	Meter_SFX	Wwise Meter			
 
 Audio Devices	ID	Name	Type				Notes
 	2317455096	No_Output	No Output			
 	3859886410	System	System			
-	4230635974	Default_Motion_Device	Wwise Motion			
 

@@ -1,22 +1,59 @@
 Event	ID	Name			Wwise Object Path	Notes
-	344617331	RTSL_Sun_BeamStart			\Default Work Unit\Raetsel\Sun\RTSL_Sun_BeamStart	
+	325389044	ENV_Inseln_Reposition_Connect			\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Connect	
+	332116371	RTSL_Buch_SonneSoundAus			\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneSoundAus	
+	344617331	RTSL_Sun_BeamStart			\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamStart	
+	573910386	IT_ItemAufloesen			\Default Work Unit\Items\IT_ItemAufloesen	
+	1279838832	ENV_NightAmbience_Start			\Default Work Unit\Environment\ENV_NightAmbience_Start	
+	1690364819	RTSL_Sun_Gem3_Charge			\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem3_Charge	
 	1707272775	SFX_ENV_Wind_Loop_Stop			\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Stop	
 	1720561534	CH_SoSchwert_Pickup			\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_Pickup	
+	1796987607	RTSL_Sun_RunenStein_Charge_Stop			\Default Work Unit\Raetsel\Sun\RTSL_Sun_RunenStein_Charge_Stop	
+	1848334044	ENV_NightAmbience_Stop			\Default Work Unit\Environment\ENV_NightAmbience_Stop	
 	1895539805	SFX_ENV_Ghosts_Mumble_Random_Start			\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Start	
 	1928584519	CH_SoSchwert_MoveFast			\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_MoveFast	
+	1979489874	RTSL_Sun_Gem1_LoseCharge			\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem1_LoseCharge	
+	2010660149	ENV_Tree_RiddleSolved			\Default Work Unit\Environment\ENV_Tree_RiddleSolved	
+	2042622581	RTSL_Sun_RunenStein_Charge_Start			\Default Work Unit\Raetsel\Sun\RTSL_Sun_RunenStein_Charge_Start	
+	2055754910	RTSL_Buch_SonneGrundsound			\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneGrundsound	
 	2091186311	IT_SoSchwert_BaseLoop_Lying			\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Lying	
 	2126331685	SFX_ENV_Wind_Loop_Start			\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Start	
-	2237714540	RTSL_Sun_BeamReflectStart			\Default Work Unit\Raetsel\Sun\RTSL_Sun_BeamReflectStart	
-	2400998577	RTSL_Sun_BeamStop			\Default Work Unit\Raetsel\Sun\RTSL_Sun_BeamStop	
+	2211245792	RTSL_Buch_SonneEinrasten			\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneEinrasten	
+	2237714540	RTSL_Sun_BeamReflectStart			\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamReflectStart	
+	2279306836	IT_ItemPartikel			\Default Work Unit\Items\IT_ItemPartikel	
+	2367935355	RTSL_Sun_Gem2_LoseCharge			\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem2_LoseCharge	
+	2400998577	RTSL_Sun_BeamStop			\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamStop	
 	2422007016	CH_Footsteps_Grass_Slow_Start			\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Start	
+	2506999193	RTSL_Sun_Gem1_Charge			\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem1_Charge	
 	2862968157	CH_SoSchwert_Putdown			\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_Putdown	
-	2874671291	RTSL_Sun_BeamUnreflect			\Default Work Unit\Raetsel\Sun\RTSL_Sun_BeamUnreflect	
+	2874671291	RTSL_Sun_BeamUnreflect			\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamUnreflect	
+	3011087908	RTSL_Buch_SonneAnfassen			\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneAnfassen	
 	3043697892	IT_SoSchwert_BaseLoop_Stop			\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Stop	
+	3066218645	RTSL_Sun_InselnSmall_Reposition			\Default Work Unit\Raetsel\Sun\RTSL_Sun_InselnSmall_Reposition	
 	3121080756	CH_Footsteps_Grass_Slow_Stop			\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Stop	
 	3131767078	IT_SoSchwert_BaseLoop_InHand			\Default Work Unit\Items\IT_SoSchwert_BaseLoop_InHand	
+	3219477796	RTSL_Sun_Gem3_LoseCharge			\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem3_LoseCharge	
 	3220389727	SFX_ENV_Ghosts_Mumble_Random_Stop			\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Stop	
+	3493667757	RTSL_Sun_Gem_StopAll			\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem_StopAll	
+	3650676912	RTSL_Sun_Gem2_Charge			\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem2_Charge	
 	4151696586	ENV_Inseln_Reposition_Start			\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Start	
+	4188573835	ENV_Inseln_Reposition_Stop_Neu			\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop_Neu	
 	4207352866	ENV_Inseln_Reposition_Stop			\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2340907149	Gem3Charge			\Default Work Unit\SUN\Gem3Charge	
+	2411241056	Gem2Charge			\Default Work Unit\SUN\Gem2Charge	
+	2431874771	Gem1Charge			\Default Work Unit\SUN\Gem1Charge	
+	3751591028	RunenSteinCharge			\Default Work Unit\SUN\RunenSteinCharge	
+
+Switch	ID	Name	Switch Group			Notes
+	3778426334	FullCharged	Gem3Charge			
+	4190356504	notCharged	Gem3Charge			
+	3778426334	FullCharged	Gem2Charge			
+	4190356504	notCharged	Gem2Charge			
+	3778426334	FullCharged	Gem1Charge			
+	4190356504	notCharged	Gem1Charge			
+	1869081914	RS_NotCharged	RunenSteinCharge			
+	2709421345	RS_Charged	RunenSteinCharge			
 
 State Group	ID	Name			Wwise Object Path	Notes
 	1350496757	PlayerMovement			\Default Work Unit\PlayerMovement	
@@ -28,89 +65,138 @@ State	ID	Name	State Group			Notes
 
 Custom State	ID	Name	State Group	Owner		Notes
 	25735155	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle		Player doing something
-	26333223	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamStop		Player doing something
+	26333223	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamStop		Player doing something
 	300346365	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer		Player doing something
-	378165065	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamRunning		Player doing something
+	378165065	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamRunning		Player doing something
 	422185289	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate		Player doing something
 	456817151	Thinking	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base		Player not moving at all/ just looking around; no interactions
 	639112873	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls		Player doing something
 	723553287	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Trees		Player doing something
-	827304719	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamReflectOS		Player doing something
-	993649571	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamRunningReflected		Player doing something
+	827304719	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamReflectOS		Player doing something
+	993649571	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamRunningReflected		Player doing something
 	1051015665	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Ghosts\ENV_Ghosts_Voice_Mumble_RR		Player doing something
-	1066766091	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamStart		Player doing something
+	1066766091	Moving	PlayerMovement	\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamStart		Player doing something
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	343140771	RunenStein_Charge			\Default Work Unit\SUN\RunenStein_Charge	
+	1277958082	Gem1_Charge			\Default Work Unit\SUN\Gem1_Charge	
+	1949899756	Gem3_Charge			\Default Work Unit\SUN\Gem3_Charge	
+	4205540175	Gem2_Charge			\Default Work Unit\SUN\Gem2_Charge	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	5372116	Wind_SingleHowls_02	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_74AF2C12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls_02		361569
-	27664711	Wind_Trees-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Trees-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Trees\Wind_Trees-002		1131125
-	60251323	Wind_Actions-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Actions-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base\Wind_Actions-002		3222909
-	62615609	Grass-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-002		33259
-	67055864	BaseShimmer-004	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_FDC947C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-004		136108
-	72994115	Inseln_Connect-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Connect-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Connect\Inseln_Connect-003		262355
-	118115622	RotatingDrone-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-002		215675
-	128674909	Beam_Running_Reflected-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running_Reflected-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamRunningReflected\Beam_Running_Reflected-001		546296
-	129994101	RotatingDrone-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-001		148904
-	133555340	Beam_Stop-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Stop-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamStop\Beam_Stop-001		287392
-	194876377	Grass-006	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-006_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-006		55647
-	207456654	Beam_Running_Reflected-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running_Reflected-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamRunningReflected\Beam_Running_Reflected-003		538739
-	210910562	Grass-005	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-005		52677
-	225378519	Inseln_Reposition-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Reposition-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Reposition\Inseln_Reposition-001		1486222
-	227561129	ENV_Ghosts-Voice-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ENV_Ghosts-Voice-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Ghosts\ENV_Ghosts_Voice_Mumble_RR\ENV_Ghosts-Voice-002		325713
-	227710377	Wind_Actions-004	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Actions-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base\Wind_Actions-004		3088646
-	240668027	Pickup-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Pickup-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_Pickup\Pickup-001		184506
-	278227356	BaseShimmer-006	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_BCD812EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-006		109110
-	281225704	Beam_Reflect_OS-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Reflect_OS-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamReflectOS\Beam_Reflect_OS-003		31772
-	304731853	Wind_SingleHowls	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_1EE963F3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls		196611
-	372425914	Beam_Reflect_OS-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Reflect_OS-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamReflectOS\Beam_Reflect_OS-002		31051
-	379302333	RotatingDrone-004	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-004		185732
-	381448561	RotatingDrone-005	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-005		239376
-	397272270	FireSizzle-006	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-006_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-006		465884
-	401483933	Beam_Running-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamRunning\Beam_Running-001		684624
-	403733456	Wind_Actions-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Actions-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base\Wind_Actions-001		1356263
-	412827180	Grass-009	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-009_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-009		45961
-	413204120	BaseShimmer-005	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_68D08D7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-005		83331
-	416527613	Putdown-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Putdown-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_Putdown\Putdown-001		209329
-	421485979	Pickup-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Pickup-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_Pickup\Pickup-002		187594
-	467451762	Inseln_Connect-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Connect-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Connect\Inseln_Connect-002		240966
-	473931375	Inseln_Reposition-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Reposition-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Reposition\Inseln_Reposition-003		1473236
-	518297966	Grass-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-003		49487
-	524583771	Grass-004	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-004		51879
-	557462147	Inseln_Connect-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Connect-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Connect\Inseln_Connect-001		266429
-	569770197	Beam_Stop-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Stop-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamStop\Beam_Stop-003		270909
-	605231197	MoveFast-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\MoveFast-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_MoveFast\MoveFast-002		139285
-	659750395	Wind_Trees-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Trees-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Trees\Wind_Trees-003		2420642
-	668691538	ENV_Ghosts-Voice-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ENV_Ghosts-Voice-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Ghosts\ENV_Ghosts_Voice_Mumble_RR\ENV_Ghosts-Voice-003		264813
-	675910323	Grass-008	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-008_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-008		47899
-	710800201	FireSizzle-004	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-004		253618
-	718241462	Grass-007	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-007_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-007		43810
-	753404509	Inseln_Reposition-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Reposition-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Reposition\Inseln_Reposition-002		1470739
-	771374981	Wind_SingleHowls_03	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_C5F7BA84.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls_03		437139
-	784477728	Beam_Stop-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Stop-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamStop\Beam_Stop-002		280529
-	789496047	Beam_Start-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Start-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamStart\Beam_Start-003		151190
-	832781379	Beam_Reflect_OS-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Reflect_OS-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamReflectOS\Beam_Reflect_OS-001		34336
-	834870781	Beam_Running-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamRunning\Beam_Running-002		652741
-	848570140	Beam_Start-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Start-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamStart\Beam_Start-001		156675
-	857768039	MoveFast-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\MoveFast-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_MoveFast\MoveFast-003		141521
-	857821544	RotatingDrone-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-003		281545
-	873952444	Wind_Trees-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Trees-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Trees\Wind_Trees-001		964256
-	880712132	Putdown-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Putdown-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_Putdown\Putdown-002		199973
-	889285383	BaseShimmer-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_4B913580.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-003		92742
-	900039528	ENV_Ghosts-Voice-004	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ENV_Ghosts-Voice-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Ghosts\ENV_Ghosts_Voice_Mumble_RR\ENV_Ghosts-Voice-004		227991
-	911928889	BaseShimmer-007	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_E669FA2E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-007		100529
-	914979617	ENV_Ghosts-Voice-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ENV_Ghosts-Voice-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Ghosts\ENV_Ghosts_Voice_Mumble_RR\ENV_Ghosts-Voice-001		137988
-	916804220	Beam_Running_Reflected-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running_Reflected-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamRunningReflected\Beam_Running_Reflected-002		516272
-	921961296	FireSizzle-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-001		193287
-	923692346	Wind_SingleHowls_01	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_37BBE712.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls_01		359341
-	929947365	BaseShimmer-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_5E8B5201.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-001		131587
-	934026136	Beam_Running-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamRunning\Beam_Running-003		610780
-	937032387	FireSizzle-005	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-005		353803
-	961411102	MoveFast-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\MoveFast-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_MoveFast\MoveFast-001		145832
-	977867164	FireSizzle-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-002		224164
-	984159048	FireSizzle-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-003		233130
-	1003295280	Wind_SingleHowls_04	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_75AC5457.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls_04		383971
-	1017046142	Wind_Actions-003	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Actions-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base\Wind_Actions-003		3273463
-	1024022785	Beam_Start-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Start-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_BeamStart\Beam_Start-002		188484
-	1025670664	Grass-001	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-001		54066
-	1031654895	BaseShimmer-002	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_A4B77992.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-002		94323
-	1059385629	FireSizzle-007	D:\Projects\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-007_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-007		489934
+	5372116	Wind_SingleHowls_02	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_74AF2C12.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls_02		361569
+	14500894	Mini-Sonne_Grundsound-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_Grundsound-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneGrundsound\Mini-Sonne_Grundsound-001		241737
+	20468238	Beam_Stop	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Stop_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamStop\Beam_Stop		113459
+	27664711	Wind_Trees-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Trees-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Trees\Wind_Trees-002		1131125
+	35336237	Crystal_LoseCharge-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_LoseCharge-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem2\Crystal_LoseCharge-002		199924
+	39923295	Stein_Ausklang-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Stein_Ausklang-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RunenStein\RTSL_Sun_RunenStein_Charge\RTSL_Sun_RunenStein_Ausklang\Stein_Ausklang-002		66488
+	41836428	Mini-Sonne_anfassen-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_anfassen-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneAnfassen\Mini-Sonne_anfassen-001		314845
+	56494741	InselKlein_Reposition-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\InselKlein_Reposition-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_InselnSmall_Reposition\InselKlein_Reposition-003		232093
+	60251323	Wind_Actions-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Actions-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base\Wind_Actions-002		3222909
+	62615609	Grass-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-002		33259
+	65391480	Crystal_Charging_FullCharged-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_Charging_FullCharged-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem3\Gem3_ChargeIntensity\Gem3_Charging\Gem3FullCharged\Crystal_Charging_FullCharged-003		738895
+	67055864	BaseShimmer-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_FDC947C2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-004		136108
+	72994115	Inseln_Connect-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Connect-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Connect\Inseln_Connect-003		262355
+	99768781	Crystal_Charging_FullCharged-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_Charging_FullCharged-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem2\Gem2_ChargeIntensity\Gem2_Charging\Gem2FullCharged\Crystal_Charging_FullCharged-002		763612
+	107996011	Crystal_Charged-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_Charged-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem2\Gem2_ChargeIntensity\Gem2_Charged\Crystal_Charged-002		361944
+	113195003	Stein_Rotate-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Stein_Rotate-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RunenStein\RTSL_Sun_RunenStein_Charge\RTSL_Sun_RunenStein_Rotate\Stein_Rotate-001		91737
+	118115622	RotatingDrone-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-002		215675
+	128674909	Beam_Running_Reflected-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running_Reflected-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamRunningReflected\Beam_Running_Reflected-001		321746
+	129994101	RotatingDrone-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-001		148904
+	139614538	Mini-Sonne_anfassen-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_anfassen-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneAnfassen\Mini-Sonne_anfassen-003		312190
+	152015413	NightAmbience	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\NightAmbience_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_NightAmbience\NightAmbience		3065990
+	194876377	Grass-006	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-006_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-006		55647
+	195237337	ItemAufloesePartikel-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ItemAufloesePartikel-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_ItemPartikel\ItemAufloesePartikel-001		361053
+	207456654	Beam_Running_Reflected-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running_Reflected-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamRunningReflected\Beam_Running_Reflected-003		279331
+	210476261	Mini-Sonne_anfassen-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_anfassen-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneAnfassen\Mini-Sonne_anfassen-004		336145
+	210910562	Grass-005	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-005		52677
+	224619754	Crystal_Charging-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_Charging-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem3\Gem3_ChargeIntensity\Gem3_Charging\Gem3Charging\Crystal_Charging-003		751647
+	225378519	Inseln_Reposition-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Reposition-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Reposition\Inseln_Reposition-001		1486222
+	227561129	ENV_Ghosts-Voice-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ENV_Ghosts-Voice-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Ghosts\ENV_Ghosts_Voice_Mumble_RR\ENV_Ghosts-Voice-002		325713
+	227710377	Wind_Actions-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Actions-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base\Wind_Actions-004		3088646
+	228657698	Mini-Sonne_Grundsound-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_Grundsound-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneGrundsound\Mini-Sonne_Grundsound-002		301451
+	231365639	Mini-Sonne_einrasten-005	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_einrasten-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneEinrasten\Mini-Sonne_einrasten-005		60239
+	240668027	Pickup-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Pickup-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_Pickup\Pickup-001		184506
+	278227356	BaseShimmer-006	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_BCD812EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-006		109110
+	281225704	Beam_Reflect_OS-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Reflect_OS-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamReflectOS\Beam_Reflect_OS-003		20103
+	281591837	Mini-Sonne_Grundsound-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_Grundsound-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneGrundsound\Mini-Sonne_Grundsound-004		301961
+	295430371	Crystal_Charged-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_Charged-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem1\Gem1_ChargeIntensity\Gem1_Charged\Crystal_Charged-001		629457
+	304731853	Wind_SingleHowls	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_1EE963F3.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls		196611
+	317468070	Crystal_Charged-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_Charged-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem3\Gem3_ChargeIntensity\Gem3_Charged\Crystal_Charged-003		351294
+	349774540	Mini-Sonne_anfassen-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_anfassen-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneAnfassen\Mini-Sonne_anfassen-002		309642
+	358328862	Mini-Sonne_Grundsound-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_Grundsound-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneGrundsound\Mini-Sonne_Grundsound-003		305994
+	372425914	Beam_Reflect_OS-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Reflect_OS-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamReflectOS\Beam_Reflect_OS-002		19454
+	379302333	RotatingDrone-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-004		185732
+	381448561	RotatingDrone-005	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-005		239376
+	384814324	ItemAufloesePartikel-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ItemAufloesePartikel-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_ItemPartikel\ItemAufloesePartikel-002		363621
+	397272270	FireSizzle-006	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-006_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-006		465884
+	401483933	Beam_Running-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamRunning\Beam_Running-001		422893
+	403733456	Wind_Actions-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Actions-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base\Wind_Actions-001		1356263
+	409084473	InselKlein_Reposition-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\InselKlein_Reposition-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_InselnSmall_Reposition\InselKlein_Reposition-004		228520
+	412475796	InselKlein_Reposition-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\InselKlein_Reposition-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_InselnSmall_Reposition\InselKlein_Reposition-001		193433
+	412827180	Grass-009	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-009_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-009		45961
+	413204120	BaseShimmer-005	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_68D08D7F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-005		83331
+	416527613	Putdown-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Putdown-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_Putdown\Putdown-001		209329
+	421485979	Pickup-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Pickup-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_Pickup\Pickup-002		187594
+	443037710	ENV_Tree_RiddleSolved	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\TreeRiddleSolved_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Tree_RiddleSolved		372636
+	448511987	Crystal_LoseCharge-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_LoseCharge-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem3\Crystal_LoseCharge-003		194726
+	455344344	Stein_Charge-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Stein_Charge-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RunenStein\RTSL_Sun_RunenStein_Charge\RTSL_Sun_RunenStein_Charge\Stein_Charge-002		247773
+	467451762	Inseln_Connect-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Connect-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Connect\Inseln_Connect-002		240966
+	473931375	Inseln_Reposition-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Reposition-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Reposition\Inseln_Reposition-003		1473236
+	484456226	ItemAufloesePartikel-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ItemAufloesePartikel-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_ItemPartikel\ItemAufloesePartikel-003		366500
+	518297966	Grass-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-003		49487
+	524583771	Grass-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-004		51879
+	555431290	Stein_Ausklang-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Stein_Ausklang-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RunenStein\RTSL_Sun_RunenStein_Charge\RTSL_Sun_RunenStein_Ausklang\Stein_Ausklang-003		85262
+	557462147	Inseln_Connect-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Connect-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Connect\Inseln_Connect-001		266429
+	569493945	IT_ItemAufloesen	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ItemsAufloesen_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_ItemAufloesen		368137
+	605231197	MoveFast-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\MoveFast-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_MoveFast\MoveFast-002		139285
+	615124701	Crystal_LoseCharge-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_LoseCharge-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem1\Crystal_LoseCharge-001		201180
+	656498676	ItemAufloesePartikel-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ItemAufloesePartikel-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_ItemPartikel\ItemAufloesePartikel-004		359788
+	659750395	Wind_Trees-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Trees-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Trees\Wind_Trees-003		2420642
+	668691538	ENV_Ghosts-Voice-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ENV_Ghosts-Voice-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Ghosts\ENV_Ghosts_Voice_Mumble_RR\ENV_Ghosts-Voice-003		264813
+	675910323	Grass-008	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-008_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-008		47899
+	702089141	Crystal_Charging-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_Charging-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem2\Gem2_ChargeIntensity\Gem2_Charging\Gem2Charging\Crystal_Charging-002		771894
+	710800201	FireSizzle-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-004		253618
+	718241462	Grass-007	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-007_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-007		43810
+	721095911	Mini-Sonne_einrasten-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_einrasten-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneEinrasten\Mini-Sonne_einrasten-002		55395
+	727471806	Stein_Charge-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Stein_Charge-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RunenStein\RTSL_Sun_RunenStein_Charge\RTSL_Sun_RunenStein_Charge\Stein_Charge-003		241397
+	752394560	Stein_Rotate-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Stein_Rotate-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RunenStein\RTSL_Sun_RunenStein_Charge\RTSL_Sun_RunenStein_Rotate\Stein_Rotate-002		116418
+	753404509	Inseln_Reposition-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Inseln_Reposition-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Inseln\ENV_Inseln_Reposition\Inseln_Reposition-002		1470739
+	771374981	Wind_SingleHowls_03	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_C5F7BA84.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls_03		437139
+	777776747	Mini-Sonne_einrasten-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_einrasten-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneEinrasten\Mini-Sonne_einrasten-001		57963
+	789496047	Beam_Start-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Start-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamStart\Beam_Start-003		52669
+	799422213	Stein_Ausklang-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Stein_Ausklang-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RunenStein\RTSL_Sun_RunenStein_Charge\RTSL_Sun_RunenStein_Ausklang\Stein_Ausklang-001		80353
+	809880738	Crystal_Charging-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_Charging-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem1\Gem1_ChargeIntensity\Gem1_Charging\Gem1Charging\Crystal_Charging-001		676680
+	832781379	Beam_Reflect_OS-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Reflect_OS-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamReflectOS\Beam_Reflect_OS-001		20358
+	833807784	Crystal_Charging_FullCharged-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Crystal_Charging_FullCharged-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Gem\RTSL_Sun_Gem1\Gem1_ChargeIntensity\Gem1_Charging\Gem1FullCharged\Crystal_Charging_FullCharged-001		737883
+	834870781	Beam_Running-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamRunning\Beam_Running-002		406785
+	848570140	Beam_Start-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Start-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamStart\Beam_Start-001		66280
+	857768039	MoveFast-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\MoveFast-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_MoveFast\MoveFast-003		141521
+	857821544	RotatingDrone-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\RotatingDrone-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseRotate\RotatingDrone-003		281545
+	873952444	Wind_Trees-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Trees-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Trees\Wind_Trees-001		964256
+	880712132	Putdown-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Putdown-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_Putdown\Putdown-002		199973
+	889285383	BaseShimmer-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_4B913580.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-003		92742
+	900039528	ENV_Ghosts-Voice-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ENV_Ghosts-Voice-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Ghosts\ENV_Ghosts_Voice_Mumble_RR\ENV_Ghosts-Voice-004		227991
+	911928889	BaseShimmer-007	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_E669FA2E.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-007		100529
+	914979617	ENV_Ghosts-Voice-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\ENV_Ghosts-Voice-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Ghosts\ENV_Ghosts_Voice_Mumble_RR\ENV_Ghosts-Voice-001		137988
+	916804220	Beam_Running_Reflected-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running_Reflected-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamRunningReflected\Beam_Running_Reflected-002		288068
+	921961296	FireSizzle-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-001		193287
+	923692346	Wind_SingleHowls_01	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_37BBE712.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls_01		359341
+	929947365	BaseShimmer-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_5E8B5201.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-001		131587
+	934026136	Beam_Running-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Running-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamRunning\Beam_Running-003		385254
+	937032387	FireSizzle-005	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-005_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-005		353803
+	949928690	Mini-Sonne_einrasten-004	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_einrasten-004_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneEinrasten\Mini-Sonne_einrasten-004		60345
+	961411102	MoveFast-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\MoveFast-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_SoSchwert-Interaction\CH_SoSchwert_MoveFast\MoveFast-001		145832
+	976977087	Mini-Sonne_einrasten-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Mini-Sonne_einrasten-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Buch\RTSL_Buch_SonneEinrasten\Mini-Sonne_einrasten-003		59065
+	977867164	FireSizzle-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-002		224164
+	984159048	FireSizzle-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-003		233130
+	1001338997	InselKlein_Reposition-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\InselKlein_Reposition-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RTSL_Sun_InselnSmall_Reposition\InselKlein_Reposition-002		227700
+	1003295280	Wind_SingleHowls_04	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_SingleHowls_75AC5457.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Howls\Wind_SingleHowls_04		383971
+	1012441422	Stein_Rotate-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Stein_Rotate-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RunenStein\RTSL_Sun_RunenStein_Charge\RTSL_Sun_RunenStein_Rotate\Stein_Rotate-003		109799
+	1017046142	Wind_Actions-003	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Wind_Actions-003_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Environment\ENV_Wind\ENV_Wind_Base\Wind_Actions-003		3273463
+	1024022785	Beam_Start-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Beam_Start-002_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\Beam\RTSL_Sun_BeamStart\Beam_Start-002		74528
+	1025670664	Grass-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Grass-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Character\CH_Footsteps_Grass\CH_Footsteps_Grass_Slow\Grass-001		54066
+	1026157058	Stein_Charge-001	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\Stein_Charge-001_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Raetsel\RTSL_Sun\RunenStein\RTSL_Sun_RunenStein_Charge\RTSL_Sun_RunenStein_Charge\Stein_Charge-001		239489
+	1031654895	BaseShimmer-002	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\BaseShimmer_A4B77992.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_BaseShimmer\BaseShimmer-002		94323
+	1059385629	FireSizzle-007	X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\SFX\FireSizzle-007_755F56E2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Items\IT_SoSchwert_Base\IT_SoSchwert_BaseSizzle\FireSizzle-007		489934
 

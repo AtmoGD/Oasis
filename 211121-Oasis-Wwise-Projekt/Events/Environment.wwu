@@ -129,7 +129,7 @@
 										</Reference>
 									</ReferenceList>
 								</Action>
-								<Action Name="" ID="{C069AEC7-055C-496A-A571-BDCB8C881FBF}" ShortID="729455509">
+								<Action Name="" ID="{06EB1B23-30A4-468C-B934-6465923CAE97}" ShortID="724813461">
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="ENV_Inseln_Connect" ID="{0261151C-AE4E-437F-93AB-EC262876D8B0}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
@@ -138,8 +138,73 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Event Name="ENV_Inseln_Reposition_Connect" ID="{96AD1EE3-08AE-4102-B886-E85B5AB7AE44}">
+							<ChildrenList>
+								<Action Name="" ID="{0F8ED68A-40CC-4F67-951D-DE03E199B795}" ShortID="292933938">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ENV_Inseln_Connect" ID="{0261151C-AE4E-437F-93AB-EC262876D8B0}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="ENV_Inseln_Reposition_Stop_Neu" ID="{85B52CD1-AEBB-4BF6-894F-61AFB0BB00FD}">
+							<ChildrenList>
+								<Action Name="" ID="{CCE31956-3B69-4318-A26B-B1654A295A13}" ShortID="365699355">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+										<Property Name="FadeOutCurve" Type="int16" Value="2"/>
+										<Property Name="FadeTime" Type="Real64" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="ENV_Inseln_Reposition" ID="{3A6D8A42-C03C-49F9-AB86-BF8565CC22B1}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="ENV_Tree_RiddleSolved" ID="{D55A74D8-5694-44DA-88AA-6821B6EA61AE}">
+					<ChildrenList>
+						<Action Name="" ID="{19E6705B-495E-40F0-8B28-34FAC7F31409}" ShortID="564795979">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_Tree_RiddleSolved" ID="{A5F9058A-575D-48EB-BB82-ABC487B6F0A4}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ENV_NightAmbience_Start" ID="{5D756BE0-F5CF-4E6E-81A4-2FDA47B2804A}">
+					<ChildrenList>
+						<Action Name="" ID="{6ABBCE95-6A31-4275-8109-0E65F1B4CAB2}" ShortID="204020523">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_NightAmbience" ID="{2605750F-5CAF-4BFB-B7E6-23D0CD4140A1}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ENV_NightAmbience_Stop" ID="{45BBA759-380D-4F22-AD85-196EC2E38383}">
+					<ChildrenList>
+						<Action Name="" ID="{B36EFA3C-8F25-4C15-A083-633120CCC834}" ShortID="497032259">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeOutCurve" Type="int16" Value="1"/>
+								<Property Name="FadeTime" Type="Real64" Value="5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ENV_NightAmbience" ID="{2605750F-5CAF-4BFB-B7E6-23D0CD4140A1}" WorkUnitID="{AFA50946-A686-4FBD-8FD3-A36BF74BC366}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

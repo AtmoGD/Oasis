@@ -4,13 +4,97 @@
 		<WorkUnit Name="Default Work Unit" ID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}" PersistMode="Standalone">
 			<ChildrenList>
 				<Bus Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}">
+					<PropertyList>
+						<Property Name="BusVolume" Type="Real64">
+							<RTPCList>
+								<RTPC Name="" ID="{25C76546-CE50-4297-948F-7DC1DF863899}" ShortID="1009379529">
+									<ReferenceList>
+										<Reference Name="ControlInput">
+											<ObjectRef Name="Volume_Master" ID="{12B5D60B-F809-4A7F-B0D2-EA7528BD5F2E}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+										</Reference>
+									</ReferenceList>
+									<Curve Name="" ID="{09924951-8452-4AFB-93AE-3CA20A2170A4}">
+										<PropertyList>
+											<Property Name="Flags" Type="int32" Value="3"/>
+										</PropertyList>
+										<PointList>
+											<Point>
+												<XPos>0</XPos>
+												<YPos>-200</YPos>
+												<Flags>5</Flags>
+												<SegmentShape>Exp1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>1</XPos>
+												<YPos>-18</YPos>
+												<Flags>0</Flags>
+												<SegmentShape>Log1</SegmentShape>
+											</Point>
+											<Point>
+												<XPos>10</XPos>
+												<YPos>0</YPos>
+												<Flags>37</Flags>
+											</Point>
+										</PointList>
+									</Curve>
+								</RTPC>
+							</RTPCList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="AudioDevice">
 							<ObjectRef Name="System" ID="{CFFAB83A-6141-4249-AEBF-DC92D8CCB069}" WorkUnitID="{45BC5D9E-469B-468A-A906-B1F071CFB975}"/>
 						</Reference>
+						<Reference Name="Effect0" PluginName="Wwise Peak Limiter" CompanyID="0" PluginID="110" PluginType="3">
+							<ObjectRef Name="Brick_Wall_Minus_1dB_Peak_Fast_Release" ID="{2144284E-7ADD-4341-86A4-4E468BEC9A2D}" WorkUnitID="{E8613F7D-BAD3-45CD-A3ED-505576F31277}"/>
+						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<Bus Name="SFX" ID="{15DC3925-D74F-43C4-9CB2-CBBCD54D7A77}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{76F292FA-B99F-4241-B520-C61EAF2F73E5}" ShortID="518668181">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Effects" ID="{8B4B5FA2-EFCC-4E9A-ACD9-F64E24972DC9}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{2A58FC01-E2DA-4C60-B8E0-990D34124FB4}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-18</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>10</XPos>
+														<YPos>6</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-3"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+									<ObjectRef Name="Meter_SFX" ID="{BC08B5AD-FD6E-487D-B7AC-44CE8EBE5931}" WorkUnitID="{48A444CE-550A-4A4F-AB00-EC24ECD1AF7A}"/>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Environment" ID="{C6DE359B-E18F-4BB8-ACED-3BEBE85C7E04}">
 									<PropertyList>
@@ -28,18 +112,137 @@
 								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{73F7DE88-161A-4112-A29F-B5D29F4338C1}"/>
+									<DuckingParam>
+										<Volume>-10</Volume>
+										<FadeInTime>0.5</FadeInTime>
+										<FadeOutTime>0.100000001490116</FadeOutTime>
+										<FadeCurve>FadeLog2</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
 						<Bus Name="Music" ID="{73F7DE88-161A-4112-A29F-B5D29F4338C1}">
 							<PropertyList>
-								<Property Name="Color" Type="int16" Value="13"/>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{644B7314-3D2F-49A0-87B6-9274E3D36C2F}" ShortID="40268512">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Music" ID="{2B3353B2-176E-4ECF-A140-A219549D7676}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{5AA2EF21-B629-4254-B4BA-7D9D95844FF8}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-18</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>10</XPos>
+														<YPos>6</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="6"/>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="0"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
+								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
 							</PropertyList>
 							<ChildrenList>
-								<Bus Name="Test" ID="{F625C44C-71A8-4304-9596-75E837CE1BD8}">
+								<Bus Name="Pad" ID="{5C4EBCD6-A5C6-4932-AC84-7BA7018708D5}">
+									<ObjectLists/>
+								</Bus>
+								<Bus Name="Instruments" ID="{C494C24A-A5F7-4B1D-936D-B74707EC590E}">
+									<ReferenceList>
+										<Reference Name="Effect0" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+											<ObjectRef Name="Meter_Instruments" ID="{9A0619F3-411F-4410-9EA1-E8AB7AF5BC01}" WorkUnitID="{48A444CE-550A-4A4F-AB00-EC24ECD1AF7A}"/>
+										</Reference>
+									</ReferenceList>
 									<ObjectLists/>
 								</Bus>
 							</ChildrenList>
 							<ObjectLists/>
+						</Bus>
+						<Bus Name="Dialogue" ID="{6181BF1C-4DE5-472A-9D7C-701FA9A71CC4}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<RTPCList>
+										<RTPC Name="" ID="{AA27AFAF-366A-4105-A1DE-80C508CCBEA1}" ShortID="547554417">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="Volume_Dialogue" ID="{1003363F-9E15-4010-B1F9-4524E95F912F}" WorkUnitID="{E69FD290-F046-4238-A318-E2B896BD4D36}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{08190D00-D2A9-4DAF-83F5-07D847327B10}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-200</YPos>
+														<Flags>5</Flags>
+														<SegmentShape>Exp1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>-18</YPos>
+														<Flags>0</Flags>
+														<SegmentShape>Log1</SegmentShape>
+													</Point>
+													<Point>
+														<XPos>10</XPos>
+														<YPos>6</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="22"/>
+								<Property Name="MaxDuckVolume" Type="Real64" Value="-6"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+							<ObjectLists/>
+							<DuckingList>
+								<DuckItem>
+									<BusRef Name="Music" ID="{73F7DE88-161A-4112-A29F-B5D29F4338C1}"/>
+									<DuckingParam>
+										<Volume>-20</Volume>
+										<FadeInTime>2</FadeInTime>
+										<FadeOutTime>1</FadeOutTime>
+										<FadeCurve>FadeLog2</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+								<DuckItem>
+									<BusRef Name="SFX" ID="{15DC3925-D74F-43C4-9CB2-CBBCD54D7A77}"/>
+									<DuckingParam>
+										<Volume>-10</Volume>
+										<FadeInTime>0.5</FadeInTime>
+										<FadeOutTime>0.5</FadeOutTime>
+										<FadeCurve>FadeLog2</FadeCurve>
+									</DuckingParam>
+								</DuckItem>
+							</DuckingList>
 						</Bus>
 					</ChildrenList>
 					<ObjectLists/>

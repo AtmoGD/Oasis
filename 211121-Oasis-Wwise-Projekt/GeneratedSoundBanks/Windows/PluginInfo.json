@@ -5,6 +5,18 @@
   "BasePlatform": "Windows",
   "Plugins": [
    {
+    "Name": "Wwise Peak Limiter",
+    "ID": "7208963",
+    "DLL": "AkPeakLimiter",
+    "StaticLib": "AkPeakLimiterFX"
+   },
+   {
+    "Name": "Wwise Meter",
+    "ID": "8454147",
+    "DLL": "AkSoundEngineDLL",
+    "StaticLib": "AkMeterFX"
+   },
+   {
     "Name": "System",
     "ID": "11403271"
    },

@@ -1,6 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{48A444CE-550A-4A4F-AB00-EC24ECD1AF7A}" SchemaVersion="103">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{48A444CE-550A-4A4F-AB00-EC24ECD1AF7A}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{48A444CE-550A-4A4F-AB00-EC24ECD1AF7A}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Meter_Instruments" ID="{9A0619F3-411F-4410-9EA1-E8AB7AF5BC01}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.05"/>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="1.2"/>
+					</PropertyList>
+				</Effect>
+				<Effect Name="Meter_SFX" ID="{BC08B5AD-FD6E-487D-B7AC-44CE8EBE5931}" PluginName="Wwise Meter" CompanyID="0" PluginID="129" PluginType="3">
+					<PropertyList>
+						<Property Name="AttackTime" Type="Real32" Value="0.05"/>
+						<Property Name="MeterMode" Type="int32" Value="1"/>
+						<Property Name="ReleaseTime" Type="Real32" Value="1.2"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>
