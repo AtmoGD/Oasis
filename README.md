@@ -131,4 +131,16 @@ Hier nochmal ein großes Dankeschön an Joshua Hank für die komposition und ers
 
 
 ### **3D Modelle**
-<div class="sketchfab-embed-wrapper"> <iframe title="Elemental stones" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/86fd307d0a4a489ca55c6003ec8c6149/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/elemental-stones-86fd307d0a4a489ca55c6003ec8c6149?utm_medium=embed&utm_campaign=share-popup&utm_content=86fd307d0a4a489ca55c6003ec8c6149" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Elemental stones </a> by <a href="https://sketchfab.com/mandrake_3d?utm_medium=embed&utm_campaign=share-popup&utm_content=86fd307d0a4a489ca55c6003ec8c6149" target="_blank" style="font-weight: bold; color: #1CAAD9;"> Mandrake </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=86fd307d0a4a489ca55c6003ec8c6149" target="_blank" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>
+* "Elemental stones" (https://skfb.ly/6WsSI) by Mandrake is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "tree" (https://skfb.ly/6Zu6M) by - is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "Golden Daïm staff" (https://skfb.ly/6RQBo) by Evie Verstappen is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "Set Ghibli style rocks" (https://skfb.ly/oowQW) by CoFate is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "The Altar (object №1)" (https://skfb.ly/6YDCp) by salinaforr is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "Stone table" (https://skfb.ly/6WTwv) by DerpDelfinen is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "Ghost Puppets" (https://skfb.ly/6XtxG) by Vera is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "Book of Constellations" (https://skfb.ly/6zoBs) by Athikar is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+* "Ebonchill Magic Sword" (https://skfb.ly/6AA96) by Athikar is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
+* "European and American game scence~Magic portal" (https://skfb.ly/6TJNF) by chengzijieczj is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "Waystone" (https://skfb.ly/6WPQ6) by HenryBoadle is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "Fantasy Sword" (https://skfb.ly/oozUW) by EliecerPinto is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
+* "Fey Tree house" (https://skfb.ly/YEJR) by AislingJane is licensed under Creative Commons Attribution (http://creativecommons.org/licenses/by/4.0/).
