@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
-   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
-   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "3895316329",
     "GUID": "{5EAB3B37-A59C-4355-9D6C-C63BD3EB7A75}",
     "Language": "SFX",
-    "Hash": "20705390",
+    "Hash": "4187117443",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Voice",
     "ShortName": "SB_Voice",
     "Path": "SB_Voice.bnk",
@@ -44,8 +44,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_1",
       "GUID": "{B2CA049A-AD6A-4C6F-BD3C-53253190EBD8}",
       "DurationType": "OneShot",
-      "DurationMin": "4.510000",
-      "DurationMax": "4.510000",
+      "DurationMin": "4.51",
+      "DurationMax": "4.51",
       "IncludedMemoryFiles": [
        {
         "Id": "59866567",
@@ -67,8 +67,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_2",
       "GUID": "{575CF2E3-7519-413A-B3B2-E06DCC7DD289}",
       "DurationType": "OneShot",
-      "DurationMin": "6.223000",
-      "DurationMax": "6.223000",
+      "DurationMin": "6.223",
+      "DurationMax": "6.223",
       "IncludedMemoryFiles": [
        {
         "Id": "148631481",
@@ -90,8 +90,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_3",
       "GUID": "{50A0ABB8-17A4-4F43-91B0-70FEE6E91C59}",
       "DurationType": "OneShot",
-      "DurationMin": "9.330000",
-      "DurationMax": "9.330000",
+      "DurationMin": "9.33",
+      "DurationMax": "9.33",
       "IncludedMemoryFiles": [
        {
         "Id": "403911440",
@@ -113,8 +113,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_4",
       "GUID": "{BCA809C3-C03F-4CAB-958F-FA562A703B9D}",
       "DurationType": "OneShot",
-      "DurationMin": "10.400000",
-      "DurationMax": "10.400000",
+      "DurationMin": "10.4",
+      "DurationMax": "10.4",
       "IncludedMemoryFiles": [
        {
         "Id": "625058283",
@@ -136,8 +136,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_4alt",
       "GUID": "{A4A12AB1-692B-4717-A9A8-80BD19BD45E0}",
       "DurationType": "OneShot",
-      "DurationMin": "11.400000",
-      "DurationMax": "11.400000",
+      "DurationMin": "11.4",
+      "DurationMax": "11.4",
       "IncludedMemoryFiles": [
        {
         "Id": "18219368",
@@ -159,8 +159,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_5",
       "GUID": "{1DAC3391-F613-4CE8-AC99-4B16C997757B}",
       "DurationType": "OneShot",
-      "DurationMin": "10.660000",
-      "DurationMax": "10.660000",
+      "DurationMin": "10.66",
+      "DurationMax": "10.66",
       "IncludedMemoryFiles": [
        {
         "Id": "95011797",
@@ -182,8 +182,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_6",
       "GUID": "{EB155A1B-D71E-4DB7-B099-1E17BEC40F7C}",
       "DurationType": "OneShot",
-      "DurationMin": "8.840000",
-      "DurationMax": "8.840000",
+      "DurationMin": "8.84",
+      "DurationMax": "8.84",
       "IncludedMemoryFiles": [
        {
         "Id": "807537111",
@@ -205,8 +205,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_7",
       "GUID": "{EB5608C8-86C4-4EBF-85FF-047093A510FE}",
       "DurationType": "OneShot",
-      "DurationMin": "8.920000",
-      "DurationMax": "8.920000",
+      "DurationMin": "8.92",
+      "DurationMax": "8.92",
       "IncludedMemoryFiles": [
        {
         "Id": "31019985",
@@ -227,20 +227,20 @@
       "Name": "Voice_StopIntro",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_StopIntro",
       "GUID": "{FD52D6C8-841F-4955-8A79-3CE3ABD87E11}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "2397992392",
       "Name": "Voice_StopTipps",
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_StopTipps",
       "GUID": "{14887E07-3E01-4F6A-8F64-6BF89B86415A}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "6526192",
@@ -248,8 +248,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippBuchA",
       "GUID": "{95E549DC-4303-4845-B71E-E053FD9991F8}",
       "DurationType": "OneShot",
-      "DurationMin": "5.440000",
-      "DurationMax": "5.440000",
+      "DurationMin": "5.44",
+      "DurationMax": "5.44",
       "IncludedMemoryFiles": [
        {
         "Id": "903071174",
@@ -265,8 +265,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippBuchB",
       "GUID": "{52FB8024-3003-4648-8AB1-388464EF5F95}",
       "DurationType": "OneShot",
-      "DurationMin": "5.390000",
-      "DurationMax": "5.390000",
+      "DurationMin": "5.39",
+      "DurationMax": "5.39",
       "IncludedMemoryFiles": [
        {
         "Id": "357666192",
@@ -282,8 +282,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippDolch",
       "GUID": "{665839A6-D0B6-4DA9-ADB9-8126EED62644}",
       "DurationType": "OneShot",
-      "DurationMin": "5.330000",
-      "DurationMax": "5.330000",
+      "DurationMin": "5.33",
+      "DurationMax": "5.33",
       "IncludedMemoryFiles": [
        {
         "Id": "497338114",
@@ -299,8 +299,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippSchwertA",
       "GUID": "{26687C51-1984-4980-921F-00BEDA48C3F3}",
       "DurationType": "OneShot",
-      "DurationMin": "5.900000",
-      "DurationMax": "5.900000",
+      "DurationMin": "5.9",
+      "DurationMax": "5.9",
       "IncludedMemoryFiles": [
        {
         "Id": "578571193",
@@ -316,8 +316,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Tipps\\Voice_TippSchwertB",
       "GUID": "{AD8A50B9-68F1-4072-8A18-8BDCB47245DD}",
       "DurationType": "OneShot",
-      "DurationMin": "5.570000",
-      "DurationMax": "5.570000",
+      "DurationMin": "5.57",
+      "DurationMax": "5.57",
       "IncludedMemoryFiles": [
        {
         "Id": "467558160",

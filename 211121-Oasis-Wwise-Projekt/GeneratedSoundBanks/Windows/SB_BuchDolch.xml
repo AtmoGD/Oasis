@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
-		<SourceFilesRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3849090513" GUID="{B06DD317-17BC-4A28-95C6-228991FDFDE1}" Language="SFX" Hash="1385651809">
+		<SoundBank Id="3849090513" GUID="{B06DD317-17BC-4A28-95C6-228991FDFDE1}" Language="SFX" Hash="3884073316">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_BuchDolch</ObjectPath>
 			<ShortName>SB_BuchDolch</ShortName>
 			<Path>SB_BuchDolch.bnk</Path>

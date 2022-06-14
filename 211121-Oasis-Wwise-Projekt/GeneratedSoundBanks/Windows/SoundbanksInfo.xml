@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
-		<SourceFilesRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>X:\Studium\21-22 WS\Furtwangen Koop\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="699478840">
+		<SoundBank Id="779753582" GUID="{15DA4724-68AB-47F0-AD1A-0DB8061AD290}" Language="SFX" Hash="261551550">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Music</ObjectPath>
 			<ShortName>SB_Music</ShortName>
 			<Path>SB_Music.bnk</Path>
@@ -389,7 +389,7 @@
 				</StateGroup>
 			</StateGroups>
 		</SoundBank>
-		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="1982613652">
+		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="2226253258">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Default</ObjectPath>
 			<ShortName>SB_Default</ShortName>
 			<Path>SB_Default.bnk</Path>
@@ -434,8 +434,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3121080756" Name="CH_Footsteps_Grass_Slow_Stop" ObjectPath="\Events\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Stop" GUID="{992ADFB0-229A-4135-AAC2-07D28066013E}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="1928584519" Name="CH_SoSchwert_MoveFast" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_MoveFast" GUID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}" MaxAttenuation="6.000000" DurationType="OneShot" DurationMin="2.351270" DurationMax="2.351270">
+				<Event Id="3121080756" Name="CH_Footsteps_Grass_Slow_Stop" ObjectPath="\Events\Default Work Unit\Character\CH_Walking\CH_Footsteps_Grass_Slow_Stop" GUID="{992ADFB0-229A-4135-AAC2-07D28066013E}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="1928584519" Name="CH_SoSchwert_MoveFast" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_MoveFast" GUID="{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}" MaxAttenuation="6." DurationType="OneShot" DurationMin="2.35127" DurationMax="2.35127">
 					<IncludedMemoryFiles>
 						<File Id="605231197" Language="SFX">
 							<ShortName>MoveFast-002.wav</ShortName>
@@ -451,7 +451,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1720561534" Name="CH_SoSchwert_Pickup" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_Pickup" GUID="{570FF76A-123C-48E9-9622-096E8DA07AEE}" MaxAttenuation="6.000000" DurationType="OneShot" DurationMin="3.297687" DurationMax="3.297687">
+				<Event Id="1720561534" Name="CH_SoSchwert_Pickup" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_Pickup" GUID="{570FF76A-123C-48E9-9622-096E8DA07AEE}" MaxAttenuation="6." DurationType="OneShot" DurationMin="3.297687" DurationMax="3.297687">
 					<IncludedMemoryFiles>
 						<File Id="240668027" Language="SFX">
 							<ShortName>Pickup-001.wav</ShortName>
@@ -466,7 +466,7 @@
 						<ActionPostEventEntry Id="3131767078" Name="IT_SoSchwert_BaseLoop_InHand" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_InHand" GUID="{27E3943A-94B1-4797-8F15-FD9A17982A1A}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="2862968157" Name="CH_SoSchwert_Putdown" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_Putdown" GUID="{1A50DD07-EEB3-44B2-89BE-1D46DDC45D32}" MaxAttenuation="6.000000" DurationType="OneShot" DurationMin="3.521837" DurationMax="3.613129">
+				<Event Id="2862968157" Name="CH_SoSchwert_Putdown" ObjectPath="\Events\Default Work Unit\Character\CH_SoSchwert\CH_SoSchwert_Putdown" GUID="{1A50DD07-EEB3-44B2-89BE-1D46DDC45D32}" MaxAttenuation="6." DurationType="OneShot" DurationMin="3.521837" DurationMax="3.613129">
 					<IncludedMemoryFiles>
 						<File Id="416527613" Language="SFX">
 							<ShortName>Putdown-001.wav</ShortName>
@@ -478,7 +478,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="325389044" Name="ENV_Inseln_Reposition_Connect" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Connect" GUID="{96AD1EE3-08AE-4102-B886-E85B5AB7AE44}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="4.788798" DurationMax="5.800000">
+				<Event Id="325389044" Name="ENV_Inseln_Reposition_Connect" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Connect" GUID="{96AD1EE3-08AE-4102-B886-E85B5AB7AE44}" MaxAttenuation="100." DurationType="OneShot" DurationMin="4.788798" DurationMax="5.8">
 					<IncludedMemoryFiles>
 						<File Id="72994115" Language="SFX">
 							<ShortName>Inseln_Connect-003.wav</ShortName>
@@ -510,7 +510,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4207352866" Name="ENV_Inseln_Reposition_Stop" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop" GUID="{C9F94D7D-F313-493F-A570-21B52624CD7B}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="4.788798" DurationMax="5.800000">
+				<Event Id="4207352866" Name="ENV_Inseln_Reposition_Stop" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop" GUID="{C9F94D7D-F313-493F-A570-21B52624CD7B}" MaxAttenuation="100." DurationType="OneShot" DurationMin="4.788798" DurationMax="5.8">
 					<IncludedMemoryFiles>
 						<File Id="72994115" Language="SFX">
 							<ShortName>Inseln_Connect-003.wav</ShortName>
@@ -526,7 +526,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4188573835" Name="ENV_Inseln_Reposition_Stop_Neu" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop_Neu" GUID="{85B52CD1-AEBB-4BF6-894F-61AFB0BB00FD}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="4188573835" Name="ENV_Inseln_Reposition_Stop_Neu" ObjectPath="\Events\Default Work Unit\Environment\Inseln\ENV_Inseln_Reposition_Stop_Neu" GUID="{85B52CD1-AEBB-4BF6-894F-61AFB0BB00FD}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1279838832" Name="ENV_NightAmbience_Start" ObjectPath="\Events\Default Work Unit\Environment\ENV_NightAmbience_Start" GUID="{5D756BE0-F5CF-4E6E-81A4-2FDA47B2804A}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="152015413" Language="SFX">
@@ -535,8 +535,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1848334044" Name="ENV_NightAmbience_Stop" ObjectPath="\Events\Default Work Unit\Environment\ENV_NightAmbience_Stop" GUID="{45BBA759-380D-4F22-AD85-196EC2E38383}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2010660149" Name="ENV_Tree_RiddleSolved" ObjectPath="\Events\Default Work Unit\Environment\ENV_Tree_RiddleSolved" GUID="{D55A74D8-5694-44DA-88AA-6821B6EA61AE}" DurationType="OneShot" DurationMin="6.324000" DurationMax="6.324000">
+				<Event Id="1848334044" Name="ENV_NightAmbience_Stop" ObjectPath="\Events\Default Work Unit\Environment\ENV_NightAmbience_Stop" GUID="{45BBA759-380D-4F22-AD85-196EC2E38383}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2010660149" Name="ENV_Tree_RiddleSolved" ObjectPath="\Events\Default Work Unit\Environment\ENV_Tree_RiddleSolved" GUID="{D55A74D8-5694-44DA-88AA-6821B6EA61AE}" DurationType="OneShot" DurationMin="6.324" DurationMax="6.324">
 					<IncludedMemoryFiles>
 						<File Id="443037710" Language="SFX">
 							<ShortName>TreeRiddleSolved.wav</ShortName>
@@ -544,7 +544,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="573910386" Name="IT_ItemAufloesen" ObjectPath="\Events\Default Work Unit\Items\IT_ItemAufloesen" GUID="{56DCF4ED-FF08-4B58-85D6-35BA52FA26E1}" DurationType="OneShot" DurationMin="6.324000" DurationMax="6.324000">
+				<Event Id="573910386" Name="IT_ItemAufloesen" ObjectPath="\Events\Default Work Unit\Items\IT_ItemAufloesen" GUID="{56DCF4ED-FF08-4B58-85D6-35BA52FA26E1}" DurationType="OneShot" DurationMin="6.324" DurationMax="6.324">
 					<IncludedMemoryFiles>
 						<File Id="569493945" Language="SFX">
 							<ShortName>ItemsAufloesen.wav</ShortName>
@@ -552,7 +552,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2279306836" Name="IT_ItemPartikel" ObjectPath="\Events\Default Work Unit\Items\IT_ItemPartikel" GUID="{DF3D4AF8-DC29-4613-ADF3-620B9305059C}" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="2279306836" Name="IT_ItemPartikel" ObjectPath="\Events\Default Work Unit\Items\IT_ItemPartikel" GUID="{DF3D4AF8-DC29-4613-ADF3-620B9305059C}" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="67055864" Language="SFX">
 							<ShortName>BaseShimmer.wav</ShortName>
@@ -600,7 +600,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3131767078" Name="IT_SoSchwert_BaseLoop_InHand" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_InHand" GUID="{27E3943A-94B1-4797-8F15-FD9A17982A1A}" MaxAttenuation="6.000000" DurationType="Infinite">
+				<Event Id="3131767078" Name="IT_SoSchwert_BaseLoop_InHand" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_InHand" GUID="{27E3943A-94B1-4797-8F15-FD9A17982A1A}" MaxAttenuation="6." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="118115622" Language="SFX">
 							<ShortName>RotatingDrone-002.wav</ShortName>
@@ -655,7 +655,7 @@
 						<ActionPostEventEntry Id="3043697892" Name="IT_SoSchwert_BaseLoop_Stop" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Stop" GUID="{F6B1B398-E033-4312-ACC5-A09F616A9984}"/>
 					</ActionPostEvent>
 				</Event>
-				<Event Id="2091186311" Name="IT_SoSchwert_BaseLoop_Lying" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Lying" GUID="{4B864B12-1E6C-430A-9637-4C02E2FE950B}" MaxAttenuation="6.000000" DurationType="Infinite">
+				<Event Id="2091186311" Name="IT_SoSchwert_BaseLoop_Lying" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Lying" GUID="{4B864B12-1E6C-430A-9637-4C02E2FE950B}" MaxAttenuation="6." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="67055864" Language="SFX">
 							<ShortName>BaseShimmer.wav</ShortName>
@@ -735,8 +735,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3043697892" Name="IT_SoSchwert_BaseLoop_Stop" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Stop" GUID="{F6B1B398-E033-4312-ACC5-A09F616A9984}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3011087908" Name="RTSL_Buch_SonneAnfassen" ObjectPath="\Events\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneAnfassen" GUID="{03181382-690D-498E-ADE2-14D4783C2523}" MaxAttenuation="6.000000" DurationType="Infinite">
+				<Event Id="3043697892" Name="IT_SoSchwert_BaseLoop_Stop" ObjectPath="\Events\Default Work Unit\Items\IT_SoSchwert_BaseLoop_Stop" GUID="{F6B1B398-E033-4312-ACC5-A09F616A9984}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3011087908" Name="RTSL_Buch_SonneAnfassen" ObjectPath="\Events\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneAnfassen" GUID="{03181382-690D-498E-ADE2-14D4783C2523}" MaxAttenuation="6." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="41836428" Language="SFX">
 							<ShortName>Mini-Sonne_anfassen-001.wav</ShortName>
@@ -756,7 +756,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2211245792" Name="RTSL_Buch_SonneEinrasten" ObjectPath="\Events\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneEinrasten" GUID="{46A7D91B-C871-473B-B405-E4751DEA710B}" MaxAttenuation="6.000000" DurationType="OneShot" DurationMin="1.464000" DurationMax="1.464000">
+				<Event Id="2211245792" Name="RTSL_Buch_SonneEinrasten" ObjectPath="\Events\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneEinrasten" GUID="{46A7D91B-C871-473B-B405-E4751DEA710B}" MaxAttenuation="6." DurationType="OneShot" DurationMin="1.464" DurationMax="1.464">
 					<IncludedMemoryFiles>
 						<File Id="231365639" Language="SFX">
 							<ShortName>Mini-Sonne_einrasten-005.wav</ShortName>
@@ -780,7 +780,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2055754910" Name="RTSL_Buch_SonneGrundsound" ObjectPath="\Events\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneGrundsound" GUID="{6C54AA9D-7FD1-49C0-9765-C373C974E126}" MaxAttenuation="6.000000" DurationType="Infinite">
+				<Event Id="2055754910" Name="RTSL_Buch_SonneGrundsound" ObjectPath="\Events\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneGrundsound" GUID="{6C54AA9D-7FD1-49C0-9765-C373C974E126}" MaxAttenuation="6." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="14500894" Language="SFX">
 							<ShortName>Mini-Sonne_Grundsound-001.wav</ShortName>
@@ -800,8 +800,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="332116371" Name="RTSL_Buch_SonneSoundAus" ObjectPath="\Events\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneSoundAus" GUID="{A4807DC4-745A-4FF6-8E77-08B038B2EF98}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2237714540" Name="RTSL_Sun_BeamReflectStart" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamReflectStart" GUID="{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="332116371" Name="RTSL_Buch_SonneSoundAus" ObjectPath="\Events\Default Work Unit\Raetsel\Buch\RTSL_Buch_SonneSoundAus" GUID="{A4807DC4-745A-4FF6-8E77-08B038B2EF98}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2237714540" Name="RTSL_Sun_BeamReflectStart" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamReflectStart" GUID="{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="128674909" Language="SFX">
 							<ShortName>Beam_Running_Reflected-001.wav</ShortName>
@@ -829,7 +829,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="344617331" Name="RTSL_Sun_BeamStart" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamStart" GUID="{07C2C607-C1AF-434E-8A23-892D4840E1EB}" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="344617331" Name="RTSL_Sun_BeamStart" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamStart" GUID="{07C2C607-C1AF-434E-8A23-892D4840E1EB}" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="401483933" Language="SFX">
 							<ShortName>Beam_Running-001.wav</ShortName>
@@ -857,7 +857,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2400998577" Name="RTSL_Sun_BeamStop" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamStop" GUID="{763A4E2B-7791-49B0-8D7E-801B5D82F28C}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="5.308333" DurationMax="5.308333">
+				<Event Id="2400998577" Name="RTSL_Sun_BeamStop" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamStop" GUID="{763A4E2B-7791-49B0-8D7E-801B5D82F28C}" MaxAttenuation="100." DurationType="OneShot" DurationMin="5.308333" DurationMax="5.308333">
 					<IncludedMemoryFiles>
 						<File Id="20468238" Language="SFX">
 							<ShortName>Beam_Stop.wav</ShortName>
@@ -865,7 +865,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2874671291" Name="RTSL_Sun_BeamUnreflect" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamUnreflect" GUID="{9FC0877A-73D2-45C6-8E6A-22FF06815967}" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="2874671291" Name="RTSL_Sun_BeamUnreflect" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_Beam\RTSL_Sun_BeamUnreflect" GUID="{9FC0877A-73D2-45C6-8E6A-22FF06815967}" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="401483933" Language="SFX">
 							<ShortName>Beam_Running-001.wav</ShortName>
@@ -911,7 +911,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1979489874" Name="RTSL_Sun_Gem1_LoseCharge" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem1_LoseCharge" GUID="{F0DA8093-C5D8-493E-889E-443B273B4770}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="7.837250" DurationMax="7.837250">
+				<Event Id="1979489874" Name="RTSL_Sun_Gem1_LoseCharge" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem1_LoseCharge" GUID="{F0DA8093-C5D8-493E-889E-443B273B4770}" MaxAttenuation="100." DurationType="OneShot" DurationMin="7.83725" DurationMax="7.83725">
 					<IncludedMemoryFiles>
 						<File Id="615124701" Language="SFX">
 							<ShortName>Crystal_LoseCharge-001.wav</ShortName>
@@ -949,7 +949,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="2367935355" Name="RTSL_Sun_Gem2_LoseCharge" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem2_LoseCharge" GUID="{042F0559-78D6-4A23-93A3-FE2526335086}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="7.795833" DurationMax="7.795833">
+				<Event Id="2367935355" Name="RTSL_Sun_Gem2_LoseCharge" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem2_LoseCharge" GUID="{042F0559-78D6-4A23-93A3-FE2526335086}" MaxAttenuation="100." DurationType="OneShot" DurationMin="7.795833" DurationMax="7.795833">
 					<IncludedMemoryFiles>
 						<File Id="35336237" Language="SFX">
 							<ShortName>Crystal_LoseCharge-002.wav</ShortName>
@@ -987,7 +987,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="3219477796" Name="RTSL_Sun_Gem3_LoseCharge" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem3_LoseCharge" GUID="{EEBFD61C-7D48-4805-B042-F0EC786DF982}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="7.778604" DurationMax="7.778604">
+				<Event Id="3219477796" Name="RTSL_Sun_Gem3_LoseCharge" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem3_LoseCharge" GUID="{EEBFD61C-7D48-4805-B042-F0EC786DF982}" MaxAttenuation="100." DurationType="OneShot" DurationMin="7.778604" DurationMax="7.778604">
 					<IncludedMemoryFiles>
 						<File Id="448511987" Language="SFX">
 							<ShortName>Crystal_LoseCharge-003.wav</ShortName>
@@ -995,8 +995,8 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3493667757" Name="RTSL_Sun_Gem_StopAll" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem_StopAll" GUID="{28F3B76E-445C-4C7A-ADEF-FFEDD337B692}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="3066218645" Name="RTSL_Sun_InselnSmall_Reposition" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_InselnSmall_Reposition" GUID="{92B91429-1512-49EC-9465-CB2B4BBEA430}" MaxAttenuation="100.000000" DurationType="OneShot" DurationMin="2.916000" DurationMax="3.998437">
+				<Event Id="3493667757" Name="RTSL_Sun_Gem_StopAll" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_GemCharge\RTSL_Sun_Gem_StopAll" GUID="{28F3B76E-445C-4C7A-ADEF-FFEDD337B692}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="3066218645" Name="RTSL_Sun_InselnSmall_Reposition" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_InselnSmall_Reposition" GUID="{92B91429-1512-49EC-9465-CB2B4BBEA430}" MaxAttenuation="100." DurationType="OneShot" DurationMin="2.916" DurationMax="3.998437">
 					<IncludedMemoryFiles>
 						<File Id="56494741" Language="SFX">
 							<ShortName>InselKlein_Reposition-003.wav</ShortName>
@@ -1016,7 +1016,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2042622581" Name="RTSL_Sun_RunenStein_Charge_Start" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_RunenStein_Charge_Start" GUID="{D6D28D33-1036-45A2-9D11-1C256E4C6C93}" MaxAttenuation="100.000000" DurationType="Infinite">
+				<Event Id="2042622581" Name="RTSL_Sun_RunenStein_Charge_Start" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_RunenStein_Charge_Start" GUID="{D6D28D33-1036-45A2-9D11-1C256E4C6C93}" MaxAttenuation="100." DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="39923295" Language="SFX">
 							<ShortName>Stein_Ausklang-002.wav</ShortName>
@@ -1076,7 +1076,7 @@
 						</SwitchContainer>
 					</SwitchContainers>
 				</Event>
-				<Event Id="1796987607" Name="RTSL_Sun_RunenStein_Charge_Stop" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_RunenStein_Charge_Stop" GUID="{521FF87C-D7B1-4AA1-AA29-7DC5628BD96F}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1796987607" Name="RTSL_Sun_RunenStein_Charge_Stop" ObjectPath="\Events\Default Work Unit\Raetsel\Sun\RTSL_Sun_RunenStein_Charge_Stop" GUID="{521FF87C-D7B1-4AA1-AA29-7DC5628BD96F}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="1895539805" Name="SFX_ENV_Ghosts_Mumble_Random_Start" ObjectPath="\Events\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Start" GUID="{8C35C0DF-6DA0-4BA7-B004-1CBE5C97A398}" DurationType="OneShot" DurationMin="61.157619" DurationMax="91.157623">
 					<IncludedMemoryFiles>
 						<File Id="227561129" Language="SFX">
@@ -1097,7 +1097,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3220389727" Name="SFX_ENV_Ghosts_Mumble_Random_Stop" ObjectPath="\Events\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Stop" GUID="{7C884D5A-3B98-481B-92AA-D419DF14940D}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="3220389727" Name="SFX_ENV_Ghosts_Mumble_Random_Stop" ObjectPath="\Events\Default Work Unit\Environment\Ghosts\SFX_ENV_Ghosts_Mumble_Random_Stop" GUID="{7C884D5A-3B98-481B-92AA-D419DF14940D}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 				<Event Id="2126331685" Name="SFX_ENV_Wind_Loop_Start" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Start" GUID="{77E3C06C-86D8-440A-88B3-02EAE646B37F}" DurationType="Infinite">
 					<IncludedMemoryFiles>
 						<File Id="5372116" Language="SFX">
@@ -1150,7 +1150,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1707272775" Name="SFX_ENV_Wind_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Stop" GUID="{61BE3BB7-3DE6-4A07-8D82-921AF4145864}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
+				<Event Id="1707272775" Name="SFX_ENV_Wind_Loop_Stop" ObjectPath="\Events\Default Work Unit\Environment\Wind\SFX_ENV_Wind_Loop_Stop" GUID="{61BE3BB7-3DE6-4A07-8D82-921AF4145864}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
 			</IncludedEvents>
 			<GameParameters>
 				<GameParameter Id="343140771" Name="RunenStein_Charge" ObjectPath="\Game Parameters\Default Work Unit\SUN\RunenStein_Charge" GUID="{88E3D096-6DAD-48A8-A269-0092D95A8720}"/>
@@ -1196,7 +1196,7 @@
 				<GameParameter Id="3891337659" Name="Volume_Music" ObjectPath="\Game Parameters\Default Work Unit\VolumeHandles\Volume_Music" GUID="{2B3353B2-176E-4ECF-A140-A219549D7676}"/>
 			</GameParameters>
 		</SoundBank>
-		<SoundBank Id="1801973543" GUID="{EB01F9C8-10D0-4922-B5B3-B2B210BBBCF3}" Language="SFX" Hash="3928428877">
+		<SoundBank Id="1801973543" GUID="{EB01F9C8-10D0-4922-B5B3-B2B210BBBCF3}" Language="SFX" Hash="3931154024">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_StabSchwert</ObjectPath>
 			<ShortName>SB_StabSchwert</ShortName>
 			<Path>SB_StabSchwert.bnk</Path>
@@ -1523,7 +1523,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3849090513" GUID="{B06DD317-17BC-4A28-95C6-228991FDFDE1}" Language="SFX" Hash="1385651809">
+		<SoundBank Id="3849090513" GUID="{B06DD317-17BC-4A28-95C6-228991FDFDE1}" Language="SFX" Hash="3884073316">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_BuchDolch</ObjectPath>
 			<ShortName>SB_BuchDolch</ShortName>
 			<Path>SB_BuchDolch.bnk</Path>
@@ -1982,7 +1982,7 @@
 				</Event>
 			</IncludedEvents>
 		</SoundBank>
-		<SoundBank Id="3895316329" GUID="{5EAB3B37-A59C-4355-9D6C-C63BD3EB7A75}" Language="SFX" Hash="20705390">
+		<SoundBank Id="3895316329" GUID="{5EAB3B37-A59C-4355-9D6C-C63BD3EB7A75}" Language="SFX" Hash="4187117443">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Voice</ObjectPath>
 			<ShortName>SB_Voice</ShortName>
 			<Path>SB_Voice.bnk</Path>
@@ -1995,7 +1995,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797354" Name="Voice_Intro_1" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_1" GUID="{B2CA049A-AD6A-4C6F-BD3C-53253190EBD8}" DurationType="OneShot" DurationMin="4.510000" DurationMax="4.510000">
+				<Event Id="3073797354" Name="Voice_Intro_1" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_1" GUID="{B2CA049A-AD6A-4C6F-BD3C-53253190EBD8}" DurationType="OneShot" DurationMin="4.51" DurationMax="4.51">
 					<IncludedMemoryFiles>
 						<File Id="59866567" Language="SFX">
 							<ShortName>1-Oh.wav</ShortName>
@@ -2007,7 +2007,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797353" Name="Voice_Intro_2" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_2" GUID="{575CF2E3-7519-413A-B3B2-E06DCC7DD289}" DurationType="OneShot" DurationMin="6.223000" DurationMax="6.223000">
+				<Event Id="3073797353" Name="Voice_Intro_2" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_2" GUID="{575CF2E3-7519-413A-B3B2-E06DCC7DD289}" DurationType="OneShot" DurationMin="6.223" DurationMax="6.223">
 					<IncludedMemoryFiles>
 						<File Id="148631481" Language="SFX">
 							<ShortName>2-HeyYouFinally-Reverb.wav</ShortName>
@@ -2019,7 +2019,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797352" Name="Voice_Intro_3" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_3" GUID="{50A0ABB8-17A4-4F43-91B0-70FEE6E91C59}" DurationType="OneShot" DurationMin="9.330000" DurationMax="9.330000">
+				<Event Id="3073797352" Name="Voice_Intro_3" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_3" GUID="{50A0ABB8-17A4-4F43-91B0-70FEE6E91C59}" DurationType="OneShot" DurationMin="9.33" DurationMax="9.33">
 					<IncludedMemoryFiles>
 						<File Id="403911440" Language="SFX">
 							<ShortName>3-WeVeBeenStuck.wav</ShortName>
@@ -2031,7 +2031,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797359" Name="Voice_Intro_4" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_4" GUID="{BCA809C3-C03F-4CAB-958F-FA562A703B9D}" DurationType="OneShot" DurationMin="10.400000" DurationMax="10.400000">
+				<Event Id="3073797359" Name="Voice_Intro_4" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_4" GUID="{BCA809C3-C03F-4CAB-958F-FA562A703B9D}" DurationType="OneShot" DurationMin="10.4" DurationMax="10.4">
 					<IncludedMemoryFiles>
 						<File Id="625058283" Language="SFX">
 							<ShortName>4-YouSeeThisIs.wav</ShortName>
@@ -2043,7 +2043,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4196642268" Name="Voice_Intro_4alt" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_4alt" GUID="{A4A12AB1-692B-4717-A9A8-80BD19BD45E0}" DurationType="OneShot" DurationMin="11.400000" DurationMax="11.400000">
+				<Event Id="4196642268" Name="Voice_Intro_4alt" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_4alt" GUID="{A4A12AB1-692B-4717-A9A8-80BD19BD45E0}" DurationType="OneShot" DurationMin="11.4" DurationMax="11.4">
 					<IncludedMemoryFiles>
 						<File Id="18219368" Language="SFX">
 							<ShortName>4Alt-DoYouSee.wav</ShortName>
@@ -2055,7 +2055,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797358" Name="Voice_Intro_5" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_5" GUID="{1DAC3391-F613-4CE8-AC99-4B16C997757B}" DurationType="OneShot" DurationMin="10.660000" DurationMax="10.660000">
+				<Event Id="3073797358" Name="Voice_Intro_5" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_5" GUID="{1DAC3391-F613-4CE8-AC99-4B16C997757B}" DurationType="OneShot" DurationMin="10.66" DurationMax="10.66">
 					<IncludedMemoryFiles>
 						<File Id="95011797" Language="SFX">
 							<ShortName>5-WeDontKnow-Reverb.wav</ShortName>
@@ -2067,7 +2067,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797357" Name="Voice_Intro_6" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_6" GUID="{EB155A1B-D71E-4DB7-B099-1E17BEC40F7C}" DurationType="OneShot" DurationMin="8.840000" DurationMax="8.840000">
+				<Event Id="3073797357" Name="Voice_Intro_6" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_6" GUID="{EB155A1B-D71E-4DB7-B099-1E17BEC40F7C}" DurationType="OneShot" DurationMin="8.84" DurationMax="8.84">
 					<IncludedMemoryFiles>
 						<File Id="807537111" Language="SFX">
 							<ShortName>6-WithTheHelp-Reverb.wav</ShortName>
@@ -2079,7 +2079,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797356" Name="Voice_Intro_7" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_7" GUID="{EB5608C8-86C4-4EBF-85FF-047093A510FE}" DurationType="OneShot" DurationMin="8.920000" DurationMax="8.920000">
+				<Event Id="3073797356" Name="Voice_Intro_7" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_7" GUID="{EB5608C8-86C4-4EBF-85FF-047093A510FE}" DurationType="OneShot" DurationMin="8.92" DurationMax="8.92">
 					<IncludedMemoryFiles>
 						<File Id="31019985" Language="SFX">
 							<ShortName>7-CouldYouPlease.wav</ShortName>
@@ -2091,9 +2091,9 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="64420634" Name="Voice_StopIntro" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_StopIntro" GUID="{FD52D6C8-841F-4955-8A79-3CE3ABD87E11}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="2397992392" Name="Voice_StopTipps" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_StopTipps" GUID="{14887E07-3E01-4F6A-8F64-6BF89B86415A}" MaxAttenuation="0.000000" DurationType="OneShot" DurationMin="0.000000" DurationMax="0.000000"/>
-				<Event Id="6526192" Name="Voice_TippBuchA" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippBuchA" GUID="{95E549DC-4303-4845-B71E-E053FD9991F8}" DurationType="OneShot" DurationMin="5.440000" DurationMax="5.440000">
+				<Event Id="64420634" Name="Voice_StopIntro" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_StopIntro" GUID="{FD52D6C8-841F-4955-8A79-3CE3ABD87E11}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="2397992392" Name="Voice_StopTipps" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_StopTipps" GUID="{14887E07-3E01-4F6A-8F64-6BF89B86415A}" MaxAttenuation="0." DurationType="OneShot" DurationMin="0." DurationMax="0."/>
+				<Event Id="6526192" Name="Voice_TippBuchA" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippBuchA" GUID="{95E549DC-4303-4845-B71E-E053FD9991F8}" DurationType="OneShot" DurationMin="5.44" DurationMax="5.44">
 					<IncludedMemoryFiles>
 						<File Id="903071174" Language="SFX">
 							<ShortName>TippBuchA.wav</ShortName>
@@ -2101,7 +2101,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="6526195" Name="Voice_TippBuchB" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippBuchB" GUID="{52FB8024-3003-4648-8AB1-388464EF5F95}" DurationType="OneShot" DurationMin="5.390000" DurationMax="5.390000">
+				<Event Id="6526195" Name="Voice_TippBuchB" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippBuchB" GUID="{52FB8024-3003-4648-8AB1-388464EF5F95}" DurationType="OneShot" DurationMin="5.39" DurationMax="5.39">
 					<IncludedMemoryFiles>
 						<File Id="357666192" Language="SFX">
 							<ShortName>TippBuchB.wav</ShortName>
@@ -2109,7 +2109,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="600229095" Name="Voice_TippDolch" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippDolch" GUID="{665839A6-D0B6-4DA9-ADB9-8126EED62644}" DurationType="OneShot" DurationMin="5.330000" DurationMax="5.330000">
+				<Event Id="600229095" Name="Voice_TippDolch" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippDolch" GUID="{665839A6-D0B6-4DA9-ADB9-8126EED62644}" DurationType="OneShot" DurationMin="5.33" DurationMax="5.33">
 					<IncludedMemoryFiles>
 						<File Id="497338114" Language="SFX">
 							<ShortName>TippDolch.wav</ShortName>
@@ -2117,7 +2117,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="723664220" Name="Voice_TippSchwertA" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippSchwertA" GUID="{26687C51-1984-4980-921F-00BEDA48C3F3}" DurationType="OneShot" DurationMin="5.900000" DurationMax="5.900000">
+				<Event Id="723664220" Name="Voice_TippSchwertA" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippSchwertA" GUID="{26687C51-1984-4980-921F-00BEDA48C3F3}" DurationType="OneShot" DurationMin="5.9" DurationMax="5.9">
 					<IncludedMemoryFiles>
 						<File Id="578571193" Language="SFX">
 							<ShortName>TippSchwertA.wav</ShortName>
@@ -2125,7 +2125,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="723664223" Name="Voice_TippSchwertB" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippSchwertB" GUID="{AD8A50B9-68F1-4072-8A18-8BDCB47245DD}" DurationType="OneShot" DurationMin="5.570000" DurationMax="5.570000">
+				<Event Id="723664223" Name="Voice_TippSchwertB" ObjectPath="\Events\Default Work Unit\Voice\Tipps\Voice_TippSchwertB" GUID="{AD8A50B9-68F1-4072-8A18-8BDCB47245DD}" DurationType="OneShot" DurationMin="5.57" DurationMax="5.57">
 					<IncludedMemoryFiles>
 						<File Id="467558160" Language="SFX">
 							<ShortName>TippSchwertB.wav</ShortName>

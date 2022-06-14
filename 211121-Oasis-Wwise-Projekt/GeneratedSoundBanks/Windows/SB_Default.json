@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
-   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
-   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "822237696",
     "GUID": "{3842C804-D806-4940-B6C4-AB4F99E37EDB}",
     "Language": "SFX",
-    "Hash": "1982613652",
+    "Hash": "2226253258",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Default",
     "ShortName": "SB_Default",
     "Path": "SB_Default.bnk",
@@ -89,20 +89,20 @@
       "Name": "CH_Footsteps_Grass_Slow_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_Walking\\CH_Footsteps_Grass_Slow_Stop",
       "GUID": "{992ADFB0-229A-4135-AAC2-07D28066013E}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "1928584519",
       "Name": "CH_SoSchwert_MoveFast",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_SoSchwert\\CH_SoSchwert_MoveFast",
       "GUID": "{7BFBFCBE-A1F1-4846-B12C-B3071D86F919}",
-      "MaxAttenuation": "6.000000",
+      "MaxAttenuation": "6.",
       "DurationType": "OneShot",
-      "DurationMin": "2.351270",
-      "DurationMax": "2.351270",
+      "DurationMin": "2.35127",
+      "DurationMax": "2.35127",
       "IncludedMemoryFiles": [
        {
         "Id": "605231197",
@@ -129,7 +129,7 @@
       "Name": "CH_SoSchwert_Pickup",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_SoSchwert\\CH_SoSchwert_Pickup",
       "GUID": "{570FF76A-123C-48E9-9622-096E8DA07AEE}",
-      "MaxAttenuation": "6.000000",
+      "MaxAttenuation": "6.",
       "DurationType": "OneShot",
       "DurationMin": "3.297687",
       "DurationMax": "3.297687",
@@ -161,7 +161,7 @@
       "Name": "CH_SoSchwert_Putdown",
       "ObjectPath": "\\Events\\Default Work Unit\\Character\\CH_SoSchwert\\CH_SoSchwert_Putdown",
       "GUID": "{1A50DD07-EEB3-44B2-89BE-1D46DDC45D32}",
-      "MaxAttenuation": "6.000000",
+      "MaxAttenuation": "6.",
       "DurationType": "OneShot",
       "DurationMin": "3.521837",
       "DurationMax": "3.613129",
@@ -185,10 +185,10 @@
       "Name": "ENV_Inseln_Reposition_Connect",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Inseln\\ENV_Inseln_Reposition_Connect",
       "GUID": "{96AD1EE3-08AE-4102-B886-E85B5AB7AE44}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "OneShot",
       "DurationMin": "4.788798",
-      "DurationMax": "5.800000",
+      "DurationMax": "5.8",
       "IncludedMemoryFiles": [
        {
         "Id": "72994115",
@@ -244,10 +244,10 @@
       "Name": "ENV_Inseln_Reposition_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Inseln\\ENV_Inseln_Reposition_Stop",
       "GUID": "{C9F94D7D-F313-493F-A570-21B52624CD7B}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "OneShot",
       "DurationMin": "4.788798",
-      "DurationMax": "5.800000",
+      "DurationMax": "5.8",
       "IncludedMemoryFiles": [
        {
         "Id": "72994115",
@@ -274,10 +274,10 @@
       "Name": "ENV_Inseln_Reposition_Stop_Neu",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Inseln\\ENV_Inseln_Reposition_Stop_Neu",
       "GUID": "{85B52CD1-AEBB-4BF6-894F-61AFB0BB00FD}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "1279838832",
@@ -299,10 +299,10 @@
       "Name": "ENV_NightAmbience_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\ENV_NightAmbience_Stop",
       "GUID": "{45BBA759-380D-4F22-AD85-196EC2E38383}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "2010660149",
@@ -310,8 +310,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\ENV_Tree_RiddleSolved",
       "GUID": "{D55A74D8-5694-44DA-88AA-6821B6EA61AE}",
       "DurationType": "OneShot",
-      "DurationMin": "6.324000",
-      "DurationMax": "6.324000",
+      "DurationMin": "6.324",
+      "DurationMax": "6.324",
       "IncludedMemoryFiles": [
        {
         "Id": "443037710",
@@ -327,8 +327,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_ItemAufloesen",
       "GUID": "{56DCF4ED-FF08-4B58-85D6-35BA52FA26E1}",
       "DurationType": "OneShot",
-      "DurationMin": "6.324000",
-      "DurationMax": "6.324000",
+      "DurationMin": "6.324",
+      "DurationMax": "6.324",
       "IncludedMemoryFiles": [
        {
         "Id": "569493945",
@@ -343,7 +343,7 @@
       "Name": "IT_ItemPartikel",
       "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_ItemPartikel",
       "GUID": "{DF3D4AF8-DC29-4613-ADF3-620B9305059C}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -419,7 +419,7 @@
       "Name": "IT_SoSchwert_BaseLoop_InHand",
       "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_SoSchwert_BaseLoop_InHand",
       "GUID": "{27E3943A-94B1-4797-8F15-FD9A17982A1A}",
-      "MaxAttenuation": "6.000000",
+      "MaxAttenuation": "6.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -509,7 +509,7 @@
       "Name": "IT_SoSchwert_BaseLoop_Lying",
       "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_SoSchwert_BaseLoop_Lying",
       "GUID": "{4B864B12-1E6C-430A-9637-4C02E2FE950B}",
-      "MaxAttenuation": "6.000000",
+      "MaxAttenuation": "6.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -633,17 +633,17 @@
       "Name": "IT_SoSchwert_BaseLoop_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Items\\IT_SoSchwert_BaseLoop_Stop",
       "GUID": "{F6B1B398-E033-4312-ACC5-A09F616A9984}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3011087908",
       "Name": "RTSL_Buch_SonneAnfassen",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Buch\\RTSL_Buch_SonneAnfassen",
       "GUID": "{03181382-690D-498E-ADE2-14D4783C2523}",
-      "MaxAttenuation": "6.000000",
+      "MaxAttenuation": "6.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -677,10 +677,10 @@
       "Name": "RTSL_Buch_SonneEinrasten",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Buch\\RTSL_Buch_SonneEinrasten",
       "GUID": "{46A7D91B-C871-473B-B405-E4751DEA710B}",
-      "MaxAttenuation": "6.000000",
+      "MaxAttenuation": "6.",
       "DurationType": "OneShot",
-      "DurationMin": "1.464000",
-      "DurationMax": "1.464000",
+      "DurationMin": "1.464",
+      "DurationMax": "1.464",
       "IncludedMemoryFiles": [
        {
         "Id": "231365639",
@@ -719,7 +719,7 @@
       "Name": "RTSL_Buch_SonneGrundsound",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Buch\\RTSL_Buch_SonneGrundsound",
       "GUID": "{6C54AA9D-7FD1-49C0-9765-C373C974E126}",
-      "MaxAttenuation": "6.000000",
+      "MaxAttenuation": "6.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -753,17 +753,17 @@
       "Name": "RTSL_Buch_SonneSoundAus",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Buch\\RTSL_Buch_SonneSoundAus",
       "GUID": "{A4807DC4-745A-4FF6-8E77-08B038B2EF98}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "2237714540",
       "Name": "RTSL_Sun_BeamReflectStart",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_Beam\\RTSL_Sun_BeamReflectStart",
       "GUID": "{85ADE5C3-CBC2-4224-8D05-3EDEFF629CA2}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -809,7 +809,7 @@
       "Name": "RTSL_Sun_BeamStart",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_Beam\\RTSL_Sun_BeamStart",
       "GUID": "{07C2C607-C1AF-434E-8A23-892D4840E1EB}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -855,7 +855,7 @@
       "Name": "RTSL_Sun_BeamStop",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_Beam\\RTSL_Sun_BeamStop",
       "GUID": "{763A4E2B-7791-49B0-8D7E-801B5D82F28C}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "OneShot",
       "DurationMin": "5.308333",
       "DurationMax": "5.308333",
@@ -873,7 +873,7 @@
       "Name": "RTSL_Sun_BeamUnreflect",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_Beam\\RTSL_Sun_BeamUnreflect",
       "GUID": "{9FC0877A-73D2-45C6-8E6A-22FF06815967}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -950,10 +950,10 @@
       "Name": "RTSL_Sun_Gem1_LoseCharge",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_GemCharge\\RTSL_Sun_Gem1_LoseCharge",
       "GUID": "{F0DA8093-C5D8-493E-889E-443B273B4770}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "OneShot",
-      "DurationMin": "7.837250",
-      "DurationMax": "7.837250",
+      "DurationMin": "7.83725",
+      "DurationMax": "7.83725",
       "IncludedMemoryFiles": [
        {
         "Id": "615124701",
@@ -1017,7 +1017,7 @@
       "Name": "RTSL_Sun_Gem2_LoseCharge",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_GemCharge\\RTSL_Sun_Gem2_LoseCharge",
       "GUID": "{042F0559-78D6-4A23-93A3-FE2526335086}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "OneShot",
       "DurationMin": "7.795833",
       "DurationMax": "7.795833",
@@ -1084,7 +1084,7 @@
       "Name": "RTSL_Sun_Gem3_LoseCharge",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_GemCharge\\RTSL_Sun_Gem3_LoseCharge",
       "GUID": "{EEBFD61C-7D48-4805-B042-F0EC786DF982}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "OneShot",
       "DurationMin": "7.778604",
       "DurationMax": "7.778604",
@@ -1102,19 +1102,19 @@
       "Name": "RTSL_Sun_Gem_StopAll",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_GemCharge\\RTSL_Sun_Gem_StopAll",
       "GUID": "{28F3B76E-445C-4C7A-ADEF-FFEDD337B692}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "3066218645",
       "Name": "RTSL_Sun_InselnSmall_Reposition",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_InselnSmall_Reposition",
       "GUID": "{92B91429-1512-49EC-9465-CB2B4BBEA430}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "OneShot",
-      "DurationMin": "2.916000",
+      "DurationMin": "2.916",
       "DurationMax": "3.998437",
       "IncludedMemoryFiles": [
        {
@@ -1148,7 +1148,7 @@
       "Name": "RTSL_Sun_RunenStein_Charge_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_RunenStein_Charge_Start",
       "GUID": "{D6D28D33-1036-45A2-9D11-1C256E4C6C93}",
-      "MaxAttenuation": "100.000000",
+      "MaxAttenuation": "100.",
       "DurationType": "Infinite",
       "IncludedMemoryFiles": [
        {
@@ -1252,10 +1252,10 @@
       "Name": "RTSL_Sun_RunenStein_Charge_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Raetsel\\Sun\\RTSL_Sun_RunenStein_Charge_Stop",
       "GUID": "{521FF87C-D7B1-4AA1-AA29-7DC5628BD96F}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "1895539805",
@@ -1297,10 +1297,10 @@
       "Name": "SFX_ENV_Ghosts_Mumble_Random_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Ghosts\\SFX_ENV_Ghosts_Mumble_Random_Stop",
       "GUID": "{7C884D5A-3B98-481B-92AA-D419DF14940D}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      },
      {
       "Id": "2126331685",
@@ -1388,10 +1388,10 @@
       "Name": "SFX_ENV_Wind_Loop_Stop",
       "ObjectPath": "\\Events\\Default Work Unit\\Environment\\Wind\\SFX_ENV_Wind_Loop_Stop",
       "GUID": "{61BE3BB7-3DE6-4A07-8D82-921AF4145864}",
-      "MaxAttenuation": "0.000000",
+      "MaxAttenuation": "0.",
       "DurationType": "OneShot",
-      "DurationMin": "0.000000",
-      "DurationMax": "0.000000"
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ],
     "GameParameters": [

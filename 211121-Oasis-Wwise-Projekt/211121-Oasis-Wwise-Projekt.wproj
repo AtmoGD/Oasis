@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<WwiseDocument Type="Project" SchemaVersion="103" WwiseVersion="v2021.1.5" WwiseBuild="7749">
+<WwiseDocument Type="Project" SchemaVersion="103" WwiseVersion="v2021.1.9" WwiseBuild="7847">
 	<ProjectInfo>
 		<Project Name="211121-Oasis-Wwise-Projekt" ID="{7626CADD-3CA3-42E9-9177-53C30955784B}">
 			<Platforms>
-				<Platform Name="Android" ReferencePlatform="Android" ID="{9FBDB4B5-C6F9-4EB2-8419-9509997B1824}"/>
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{33DC2B00-85D4-427A-BF4F-56BF89FBAC85}"/>
 			</Platforms>
 			<LanguageList>
@@ -16,13 +15,11 @@
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
-						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="LicenseKey" Type="string" Value="PHByb2plY3QgaWQ9IjEyMzQ3IiBtYXNrPSJMR0FENDM5NSIgZW5jPSIwIj48bGljZW5zZSBpZD0iMSIgbmFtZT0iV3dpc2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjItMTItMDEiICAvPjxsaWNlbnNlIGlkPSIyMSIgbmFtZT0iTWFpbnRlbmFuY2UiIHR5cGU9IjMiIHBsYXRmb3Jtcz0iMTAiIGV4cGlyZXM9IjIwMjItMTItMDEiICAvPjxsaWNlbnNlIGlkPSIyMiIgbmFtZT0iTGV2ZWwgQSBMaWNlbnNlIiB0eXBlPSIzIiBwbGF0Zm9ybXM9IjEwIiBleHBpcmVzPSIyMDIyLTEyLTAxIiAgLz48L3Byb2plY3Q+|SwpNhdUDimhZ7bUDsCG6qzdYUAFofMgULE7X304+SynH2yMqQeiBP7RoJieSJUk6OvUQDUIO34MuT68Adve9GM7MHidEUKLd2aQXA4zakzBWVUULWIrUGUKZtNaK6riqlbE8yE/O2bDrhppV6kZc2bSX60pKWb4f8b3/6sp6LPENh0OanJAn5X9fw60EwMJeexvPHD9RoDONSojktADXXOub4axNG/205mP57AxnEE1c3A7YLR0xAp6BtPMpf9j5tR2RqPZkUjFU5SQRU/JH5KeGoU49DOIxe/+KvpeNINQJUGvTtyyiHYqtc5J/fd1MTv2Zn0vnp+PDE/QCiQQmvQ=="/>
@@ -30,31 +27,26 @@
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
-						<Value Platform="Android">GeneratedSoundBanks\Android\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Windows">Copy Streamed Files</Value>
-						<Value Platform="Android">Copy Streamed Files</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Windows">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
-						<Value Platform="Android">"$(CopyStreamedFilesExePath)" -info "$(InfoFilePath)" -outputpath "$(SoundBankPath)" -banks "$(SoundBankListAsTextFile)" -languages "$(LanguageList)"</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
-						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
 						<Value Platform="Windows"></Value>
-						<Value Platform="Android"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=wwise_v2021.1|Build=7707|VersionName=v2021.1.4|Config=Release"/>
@@ -9740,7 +9732,7 @@
 						</Property>
 					</PropertyList>
 				</SharedPropertyList>
-				<SharedPropertyList ClassName="Wwise Convolution Reverb" PluginType="3" CompanyID="0" PluginID="127">
+				<SharedPropertyList ClassName="" PluginType="3" CompanyID="0" PluginID="127">
 					<PropertyList>
 						<Property Name="AlgoTypeSelect" Type="int32">
 							<ValueList>

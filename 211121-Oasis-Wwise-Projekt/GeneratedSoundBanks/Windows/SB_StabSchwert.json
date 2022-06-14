@@ -5,18 +5,18 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "140",
   "RootPaths": {
-   "ProjectRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\",
-   "SourceFilesRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
-   "SoundBanksRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\",
+   "SourceFilesRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "X:\\Studium\\21-22 WS\\Furtwangen Koop\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "C:\\Users\\spiel\\Desktop\\Dennis\\Oasis\\211121-Oasis-Wwise-Projekt\\GeneratedSoundBanks\\Windows"
   },
   "SoundBanks": [
    {
     "Id": "1801973543",
     "GUID": "{EB01F9C8-10D0-4922-B5B3-B2B210BBBCF3}",
     "Language": "SFX",
-    "Hash": "3928428877",
+    "Hash": "3931154024",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_StabSchwert",
     "ShortName": "SB_StabSchwert",
     "Path": "SB_StabSchwert.bnk",
