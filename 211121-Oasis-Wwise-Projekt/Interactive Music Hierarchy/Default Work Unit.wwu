@@ -1260,6 +1260,11 @@
 										<Property Name="EndPosition" Type="Real64" Value="41538.4615384615"/>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="78"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -4575,6 +4580,11 @@
 										<Property Name="EndPosition" Type="Real64" Value="17289.6917821536"/>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="78"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-10</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -5167,6 +5177,11 @@
 										<Property Name="EndPosition" Type="Real64" Value="15423.0689102564"/>
 										<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 										<Property Name="Tempo" Type="Real64" Value="78"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-8</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -7306,7 +7321,7 @@
 										<Property Name="Tempo" Type="Real64" Value="78"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>6</Value>
+												<Value>2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -10990,7 +11005,7 @@
 								<Property Name="TimeSignatureUpper" Type="int16" Value="2"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-1</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -12622,6 +12637,11 @@
 										<Property Name="Color" Type="int16" Value="6"/>
 										<Property Name="EndPosition" Type="Real64" Value="37142.8571428571"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -13390,6 +13410,11 @@
 										<Property Name="Color" Type="int16" Value="6"/>
 										<Property Name="EndPosition" Type="Real64" Value="14452.3630952381"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -14032,6 +14057,11 @@
 										<Property Name="Tempo" Type="Real64" Value="126"/>
 										<Property Name="TimeSignatureLower" Type="int16" Value="2"/>
 										<Property Name="TimeSignatureUpper" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -15562,7 +15592,7 @@
 										<Property Name="TimeSignatureUpper" Type="int16" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -16332,6 +16362,11 @@
 										<Property Name="Tempo" Type="Real64" Value="126"/>
 										<Property Name="TimeSignatureLower" Type="int16" Value="2"/>
 										<Property Name="TimeSignatureUpper" Type="int16" Value="2"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>3</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -17362,7 +17397,7 @@
 										<Property Name="TimeSignatureUpper" Type="int16" Value="2"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-1</Value>
+												<Value>-4</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -25899,6 +25934,11 @@
 						<MusicPlaylistContainer Name="Dolch" ID="{B1B2B68D-FD5B-45A0-BFE4-50F546BD110C}" ShortID="729761543">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="6"/>
+								<Property Name="Inclusion" Type="bool">
+									<ValueList>
+										<Value>False</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="112"/>
 								<Property Name="Volume" Type="Real64">
@@ -36139,6 +36179,11 @@
 								<Property Name="Color" Type="int16" Value="6"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="Tempo" Type="Real64" Value="73"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-3</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -36891,6 +36936,11 @@
 								<MusicSegment Name="OasisMusic-DoricoAudio-Buch A" ID="{E6D33D2E-A8A4-4F1E-9F2E-60AFFACD0950}" ShortID="847399444">
 									<PropertyList>
 										<Property Name="EndPosition" Type="Real64" Value="60870.0624359333"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -44950,6 +45000,11 @@
 									<PropertyList>
 										<Property Name="Tempo" Type="Real64" Value="60"/>
 										<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -44968,11 +45023,6 @@
 												<Property Name="OverrideClockSettings" Type="bool" Value="True"/>
 												<Property Name="Tempo" Type="Real64" Value="60"/>
 												<Property Name="TimeSignatureUpper" Type="int16" Value="3"/>
-												<Property Name="Volume" Type="Real64">
-													<ValueList>
-														<Value>-6</Value>
-													</ValueList>
-												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">

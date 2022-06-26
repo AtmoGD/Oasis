@@ -896,6 +896,11 @@
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
@@ -1084,6 +1089,11 @@
 						<RandomSequenceContainer Name="ENV_Inseln_Connect" ID="{0261151C-AE4E-437F-93AB-EC262876D8B0}" ShortID="662503707">
 							<PropertyList>
 								<Property Name="ListenerRelativeRouting" Type="bool" Value="False"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">

@@ -5,6 +5,11 @@
 			<ChildrenList>
 				<Attenuation Name="Voice" ID="{D737128C-052B-4301-8A0A-980BB5801403}" ShortID="853824113">
 					<PropertyList>
+						<Property Name="ConeAttenuation" Type="Real64">
+							<ValueList>
+								<Value>-76</Value>
+							</ValueList>
+						</Property>
 						<Property Name="ConeHighPassFilterValue" Type="int32">
 							<ValueList>
 								<Value>20</Value>
@@ -16,12 +21,13 @@
 								<Value>22</Value>
 							</ValueList>
 						</Property>
-						<Property Name="ConeOuterAngle" Type="int32" Value="305"/>
+						<Property Name="ConeOuterAngle" Type="int32" Value="195"/>
 						<Property Name="ConeUse" Type="bool">
 							<ValueList>
 								<Value>True</Value>
 							</ValueList>
 						</Property>
+						<Property Name="RadiusMax" Type="Real64" Value="1000"/>
 					</PropertyList>
 					<CurveUsageInfoList>
 						<VolumeDryUsage>
@@ -38,8 +44,8 @@
 											<SegmentShape>Exp1</SegmentShape>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
-											<YPos>-12</YPos>
+											<XPos>1000</XPos>
+											<YPos>-200</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>
@@ -65,7 +71,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>1000</XPos>
 											<YPos>12</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -86,7 +92,7 @@
 											<Flags>5</Flags>
 										</Point>
 										<Point>
-											<XPos>100</XPos>
+											<XPos>1000</XPos>
 											<YPos>23</YPos>
 											<Flags>37</Flags>
 										</Point>
@@ -95,10 +101,46 @@
 							</CurveUsageInfo>
 						</HighPassFilterUsage>
 						<SpreadUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Spread" ID="{13BB739B-862C-45EF-80E3-B644B667BD9D}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>1000</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</SpreadUsage>
 						<FocusUsage>
-							<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+							<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+								<Curve Name="Focus" ID="{9FE428F4-9E83-4C4E-9F39-2160A47A4781}">
+									<PropertyList>
+										<Property Name="Flags" Type="int32" Value="1"/>
+									</PropertyList>
+									<PointList>
+										<Point>
+											<XPos>0</XPos>
+											<YPos>100</YPos>
+											<Flags>5</Flags>
+										</Point>
+										<Point>
+											<XPos>1000</XPos>
+											<YPos>0</YPos>
+											<Flags>37</Flags>
+										</Point>
+									</PointList>
+								</Curve>
+							</CurveUsageInfo>
 						</FocusUsage>
 					</CurveUsageInfoList>
 				</Attenuation>
@@ -270,7 +312,7 @@
 										</Point>
 										<Point>
 											<XPos>100</XPos>
-											<YPos>-2.07686</YPos>
+											<YPos>-3.03799</YPos>
 											<Flags>37</Flags>
 										</Point>
 									</PointList>

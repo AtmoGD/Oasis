@@ -19,7 +19,7 @@
     "Id": "779753582",
     "GUID": "{15DA4724-68AB-47F0-AD1A-0DB8061AD290}",
     "Language": "SFX",
-    "Hash": "261551550",
+    "Hash": "4056196298",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Music",
     "ShortName": "SB_Music",
     "Path": "SB_Music.bnk",
@@ -641,7 +641,7 @@
     "Id": "822237696",
     "GUID": "{3842C804-D806-4940-B6C4-AB4F99E37EDB}",
     "Language": "SFX",
-    "Hash": "2226253258",
+    "Hash": "179867826",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Default",
     "ShortName": "SB_Default",
     "Path": "SB_Default.bnk",
@@ -2132,7 +2132,7 @@
     "Id": "1355168291",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "1256215574",
+    "Hash": "3810915861",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -2167,7 +2167,7 @@
     "Id": "1801973543",
     "GUID": "{EB01F9C8-10D0-4922-B5B3-B2B210BBBCF3}",
     "Language": "SFX",
-    "Hash": "3931154024",
+    "Hash": "711297723",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_StabSchwert",
     "ShortName": "SB_StabSchwert",
     "Path": "SB_StabSchwert.bnk",
@@ -2664,7 +2664,7 @@
     "Id": "3849090513",
     "GUID": "{B06DD317-17BC-4A28-95C6-228991FDFDE1}",
     "Language": "SFX",
-    "Hash": "3884073316",
+    "Hash": "1520603339",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_BuchDolch",
     "ShortName": "SB_BuchDolch",
     "Path": "SB_BuchDolch.bnk",
@@ -3001,357 +3001,9 @@
       "Name": "DolchMusic_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Music\\DolchMusic_Start",
       "GUID": "{FC58784C-C8F7-4E45-BDC0-B5A9CA9B9436}",
-      "DurationType": "Infinite",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "20086306",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Violin .wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Violin _073B4D0C.wem"
-       },
-       {
-        "Id": "57558132",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Pad_Mitte1.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Pad_Mitte1_073B4D0C.wem"
-       },
-       {
-        "Id": "61154076",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Pad_Hoch.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Pad_Hoch_073B4D0C.wem"
-       },
-       {
-        "Id": "61733736",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Pad_tief.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Pad_tief_073B4D0C.wem"
-       },
-       {
-        "Id": "79057830",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Pad_Hoch.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Pad_Hoch_073B4D0C.wem"
-       },
-       {
-        "Id": "92180759",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchC-Viola.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchC-Viola_073B4D0C.wem"
-       },
-       {
-        "Id": "100443189",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchC-Contrabass .wav",
-        "Path": "SFX\\OasisMusic-Final-DolchC-Contrabass _073B4D0C.wem"
-       },
-       {
-        "Id": "117885919",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Picked_Main.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Picked_Main_073B4D0C.wem"
-       },
-       {
-        "Id": "175008617",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Violin alt.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Violin alt_073B4D0C.wem"
-       },
-       {
-        "Id": "188117790",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Pad_Hoch.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Pad_Hoch_073B4D0C.wem"
-       },
-       {
-        "Id": "209260186",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Pad_Mitte2.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Pad_Mitte2_073B4D0C.wem"
-       },
-       {
-        "Id": "223164955",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Violin alt.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Violin alt_073B4D0C.wem"
-       },
-       {
-        "Id": "226188299",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Pad_Mitte1.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Pad_Mitte1_073B4D0C.wem"
-       },
-       {
-        "Id": "234371479",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Violoncello.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Violoncello_073B4D0C.wem"
-       },
-       {
-        "Id": "241293206",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Strummed.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Strummed_073B4D0C.wem"
-       },
-       {
-        "Id": "251145124",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Violin alt.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Violin alt_073B4D0C.wem"
-       },
-       {
-        "Id": "270713509",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Picked_Alt.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Picked_Alt_073B4D0C.wem"
-       },
-       {
-        "Id": "293389674",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Pad_tief.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Pad_tief_073B4D0C.wem"
-       },
-       {
-        "Id": "306619610",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Picked_Main.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Picked_Main_073B4D0C.wem"
-       },
-       {
-        "Id": "327060719",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchC-Picked_Main.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchC-Picked_Main_073B4D0C.wem"
-       },
-       {
-        "Id": "333403159",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Violin .wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Violin _073B4D0C.wem"
-       },
-       {
-        "Id": "343024713",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Violin .wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Violin _073B4D0C.wem"
-       },
-       {
-        "Id": "392589778",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Violoncello.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Violoncello_073B4D0C.wem"
-       },
-       {
-        "Id": "472029244",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Contrabass .wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Contrabass _073B4D0C.wem"
-       },
-       {
-        "Id": "499894384",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchC-Pad_Mitte2.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchC-Pad_Mitte2_073B4D0C.wem"
-       },
-       {
-        "Id": "512366662",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Strummed.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Strummed_073B4D0C.wem"
-       },
-       {
-        "Id": "545370615",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Violoncello.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Violoncello_073B4D0C.wem"
-       },
-       {
-        "Id": "549835817",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Violin .wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Violin _073B4D0C.wem"
-       },
-       {
-        "Id": "555385453",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Pad_Mitte2.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Pad_Mitte2_073B4D0C.wem"
-       },
-       {
-        "Id": "565748103",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Pad_Mitte2.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Pad_Mitte2_073B4D0C.wem"
-       },
-       {
-        "Id": "568902790",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Violin alt.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Violin alt_073B4D0C.wem"
-       },
-       {
-        "Id": "592508171",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Violin .wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Violin _073B4D0C.wem"
-       },
-       {
-        "Id": "626447685",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Picked_Main.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Picked_Main_073B4D0C.wem"
-       },
-       {
-        "Id": "658540003",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Pad_Mitte1.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Pad_Mitte1_073B4D0C.wem"
-       },
-       {
-        "Id": "659957084",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Pad_Mitte2.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Pad_Mitte2_073B4D0C.wem"
-       },
-       {
-        "Id": "663165507",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Strummed.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Strummed_073B4D0C.wem"
-       },
-       {
-        "Id": "664711242",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Viola.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Viola_073B4D0C.wem"
-       },
-       {
-        "Id": "674785257",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Picked_Alt2.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Picked_Alt2_073B4D0C.wem"
-       },
-       {
-        "Id": "697781876",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchC-Violin .wav",
-        "Path": "SFX\\OasisMusic-Final-DolchC-Violin _073B4D0C.wem"
-       },
-       {
-        "Id": "715666146",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchC-Pad_Mitte1.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchC-Pad_Mitte1_073B4D0C.wem"
-       },
-       {
-        "Id": "728487269",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Viola.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Viola_073B4D0C.wem"
-       },
-       {
-        "Id": "729072027",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchC-Pad_Hoch.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchC-Pad_Hoch_073B4D0C.wem"
-       },
-       {
-        "Id": "729977827",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Pad_Mitte1.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Pad_Mitte1_073B4D0C.wem"
-       },
-       {
-        "Id": "750276681",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Violin alt.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Violin alt_073B4D0C.wem"
-       },
-       {
-        "Id": "781003016",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Pad_Hoch.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Pad_Hoch_073B4D0C.wem"
-       },
-       {
-        "Id": "843073996",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Pad_Hoch.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Pad_Hoch_073B4D0C.wem"
-       },
-       {
-        "Id": "855776859",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Violoncello.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Violoncello_073B4D0C.wem"
-       },
-       {
-        "Id": "866219277",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchC-Pad_tief.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchC-Pad_tief_073B4D0C.wem"
-       },
-       {
-        "Id": "871852218",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Pad_tief.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Pad_tief_073B4D0C.wem"
-       },
-       {
-        "Id": "925873425",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA'-Pad_tief.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA'-Pad_tief_073B4D0C.wem"
-       },
-       {
-        "Id": "933163429",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Viola.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Viola_073B4D0C.wem"
-       },
-       {
-        "Id": "938908692",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchB-Violoncello.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchB-Violoncello_073B4D0C.wem"
-       },
-       {
-        "Id": "950004834",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Pad_Mitte1.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Pad_Mitte1_073B4D0C.wem"
-       },
-       {
-        "Id": "952172170",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Picked_Main.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Picked_Main_073B4D0C.wem"
-       },
-       {
-        "Id": "971211265",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Pad_tief.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Pad_tief_073B4D0C.wem"
-       },
-       {
-        "Id": "989778726",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchA-Viola.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchA-Viola_073B4D0C.wem"
-       },
-       {
-        "Id": "1026978212",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer1-Pad_Mitte2.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer1-Pad_Mitte2_073B4D0C.wem"
-       },
-       {
-        "Id": "1052803428",
-        "Language": "SFX",
-        "ShortName": "OasisMusic-Final-DolchAKlammer2-Picked_Main.wav",
-        "Path": "SFX\\OasisMusic-Final-DolchAKlammer2-Picked_Main_073B4D0C.wem"
-       }
-      ]
+      "DurationType": "OneShot",
+      "DurationMin": "0.",
+      "DurationMax": "0."
      }
     ]
    },
@@ -3359,7 +3011,7 @@
     "Id": "3895316329",
     "GUID": "{5EAB3B37-A59C-4355-9D6C-C63BD3EB7A75}",
     "Language": "SFX",
-    "Hash": "4187117443",
+    "Hash": "3113223325",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_Voice",
     "ShortName": "SB_Voice",
     "Path": "SB_Voice.bnk",
@@ -3387,8 +3039,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_1",
       "GUID": "{B2CA049A-AD6A-4C6F-BD3C-53253190EBD8}",
       "DurationType": "OneShot",
-      "DurationMin": "4.51",
-      "DurationMax": "4.51",
+      "DurationMin": "4.256873",
+      "DurationMax": "4.256873",
       "IncludedMemoryFiles": [
        {
         "Id": "59866567",
@@ -3410,8 +3062,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_2",
       "GUID": "{575CF2E3-7519-413A-B3B2-E06DCC7DD289}",
       "DurationType": "OneShot",
-      "DurationMin": "6.223",
-      "DurationMax": "6.223",
+      "DurationMin": "5.873729",
+      "DurationMax": "5.873729",
       "IncludedMemoryFiles": [
        {
         "Id": "148631481",
@@ -3433,8 +3085,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_3",
       "GUID": "{50A0ABB8-17A4-4F43-91B0-70FEE6E91C59}",
       "DurationType": "OneShot",
-      "DurationMin": "9.33",
-      "DurationMax": "9.33",
+      "DurationMin": "8.806347",
+      "DurationMax": "8.806347",
       "IncludedMemoryFiles": [
        {
         "Id": "403911440",
@@ -3456,8 +3108,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_4",
       "GUID": "{BCA809C3-C03F-4CAB-958F-FA562A703B9D}",
       "DurationType": "OneShot",
-      "DurationMin": "10.4",
-      "DurationMax": "10.4",
+      "DurationMin": "9.816292",
+      "DurationMax": "9.816292",
       "IncludedMemoryFiles": [
        {
         "Id": "625058283",
@@ -3479,8 +3131,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_4alt",
       "GUID": "{A4A12AB1-692B-4717-A9A8-80BD19BD45E0}",
       "DurationType": "OneShot",
-      "DurationMin": "11.4",
-      "DurationMax": "11.4",
+      "DurationMin": "10.760166",
+      "DurationMax": "10.760166",
       "IncludedMemoryFiles": [
        {
         "Id": "18219368",
@@ -3502,8 +3154,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_5",
       "GUID": "{1DAC3391-F613-4CE8-AC99-4B16C997757B}",
       "DurationType": "OneShot",
-      "DurationMin": "10.66",
-      "DurationMax": "10.66",
+      "DurationMin": "10.061699",
+      "DurationMax": "10.061699",
       "IncludedMemoryFiles": [
        {
         "Id": "95011797",
@@ -3525,8 +3177,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_6",
       "GUID": "{EB155A1B-D71E-4DB7-B099-1E17BEC40F7C}",
       "DurationType": "OneShot",
-      "DurationMin": "8.84",
-      "DurationMax": "8.84",
+      "DurationMin": "8.343848",
+      "DurationMax": "8.343848",
       "IncludedMemoryFiles": [
        {
         "Id": "807537111",
@@ -3548,8 +3200,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voice\\Intro\\Voice_Intro_7",
       "GUID": "{EB5608C8-86C4-4EBF-85FF-047093A510FE}",
       "DurationType": "OneShot",
-      "DurationMin": "8.92",
-      "DurationMax": "8.92",
+      "DurationMin": "8.419358",
+      "DurationMax": "8.419358",
       "IncludedMemoryFiles": [
        {
         "Id": "31019985",

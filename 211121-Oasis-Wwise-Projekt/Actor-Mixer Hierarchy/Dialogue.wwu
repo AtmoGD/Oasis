@@ -18,6 +18,18 @@
 					</ReferenceList>
 					<ChildrenList>
 						<ActorMixer Name="Reverb" ID="{286142E5-E0CE-4600-9D4B-E9D9EEFA95AD}" ShortID="510622826">
+							<PropertyList>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-12</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="VoiceReverb" ID="{C50CD18D-E7C3-4119-8B59-E60613A58EA7}" WorkUnitID="{D5BD7F0B-F6AF-4964-AEFA-3B0C4A1FD6A6}"/>
@@ -221,6 +233,11 @@
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>200</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">

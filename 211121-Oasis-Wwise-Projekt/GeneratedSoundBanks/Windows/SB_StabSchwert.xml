@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="1801973543" GUID="{EB01F9C8-10D0-4922-B5B3-B2B210BBBCF3}" Language="SFX" Hash="3931154024">
+		<SoundBank Id="1801973543" GUID="{EB01F9C8-10D0-4922-B5B3-B2B210BBBCF3}" Language="SFX" Hash="711297723">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_StabSchwert</ObjectPath>
 			<ShortName>SB_StabSchwert</ShortName>
 			<Path>SB_StabSchwert.bnk</Path>

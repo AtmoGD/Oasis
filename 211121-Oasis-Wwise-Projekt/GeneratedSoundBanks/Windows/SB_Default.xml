@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="2226253258">
+		<SoundBank Id="822237696" GUID="{3842C804-D806-4940-B6C4-AB4F99E37EDB}" Language="SFX" Hash="179867826">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Default</ObjectPath>
 			<ShortName>SB_Default</ShortName>
 			<Path>SB_Default.bnk</Path>

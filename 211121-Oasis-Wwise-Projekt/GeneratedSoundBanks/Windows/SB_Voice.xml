@@ -8,7 +8,7 @@
 		<ExternalSourcesOutputRoot>C:\Users\spiel\Desktop\Dennis\Oasis\211121-Oasis-Wwise-Projekt\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
-		<SoundBank Id="3895316329" GUID="{5EAB3B37-A59C-4355-9D6C-C63BD3EB7A75}" Language="SFX" Hash="4187117443">
+		<SoundBank Id="3895316329" GUID="{5EAB3B37-A59C-4355-9D6C-C63BD3EB7A75}" Language="SFX" Hash="3113223325">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_Voice</ObjectPath>
 			<ShortName>SB_Voice</ShortName>
 			<Path>SB_Voice.bnk</Path>
@@ -21,7 +21,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797354" Name="Voice_Intro_1" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_1" GUID="{B2CA049A-AD6A-4C6F-BD3C-53253190EBD8}" DurationType="OneShot" DurationMin="4.51" DurationMax="4.51">
+				<Event Id="3073797354" Name="Voice_Intro_1" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_1" GUID="{B2CA049A-AD6A-4C6F-BD3C-53253190EBD8}" DurationType="OneShot" DurationMin="4.256873" DurationMax="4.256873">
 					<IncludedMemoryFiles>
 						<File Id="59866567" Language="SFX">
 							<ShortName>1-Oh.wav</ShortName>
@@ -33,7 +33,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797353" Name="Voice_Intro_2" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_2" GUID="{575CF2E3-7519-413A-B3B2-E06DCC7DD289}" DurationType="OneShot" DurationMin="6.223" DurationMax="6.223">
+				<Event Id="3073797353" Name="Voice_Intro_2" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_2" GUID="{575CF2E3-7519-413A-B3B2-E06DCC7DD289}" DurationType="OneShot" DurationMin="5.873729" DurationMax="5.873729">
 					<IncludedMemoryFiles>
 						<File Id="148631481" Language="SFX">
 							<ShortName>2-HeyYouFinally-Reverb.wav</ShortName>
@@ -45,7 +45,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797352" Name="Voice_Intro_3" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_3" GUID="{50A0ABB8-17A4-4F43-91B0-70FEE6E91C59}" DurationType="OneShot" DurationMin="9.33" DurationMax="9.33">
+				<Event Id="3073797352" Name="Voice_Intro_3" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_3" GUID="{50A0ABB8-17A4-4F43-91B0-70FEE6E91C59}" DurationType="OneShot" DurationMin="8.806347" DurationMax="8.806347">
 					<IncludedMemoryFiles>
 						<File Id="403911440" Language="SFX">
 							<ShortName>3-WeVeBeenStuck.wav</ShortName>
@@ -57,7 +57,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797359" Name="Voice_Intro_4" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_4" GUID="{BCA809C3-C03F-4CAB-958F-FA562A703B9D}" DurationType="OneShot" DurationMin="10.4" DurationMax="10.4">
+				<Event Id="3073797359" Name="Voice_Intro_4" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_4" GUID="{BCA809C3-C03F-4CAB-958F-FA562A703B9D}" DurationType="OneShot" DurationMin="9.816292" DurationMax="9.816292">
 					<IncludedMemoryFiles>
 						<File Id="625058283" Language="SFX">
 							<ShortName>4-YouSeeThisIs.wav</ShortName>
@@ -69,7 +69,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4196642268" Name="Voice_Intro_4alt" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_4alt" GUID="{A4A12AB1-692B-4717-A9A8-80BD19BD45E0}" DurationType="OneShot" DurationMin="11.4" DurationMax="11.4">
+				<Event Id="4196642268" Name="Voice_Intro_4alt" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_4alt" GUID="{A4A12AB1-692B-4717-A9A8-80BD19BD45E0}" DurationType="OneShot" DurationMin="10.760166" DurationMax="10.760166">
 					<IncludedMemoryFiles>
 						<File Id="18219368" Language="SFX">
 							<ShortName>4Alt-DoYouSee.wav</ShortName>
@@ -81,7 +81,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797358" Name="Voice_Intro_5" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_5" GUID="{1DAC3391-F613-4CE8-AC99-4B16C997757B}" DurationType="OneShot" DurationMin="10.66" DurationMax="10.66">
+				<Event Id="3073797358" Name="Voice_Intro_5" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_5" GUID="{1DAC3391-F613-4CE8-AC99-4B16C997757B}" DurationType="OneShot" DurationMin="10.061699" DurationMax="10.061699">
 					<IncludedMemoryFiles>
 						<File Id="95011797" Language="SFX">
 							<ShortName>5-WeDontKnow-Reverb.wav</ShortName>
@@ -93,7 +93,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797357" Name="Voice_Intro_6" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_6" GUID="{EB155A1B-D71E-4DB7-B099-1E17BEC40F7C}" DurationType="OneShot" DurationMin="8.84" DurationMax="8.84">
+				<Event Id="3073797357" Name="Voice_Intro_6" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_6" GUID="{EB155A1B-D71E-4DB7-B099-1E17BEC40F7C}" DurationType="OneShot" DurationMin="8.343848" DurationMax="8.343848">
 					<IncludedMemoryFiles>
 						<File Id="807537111" Language="SFX">
 							<ShortName>6-WithTheHelp-Reverb.wav</ShortName>
@@ -105,7 +105,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3073797356" Name="Voice_Intro_7" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_7" GUID="{EB5608C8-86C4-4EBF-85FF-047093A510FE}" DurationType="OneShot" DurationMin="8.92" DurationMax="8.92">
+				<Event Id="3073797356" Name="Voice_Intro_7" ObjectPath="\Events\Default Work Unit\Voice\Intro\Voice_Intro_7" GUID="{EB5608C8-86C4-4EBF-85FF-047093A510FE}" DurationType="OneShot" DurationMin="8.419358" DurationMax="8.419358">
 					<IncludedMemoryFiles>
 						<File Id="31019985" Language="SFX">
 							<ShortName>7-CouldYouPlease.wav</ShortName>

@@ -166,6 +166,31 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 								<Property Name="RecoveryTime" Type="Real64" Value="0"/>
 							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Compressor (Custom)" ID="{6BEF8CB1-1C2E-4563-A453-EBB537A94546}" ShortID="933539432" PluginName="Wwise Compressor" CompanyID="0" PluginID="108" PluginType="3">
+											<PropertyList>
+												<Property Name="ReleaseTime" Type="Real32" Value="0.63"/>
+												<Property Name="Threshold" Type="Real32" Value="-44.1"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+								<Reference Name="Effect1">
+									<Custom>
+										<Effect Name="Wwise Parametric EQ (Custom)" ID="{9F7E1010-4360-4455-B4EB-6AC7EB297C32}" ShortID="420425286" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FrequencyBand1" Type="Real32" Value="160"/>
+												<Property Name="FrequencyBand2" Type="Real32" Value="3368"/>
+												<Property Name="GainBand2" Type="Real32" Value="13"/>
+												<Property Name="OnOffBand2" Type="bool" Value="False"/>
+												<Property Name="QFactorBand2" Type="Real32" Value="14.1"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
+							</ReferenceList>
 							<ChildrenList>
 								<Bus Name="Pad" ID="{5C4EBCD6-A5C6-4932-AC84-7BA7018708D5}">
 									<ObjectLists/>
