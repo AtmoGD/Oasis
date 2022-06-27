@@ -301,7 +301,7 @@
 						</RTPCValue>
 					</RTPCValueList>
 					<CurrentStateList ShowAll="true">
-						<CurrentStateRef Name="Schwert" ID="{AA22CC23-AE31-459A-8C0C-70C8DEB87E15}"/>
+						<CurrentStateRef Name="None" ID="{DDF6AA84-24C8-4C9D-BA0F-2CE9BB99FF72}"/>
 						<CurrentStateRef Name="None" ID="{C09E3642-7320-46BF-BD4F-540820684A14}"/>
 					</CurrentStateList>
 					<CurrentSwitchList ShowAll="true">
