@@ -8,6 +8,13 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="RTSL_Sun" ID="{0B60D341-8634-4E9F-B029-1A2C4B3D2043}" ShortID="948928700">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-8</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{027582FC-9321-4CF6-871A-91CBA78A728B}"/>
