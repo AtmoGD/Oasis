@@ -138,30 +138,10 @@ Sind alle Bäume wiederhergestellt wird der Nutzer zum letzten Plateau geführt 
 <br><br>
 
 ## **Trailer**
-<video width="910" height="540" controls>
-  <source src="./ReadmeImages/OasisRenderv1.mp4" type="video/m4v">
-Your browser does not support the video tag.
-</video>
 
-<video width="910" height="540" controls>
-  <source src="/ReadmeImages/OasisRenderv1.mp4" type="video/m4v">
-Your browser does not support the video tag.
-</video>
+[Trailer](ReadmeImages/OasisRenderv1.mp4)
 
-<video width="910" height="540" controls>
-  <source src="ReadmeImages/OasisRenderv1.mp4" type="video/m4v">
-Your browser does not support the video tag.
-</video>
-
-<video width="910" height="540" controls>
-  <source src="https://youtu.be/Wh6ieci--3E">
-Your browser does not support the video tag.
-</video>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Wh6ieci--3E" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-
-![Trailer von Oasis](./ReadmeImages/OasisRenderv1.mp4)
+![Trailer von Oasis](ReadmeImages/OasisRenderv1.mp4)
 
 ---
 <br><br>
