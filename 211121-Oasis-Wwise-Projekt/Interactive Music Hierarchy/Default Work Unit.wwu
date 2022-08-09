@@ -44666,6 +44666,13 @@
 							</ReferenceList>
 							<ChildrenList>
 								<MusicTrack Name="OasisMusic-Final-MainEndSzene-Everything_ohnePiano" ID="{D41A003F-E9FB-425F-B299-EA3F86666ABF}" ShortID="139657345">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
 										<Reference Name="OutputBus">
 											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{6DDEE9FD-6ED8-46B3-A601-0375528BC8B2}"/>
